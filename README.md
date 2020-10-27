@@ -1,10 +1,11 @@
 Erstes Treffen
 
-Gestaltungsrichtlinien Kreis Wesel
-am Farbkonzept orientieren
+
+- Gestaltungsrichtlinien Kreis Wesel, am Farbkonzept orientieren
 	Konkrete Gestaltungsvorgaben?
 
-Intuitive Bedienbarkeit
+
+- Intuitive Bedienbarkeit
 	Altersgruppe der Benutzer google analytics + alter der Anrufer
 
 Soll Fragen beantworten können
