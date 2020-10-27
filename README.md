@@ -24,6 +24,7 @@ DRUPOLIS auf Basis von Drupal
 
 
 Anforderungen
+
     1. Verständnis der Anforderungen
     2. Kozepterstellung
     3. Nutzersicht liegt im Vordergrund
