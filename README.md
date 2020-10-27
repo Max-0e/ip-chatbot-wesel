@@ -19,13 +19,13 @@ Spätere Erweiterung um neue oder veränderte Leistungen muss möglich sein
 Nutzbarkeit sowohl in der aktuellen Webpräsenz auf Basis Lotus
 /KRZN E-Government-Suite als auch in der zukünftigen Lösung über
 DRUPOLIS auf Basis von Drupal
-	Framework basierend auf konkrete Komplexität (wird später entschieden)
+	- Framework basierend auf konkrete Komplexität (wird später entschieden)
 
 Anforderungen
-    Verständnis der Anforderungen
-    Kozepterstellung
-    Nutzersicht liegt im Vordergrund
-    Kreativität bei Erstellung und Namensgebung
+    1. Verständnis der Anforderungen
+    2. Kozepterstellung
+    3. Nutzersicht liegt im Vordergrund
+    4. Kreativität bei Erstellung und Namensgebung
 
 
 
