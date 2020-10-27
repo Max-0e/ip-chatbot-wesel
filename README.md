@@ -23,7 +23,7 @@ DRUPOLIS auf Basis von Drupal
 	- Framework basierend auf konkrete Komplexität (wird später entschieden)
 
 
-- Anforderungen
+Anforderungen
     1. Verständnis der Anforderungen
     2. Kozepterstellung
     3. Nutzersicht liegt im Vordergrund
