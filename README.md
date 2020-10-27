@@ -2,7 +2,7 @@ Erstes Treffen
 
 
 - Gestaltungsrichtlinien Kreis Wesel, am Farbkonzept orientieren
-	1. Konkrete Gestaltungsvorgaben?
+	-  Konkrete Gestaltungsvorgaben?
 
 
 - Intuitive Bedienbarkeit
