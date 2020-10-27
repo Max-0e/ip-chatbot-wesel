@@ -15,13 +15,15 @@ Erstes Treffen
     sowie der Wissensdatenbank des Kreisservicecenters 
 	- Umfang der häufig gestellten Fragen und die eher selten gestellten Fragen (FAQ?)
 
-Spätere Erweiterung um neue oder veränderte Leistungen muss möglich sein
+
+- Spätere Erweiterung um neue oder veränderte Leistungen muss möglich sein
 Nutzbarkeit sowohl in der aktuellen Webpräsenz auf Basis Lotus
 /KRZN E-Government-Suite als auch in der zukünftigen Lösung über
 DRUPOLIS auf Basis von Drupal
 	- Framework basierend auf konkrete Komplexität (wird später entschieden)
 
-Anforderungen
+
+- Anforderungen
     1. Verständnis der Anforderungen
     2. Kozepterstellung
     3. Nutzersicht liegt im Vordergrund
