@@ -1,0 +1,18 @@
+body { background-image:url(img/wesel.png); font-family:Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; }
+button, input:focus { outline: none; }
+
+#ChatbotButton       { position:absolute; bottom:10px; right:10px; height:50px; width:50px; background-color:#018232; background-size:cover; cursor:pointer; border-radius:50px; }
+#ChatbotButton > img { max-height:70%; max-width:70%; position:absolute; margin:6px auto; top:0; left:0; right:0; bottom:0; }
+
+#Chatbot { display:flex; flex-direction:column; position:absolute; bottom:10px; right:10px; height:580px; width:400px; background-color:#eff2f2; border-top-left-radius:55px; overflow:hidden; 
+           transform:scale(0); transform-origin: bottom right; transition: transform 1s; }
+
+.ChatbotHeader { position:relative; padding:10px;  background-color:#018232; text-align:center; }
+.ChatbotHeader > span { color:white; font-size:1.25em; }
+.ChatbotHeader > div { background-image:url(img/close.png); background-size:cover; height:25px; width:25px; float:right; cursor:pointer;}
+
+.ChatbotContent { flex-grow:2; padding:5px; overflow-y:scroll; }
+
+.ChatbotSendMessage { display:flex; width:100%; }
+.ChatbotSendMessage > input { flex-grow:2; border:0; font-size:1.2em; padding:10px; background-color:#eff2f2 }
+.ChatbotSendMessage > button { background-image:url(img/send.png); background-size:90%; background-repeat:no-repeat; background-position: 0%; width:40px; border:0px; cursor:pointer; }
