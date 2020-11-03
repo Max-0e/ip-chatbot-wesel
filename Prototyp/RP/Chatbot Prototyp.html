@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Prototyp</title>
+    <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet">
+    <script src="Chatbot.js"></script>
+</head>
+<body>
+
+<div id='ChatbotButton' onClick="openChatbot()">
+    <img src="img/chat.png">
+</div>
+
+<div id="Chatbot">
+    <div class="ChatbotHeader">
+        <span>WESI</span>
+        <div onClick="closeChatbot()"></div>
+    </div>
+    <div id="ChatbotContent">
+        <div class="ChatbotMessage BotMessage">
+            Hallo mein Name ist Chatbot, wie kann ich Ihnen weiterhelfen?
+        </div>
+    </div>
+    <div>
+        <form class="ChatbotSendMessage" onsubmit="return false">
+            <input id="ChatbotSendText" type="text" placeholder="Geben Sie hier ihre Frage ein"></input>
+            <button onClick="send()">
+            </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
