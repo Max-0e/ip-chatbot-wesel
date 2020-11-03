@@ -32,4 +32,12 @@ Anforderungen
 
 
 
-Vorbereitung: Storyboard/HTML-Prototyp für Nutzerbeispiele
+Vorbereitung 1. Treffen: 
+    - Storyboard/HTML-Prototyp für Nutzerbeispiele
+
+
+Vorbereitung 2. Treffen:
+
+    - Zusammenfassung der Prototypen als ein gemeinsamer Prototyp
+
+    - Framework informieren
