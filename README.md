@@ -49,3 +49,4 @@ Neue Anforderungen:
     - FAQ als erste Botnachricht - Verlinkung zu einer Html-Seite ?
     - Email und Telefon oben - nach Klick als Chatbotantwort
     - Animation wenn auf eine Nachricht gewartet wird
+    - Opacity ja/nein wenn ja wie soll die farbe angepasst werden
