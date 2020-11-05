@@ -41,3 +41,11 @@ Vorbereitung 2. Treffen:
     - Zusammenfassung der Prototypen als ein gemeinsamer Prototyp
 
     - Framework informieren
+
+
+Neue Anforderungen:
+    - was passiert nach dem Zuklappen, wenn noch eine Antwort vorhanden ist
+    - schließen per "X" oder Button unten links
+    - FAQ als erste Botnachricht - Verlinkung zu einer Html-Seite ?
+    - Email und Telefon oben - nach Klick als Chatbotantwort
+    - Animation wenn auf eine Nachricht gewartet wird
