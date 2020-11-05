@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Willkommen | Kreis Wesel</title>
+  <meta name="description" content="Zeiterfassung Interaction Room">
+  <meta name="author" content="Max Oedinger">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./Chatbot.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Element Showed -->
+  <div class="row center">
+    <img src="img/index.png"/>
+    <a id="menu" class="waves-effect btn btn-floating green" style="position: fixed;bottom: 45px; right: 45px;" onclick="$('.tap-target').tapTarget('open')">
+      <i class="material-icons">live_help</i>
+    </a>
+
+    <!-- Tap Target Structure -->
+    <div id="Chatbot-Wrapper" class="tap-target green" data-target="menu">
+      <div class="tap-target-content white-text">
+        <div class="ChatbotHeader">
+          <span>WESI</span>
+          <span>
+            <span><a class="waves-effect btn btn-floating green"><i class="material-icons">email</i></a></span>
+            <span><a class="waves-effect btn btn-floating green"><i class="material-icons">local_phone</i></a></span>
+          </span>
+          <span><a class="waves-effect btn btn-floating red"><i class="material-icons" onclick="$('.tap-target').tapTarget('open')">close</i></a></span>
+      </div>
+        <div id="Chatbot">
+          <div id="ChatbotContent">
+              <div class="ChatbotMessage BotMessage">
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header green">Häufige Fragen<i class="material-icons" style="font-size: 2rem">arrow_drop_down</i></div>
+                    <div class="collapsible-body faq">
+                      <ul class="collapsible">
+                        <li>
+                          <div class="collapsible-header green accent-1 black-text"><i class="material-icons">directions_car</i>Unterlagen für KFZ-Zulassungen</div>
+                          <div class="collapsible-body white black-text active"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header green accent-1 black-text"><i class="material-icons">schedule</i>Öffnungszeiten</div>
+                          <div class="collapsible-body white black-text"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header green accent-1 black-text"><i class="material-icons">euro</i>BAFöG beantragen</div>
+                          <div class="collapsible-body white black-text"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div>
+              <form class="ChatbotSendMessage" onsubmit="return false">
+                  <input id="ChatbotSendText" type="text" placeholder="Geben Sie hier ihre Frage ein"></input>
+                  <a onClick="send()">
+                    <i class="material-icons" style="color:#018232 !important; cursor: pointer">send</i>
+                  </a>
+                  <button onClick="send()" style="display: none"></button>
+              </form>
+          </div>
+      </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
