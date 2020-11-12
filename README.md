@@ -45,11 +45,11 @@ Vorbereitung 2. Treffen:
 
 Neue Anforderungen:
 
-    - was passiert nach dem Zuklappen, wenn noch eine Antwort vorhanden ist
+    - was passiert nach dem Zuklappen, wenn noch eine Antwort abgewartet wird
 
     - schließen per "X" oder Button unten links
 
-    - FAQ als erste Botnachricht - Verlinkung zu einer Html-Seite ?
+    - FAQ als erste Botnachricht 
 
     - Email und Telefon oben - nach Klick als Chatbotantwort
 
@@ -58,3 +58,10 @@ Neue Anforderungen:
     - Opacity ja/nein wenn ja wie soll die farbe angepasst werden
 
 
+Fragen für 19.11.2020:
+
+    - was passiert nach dem Zuklappen, wenn noch eine Antwort abgewartet wird (Toast o.ä.)
+
+    - Verlinkung zu einer FAQ-Seite ?
+
+    - E-Mail als Mailto oder als Link zu Kontakt-Formular
