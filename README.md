@@ -44,9 +44,17 @@ Vorbereitung 2. Treffen:
 
 
 Neue Anforderungen:
+
     - was passiert nach dem Zuklappen, wenn noch eine Antwort vorhanden ist
+
     - schließen per "X" oder Button unten links
+
     - FAQ als erste Botnachricht - Verlinkung zu einer Html-Seite ?
+
     - Email und Telefon oben - nach Klick als Chatbotantwort
+
     - Animation wenn auf eine Nachricht gewartet wird
+    
     - Opacity ja/nein wenn ja wie soll die farbe angepasst werden
+
+
