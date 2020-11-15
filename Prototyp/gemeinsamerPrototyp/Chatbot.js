@@ -24,7 +24,7 @@ function antwortBot(Antwort) {
     setTimeout(function() {
         NewMessage.removeChild(NewMessage.lastChild);
         NewMessage.innerHTML = Antwort;
-        NewMessage.scrollIntoView();            
+        NewMessage.scrollIntoView();          
     }, 1500);
 
 }
@@ -38,4 +38,10 @@ function getWaitPoints() {
         WaitPoints.append(Point);     
    }
    return WaitPoints;
+}
+
+function closeChatbot() {
+    setTimeout(function() {
+        $('.tap-target').tapTarget('close');
+    }, 10);
 }
