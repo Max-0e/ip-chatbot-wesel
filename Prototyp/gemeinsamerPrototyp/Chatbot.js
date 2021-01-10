@@ -10,12 +10,25 @@ function send() {
     NewMessage.innerHTML = Text;
     document.getElementById("ChatbotContent").appendChild(NewMessage);
     NewMessage.scrollIntoView();
-    antwortBot();
+    $.ajax({
+        url: "http://localhost:5005/webhooks/rest/webhook",
+        type: "POST",
+        contentType: "application/json",
+        dataType: "json",
+        data: JSON.stringify({"sender":"test_user",  "message":Text}),
+        success: function(result) {
+            result.forEach(element => {
+                if (element.text !== "undefined")
+                    antwortBot(element.text);
+            });
+        },
+        error: function() {
+            antwortBot("Ich kann Ihnen leider nicht weiter helfen. (Error 404 Bot not Found)")
+        }
+    });
 }
 
 function antwortBot(Antwort) {
-    if (!Antwort) Antwort = Antworten[Math.floor(Math.random() * Antworten.length)]; 
-
     var NewMessage = document.createElement("DIV");
     NewMessage.classList.add("ChatbotMessage", "BotMessage");
     NewMessage.append(getWaitPoints());
