@@ -28,21 +28,20 @@
   <!-- Element Showed -->
   <div class="row center">
     <img src="img/index.png"/>
-    <a id="menu" class="waves-effect btn btn-floating green" style="position: fixed;bottom: 45px; right: 45px;" onclick="$('.tap-target').tapTarget('open')">
+    <a id="menu" class="waves-effect btn btn-floating green" style="position: fixed;bottom: 45px; right: 45px;" onclick="$('.tap-target').tapTarget('open'); antwortBot('Herzlich Willkommen beim Kreis Wesel. Ich bin Wesi der Chatbot. Wie kann ich Ihnen weiterhelfen?')">
       <i class="material-icons">live_help</i>
     </a>
-
     <!-- Tap Target Structure -->
     <div id="Chatbot-Wrapper" class="tap-target green" data-target="menu">
       <div class="tap-target-content white-text">
         <div class="ChatbotHeader">
           <span>WESI</span>
           <span>
-            <span><a class="waves-effect btn btn-floating green darken-1"><i class="material-icons">email</i></a></span>
-            <span><a class="waves-effect btn btn-floating green darken-1"><i class="material-icons">local_phone</i></a></span>
+            <span><a class="waves-effect btn btn-floating green darken-1" onClick="antwortBot('Auf folgender Seite können Sie uns kontaktieren: <a href=\'https://www.kreis-wesel.de/de/inhalt/kontaktfomular/\'>Kontakt</a>')"><i class="material-icons">email</i></a></span>
+            <span><a class="waves-effect btn btn-floating green darken-1" onClick="antwortBot('Sie können uns zu den Servicezeiten unter folgender Telefonnummer erreichen: 0281/207-0')"><i class="material-icons">local_phone</i></a></span>
           </span>
-          <span><a class="waves-effect btn btn-floating red"><i class="material-icons" onclick="$('.tap-target').tapTarget('open')">close</i></a></span>
-      </div>
+          <span><a class="waves-effect btn btn-floating red" onClick="closeChatbot();"><i class="material-icons" >close</i></a></span>
+        </div>
         <div id="Chatbot">
           <div id="ChatbotContent">
               <div class="ChatbotMessage BotMessage">
@@ -78,7 +77,7 @@
                   <button onClick="send()" style="display: none"></button>
               </form>
           </div>
-      </div>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

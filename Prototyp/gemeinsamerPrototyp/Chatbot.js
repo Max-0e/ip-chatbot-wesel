@@ -10,14 +10,38 @@ function send() {
     NewMessage.innerHTML = Text;
     document.getElementById("ChatbotContent").appendChild(NewMessage);
     NewMessage.scrollIntoView();
-    setTimeout(function() { antwortBot() }, 1000);
+    antwortBot();
 }
 
-function antwortBot() {
-    var Antwort = Antworten[Math.floor(Math.random() * Antworten.length)];
+function antwortBot(Antwort) {
+    if (!Antwort) Antwort = Antworten[Math.floor(Math.random() * Antworten.length)]; 
+
     var NewMessage = document.createElement("DIV");
     NewMessage.classList.add("ChatbotMessage", "BotMessage");
-    NewMessage.innerHTML = Antwort;
+    NewMessage.append(getWaitPoints());
     document.getElementById("ChatbotContent").appendChild(NewMessage);
-    NewMessage.scrollIntoView();
+    NewMessage.scrollIntoView();            
+    setTimeout(function() {
+        NewMessage.removeChild(NewMessage.lastChild);
+        NewMessage.innerHTML = Antwort;
+        NewMessage.scrollIntoView();          
+    }, 1500);
+
+}
+
+function getWaitPoints() {
+    var WaitPoints = document.createElement("DIV");
+    WaitPoints.classList.add("ChatbotWaitPointWrapper");
+    for (let i = 0; i < 3; i++) {
+        let Point = document.createElement("DIV");
+        Point.classList.add("ChatbotWaitPoint")
+        WaitPoints.append(Point);     
+   }
+   return WaitPoints;
+}
+
+function closeChatbot() {
+    setTimeout(function() {
+        $('.tap-target').tapTarget('close');
+    }, 10);
 }
