@@ -78,3 +78,6 @@ wenn rasa noch nicht installiert wurde
     - rasa train (model trainieren)
     - rasa shell (test chat)
     - rasa shell nlp (nlp test für eingegebene Nachrichten)
+
+um den Rasa Rest Channel zu starten
+    - rasa run --cors "*"
