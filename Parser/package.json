@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "follow-redirects": "^1.13.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.11.11",
+    "sleep": "^6.3.0",
+    "xml-js": "^1.6.11"
+  }
+}
