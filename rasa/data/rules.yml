@@ -2,12 +2,37 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Der Chatbot berüßt den Benutzer
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: begrüßung
+  - action: utter_begrüßen
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Der Chatbot verabschiedet sich
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: verabschiedung
+  - action: utter_verabschieden
+
+- rule: Der Bot sagt, dass er ein Bot ist
+  steps:
+  - intent: bist_du_ein_bot
+  - action: utter_ich_bin_ein_bot
+
+- rule: Der Bot nennt die Öffnungszeiten
+  steps:
+  - intent: utter_ich_bin_ein_bot
+  - action: utter_öffnungszeiten
+
+- rule: der Bot nennt eine Email-Adresse
+  steps:
+  - intent: email
+  - action: utter_email
+
+- rule: der Bot nennt die telefonnummer
+  steps:
+  - intent: telefon
+  - action: utter_telefon
+
+- rule: der Bot nennt die Adresse
+  steps:
+  - intent: adresse
+  - action: utter_adresse

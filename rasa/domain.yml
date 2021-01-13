@@ -1,33 +1,46 @@
 version: "2.0"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - begrüßen
+  - verabschieden
+  - bist_du_ein_bot
+  - öffnungszeiten
+  - email
+  - telefon
+  - adresse
+  - zustimmung
+  - verneinung
+  - informieren
+    use_entities:
+      - kategorie
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_begrüßen:
+  - text: "Hallo!"
+  - text: "Guten Tag"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_verabschieden:
+  - text: "Tschüss!"
+  - text: "Auf Wiedersehen!"
+  - text: "Bis bald"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_ich_bin_ein_bot:
+  - text: "Ich bin ein Chatbot"
+  - text: "Ich in kein Mensch sondern ein Chatbot"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_öffnungszeiten:
+  - text: "Dei Öffnungszeiten lauten: 8:00 - 16:00"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_email:
+  - text: "Die Email-Adresse an die sie sich wenden können ist: dlz-wesel@kreis-wesel.de"
+  - text: "Sie können eine Email an dlz-wesel@kreis-wesel.de"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_telefon:
+  - text: "Rufen sie 0281 20767-4727"
+  - text: "Sie können uns telefonisch unter 0281 20767-4727 erreichen"
+
+  utter_adresse:
+  - text: "die Adresse lautet Reeser Landstraße 31 46483 Wesel"
 
 session_config:
   session_expiration_time: 60

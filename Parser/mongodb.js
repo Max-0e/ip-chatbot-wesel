@@ -3,6 +3,7 @@ const fs = require('fs');
 
 // create Schema & Models for 'Dienstleistung'
 const dienstleistungSchema = new mongoose.Schema({
+    LeistungsID: { type: String, required: true },
     Leistungsname: { type: String, required: true },
     LeistungsURI: { type: String, required: true },
     Leistungsbeschreibung: { type: String, required: true },
@@ -39,22 +40,29 @@ async function readOutputJSONAndFillDB () {
     // DB mit den Daten aus output.json füllen
     for (let [bez, dienstleistung] of Object.entries(data)){
         // erstellen eines neuen Dienstleistungsobjekts
-        let newDienstleistung = new Dienstleistung ({
-            _id: new mongoose.Types.ObjectId(),
-            Leistungsname: dienstleistung.Leistungsname,
-            LeistungsURI: dienstleistung.LeistungsURI,
-            Leistungsbeschreibung: dienstleistung.Leistungsbeschreibung,
-            Fachinformationen: dienstleistung.Fachinformationen,
-            Ansprechpunkt: dienstleistung.Ansprechpunkt,
-            Aktualisierungszeitpunkt: aktualisierungszeitpunkt
-        });
-        // speichern der neuen Dienstleistung
-        try {
-            await newDienstleistung.save();
-            console.log(dienstleistung.Leistungsname + ' wurde gespeichert.')
-        } catch (e) {
-            console.log(e);
+        const exists = await Dienstleistung.findOneAndUpdate({ LeistungsID: dienstleistung.LeistungsID}, dienstleistung);
+        if (exists) {
+            console.log(dienstleistung.Leistungsname + ' wurde aktualisiert.')
+        } else {
+            let newDienstleistung = new Dienstleistung ({
+                _id: new mongoose.Types.ObjectId(),
+                LeistungsID: dienstleistung.LeistungsID,
+                Leistungsname: dienstleistung.Leistungsname,
+                LeistungsURI: dienstleistung.LeistungsURI,
+                Leistungsbeschreibung: dienstleistung.Leistungsbeschreibung,
+                Fachinformationen: dienstleistung.Fachinformationen,
+                Ansprechpunkt: dienstleistung.Ansprechpunkt,
+                Aktualisierungszeitpunkt: aktualisierungszeitpunkt
+            });
+            // speichern der neuen Dienstleistung
+            try {
+                await newDienstleistung.save();
+                console.log(dienstleistung.Leistungsname + ' wurde gespeichert.')
+            } catch (e) {
+                console.log(e);
+            }
         }
+        
     }
     console.log('done... disconnecting now')
     mongoose.disconnect();
