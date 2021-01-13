@@ -33,7 +33,7 @@ class ActionSearchDB(Action):
         if counter == 1 :
             dienstleistung = dienstleistungen.find_one(query)
             print(dienstleistung.Leistungsname)
-            dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung.LeistungsURI}')
+            dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung[LeistungsURI]}')
         elif counter == 0:
             print('kein ergebnis')
             dispatcher.utter_message(text="Dazu kann ich dir leider nicht weiter helfen.")
