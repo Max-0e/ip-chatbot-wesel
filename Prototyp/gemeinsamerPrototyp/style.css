@@ -7,8 +7,6 @@ li a{
 .tap-target{
     border-radius: 0px;
     border-top-left-radius: 60px;
-    overflow: scroll !important;
-    /* opacity: 1 !important; */
 }
 .tap-target-content{
     pointer-events: all !important;
@@ -58,15 +56,12 @@ li a{
     animation: WaitAnimation 1s infinite linear alternate;
     animation-delay: 0s;
 }
-
 .ChatbotWaitPoint:nth-child(2) {
     animation-delay: .33s;
 }
-
 .ChatbotWaitPoint:nth-child(3) {
     animation-delay: .66s;
 }
-
 @keyframes WaitAnimation {
     0% {
         background-color: #ffffff;
@@ -76,37 +71,127 @@ li a{
         background-color: transparent;
     }
 }
-  
-
 .ChatbotWaitPointWrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
+button, input:focus {
+    outline: none;
+}
 
+#ChatbotButton       {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #018232;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50px;
+}
 
-/*style Rene*/
+#ChatbotButton > img {
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    margin: 6px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
-button, input:focus { outline: none; }
+#Chatbot {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 100%;
+    width: 80%;
+    background-color: #eff2f2;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-#ChatbotButton       { position:absolute; bottom:10px; right:10px; height:50px; width:50px; background-color:#018232; background-size:cover; cursor:pointer; border-radius:50px; }
-#ChatbotButton > img { max-height:70%; max-width:70%; position:absolute; margin:6px auto; top:0; left:0; right:0; bottom:0; }
+.ChatbotHeader {
+    position: relative;
+    padding: 10px;
+     background-color: #018232;
+     text-align: center;
+     display: flex;
+     justify-content: space-between;
+     border-radius: 15px;
+}
+.ChatbotHeader > span {
+    color: #fff;
+    font-size: 1.5em;
+}
 
-#Chatbot { display:flex; flex-direction:column; flex-grow: 2; height: 100%; width: 80%; background-color:#eff2f2; border-radius:10px; overflow:hidden;}
+#ChatbotContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 100%;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
 
-.ChatbotHeader { position:relative; padding:10px;  background-color:#018232; text-align:center; display: flex; justify-content: space-between;}
-.ChatbotHeader > span { color:#fff; font-size:1.5em; }
+#ChatbotContent::-webkit-scrollbar {
+    display:none;
+}
 
-#ChatbotContent                    { display:flex; flex-direction:column; flex-grow:2; width:100%; padding-top:20px; overflow-y:scroll; }
-#ChatbotContent::-webkit-scrollbar { display:none; }
-#ChatbotContent                    { -ms-overflow-style:none; scrollbar-width:none; }
+#ChatbotContent {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
-.ChatbotMessage { width:70%; padding:5px; margin-bottom:20px; font-size:1.2em; border-radius:8px; word-wrap: break-word; }
-.BotMessage { background-color:#018232; color:#fff; border-bottom-left-radius:0; margin-left:20px; }
-.UserMessage { background-color:#cdeed7; color:#42545b; border-bottom-right-radius:0; margin-right:20px; align-self:flex-end; }
+.ChatbotMessage {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
 
-.ChatbotSendMessage { display:flex; width:100%; padding: 10px}
-.ChatbotSendMessage > input { flex-grow:2; border:0; font-size:1.2em; padding:10px; background-color:#eff2f2 }
-.ChatbotSendMessage > button { background-image:url(img/send.png); background-size:90%; background-repeat:no-repeat; background-position: 0%; width:40px; border:0px; cursor:pointer; }
+.BotMessage {
+    background-color: #018232;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    margin-left: 20px;
+}
+
+.UserMessage {
+    background-color: #cdeed7;
+    color: #42545b;
+    border-bottom-right-radius: 0;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+.ChatbotSendMessage {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.ChatbotSendMessage > input {
+    flex-grow: 2;
+    border: 0;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #eff2f2
+}
+
+.ChatbotSendMessage > button {
+    background-image: url(img/send.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    width: 40px;
+    border: 0;
+    cursor: pointer;
+}
