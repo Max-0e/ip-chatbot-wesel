@@ -61,7 +61,7 @@ async function createJSON() {
         } catch (e) {
             console.log(e);
         }
-        sleep.msleep(50);      
+        // sleep.msleep(50);      
     }
     fs.writeFile('output.json', JSON.stringify(output, null, 1).replace(/{\s*"_text":(.*?)\s*}/gm,'$1'), (error) => { //RegEx entfernt das überflüssige _text Element 
         if (error) throw error;
