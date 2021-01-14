@@ -19,7 +19,7 @@ rules:
 
 - rule: Der Bot nennt die Öffnungszeiten
   steps:
-  - intent: utter_ich_bin_ein_bot
+  - intent: öffnungszeiten
   - action: utter_öffnungszeiten
 
 - rule: der Bot nennt eine Email-Adresse
@@ -36,3 +36,8 @@ rules:
   steps:
   - intent: adresse
   - action: utter_adresse
+
+- rule: test
+  steps:
+  - intent: test
+  - action: action_search_db

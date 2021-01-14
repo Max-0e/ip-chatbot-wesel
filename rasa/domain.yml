@@ -1,8 +1,8 @@
 version: "2.0"
 
 intents:
-  - begrüßen
-  - verabschieden
+  - begrüßung
+  - verabschiedung
   - bist_du_ein_bot
   - öffnungszeiten
   - email
@@ -10,6 +10,7 @@ intents:
   - adresse
   - zustimmung
   - verneinung
+  - test
   # - informieren
   #   use_entities:
   #     - kategorie
@@ -44,6 +45,9 @@ responses:
 
   utter_adresse:
   - text: "die Adresse lautet Reeser Landstraße 31 46483 Wesel"
+
+actions:
+  - action_search_db
 
 session_config:
   session_expiration_time: 60
