@@ -1,5 +1,5 @@
 var BlockBot = false;
-
+var FirstOpen = true;
 function send() {
     var Text = document.getElementById("ChatbotSendText").value;
     if (Text == "" || BlockBot) return;
@@ -51,6 +51,7 @@ function send() {
 }
 
 function antwortBot(Antwort) { //Funktion für statische Antworten
+    FirstOpen = false;
     var BotMessage = document.createElement("DIV");
     BotMessage.classList.add("ChatbotMessage", "BotMessage");
     BotMessage.append(getWaitPoints());
