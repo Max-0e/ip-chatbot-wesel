@@ -10,23 +10,26 @@ intents:
   - adresse
   - zustimmung
   - verneinung
-  - informieren
-    use_entities:
-      - kategorie
+  # - informieren
+  #   use_entities:
+  #     - kategorie
 
 responses:
   utter_begrüßen:
   - text: "Hallo!"
-  - text: "Guten Tag"
+  - text: "Guten Tag."
+  - text: "Ich Grüße Sie."
 
   utter_verabschieden:
   - text: "Tschüss!"
   - text: "Auf Wiedersehen!"
   - text: "Bis bald"
+  - text: "Machen Sie es gut."
 
   utter_ich_bin_ein_bot:
-  - text: "Ich bin ein Chatbot"
-  - text: "Ich in kein Mensch sondern ein Chatbot"
+  - text: "Ich bin ein Chatbot."
+  - text: "Ich in kein Mensch sondern ein Chatbot."
+  - text: "Ich bin ein Chatbot für den Kreis Wesel."
 
   utter_öffnungszeiten:
   - text: "Dei Öffnungszeiten lauten: 8:00 - 16:00"
