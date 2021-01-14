@@ -24,6 +24,15 @@ nlu:
     - Hallo
     - Moin
     - Servus
+    - Hi
+    - Guten Morgen
+    - Guten Abend
+    - Gutten Mittag
+    - Tach
+    - Hallöchen
+    - Ich grüße Sie
+    - Grüß Gott
+
 
 - intent: verabschiedung
   examples: |
@@ -33,6 +42,13 @@ nlu:
     - ich bin weg
     - Chao
     - Bye
+    - bis Morgen
+    - ich bin dann mal weg
+    - cheerio
+    - machs gut
+    - ade
+    - auf Wiederschauen
+    - adieu
 
 - intent: bist_du_ein_bot
   examples: |
@@ -40,6 +56,14 @@ nlu:
     - Bist du ein Mensch
     - Mit wem spreche ich
     - Bist du eine Maschine
+    - Sind Sie ein Bot
+    - Sind Sie ein Mensch
+    - Wer sind Sie
+    - Wer bist du
+    - was bist du
+    - Bist du ein Lebewesen
+    - Besteht du aus Fleich
+    - Bist du eine KI
 
 - intent: öffnungszeiten
   examples: |
@@ -49,12 +73,18 @@ nlu:
     - Wann schliessen die
     - Wann schliessen Sie
     - Wie sind die Öffnungszeiten
+    - Wielange haben die auf
+    - wie sind die geschäftszeiten
+    - wie lauten die geschäftsstuden
 
 - intent: email
   examples: |
     - Wie lautet die E-Mail Adresse
     - Was ist die E-Mail Adresse
     - An welche E-Mail Adresse kann ich mich wenden
+    - wie kann ich Sie über das Internet erreichen
+    - gibt es eine E-Mail Adresse
+    - Wo finde ich die E-Mail Adresse
     - email
     - E-mail
     - mail
@@ -66,6 +96,11 @@ nlu:
     - mobil
     - telefonnummer
     - festenetz
+    - Was ist die Telefonnummer
+    - Wie kann ich Sie über das Festnetz erreichen
+    - was ist ihre Servicehotline 
+    - hotline
+    - wie kann man sie anrufen
 
 - intent: adresse
   examples: |
@@ -73,6 +108,10 @@ nlu:
     - Anschrift
     - Wie finde ich dahin
     - googlemaps adresse
+    - was ist die Hausnummer
+    - wie lautet die Straße
+    - wie finde ich dahin
+    - gibt es Informationen zur anschrift
 
 - intent: zustimmung
   examples: |
@@ -83,12 +122,17 @@ nlu:
     - goldrichtig
     - j
     - genau
-    - auf jedefall
+    - auf jeden fall
     - definitiv
     - absolut
     - yo
     - jo
     - klar
+    - Sie haben recht
+    - 100 Gummipunkte
+    - jep
+    - mhm
+    - ins schwarze getroffen
 
 - intent: verneinung
   examples: |
@@ -105,6 +149,11 @@ nlu:
     - das will ich nicht 
     - ich glaube du hast mich falsch verschaden
     - falsch
+    - niet
+    - nep
+    - keines Wegs
+    - no
+    - la
 
 - intent: test
   examples: |

@@ -20,28 +20,35 @@ responses:
   - text: "Hallo!"
   - text: "Guten Tag."
   - text: "Ich Grüße Sie."
+  - text: "Servus"
 
   utter_verabschieden:
   - text: "Tschüss!"
   - text: "Auf Wiedersehen!"
   - text: "Bis bald"
   - text: "Machen Sie es gut."
+  - text: "Ich hoffe ich konnte ihnen helfen"
+  - text: "Schönen Tag noch"
 
   utter_ich_bin_ein_bot:
   - text: "Ich bin ein Chatbot."
   - text: "Ich in kein Mensch sondern ein Chatbot."
   - text: "Ich bin ein Chatbot für den Kreis Wesel."
+  - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
 
   utter_öffnungszeiten:
-  - text: "Dei Öffnungszeiten lauten: 8:00 - 16:00"
+  - text: "Die Öffnungszeiten lauten: 8:00 - 16:00 geöffnet, kann an Wochenenden oder Feiertagen abweichen"
+  - text: "Das Geschäft hat von 8:00 - 16:00 Uhr geöffnet, kann an Wochenenden oder Feiertagen abweichen"
 
   utter_email:
   - text: "Die Email-Adresse an die sie sich wenden können ist: dlz-wesel@kreis-wesel.de"
   - text: "Sie können eine Email an dlz-wesel@kreis-wesel.de"
+  - text: "Die Email-Adresse lautet dlz-wesel@kreis-wesel.de"
 
   utter_telefon:
   - text: "Rufen sie 0281 20767-4727"
   - text: "Sie können uns telefonisch unter 0281 20767-4727 erreichen"
+  - text: "Die Telefonnummer lautet 0281 20767-4727"
 
   utter_adresse:
   - text: "die Adresse lautet Reeser Landstraße 31 46483 Wesel"
