@@ -24,7 +24,7 @@ class ActionSearchDB(Action):
         dienstleistungen = db.dienstleistungen
         # erstellen eines queries mit der Suche nach de letzten Intent
         query = { 
-            "Leistungsname": { "$regex": "Begleitet"},
+            "Leistungsname": { "$regex": "Begleitest"},
             # "Leistungsbeschreibung": { "$regex": tracker.latestet_message.intent} 
         }
         # erstes durchsuchen der Datenbank nach dem Suchbegriff
@@ -32,7 +32,7 @@ class ActionSearchDB(Action):
         # je nachdem wie viele ergebisse gefunden wurden werden entsprechende Antworten gegeben
         if counter == 1 :
             dienstleistung = dienstleistungen.find_one(query)
-            print(dienstleistung.Leistungsname)
+            print(dienstleistung["Leistungsname"])
             dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
         elif counter == 0:
             print('kein ergebnis')

@@ -18,14 +18,14 @@ nlu:
     - wasserbehörde
     - beistandschaft
 
-- intent: begrüßen
+- intent: begrüßung
   examples: |
     - Guten Tag
     - Hallo
     - Moin
     - Servus
 
-- intent: verabschieden
+- intent: verabschiedung
   examples: |
     - Tschüss
     - Bis dann
@@ -106,3 +106,6 @@ nlu:
     - ich glaube du hast mich falsch verschaden
     - falsch
 
+- intent: test
+  examples: |
+    - test

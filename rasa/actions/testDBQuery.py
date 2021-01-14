@@ -7,15 +7,9 @@ db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
 dienstleistungen = db.dienstleistungen
 
-query = { 
-    "Leistungsname": { "$regex": "Be"},
-    "Leistungsbeschreibung": { "$regex": "Fahrerlaubnis"} 
- }
-counter = dienstleistungen.count_documents(query)
-    
-if counter == 1 :
-    print(dienstleistungen.find_one(query))
-elif counter == 0:
-    print('kein ergebnis')
+dbGefunden = dienstleistungen.find()
+
+if dbGefunden:
+    print("Datenbankverbindung erfolgreich")
 else:
-    print(counter)
+    print("Ein Fehler ist aufgetreten")
