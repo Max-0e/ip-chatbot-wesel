@@ -4,101 +4,105 @@ nlu:
 
 - lookup: kategorie
   examples: |
+    - abfallbehörde
+    - abfallberatung
+    - abfallerzeugernummer
+    - abgeschlossenheitsbescheinigung
+    - abrechnung_von_untersuchungen_nach_dem_jugendarbeitsschutzgesetz
+    - adopitionsvermittlung
+    - ärztliche_gutachten
     - kfz
     - führerschein
     - schwerbehindertenausweis
     - waffen
     - wasserbehörde
     - beistandschaft
-    
 
-
-- intent: greet
+- intent: begrüßen
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Guten Tag
+    - Hallo
+    - Moin
+    - Servus
 
-- intent: goodbye
+- intent: verabschieden
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - Tschüss
+    - Bis dann
+    - Auf Wiedersehen
+    - ich bin weg
+    - Chao
+    - Bye
 
-- intent: affirm
+- intent: bist_du_ein_bot
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - Bist du ein Bot
+    - Bist du ein Mensch
+    - Mit wem spreche ich
+    - Bist du eine Maschine
 
-- intent: deny
+- intent: öffnungszeiten
   examples: |
-    - no
+    - Wie lauten die Öffnungszeiten
+    - Bis wann haben die geöffnet
+    - Bis wann haben Sie geöffnet
+    - Wann schliessen die
+    - Wann schliessen Sie
+    - Wie sind die Öffnungszeiten
+
+- intent: email
+  examples: |
+    - Wie lautet die E-Mail Adresse
+    - Was ist die E-Mail Adresse
+    - An welche E-Mail Adresse kann ich mich wenden
+    - email
+    - E-mail
+    - mail
+
+- intent: telefon
+  examples: |
+    - tefeon
+    - tele
+    - mobil
+    - telefonnummer
+    - festenetz
+
+- intent: adresse
+  examples: |
+    - Wie lautet die Adresse
+    - Anschrift
+    - Wie finde ich dahin
+    - googlemaps adresse
+
+- intent: zustimmung
+  examples: |
+    - ja
+    - korrekt
+    - richtig
+    - du hast recht
+    - goldrichtig
+    - j
+    - genau
+    - auf jedefall
+    - definitiv
+    - absolut
+    - yo
+    - jo
+    - klar
+
+- intent: verneinung
+  examples: |
+    - nein
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - nö
+    - negativ
+    - absolut nicht
+    - definitv nicht
+    - auf garkeinen fall
+    - du hast nicht recht
+    - das war nicht die Antwort auf meine Frage
+    - das meinte ich nicht
+    - das will ich nicht 
+    - ich glaube du hast mich falsch verschaden
+    - falsch
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
