@@ -1,5 +1,26 @@
 version: "2.0"
 
+# slots:
+#   kategorie:
+#     type: categorical
+#     values:
+#       - abfallbehörde
+#       - abfallberatung
+#       - abfallerzeugernummer
+#       - abgeschlossenheitsbescheinigung
+#       - abrechnung_von_untersuchungen_nach_dem_jugendarbeitsschutzgesetz
+#       - adopitionsvermittlung
+#       - ärztliche_gutachten
+#       - kfz
+#       - führerschein
+#       - schwerbehindertenausweis
+#       - waffen
+#       - wasserbehörde
+#       - beistandschaft
+
+entities:
+  - kategorie
+
 intents:
   - begrüßung
   - verabschiedung
@@ -11,9 +32,9 @@ intents:
   - zustimmung
   - verneinung
   - test
-  # - informieren
-  #   use_entities:
-  #     - kategorie
+  - informieren:
+      use_entities:
+        - kategorie
 
 responses:
   utter_begrüßen:

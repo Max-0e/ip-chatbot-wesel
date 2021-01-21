@@ -37,7 +37,7 @@ rules:
   - intent: adresse
   - action: action_search_configdb
 
-- rule: test
-  steps:
-  - intent: test
-  - action: action_search_db
+# - rule: test
+#   steps:
+#   - intent: informieren
+#   - action: action
