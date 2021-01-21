@@ -8,9 +8,9 @@ nlu:
     - abfallberatung
     - abfallerzeugernummer
     - abgeschlossenheitsbescheinigung
-    - abrechnung_von_untersuchungen_nach_dem_jugendarbeitsschutzgesetz
+    - abrechnung von untersuchungen nach dem jugendarbeitsschutzgesetz
     - adopitionsvermittlung
-    - ärztliche_gutachten
+    - ärztliche gutachten
     - kfz
     - führerschein
     - schwerbehindertenausweis
@@ -27,7 +27,7 @@ nlu:
     - Hi
     - Guten Morgen
     - Guten Abend
-    - Gutten Mittag
+    - Guten Mittag
     - Tach
     - Hallöchen
     - Ich grüße Sie
@@ -158,3 +158,9 @@ nlu:
 - intent: test
   examples: |
     - test
+
+
+- intent: informieren
+  examples: |
+    - ich brauche hilfe bei [führerschein](kategorie)
+    - ich suche nach [kfz](kategorie)

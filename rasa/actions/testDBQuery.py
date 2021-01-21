@@ -10,6 +10,6 @@ dienstleistungen = db.dienstleistungen
 dbGefunden = dienstleistungen.find()
 
 if dbGefunden:
-    print("Datenbankverbindung erfolgreich")
+    print("***************************************\n*** Datenbankverbindung erfolgreich *** \n***************************************")
 else:
-    print("Ein Fehler ist aufgetreten")
+    print("***************************************\n***** Ein Fehler ist aufgetreten ****** \n***************************************")
