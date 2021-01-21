@@ -55,6 +55,7 @@ responses:
 
 actions:
   - action_search_db
+  - action_search_configdb
 
 session_config:
   session_expiration_time: 60

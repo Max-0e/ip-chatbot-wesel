@@ -20,22 +20,22 @@ rules:
 - rule: Der Bot nennt die Öffnungszeiten
   steps:
   - intent: öffnungszeiten
-  - action: utter_öffnungszeiten
+  - action: action_search_configdb
 
 - rule: der Bot nennt eine Email-Adresse
   steps:
   - intent: email
-  - action: utter_email
+  - action: action_search_configdb
 
 - rule: der Bot nennt die telefonnummer
   steps:
   - intent: telefon
-  - action: utter_telefon
+  - action: action_search_configdb
 
 - rule: der Bot nennt die Adresse
   steps:
   - intent: adresse
-  - action: utter_adresse
+  - action: action_search_configdb
 
 - rule: test
   steps:

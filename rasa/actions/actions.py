@@ -6,6 +6,12 @@ from rasa_sdk.executor import CollectingDispatcher
 
 from pymongo import MongoClient
 
+# mit MongoDB auf standard Port laufend verbinden
+client = MongoClient('mongodb://localhost:27017/')
+# mit DB 'rasaBot' verbinden
+db = client.rasaBot
+# mit collection 'dienstleistungen' verbinden
+dienstleistungen = db.dienstleistungen
 
 class ActionSearchDB(Action):
 
@@ -16,15 +22,9 @@ class ActionSearchDB(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # mit MongoDB auf standard Port laufend verbinden
-        client = MongoClient('mongodb://localhost:27017/')
-        # mit DB 'rasaBot' verbinden
-        db = client.rasaBot
-        # mit collection 'dienstleistungen' verbinden
-        dienstleistungen = db.dienstleistungen
         # erstellen eines queries mit der Suche nach de letzten Intent
         query = { 
-            "Leistungsname": { "$regex": "Begleitest"},
+            "Leistungsname": { "$regex": "Begleitet"},
             # "Leistungsbeschreibung": { "$regex": tracker.latestet_message.intent} 
         }
         # erstes durchsuchen der Datenbank nach dem Suchbegriff
@@ -40,5 +40,27 @@ class ActionSearchDB(Action):
         else:
             print(counter)
             dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Einträge für dich in Frage.')
+
+        return []
+
+class ActionSearchConfigDB(Action):
+
+    def name(self) -> Text:
+        return "action_search_configdb"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #mit collection config verbinden
+        config = db.config
+
+        # query mit letztem intent: dieser entspricht dem infonamen in der datenbank
+        query = { 
+            "infoname": { "$regex": tracker.latest_message["intent"]["name"]},
+        }
+        
+        dienstleistung = config.find_one(query)
+        dispatcher.utter_message(text=f'{dienstleistung["infoinhalt"]}')
 
         return []
