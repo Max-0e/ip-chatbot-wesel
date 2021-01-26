@@ -32,6 +32,7 @@ intents:
   - zustimmung
   - verneinung
   - test
+  - wie_gehts
   - informieren:
       use_entities:
         - kategorie
@@ -56,6 +57,9 @@ responses:
   - text: "Ich in kein Mensch sondern ein Chatbot."
   - text: "Ich bin ein Chatbot für den Kreis Wesel."
   - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
+
+  utter_mir_gehts_gut:
+  - text: "Mir geht es gut, danke der Nachfrage :)"
 
   utter_öffnungszeiten:
   - text: "Die Öffnungszeiten lauten: 8:00 - 16:00 geöffnet, kann an Wochenenden oder Feiertagen abweichen"

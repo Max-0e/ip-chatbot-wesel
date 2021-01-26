@@ -17,6 +17,11 @@ rules:
   - intent: bist_du_ein_bot
   - action: utter_ich_bin_ein_bot
 
+- rule: Der Bot sagt, dass es ihm gut geht
+  steps:
+  - intent: wie_gehts
+  - action: utter_mir_gehts_gut
+
 - rule: Der Bot nennt die Öffnungszeiten
   steps:
   - intent: öffnungszeiten
