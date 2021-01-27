@@ -1,7 +1,7 @@
 Rasa Projekt in Betrieb nehmen HowTo:
 
-    `python3 -m venv ./venv` (falls noch kein virtuelles Environment erstellt wurde)
-    `source ./venv/bin/activate` (virtuelle Umgebung "betreten")
+`python3 -m venv ./venv` (falls noch kein virtuelles Environment erstellt wurde)
+`source ./venv/bin/activate` (virtuelle Umgebung "betreten")
 
 wenn rasa noch nicht installiert wurde
 
