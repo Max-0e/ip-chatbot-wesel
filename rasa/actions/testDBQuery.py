@@ -7,7 +7,7 @@ db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
 dienstleistungen = db.dienstleistungen
 
-dbGefunden = dienstleistungen.find()
+dbGefunden = dienstleistungen.find_one()
 
 if dbGefunden:
     print("***************************************\n*** Datenbankverbindung erfolgreich *** \n***************************************")

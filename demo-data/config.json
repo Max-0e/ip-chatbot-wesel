@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "600974407fef8e9660c4ec72"
+  },
+  "infoname": "öffnungszeiten",
+  "infoinhalt": "08:00 - 16:00 Uhr"
+},{
+  "_id": {
+    "$oid": "600974607fef8e9660c4ec73"
+  },
+  "infoname": "telefon",
+  "infoinhalt": "0281 20767-4727"
+},{
+  "_id": {
+    "$oid": "6009749a7fef8e9660c4ec74"
+  },
+  "infoname": "adresse",
+  "infoinhalt": "Reeser Landstraße 31 46383 Wesel"
+},{
+  "_id": {
+    "$oid": "600974d47fef8e9660c4ec75"
+  },
+  "infoname": "email",
+  "infoinhalt": "dlz-wesel@kreis-wesel.de"
+}]

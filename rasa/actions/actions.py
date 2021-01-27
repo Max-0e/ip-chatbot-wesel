@@ -12,7 +12,8 @@ client = MongoClient('mongodb://localhost:27017/')
 db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
 dienstleistungen = db.dienstleistungen
-
+#mit collection 'config' verbinden
+config = db.config
 class ActionSearchDB(Action):
 
     def name(self) -> Text:
@@ -51,17 +52,17 @@ class ActionSearchConfigDB(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # letzte Intent aus dem Tracker-Objekt holen
+        last_intent = tracker.latest_message["intent"]["name"]
 
-        #mit collection config verbinden
-        config = db.config
-
-        # query mit letztem intent: dieser entspricht dem infonamen in der datenbank
+        # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "infoname": { "$regex": tracker.latest_message["intent"]["name"]},
+            "infoname": { "$regex": last_intent},
         }
-        
+        # config-Datenbank mit Query durchsuchen
         dienstleistung = config.find_one(query)
-        dispatcher.utter_message(text=f'{dienstleistung["infoinhalt"]}')
+        # info und dazugehöriges Template zum Bot zurücksenden
+        dispatcher.utter_message(template=f'utter_static_{last_intent}', info=f'{dienstleistung["infoinhalt"]}')
 
         return []
 

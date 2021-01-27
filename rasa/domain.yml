@@ -33,6 +33,7 @@ intents:
   - verneinung
   - test
   - dispatcher_test
+  - wie_gehts
   - informieren:
       use_entities:
         - kategorie
@@ -58,22 +59,26 @@ responses:
   - text: "Ich bin ein Chatbot für den Kreis Wesel."
   - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
 
-  utter_öffnungszeiten:
-  - text: "Die Öffnungszeiten lauten: 8:00 - 16:00 geöffnet, kann an Wochenenden oder Feiertagen abweichen"
-  - text: "Das Geschäft hat von 8:00 - 16:00 Uhr geöffnet, kann an Wochenenden oder Feiertagen abweichen"
+  utter_mir_gehts_gut:
+  - text: "Mir geht es gut, danke der Nachfrage :)"
 
-  utter_email:
-  - text: "Die Email-Adresse an die sie sich wenden können ist: dlz-wesel@kreis-wesel.de"
-  - text: "Sie können eine Email an dlz-wesel@kreis-wesel.de"
-  - text: "Die Email-Adresse lautet dlz-wesel@kreis-wesel.de"
+  utter_static_öffnungszeiten:
+  - text: Die Öffnungszeiten lauten {info}, kann an Wochenenden oder Feiertagen abweichen
+  - text: Wir haben von {info} Uhr geöffnet, kann an Wochenenden oder Feiertagen abweichen
 
-  utter_telefon:
-  - text: "Rufen sie 0281 20767-4727"
-  - text: "Sie können uns telefonisch unter 0281 20767-4727 erreichen"
-  - text: "Die Telefonnummer lautet 0281 20767-4727"
+  utter_static_email:
+  - text: Die Email-Adresse an die sie sich wenden können ist {info}
+  - text: Sie können eine Email an {info} senden
+  - text: Die Email-Adresse lautet {info}
 
-  utter_adresse:
-  - text: "die Adresse lautet Reeser Landstraße 31 46483 Wesel"
+  utter_static_telefon:
+  - text: Rufen sie {info} an
+  - text: Sie können uns telefonisch unter {info} erreichen
+  - text: Die Telefonnummer lautet {info}
+
+  utter_static_adresse:
+  - text: Die Adresse lautet {info}
+  - text: Sie finden uns hier {info}
 
 
 # Response Templates für den dispatcher

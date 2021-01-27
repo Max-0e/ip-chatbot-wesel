@@ -33,7 +33,15 @@ nlu:
     - Ich grüße Sie
     - Grüß Gott
 
-
+- intent: wie_gehts
+  examples: |
+    - wie gets
+    - wie gehts
+    - Wie geht es dir
+    - geht es dir gut
+    - gehts dir gut
+    - wie ist deine stimmung
+  
 - intent: verabschiedung
   examples: |
     - Tschüss
@@ -106,6 +114,7 @@ nlu:
   examples: |
     - Wie lautet die Adresse
     - Anschrift
+    - Adresse
     - Wie finde ich dahin
     - googlemaps adresse
     - was ist die Hausnummer
@@ -158,6 +167,8 @@ nlu:
 - intent: test
   examples: |
     - test
+    - just testing this shit
+    - die scheise geht nicht
 
 
 - intent: informieren
