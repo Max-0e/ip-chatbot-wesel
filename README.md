@@ -4,14 +4,19 @@ Rasa Projekt in Betrieb nehmen HowTo:
 
 `source ./venv/bin/activate` (virtuelle Umgebung "betreten")
 
+
 wenn rasa noch nicht installiert wurde
 
-    `pip3 install -U pip3`
-    `pip3 install rasa`
+`pip3 install -U pip3`
 
-    - `rasa train` (model trainieren)
-    - `rasa shell` (test chat)
-    - `rasa shell nlp` (nlp test für eingegebene Nachrichten)
+`pip3 install rasa`
+
+`rasa train` (model trainieren)
+
+`rasa shell` (test chat)
+
+`rasa shell nlp` (nlp test für eingegebene Nachrichten)
+
 
 Spacy installation
 
