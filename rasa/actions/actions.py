@@ -65,3 +65,34 @@ class ActionSearchConfigDB(Action):
         dispatcher.utter_message(template=f'utter_static_{last_intent}', info=f'{dienstleistung["infoinhalt"]}')
 
         return []
+
+class dispatcher_test(Action):
+
+    def name(self) -> Text:
+        return "action_dispatcher_test"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(template = "utter_dbresponse_öz",
+                                 kategorie = "EingabeKategorie",
+                                 öffnungszeiten = "18:00 Uhr - 20:00 Uhr")
+
+        dispatcher.utter_message(template = "utter_dbresponse_ansprechpartner",
+                                 kategorie = "EingabeKategorie",
+                                 anschrift = "Adresse hier")
+
+        dispatcher.utter_message(template = "utter_dbresponse_allgemein",
+                                 kategorie = "EingabeKategorie",
+                                 link = "https://www.kreis-wesel.de")
+
+        dispatcher.utter_message(template = "utter_dbresponse_zwei_ergebnisse",
+                                 kategorie1 = "Diesekategorie",
+                                 kategorie2 = "AndereKategorie")
+
+        dispatcher.utter_message(template = "utter_dbresponse_zu_viele_ergebnisse")
+
+        dispatcher.utter_message(template = "utter_dbresponse_kein_ergebnis")
+
+        return []

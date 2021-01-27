@@ -175,3 +175,8 @@ nlu:
   examples: |
     - ich brauche hilfe bei [führerschein](kategorie)
     - ich suche nach [kfz](kategorie)
+
+# Dispatcher Tests
+- intent: dispatcher_test
+  examples: |
+    - dispatcher_test

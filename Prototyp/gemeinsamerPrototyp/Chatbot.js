@@ -30,8 +30,12 @@ function send() {
                 for (let key in element) {
                     if(key == "text")
                         tmpArray.push(element[key]);
+                    else if (key == "custom") {
+                        if (element[key]["link"] && element[key]["linkname"])
+                            tmpArray.push("<a href='" + element[key]["link"] + "' target='_blank'>" + element[key]["linkname"] + "</a>");
+                    }
                     else if (key == "image")
-                        tmpArray.push("<img style='width:100%' src='" + element[key] + "'/>"); 
+                        tmpArray.push("<img style='width:100%' src='" + element[key] + "'/>");
                 }
             });
             tmpNode.innerHTML = tmpArray.join("<br>");
