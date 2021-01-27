@@ -32,6 +32,7 @@ intents:
   - zustimmung
   - verneinung
   - test
+  - dispatcher_test
   - informieren:
       use_entities:
         - kategorie
@@ -74,7 +75,56 @@ responses:
   utter_adresse:
   - text: "die Adresse lautet Reeser Landstraße 31 46483 Wesel"
 
+
+# Response Templates für den dispatcher
+  utter_dbresponse_öz:
+  - text: "Hier die Öffnungszeiten für {kategorie}: {öffnungszeiten}"
+  - text: "{kategorie} hat zu folgenden Zeiten geöffnet: {öffnungszeiten}"
+  - text: "Die Öffnungszeiten für {kategorie} lauten: {öffnungszeiten}"
+  - text: "Zu folgenden Zeiten ist {kategorie} für Sie erreichbar: {öffnungszeiten}" 
+  
+  utter_dbresponse_ansprechpartner:
+  - text: "Hier die Adresse für {kategorie}: {anschrift}"
+  - text: "{kategorie} ist unter folgender Adresse erreichbar: {anschrift}"
+  - text: "Hier die Anschrift für {kategorie}: {anschrift}"
+
+  utter_dbresponse_allgemein:
+  - text: "Hier mehr Infos für "
+    custom:
+      link: "{link}"
+      linkname: "{kategorie}"   
+  - text: "Leider kann ich Ihr Anliegen nicht konkret beantworten. Vielleicht hilft Ihnen das hier weiter: "
+    custom:
+      link: "{link}"
+      linkname: "{kategorie}"   
+  - text: "Vielleicht hilft Ihnen das hier weiter: "
+    custom:
+      link: "{link}"
+      linkname: "{kategorie}"   
+  - text: "Schauen Sie doch mal hier "
+    custom:
+      link: "{link}"
+      linkname: "{kategorie}"   
+
+  utter_dbresponse_zwei_ergebnisse:
+  - text: "Meinen Sie {kategorie1} oder {kategorie2}?"
+  - text: "Ich weiß leider nicht genau, was Sie meinen. {kategorie1} oder {kategorie2}?"
+  - text: "Suchen Sie nach {kategorie1} oder {kategorie2}?"
+  - text: "{kategorie1} oder {kategorie2}?"
+
+  utter_dbresponse_zu_viele_ergebnisse:
+  - text: "Leider konnte ich nichts finden, können Sie Ihr Anliegen genauer beschreiben?"
+  - text: "Ich bräuchte ein wenig mehr Informationen um meine Suche zu konkretisieren."
+  - text: "Können Sie mir weitere Informationen über Ihr Anliegen geben?"
+
+  utter_dbresponse_kein_ergebnis:
+  - text: "Leider konnte ich nichts finden."
+  - text: "Zu diesem Thema liegen mir leider keine Daten vor."
+  
 actions:
+#Dispatcher Tests
+  - action_dispatcher_test
+# Dispatcher Tests Ende
   - action_search_db
   - action_search_configdb
 

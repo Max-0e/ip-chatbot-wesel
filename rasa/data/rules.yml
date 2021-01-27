@@ -41,3 +41,9 @@ rules:
 #   steps:
 #   - intent: informieren
 #   - action: action
+
+# Dispatcher Tests
+- rule: Ausgabe via Dispatcher
+  steps:
+  - intent: dispatcher_test
+  - action: action_dispatcher_test
