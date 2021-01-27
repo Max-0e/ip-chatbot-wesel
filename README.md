@@ -3,6 +3,12 @@ Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
 
 ## Rasa Projekt in Betrieb nehmen:
 
+`git clone https://gitlab.hsrw.eu/maximilian.oedinger/ip-chatbot-wesel.git`
+
+`cd ip-chatbot-wesel`
+
+`mkdir rasa/models`
+
 `python3 -m venv ./venv` (falls noch kein virtuelles Environment erstellt wurde)
 
 `source ./venv/bin/activate` (virtuelle Umgebung "betreten")
@@ -36,6 +42,7 @@ Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
 `rasa run --cors "*"` (Rasa Rest Channel starten)
 
 `rasa run actions`(Action-Server starten)
+
 
 ### mongoDb unter Ubuntu starten
 
