@@ -1,15 +1,30 @@
-Rasa Projekt in Betrieb nehmen HowTo:
+# IP_Chatbot
+Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
+
+## Rasa Projekt in Betrieb nehmen:
 
 `python3 -m venv ./venv` (falls noch kein virtuelles Environment erstellt wurde)
 
 `source ./venv/bin/activate` (virtuelle Umgebung "betreten")
 
 
-wenn rasa noch nicht installiert wurde
+### wenn rasa noch nicht installiert wurde
 
 `pip3 install -U pip3`
 
 `pip3 install rasa`
+
+
+#### Spacy installation
+
+`pip3 install rasa[spacy]`
+
+`python3 -m spacy download de_core_news_md`
+
+ `python3 -m spacy link de_core_news_md de`
+
+
+### Überblick: Rasa CLI-Befehle
 
 `rasa train` (model trainieren)
 
@@ -17,17 +32,10 @@ wenn rasa noch nicht installiert wurde
 
 `rasa shell nlp` (nlp test für eingegebene Nachrichten)
 
+`rasa run --cors "*"` (Rasa Rest Channel starten)
 
-Spacy installation
+`rasa run actions`(Action-Server starten)
 
-    - `pip3 install rasa[spacy]`
-    - `python3 -m spacy download de_core_news_md`
-    - `python3 -m spacy link de_core_news_md de`
+### mongoDb unter Ubuntu starten
 
-um den Rasa Rest Channel zu starten
-
-    - `rasa run --cors "*"`
-
-mongoDb unter Ubuntu starten
-
-    - `sudo systemctl start mongod`
+`sudo systemctl start mongod`
