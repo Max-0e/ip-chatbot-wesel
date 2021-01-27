@@ -8,23 +8,24 @@ Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
 `source ./venv/bin/activate` (virtuelle Umgebung "betreten")
 
 
-### wenn rasa noch nicht installiert wurde
+### Rasa installation in der virtuellen Umgebung
 
 `pip3 install -U pip3`
 
 `pip3 install rasa`
 
 
-#### Spacy installation
+##### Spacy installation
 
 `pip3 install rasa[spacy]`
 
 `python3 -m spacy download de_core_news_md`
 
- `python3 -m spacy link de_core_news_md de`
+`python3 -m spacy link de_core_news_md de`
 
 
-### Überblick: Rasa CLI-Befehle
+
+## Überblick: Rasa CLI-Befehle
 
 `rasa train` (model trainieren)
 
