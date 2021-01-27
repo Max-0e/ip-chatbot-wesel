@@ -7,4 +7,4 @@ stories:
   - intent: informieren
     entities:
     - kategorie: "kfz"
-  - action: utter_bergüßen
+  - action: utter_begrüßen
