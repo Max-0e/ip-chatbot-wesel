@@ -114,6 +114,7 @@ nlu:
   examples: |
     - Wie lautet die Adresse
     - Anschrift
+    - Adresse
     - Wie finde ich dahin
     - googlemaps adresse
     - was ist die Hausnummer
@@ -166,6 +167,8 @@ nlu:
 - intent: test
   examples: |
     - test
+    - just testing this shit
+    - die scheise geht nicht
 
 
 - intent: informieren

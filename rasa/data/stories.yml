@@ -6,12 +6,10 @@ stories:
   steps:
   - intent: informieren
     entities:
-    - kategorie: "kfz"
+    - kategorie: "führerschein"
   - action: utter_begrüßen
 
-- story: Führerschein Story
+- story: Teststory
   steps:
-  - intent: informieren
-    entities:
-    - kategorie: "führerschein"
-  - action: utter_mir_gehts_gut
+  - intent: test
+  - action: utter_email

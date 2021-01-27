@@ -42,7 +42,7 @@ rules:
   - intent: adresse
   - action: action_search_configdb
 
-# - rule: test
-#   steps:
-#   - intent: informieren
-#   - action: action
+#- rule: test
+#  steps:
+#  - intent: informieren
+#  - action: action
