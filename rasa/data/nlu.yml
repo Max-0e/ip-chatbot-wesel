@@ -18,6 +18,21 @@ nlu:
     - wasserbehörde
     - beistandschaft
 
+- lookup: führerschein_die
+  examples: |
+    - personendaten
+    - begleitetes fahren
+    - berufskraftfahrer
+    - fahrerlaubnis verlängern
+    - diebstahl
+
+- lookup: kfz_die
+  examples: |
+    - abmeldung
+    - adressänderung
+    - namensänderung
+    - diebstahl
+
 - intent: begrüßung
   examples: |
     - Guten Tag
@@ -170,8 +185,85 @@ nlu:
     - just testing this shit
     - die scheise geht nicht
 
-
 - intent: informieren
   examples: |
     - ich brauche hilfe bei [führerschein](kategorie)
     - ich suche nach [kfz](kategorie)
+
+#Führerschein   
+
+- intent: begleitet fahren
+  examples: |
+    - begleitetes fahren
+    - Was kannst du mir zu begleitetes fahren sagen
+    - Hilfe zu begleitetes fahren
+    - fahren ab 17
+    - fahren vor 18
+
+- intent: führerscheinverlust
+  examples: |
+    - führerschein diebstahl
+    - Mein Führerschein wurde geklaut
+    - Ich habe meinen Führerschein verloren
+    - führerschein geklaut
+    - führerschein verloren
+
+- intent: führerschein personendaten
+  examples: |
+    - Personendaten Führerschein
+    - Führerschein personendaten
+    - personendaten ändern führerschein
+    - muss ich meine daten auf dem führerschein ändern
+    - ich möchte meine daten auf dem führerschein ändern
+
+- intent: EU_Führerschein
+  examples: |
+    - Ich möchte meinen Führerschein gegen einen EU-Führerschein tauschen
+    - Ich möchte einen EU-Führerschein
+    - EU-Führerschein
+    - ich brauche ein EU-Führerschein
+    - brauch ich einen EU-Führerschein
+
+- intent: Neuerteilung_Führerschein
+  examples: |
+    - Neuerteilung Führerschein
+    - Führerschein Entzug
+    - Ich möchte meinen Führerschein zurück haben
+    - Führerschein wurde entzogen 
+    - Frist des Führerscheinentzugs beendet
+
+- intent: Fahrgastbeförderung
+  examples: |
+    - Ich möchte eine Erlaubnis zur Fahrgastbeförderung
+    - ich möchte leute transportieren
+    - ich brauche eine Fahrgastbeförderungserlaubmiss
+    - Fahrgastbeförderung
+
+#Fahrzeug/KFZ
+
+- intent: kfz steuer
+  examples: |
+    - Steuern Auto
+    - KFZ-Steuer
+    - Wie viel Steuern muss ich bei meinem Auto zahlen
+    - Wann muss ich Steuern für Auto zahlen
+    - Steuer KFZ
+
+- intent: erstzulassung
+  examples: |
+    - erstzulassung
+    - erstzulassung auto
+    - kfz erstzulassung
+    - wie kann ich mein auto zulassen
+    - auto zulassen
+    - zulassung
+    - erstmalige zulassung
+    - wann brauche ich erstzulassung
+
+- intent: saisonkennzeichen
+  examples: |
+    - saisonkennzeichen
+    - was ist ein saisonkennzeichen
+    - auto nur ein teil des jahres zulassen
+    - wann brauche ich ein saisonkennzeichen
+    - beantragung saisonkennzeichen

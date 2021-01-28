@@ -36,6 +36,15 @@ intents:
   - informieren:
       use_entities:
         - kategorie
+  - begleitet fahren
+  - führerscheinverlust
+  - führerschein personendaten
+  - EU_Führerschein
+  - Neuerteilung_Führerschein
+  - Fahrgastbeförderung
+  - kfz steuer
+  - erstzulassung
+  - saisonkennzeichen
 
 responses:
   utter_begrüßen:
@@ -58,14 +67,12 @@ responses:
   - text: "Ich bin ein Chatbot für den Kreis Wesel."
   - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
 
-<<<<<<< rasa/domain.yml
   utter_mir_gehts_gut:
   - text: "Mir geht es gut, danke der Nachfrage :)"
-=======
+
   utter_static_öffnungszeiten:
   - text: Die Öffnungszeiten lauten {info}, kann an Wochenenden oder Feiertagen abweichen
   - text: Wir haben von {info} Uhr geöffnet, kann an Wochenenden oder Feiertagen abweichen
->>>>>>> rasa/domain.yml
 
   utter_static_email:
   - text: Die Email-Adresse an die sie sich wenden können ist {info}
@@ -80,6 +87,51 @@ responses:
   utter_static_adresse:
   - text: Die Adresse lautet {info}
   - text: Sie finden uns hier {info}
+
+# Führerschein Dienstleistungen
+
+  utter_begleitetes_fahren:
+  - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.
+      Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
+  
+  utter_verlust_führerschein:
+  - text: "Sollte Ihnen Ihr bisheriger Führerschein abhanden gekommen sein, haben Sie den Verlust unverzüglich bei der zuständigen Fahrerlaubnisbehörde
+      anzuzeigen. Sofern Sie nicht auf die Fahrerlaubnis verzichten möchten, wird Ihnen ein Ersatzdokument ausgestellt.
+      Für nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ersatzfuehrerschein-wegen-verlust-oder-diebstahl/"
+
+  utter_führerschein_personendaten:
+  - text: "Änderungen von Angaben auf dem Führerschein (z. B. Name, Vorname, Geburtsdatum) sind grundsätzlich erforderlich.
+      Dies gilt auch für die Eintragung von Auflagen/Schlüsselzahlen z. B. auf Grund der Berufskraftfahrerqualifizierung oder für Brillenaustragung.
+      Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-aenderung-von-personendaten-oder-auflagen-7718243/"
+
+  utter_EU_Führerschein:
+  - text: "Wenn ihr führerschein, egal welcher, vor dem 19.01.2013 ausgestellt wurde, müssen Sie ihren Führerschein bis zu 18.01.2033 umtauschen,
+      die neuen Führerscheine gelten 15 Jahre. Beachten sollten Sie je nach Geburtsjahr müssen Sie ihren Führerschein früher als 18.01.2033 umtauschen
+      Weitere Infos zu EU-Führerschein hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-umtausch-gegen-neuen-eu-fuehrerschein/"
+
+  utter_Neuerteilung_Führerschein:
+  - text: "Ihnen wurde der Führerschein durch ein Gerichtsurteil oder durch die Straßenverkehrsbehörde entzogen. Anders als beim zeitlich 
+      befristeten Fahrverbot wird der Führerschein nicht automatisch zurück gegeben, Sie müssen daher einen Antrag auf Wiedererteilung stellen.
+      Weitere Infos hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-neuerteilung-der-fahrerlaubnis-6830283/"
+
+  utter_Fahrgastbeförderung:
+  - text: "Sie müssen einen Antrag stellen um Fahrgäste zu transportieren. Sie müssen mindestens 21 sein und ihren Führerschein 2 Jahre haben.
+      Für Krankenkraftwagen oder Mietwagen für Schülertransport oder Behindertenfahrdienst müssen sie mindestens 19 sein. 
+      Weitere Infos hier: kreis-wesel.de/de/dienstleistungen/fahrgastbefoerderung-ersterteilung/"
+
+# Fahrzeug/KFZ
+
+  utter_kfz_steuer:
+  - text: "Ihr Fahrzeug wird mit der Zulassung automatisch steuerpflichtig, soweit es sich um ein steuerpflichtiges Fahrzeug handelt.
+      Die Steuerpflicht umfasst auch Ausfuhrkennzeichen. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/fahrzeug-kfz-steuer/"
+
+  utter_erstzulassung:
+  - text: "Wenn Sie ein fabrikneues Fahrzeug auf sich zulassen möchten, handelt es sich um eine Neuzulassung.
+      Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/zulassung-eines-neufahrzeugs/"
+ 
+  utter_saisonkennzeichen:
+  - text: "Hierbei bestimmen Sie selbst über die Laufzeit Ihres Versicherungsvertrages die Dauer der Gültigkeit des Kennzeichens. 
+      Diese beträgt mindestens zwei, höchstens aber elf Monate. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/saisonkennzeichen/"
 
 actions:
   - action_search_db

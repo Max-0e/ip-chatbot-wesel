@@ -12,4 +12,54 @@ stories:
 - story: Teststory
   steps:
   - intent: test
-  - action: utter_email
+  - action: utter_static_email
+
+#Führerschein
+
+- story: Begleitetes Fahren
+  steps:
+  - intent: begleitet fahren
+  - action: utter_begleitetes_fahren
+
+- story: Personendaten
+  steps:
+  - intent: führerschein personendaten
+  - action: utter_führerschein_personendaten
+
+- story: Diebstahl oder Verlust
+  steps:
+  - intent: führerscheinverlust
+  - action: utter_verlust_führerschein
+
+- story: Führerschein gegen EU_Führerschein
+  steps:
+  - intent: EU_Führerschein
+  - action: utter_EU_Führerschein
+
+- story: Neuerteilung_Führerschein
+  steps:
+  - intent: Neuerteilung_Führerschein
+  - action: utter_Neuerteilung_Führerschein
+
+- story: Fahrgastbeförderung
+  steps:
+  - intent: Fahrgastbeförderung
+  - action: utter_Fahrgastbeförderung
+
+#Fahrzeug/KFZ
+
+- story: KFZ-Steuer
+  steps:
+  - intent: kfz steuer
+  - action: utter_kfz_steuer
+
+- story: Erstzulassung
+  steps:
+  - intent: erstzulassung
+  - action: utter_erstzulassung
+
+- story: Saisonkennzeichen
+  steps:
+  - intent: saisonkennzeichen
+  - action: utter_saisonkennzeichen
+
