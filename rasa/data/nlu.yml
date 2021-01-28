@@ -237,4 +237,27 @@ nlu:
     - ich suche informationen zur [namensänderung](keywords_fahrzeug) meines Fahrzeuges
     - wie bekomme ich ein [ausfuhrkennzeichen](keywords_fahrzeug) 
     - was ist eine [ausnahmegenemigung](keywords_fahrzeug) und wie bekomme ich diese
-
+    - ich möchte einen [Diebstahl](keywords_fahrzeug) melden
+    - meine [Zulassungsbescheinigung](keywords_fahrzeug) ist weg
+    - ich möchte meine frage zu meiner [erstmalige Zulassung](keywords_fahrzeug) beantwortet bekommen
+    - informationen zu [versicherungsschutz](keywords_fahrzeug)
+    - ich brauche informationen zur [halterauskuft](keywords_fahrzeug)
+    - wie sieht das mit dem [halterwechsel](keywords_fahrzeug) aus
+    - mein [kennzeichen](keywords_fahrzeug) ist unlesbar
+    - mein [kennzeichen](keywords_fahrzeug) ist defekt
+    - ich habe mein [kennzeichen](keywords_fahrzeug) verloren
+    - ich brauche eine [haftpflichtversicherung](keywords_fahrzeug)
+    - ich will informatioen zu meiner [kfz-steuer](keywords_fahrzeug)
+    - ich benötige hilfe bei meinem [kurzzeitkennzeichen](keywords_fahrzeug)
+    - ich habe einen oldtimer und brauche dafür ein [oldtimerkennzeichen](keywords_fahrzeug)
+    - was ist eine [online-ausserbetriebsetzung](keywords_fahrzeug)
+    - ich benötige ein [dauerkennzeichen](keywords_fahrzeug)
+    - ich brauche ein [saisonkennzeichen](keywords_fahrzeug)
+    - ich habe [technische änderungen](keywords_fahrzeug) an meinem fahrzeug
+    - ich habe [technische mängel](keywords_fahrzeug) an meinem fahrzeug
+    - mein fahrzeug soll auf einen anderen [zulassungsbezirk](keywords_fahrzeug) umgeschrieben werden
+    - ich brauche informationen zu der [verkaufsanzeige](keywords_fahrzeug) meines [fahrzeug]
+    - ich möchte ein [wechselkennzeichen](keywords_fahrzeug)
+    - ich möchte eine [wiederzulassungs](keywords_fahrzeug) beantragen
+    - ich möchte mein fahrzeug [zulassen](keywords_fahrzeug)
+    - mein auto wurde [außerbetriebsetzung](keywords_fahrzeug)
