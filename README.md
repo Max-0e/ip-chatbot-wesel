@@ -47,3 +47,9 @@ Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
 ### mongoDb unter Ubuntu starten
 
 `sudo systemctl start mongod`
+
+## Rasa X
+
+`pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple`
+
+`rasa x`
