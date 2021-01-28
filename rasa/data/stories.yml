@@ -17,6 +17,13 @@ stories:
   - action: utter_test_führerschein
 
 
+- story: Begleitetes Fahren
+  steps:
+  - intent: begleitet fahren
+  - action: action_search_dienstleistung
+
+
+
 - story: Teststory
   steps:
   - intent: test

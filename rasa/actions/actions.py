@@ -96,3 +96,27 @@ class dispatcher_test(Action):
         dispatcher.utter_message(template = "utter_dbresponse_kein_ergebnis")
 
         return []
+
+class ActionSearchDienstleistung(Action):
+
+    def name(self) -> Text:
+        return "action_search_dienstleistung"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # letzte Intent aus dem Tracker-Objekt holen
+        dienstleistung_slot = tracker.slots["dienstleistung"]
+        print(dienstleistung_slot)
+
+        # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
+        query = { 
+            "Leistungsname": { "$regex": dienstleistung_slot},
+        }
+        # config-Datenbank mit Query durchsuchen
+        dienstleistung = dienstleistungen.find_one(query)
+        print(dienstleistung)
+        # info und dazugehöriges Template zum Bot zurücksenden
+        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+
+        return []

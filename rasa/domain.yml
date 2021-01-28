@@ -6,9 +6,12 @@ slots:
     values:
       - fahrzeug
       - führerschein
+  dienstleistung:
+    type: text
 
 entities:
   - kategorie
+  - dienstleistung
 
 intents:
   - begrüßung
@@ -26,6 +29,7 @@ intents:
   - informieren_kategorie:
       use_entities:
         - kategorie
+  - begleitet fahren
 
 responses:
   utter_begrüßen:
@@ -120,6 +124,11 @@ responses:
 
   utter_test_führerschein:
   - text: sie suchen nach {kategorie} also
+
+  utter_begleitetes_fahren:
+  - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.
+      Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
+
   
 actions:
 #Dispatcher Tests
@@ -127,6 +136,7 @@ actions:
 # Dispatcher Tests Ende
   - action_search_db
   - action_search_configdb
+  - action_search_dienstleistung
 
 session_config:
   session_expiration_time: 60

@@ -2,22 +2,6 @@ version: "2.0"
 
 nlu:
 
-# - lookup: kategorie
-#   examples: |
-#     - abfallbehörde
-#     - abfallberatung
-#     - abfallerzeugernummer
-#     - abgeschlossenheitsbescheinigung
-#     - abrechnung von untersuchungen nach dem jugendarbeitsschutzgesetz
-#     - adopitionsvermittlung
-#     - ärztliche gutachten
-#     - kfz
-#     - führerschein
-#     - schwerbehindertenausweis
-#     - waffen
-#     - wasserbehörde
-#     - beistandschaft
-
 - intent: begrüßung
   examples: |
     - Guten Tag
@@ -209,7 +193,24 @@ nlu:
     - [fahrzeug](kategorie)
     - informationen [führerschein](kategorie)
 
+- intent: begleitet fahren
+  examples: |
+    - Führerschein [mit 17](dienstleistung)
+    - [begleitetes fahren](dienstleistung)
+    - Was kannst du mir zu [begleitetes fahren](dienstleistung) sagen
+    - Hilfe zu [begleitetes fahren](dienstleistung)
+    - fahren [ab 17](dienstleistung)
+    - fahren [vor 18](dienstleistung)
+
+
 # synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben die gleichen values zu geben
+- synonym: Führerschein - Begleitetes Fahren ab 17 Jahren
+  examples: |
+    - ab 17
+    - vor 18
+    - begleitetes fahren
+    - mit 17
+
 - synonym: fahrzeug
   examples: |
     - auto
