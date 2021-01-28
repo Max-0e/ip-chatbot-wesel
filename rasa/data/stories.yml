@@ -2,14 +2,22 @@ version: "2.0"
 
 stories:
 
-- story: KFZ Story
+- story: KFZ Strory
   steps:
-  - intent: informieren
+  - intent: informieren_kategorie
+    entities:
+    - kategorie: "fahrzeug"
+  - action: utter_test_fahrzeug
+
+- story: führerschein Strory
+  steps:
+  - intent: informieren_kategorie
     entities:
     - kategorie: "führerschein"
-  - action: utter_begrüßen
+  - action: utter_test_führerschein
+
 
 - story: Teststory
   steps:
   - intent: test
-  - action: utter_email
+  - action: utter_ich_bin_ein_bot
