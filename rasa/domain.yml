@@ -1,22 +1,11 @@
 version: "2.0"
 
-# slots:
-#   kategorie:
-#     type: categorical
-#     values:
-#       - abfallbehörde
-#       - abfallberatung
-#       - abfallerzeugernummer
-#       - abgeschlossenheitsbescheinigung
-#       - abrechnung_von_untersuchungen_nach_dem_jugendarbeitsschutzgesetz
-#       - adopitionsvermittlung
-#       - ärztliche_gutachten
-#       - kfz
-#       - führerschein
-#       - schwerbehindertenausweis
-#       - waffen
-#       - wasserbehörde
-#       - beistandschaft
+slots:
+  kategorie:
+    type: categorical
+    values:
+      - fahrzeug
+      - führerschein
 
 entities:
   - kategorie
@@ -34,7 +23,7 @@ intents:
   - test
   - dispatcher_test
   - wie_gehts
-  - informieren:
+  - informieren_kategorie:
       use_entities:
         - kategorie
 
@@ -125,6 +114,12 @@ responses:
   utter_dbresponse_kein_ergebnis:
   - text: "Leider konnte ich nichts finden."
   - text: "Zu diesem Thema liegen mir leider keine Daten vor."
+
+  utter_test_fahrzeug:
+  - text: sie suchen also nach {kategorie}
+
+  utter_test_führerschein:
+  - text: sie suchen nach {kategorie} also
   
 actions:
 #Dispatcher Tests

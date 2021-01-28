@@ -2,21 +2,21 @@ version: "2.0"
 
 nlu:
 
-- lookup: kategorie
-  examples: |
-    - abfallbehörde
-    - abfallberatung
-    - abfallerzeugernummer
-    - abgeschlossenheitsbescheinigung
-    - abrechnung von untersuchungen nach dem jugendarbeitsschutzgesetz
-    - adopitionsvermittlung
-    - ärztliche gutachten
-    - kfz
-    - führerschein
-    - schwerbehindertenausweis
-    - waffen
-    - wasserbehörde
-    - beistandschaft
+# - lookup: kategorie
+#   examples: |
+#     - abfallbehörde
+#     - abfallberatung
+#     - abfallerzeugernummer
+#     - abgeschlossenheitsbescheinigung
+#     - abrechnung von untersuchungen nach dem jugendarbeitsschutzgesetz
+#     - adopitionsvermittlung
+#     - ärztliche gutachten
+#     - kfz
+#     - führerschein
+#     - schwerbehindertenausweis
+#     - waffen
+#     - wasserbehörde
+#     - beistandschaft
 
 - intent: begrüßung
   examples: |
@@ -180,3 +180,61 @@ nlu:
 - intent: dispatcher_test
   examples: |
     - dispatcher_test
+
+
+- intent: informieren_kategorie
+  examples: |
+    - ich brauche hilfe bei meinem [fahrzeug](kategorie)
+    - ich brauche hilfe bei meinem [vehicle](kategorie)
+    - ich brauche hilfe bei meinem [personenkraftwagen](kategorie)
+    - ich brauche hilfe bei meinem [pkw](kategorie)
+    - ich brauche hilfe bei meinem [auto](kategorie) helfen
+    - ich brauche hilfe bei meinem [gefährt](kategorie) helfen
+    - ich brauche hilfe bei meinem [verkehrsmittel](kategorie) helfen
+    - ich brauche hilfe bei meinem [automobil](kategorie) helfen
+    - ich brauche hilfe bei meinem [wagen](kategorie) helfen
+    - ich brauche hilfe bei meinem [führerschein](kategorie)
+    - ich brauche hilfe bei meinem [fahrerlaubnis](kategorie)
+    - ich brauche hilfe bei meinem [fahrausweis](kategorie)
+    - ich brauche hilfe bei meinem [lappen](kategorie)
+    - ich brauche hilfe bei meinem [führerausweis](kategorie)
+    - ich habe eine frage wegen meinem [fahrzeug](kategorie)
+    - ich will mich über mein [fahrzeug](kategorie) informieren
+    - frage wegen meinem [fahrzeug](kategorie)
+    - helfen sie mir wegen meinem [führerschein](kategorie)
+    - ich hätte eine frage wegen meinem [automobil](kategorie)
+    - [fahrzeug](kategorie) informationen
+    - bekomme ich informationen zu meinem [fahrzeug](kategorie)
+    - können sie mir ein paar fragen zu meinem [führerschein](kategorie) beantworten
+    - [fahrzeug](kategorie)
+    - informationen [führerschein](kategorie)
+
+# synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben die gleichen values zu geben
+- synonym: fahrzeug
+  examples: |
+    - auto
+    - vehicle
+    - personenkraftwagen
+    - pkw
+    - gefährt
+    - verkehrsmittel
+    - automobil
+    - wagen
+    - test
+
+- synonym: führerschein
+  examples: |
+    - fahrerlaubnis
+    - fahrausweis
+    - lappen
+    - führerausweis
+
+- intent: informieren_fahrzeug
+  examples: |
+    - ich möchte mich über [omnibusse](keywords_fahrzeug) informieren
+    - ich brauche hilfe bei der [abmeldung](keywords_fahrzeug) meines Fahrzeuges
+    - wie beantrage ich eine [adressänderung](keywords_fahrzeug) meines Fahrzeuges
+    - ich suche informationen zur [namensänderung](keywords_fahrzeug) meines Fahrzeuges
+    - wie bekomme ich ein [ausfuhrkennzeichen](keywords_fahrzeug) 
+    - was ist eine [ausnahmegenemigung](keywords_fahrzeug) und wie bekomme ich diese
+
