@@ -9,7 +9,8 @@ const dienstleistungSchema = new mongoose.Schema({
     Leistungsbeschreibung: { type: String, required: true },
     Fachinformationen: { type: Object, required: true },
     Ansprechpunkt: { type: Array, required: true },
-    Aktualisierungszeitpunkt: { type: Date, required: true }
+    Aktualisierungszeitpunkt: { type: Date, required: true },
+    BotAntwort: { type: Array, required: false }
 });
 dienstleistungSchema.set('collection', 'dienstleistungen');
 const Dienstleistung = mongoose.model('Dienstleistung', dienstleistungSchema);
@@ -52,7 +53,8 @@ async function readOutputJSONAndFillDB () {
                 Leistungsbeschreibung: dienstleistung.Leistungsbeschreibung,
                 Fachinformationen: dienstleistung.Fachinformationen,
                 Ansprechpunkt: dienstleistung.Ansprechpunkt,
-                Aktualisierungszeitpunkt: aktualisierungszeitpunkt
+                Aktualisierungszeitpunkt: aktualisierungszeitpunkt,
+                BotAntwort: []
             });
             // speichern der neuen Dienstleistung
             try {

@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee580"
+    "$oid": "6012def87bbee3d7f0c792a1"
   },
   "Ansprechpunkt": [
     {
@@ -41,6 +41,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "1D42FF34EFF3D59BC1257D030041BC7B",
   "Leistungsname": "Abfallbeförderungserlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1D42FF34EFF3D59BC1257D030041BC7B",
@@ -55,12 +56,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee582"
+    "$oid": "6012def87bbee3d7f0c792a3"
   },
   "Ansprechpunkt": [
     {
@@ -100,6 +101,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "1ED837D9CE169A82C1257CFA0047B814",
   "Leistungsname": "Abfallberatung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1ED837D9CE169A82C1257CFA0047B814",
@@ -111,12 +113,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee584"
+    "$oid": "6012def87bbee3d7f0c792a5"
   },
   "Ansprechpunkt": [
     {
@@ -156,6 +158,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8CD74AD41ED0B6FEC1257D030043A218",
   "Leistungsname": "Abfallerzeugernummer",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8CD74AD41ED0B6FEC1257D030043A218",
@@ -170,12 +173,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee586"
+    "$oid": "6012def87bbee3d7f0c792a7"
   },
   "Ansprechpunkt": [
     {
@@ -216,6 +219,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "769E76D7676013F2C1257D0300448AB6",
   "Leistungsname": "Abgeschlossenheitsbescheinigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/769E76D7676013F2C1257D0300448AB6",
@@ -229,12 +233,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee588"
+    "$oid": "6012def87bbee3d7f0c792a9"
   },
   "Ansprechpunkt": [
     {
@@ -274,6 +278,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "A886B60B7328B1B2C1257D4E0054F273",
   "Leistungsname": "Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/A886B60B7328B1B2C1257D4E0054F273",
@@ -286,12 +291,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee58a"
+    "$oid": "6012def87bbee3d7f0c792ab"
   },
   "Ansprechpunkt": [
     {
@@ -331,6 +336,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E00F853D8DA9077DC1257D3A00308BE8",
   "Leistungsname": "Adoptionsvermittlung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E00F853D8DA9077DC1257D3A00308BE8",
@@ -343,12 +349,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee58c"
+    "$oid": "6012def87bbee3d7f0c792ad"
   },
   "Ansprechpunkt": [
     {
@@ -500,6 +506,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "93D71376DC85308BC1257D03004B796D",
   "Leistungsname": "Ärztliche Gutachten",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/93D71376DC85308BC1257D03004B796D",
@@ -514,12 +521,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee58e"
+    "$oid": "6012def87bbee3d7f0c792af"
   },
   "Ansprechpunkt": [
     {
@@ -560,6 +567,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "70419B35FC9473C1C1257D3A00351F57",
   "Leistungsname": "AIDS-Beratung und HIV-Test",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/70419B35FC9473C1C1257D3A00351F57",
@@ -574,12 +582,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee590"
+    "$oid": "6012def87bbee3d7f0c792b1"
   },
   "Ansprechpunkt": [
     {
@@ -896,6 +904,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9F57ABEC6D387087C125854500270AE6",
   "Leistungsname": "Allgemeiner Sozialer Dienst ASD Alpen / Sonsbeck / Xanten",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9F57ABEC6D387087C125854500270AE6",
@@ -908,12 +917,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee592"
+    "$oid": "6012def87bbee3d7f0c792b3"
   },
   "Ansprechpunkt": [
     {
@@ -1298,6 +1307,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8CA8993C52D69314C125854500342BC4",
   "Leistungsname": "Allgemeiner Sozialer Dienst ASD Hamminkeln / Hünxe / Schermbeck",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8CA8993C52D69314C125854500342BC4",
@@ -1310,12 +1320,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee594"
+    "$oid": "6012def87bbee3d7f0c792b5"
   },
   "Ansprechpunkt": [
     {
@@ -1534,6 +1544,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "38499CC87042C388C1258545003182AA",
   "Leistungsname": "Allgemeiner Sozialer Dienst ASD Neukirchen-Vluyn",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/38499CC87042C388C1258545003182AA",
@@ -1546,12 +1557,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee596"
+    "$oid": "6012def87bbee3d7f0c792b7"
   },
   "Ansprechpunkt": [
     {
@@ -1591,6 +1602,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "CE4BA6808E00FD3CC1257D0300469CF2",
   "Leistungsname": "Amtliche Basiskarte (ABK)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/CE4BA6808E00FD3CC1257D0300469CF2",
@@ -1604,12 +1616,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee598"
+    "$oid": "6012def87bbee3d7f0c792b9"
   },
   "Ansprechpunkt": [
     {
@@ -1687,6 +1699,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0985C43CC664D8EEC1257D8D004A2AE9",
   "Leistungsname": "Anlagen in und an Gewässern",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0985C43CC664D8EEC1257D8D004A2AE9",
@@ -1701,12 +1714,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee59a"
+    "$oid": "6012def87bbee3d7f0c792bb"
   },
   "Ansprechpunkt": [
     {
@@ -1741,6 +1754,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "A907FF2C7F2E9061C125814D003C9B9E",
   "Leistungsname": "Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/A907FF2C7F2E9061C125814D003C9B9E",
@@ -1754,12 +1768,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee59c"
+    "$oid": "6012def87bbee3d7f0c792bd"
   },
   "Ansprechpunkt": [
     {
@@ -1799,6 +1813,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "7F2A7C46FE818B83C1257D0A003FCB6A",
   "Leistungsname": "Apothekenbetriebserlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/7F2A7C46FE818B83C1257D0A003FCB6A",
@@ -1813,12 +1828,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee59e"
+    "$oid": "6012def87bbee3d7f0c792bf"
   },
   "Ansprechpunkt": [
     {
@@ -1896,6 +1911,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E72A98E8AB342337C1257D1200277EC4",
   "Leistungsname": "Artenschutz – Meldepflicht",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E72A98E8AB342337C1257D1200277EC4",
@@ -1908,12 +1924,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5a0"
+    "$oid": "6012def87bbee3d7f0c792c1"
   },
   "Ansprechpunkt": [
     {
@@ -1991,6 +2007,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0C5F9DBE250691CCC1257D0B0022A16B",
   "Leistungsname": "Artenschutzrechtliche Genehmigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0C5F9DBE250691CCC1257D0B0022A16B",
@@ -2005,16 +2022,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5a2"
+    "$oid": "6012def87bbee3d7f0c792c3"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "CAFDEE2C0504FF4DC1257D4E00488D67",
   "Leistungsname": "Aufenthaltserlaubnis zu Studienzwecken",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/CAFDEE2C0504FF4DC1257D4E00488D67",
@@ -2028,12 +2046,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5a4"
+    "$oid": "6012def87bbee3d7f0c792c5"
   },
   "Ansprechpunkt": [
     {
@@ -2074,6 +2092,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "2C39614A2BD5BA4CC1257D4F00271239",
   "Leistungsname": "Auszüge aus der Liegenschaftskarte",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/2C39614A2BD5BA4CC1257D4F00271239",
@@ -2087,12 +2106,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5a6"
+    "$oid": "6012def87bbee3d7f0c792c7"
   },
   "Ansprechpunkt": [
     {
@@ -2133,6 +2152,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "2B93BB278D108E32C1257D5100314320",
   "Leistungsname": "Auszug aus dem Liegenschaftsbuch",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/2B93BB278D108E32C1257D5100314320",
@@ -2147,16 +2167,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5a8"
+    "$oid": "6012def87bbee3d7f0c792c9"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "21832F82AAD707ADC1257D0200363372",
   "Leistungsname": "Baugenehmigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/21832F82AAD707ADC1257D0200363372",
@@ -2171,12 +2192,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5aa"
+    "$oid": "6012def87bbee3d7f0c792cb"
   },
   "Ansprechpunkt": [
     {
@@ -2327,6 +2348,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "7292FB9711957EBFC1257D0300486CE4",
   "Leistungsname": "Baulast – Eintragung und Auskunft",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/7292FB9711957EBFC1257D0300486CE4",
@@ -2341,12 +2363,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ac"
+    "$oid": "6012def87bbee3d7f0c792cd"
   },
   "Ansprechpunkt": [
     {
@@ -2569,6 +2591,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C4FE1234D0640632C1257D0A0047A1E5",
   "Leistungsname": "Baumfällung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C4FE1234D0640632C1257D0A0047A1E5",
@@ -2582,12 +2605,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ae"
+    "$oid": "6012def87bbee3d7f0c792cf"
   },
   "Ansprechpunkt": [
     {
@@ -2664,6 +2687,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9CA4EDDBE1B70854C1257D120023DF8B",
   "Leistungsname": "Bauvoranfrage",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9CA4EDDBE1B70854C1257D120023DF8B",
@@ -2677,12 +2701,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5b0"
+    "$oid": "6012def87bbee3d7f0c792d1"
   },
   "Ansprechpunkt": [
     {
@@ -2798,6 +2822,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "B88F6C8701963AA7C1257D9D00349B12",
   "Leistungsname": "BAföG - Leistungen nach dem Bundesausbildungsförderungsgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B88F6C8701963AA7C1257D9D00349B12",
@@ -2809,12 +2834,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5b2"
+    "$oid": "6012def87bbee3d7f0c792d3"
   },
   "Ansprechpunkt": [
     {
@@ -2854,6 +2879,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "42D2083180CDCB60C1257E590033CCF4",
   "Leistungsname": "Befreiung vom Bauverbot in Überschwemmungsgebieten",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/42D2083180CDCB60C1257E590033CCF4",
@@ -2867,12 +2893,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5b4"
+    "$oid": "6012def87bbee3d7f0c792d5"
   },
   "Ansprechpunkt": [
     {
@@ -2984,6 +3010,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BC202E847A3F54BEC1257D51002912E5",
   "Leistungsname": "Befreiung von der Helmpflicht oder Anschnallpflicht",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BC202E847A3F54BEC1257D51002912E5",
@@ -2998,12 +3025,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5b6"
+    "$oid": "6012def87bbee3d7f0c792d7"
   },
   "Ansprechpunkt": [
     {
@@ -3226,6 +3253,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "370E3DCC42DDD79BC1257D12002458DA",
   "Leistungsname": "Befreiungen nach dem Bundesnaturschutzgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/370E3DCC42DDD79BC1257D12002458DA",
@@ -3240,12 +3268,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5b8"
+    "$oid": "6012def87bbee3d7f0c792d9"
   },
   "Ansprechpunkt": [
     {
@@ -3397,6 +3425,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FEFF99CC57C12E48C1257D4E0055F26F",
   "Leistungsname": "Beistandschaften",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FEFF99CC57C12E48C1257D4E0055F26F",
@@ -3409,12 +3438,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ba"
+    "$oid": "6012def87bbee3d7f0c792db"
   },
   "Ansprechpunkt": [
     {
@@ -3492,6 +3521,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "89050CF7001C4C18C1257D4E00556755",
   "Leistungsname": "Beistandschaften - Beurkundungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/89050CF7001C4C18C1257D4E00556755",
@@ -3504,12 +3534,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5bc"
+    "$oid": "6012def87bbee3d7f0c792dd"
   },
   "Ansprechpunkt": [
     {
@@ -3624,6 +3654,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "5B6EEB98F9B47618C1257D4F0020C547",
   "Leistungsname": "Beistandschaften - Unterhaltsfragen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5B6EEB98F9B47618C1257D4F0020C547",
@@ -3637,12 +3668,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5be"
+    "$oid": "6012def87bbee3d7f0c792df"
   },
   "Ansprechpunkt": [
     {
@@ -3757,6 +3788,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "116880106151C30FC1257D4F0021D4DA",
   "Leistungsname": "Beistandschaften - Vaterschaft",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/116880106151C30FC1257D4F0021D4DA",
@@ -3770,12 +3802,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5c0"
+    "$oid": "6012def87bbee3d7f0c792e1"
   },
   "Ansprechpunkt": [
     {
@@ -3890,6 +3922,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "EA79C266A95D6500C1257D0A00489F17",
   "Leistungsname": "Belehrung für den Umgang mit Lebensmitteln (Gesundheitszeugnis)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EA79C266A95D6500C1257D0A00489F17",
@@ -3904,12 +3937,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5c2"
+    "$oid": "6012def87bbee3d7f0c792e3"
   },
   "Ansprechpunkt": [
     {
@@ -3945,6 +3978,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "AC16BC20CC84BD46C1257D12002190D0",
   "Leistungsname": "Beratung für Menschen mit psychischen Erkrankungen / Suchtberatung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AC16BC20CC84BD46C1257D12002190D0",
@@ -3957,12 +3991,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5c4"
+    "$oid": "6012def87bbee3d7f0c792e5"
   },
   "Ansprechpunkt": [
     {
@@ -4074,6 +4108,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0F2019AA36EB99F7C1257D51002046A9",
   "Leistungsname": "Beratung von Lebensmittelunternehmen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0F2019AA36EB99F7C1257D51002046A9",
@@ -4088,12 +4123,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5c6"
+    "$oid": "6012def87bbee3d7f0c792e7"
   },
   "Ansprechpunkt": [
     {
@@ -4171,6 +4206,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BAC7CB30A7BC0AA8C1257D8C0049D609",
   "Leistungsname": "Beratung zu sexuell übertragbaren Erkankungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BAC7CB30A7BC0AA8C1257D8C0049D609",
@@ -4184,12 +4220,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5c8"
+    "$oid": "6012def87bbee3d7f0c792e9"
   },
   "Ansprechpunkt": [
     {
@@ -4217,6 +4253,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "5BCCDD118D6B4532C1257D56001E50C8",
   "Leistungsname": "Bescheinigung zur unentgeltlichen Benutzung des öffentlichen Personennahverkehrs (ÖPNV) - Beiblatt mit Wertmarke",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5BCCDD118D6B4532C1257D56001E50C8",
@@ -4231,12 +4268,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ca"
+    "$oid": "6012def87bbee3d7f0c792eb"
   },
   "Ansprechpunkt": [
     {
@@ -4276,6 +4313,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "EB933AE8B6D80AA8C1257D4E00512908",
   "Leistungsname": "Bescheinigungen aus dem Liegenschaftskataster",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EB933AE8B6D80AA8C1257D4E00512908",
@@ -4288,16 +4326,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5cc"
+    "$oid": "6012def87bbee3d7f0c792ed"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "9E763EE90B2FF0E5C1257D57002D6FFE",
   "Leistungsname": "Besuchsaufenthalte - Verpflichtungserklärung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9E763EE90B2FF0E5C1257D57002D6FFE",
@@ -4312,12 +4351,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ce"
+    "$oid": "6012def87bbee3d7f0c792ef"
   },
   "Ansprechpunkt": [
     {
@@ -4644,6 +4683,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8E501905EA4BA0E9C1257D51002982D0",
   "Leistungsname": "Betreuungsrecht; Betreuungsstelle",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8E501905EA4BA0E9C1257D51002982D0",
@@ -4657,12 +4697,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5d0"
+    "$oid": "6012def87bbee3d7f0c792f1"
   },
   "Ansprechpunkt": [
     {
@@ -4738,6 +4778,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "11FCE5D7B0A9A5A6C125817E00445240",
   "Leistungsname": "Bewachungserlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/11FCE5D7B0A9A5A6C125817E00445240",
@@ -4750,12 +4791,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5d2"
+    "$oid": "6012def87bbee3d7f0c792f3"
   },
   "Ansprechpunkt": [
     {
@@ -4831,6 +4872,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "CFCDBC9E28F8094BC125817E0044DE59",
   "Leistungsname": "Bewachungspersonal",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/CFCDBC9E28F8094BC125817E0044DE59",
@@ -4842,12 +4884,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5d4"
+    "$oid": "6012def87bbee3d7f0c792f5"
   },
   "Ansprechpunkt": [
     {
@@ -4961,6 +5003,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C3255FEECFBD541DC1257D560040DE83",
   "Leistungsname": "BHV1",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C3255FEECFBD541DC1257D560040DE83",
@@ -4974,12 +5017,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5d6"
+    "$oid": "6012def87bbee3d7f0c792f7"
   },
   "Ansprechpunkt": [
     {
@@ -5055,6 +5098,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "AFA7433C86D22DC2C1257D510039F7C2",
   "Leistungsname": "Bienenvölker - Haltung und Anmeldung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AFA7433C86D22DC2C1257D510039F7C2",
@@ -5068,12 +5112,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5d8"
+    "$oid": "6012def87bbee3d7f0c792f9"
   },
   "Ansprechpunkt": [
     {
@@ -5221,6 +5265,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4F424F41689DAD63C1257D560033850D",
   "Leistungsname": "Dioxin/ PCB - Meldepflichten nach der Mitteilungs- und Übermittlungsverordnung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4F424F41689DAD63C1257D560033850D",
@@ -5234,12 +5279,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5da"
+    "$oid": "6012def87bbee3d7f0c792fb"
   },
   "Ansprechpunkt": [
     {
@@ -5354,6 +5399,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "911233A23CB011B0C1257D1C003F59F2",
   "Leistungsname": "Einbürgerung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/911233A23CB011B0C1257D1C003F59F2",
@@ -5367,12 +5413,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5dc"
+    "$oid": "6012def87bbee3d7f0c792fd"
   },
   "Ansprechpunkt": [
     {
@@ -5412,6 +5458,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "45FA12B11622709FC1257D1C00455C0F",
   "Leistungsname": "Einschulungsuntersuchung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/45FA12B11622709FC1257D1C00455C0F",
@@ -5425,16 +5472,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5de"
+    "$oid": "6012def87bbee3d7f0c792ff"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "8621F7E7B3E5ED66C1257D560041D2F5",
   "Leistungsname": "Elektronischer Aufenthaltstitel (eAT)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8621F7E7B3E5ED66C1257D560041D2F5",
@@ -5449,12 +5497,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5e0"
+    "$oid": "6012def87bbee3d7f0c79301"
   },
   "Ansprechpunkt": [
     {
@@ -5713,6 +5761,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "2F4F25A7C4C465A0C1257D4E002A87C5",
   "Leistungsname": "Elternbeiträge",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/2F4F25A7C4C465A0C1257D4E002A87C5",
@@ -5726,12 +5775,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5e2"
+    "$oid": "6012def87bbee3d7f0c79303"
   },
   "Ansprechpunkt": [
     {
@@ -6035,6 +6084,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "5385F57069241143C1257D560043AF2F",
   "Leistungsname": "Elterngeld",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5385F57069241143C1257D560043AF2F",
@@ -6048,12 +6098,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5e4"
+    "$oid": "6012def87bbee3d7f0c79305"
   },
   "Ansprechpunkt": [
     {
@@ -6131,6 +6181,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "40DBDA8A9B0F6C31C1257D89002D1A42",
   "Leistungsname": "Erfassung und Überwachung der nichtakademischen Heilberufe",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/40DBDA8A9B0F6C31C1257D89002D1A42",
@@ -6145,12 +6196,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5e6"
+    "$oid": "6012def87bbee3d7f0c79307"
   },
   "Ansprechpunkt": [
     {
@@ -6185,6 +6236,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4C791F607ECA3341C125814D004BFE55",
   "Leistungsname": "Erlaubnis zum Betrieb eines Prostitutionsgewerbes / Prostituiertenschutzgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4C791F607ECA3341C125814D004BFE55",
@@ -6198,12 +6250,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5e8"
+    "$oid": "6012def87bbee3d7f0c79309"
   },
   "Ansprechpunkt": [
     {
@@ -6243,6 +6295,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "174C9B2CD73C18A4C1257D51002B4A3A",
   "Leistungsname": "Erlaubnispflichtige Tätigkeiten nach § 11 Tierschutzgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/174C9B2CD73C18A4C1257D51002B4A3A",
@@ -6256,12 +6309,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ea"
+    "$oid": "6012def87bbee3d7f0c7930b"
   },
   "Ansprechpunkt": [
     {
@@ -6313,6 +6366,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9D6A3628979BE29BC1257D4E0031E354",
   "Leistungsname": "Fahrerkarte - Beschädigung oder Fehlfunktion",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9D6A3628979BE29BC1257D4E0031E354",
@@ -6327,12 +6381,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ec"
+    "$oid": "6012def87bbee3d7f0c7930d"
   },
   "Ansprechpunkt": [
     {
@@ -6384,6 +6438,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "A3099D5F071E4CE8C1257D2A004D21EE",
   "Leistungsname": "Fahrerkarte - Diebstahl oder Verlust",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/A3099D5F071E4CE8C1257D2A004D21EE",
@@ -6398,12 +6453,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5ee"
+    "$oid": "6012def87bbee3d7f0c7930f"
   },
   "Ansprechpunkt": [
     {
@@ -6455,6 +6510,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4FADD12C39C0587CC1257D2A004AB95D",
   "Leistungsname": "Fahrerkarte - Erteilung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4FADD12C39C0587CC1257D2A004AB95D",
@@ -6469,12 +6525,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5f0"
+    "$oid": "6012def87bbee3d7f0c79311"
   },
   "Ansprechpunkt": [
     {
@@ -6586,6 +6642,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "87B771A395C3502CC1257D51002D960E",
   "Leistungsname": "Fahrschule - Erlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/87B771A395C3502CC1257D51002D960E",
@@ -6600,12 +6657,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5f2"
+    "$oid": "6012def87bbee3d7f0c79313"
   },
   "Ansprechpunkt": [
     {
@@ -6717,6 +6774,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "2A01F62B76AE8D54C1257D4E0027E0CF",
   "Leistungsname": "Fahrschule - Fahrlehrerinnen und Fahrlehrer",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/2A01F62B76AE8D54C1257D4E0027E0CF",
@@ -6731,12 +6789,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5f4"
+    "$oid": "6012def87bbee3d7f0c79315"
   },
   "Ansprechpunkt": [
     {
@@ -6788,6 +6846,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "62EDBD78D999F734C1257D4F00494AAC",
   "Leistungsname": "Fahrzeug - 100 km/h Zulassung für Omnibusse",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/62EDBD78D999F734C1257D4F00494AAC",
@@ -6800,12 +6859,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5f6"
+    "$oid": "6012def87bbee3d7f0c79317"
   },
   "Ansprechpunkt": [
     {
@@ -6857,6 +6916,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "60357C3C5FC660BAC1257D02003334AF",
   "Leistungsname": "Fahrzeug - Abmeldung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/60357C3C5FC660BAC1257D02003334AF",
@@ -6871,12 +6931,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5f8"
+    "$oid": "6012def87bbee3d7f0c79319"
   },
   "Ansprechpunkt": [
     {
@@ -6928,6 +6988,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "37876B0DA1991E50C1257D2B002F7FA2",
   "Leistungsname": "Fahrzeug - Adressänderung und/oder Namensänderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/37876B0DA1991E50C1257D2B002F7FA2",
@@ -6942,12 +7003,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5fa"
+    "$oid": "6012def87bbee3d7f0c7931b"
   },
   "Ansprechpunkt": [
     {
@@ -6999,6 +7060,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "34A11A27F45214E9C1257D0B002DF422",
   "Leistungsname": "Fahrzeug - Ausfuhrkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/34A11A27F45214E9C1257D0B002DF422",
@@ -7013,12 +7075,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5fc"
+    "$oid": "6012def87bbee3d7f0c7931d"
   },
   "Ansprechpunkt": [
     {
@@ -7055,6 +7117,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "EDA3C976FD56BFE3C1258633004BE85F",
   "Leistungsname": "Fahrzeug - Ausnahmegenehmigung § 70 StVZO",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EDA3C976FD56BFE3C1258633004BE85F",
@@ -7068,12 +7131,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee5fe"
+    "$oid": "6012def87bbee3d7f0c7931f"
   },
   "Ansprechpunkt": [
     {
@@ -7125,6 +7188,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E55AB5C293BAF9F7C1257D18004950E0",
   "Leistungsname": "Fahrzeug - Diebstahl",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E55AB5C293BAF9F7C1257D18004950E0",
@@ -7139,12 +7203,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee600"
+    "$oid": "6012def87bbee3d7f0c79321"
   },
   "Ansprechpunkt": [
     {
@@ -7196,6 +7260,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "79D2B40B97F47847C1257D12002822F5",
   "Leistungsname": "Fahrzeug - Diebstahl oder Verlust des Fahrzeugbriefes/der Zulassungsbescheinigung Teil II",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/79D2B40B97F47847C1257D12002822F5",
@@ -7210,12 +7275,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee602"
+    "$oid": "6012def87bbee3d7f0c79323"
   },
   "Ansprechpunkt": [
     {
@@ -7267,6 +7332,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "12995DC328BED26AC1257D12003545B2",
   "Leistungsname": "Fahrzeug - Diebstahl oder Verlust des Fahrzeugscheines/der Zulassungsbescheinigung Teil I",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/12995DC328BED26AC1257D12003545B2",
@@ -7281,12 +7347,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee604"
+    "$oid": "6012def87bbee3d7f0c79325"
   },
   "Ansprechpunkt": [
     {
@@ -7338,6 +7404,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "3C56FA98F1567DEEC1257D1C00486C19",
   "Leistungsname": "Fahrzeug - erstmalige Zulassung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3C56FA98F1567DEEC1257D1C00486C19",
@@ -7352,12 +7419,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee606"
+    "$oid": "6012def87bbee3d7f0c79327"
   },
   "Ansprechpunkt": [
     {
@@ -7523,6 +7590,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "DB742FA31F137A1AC1257E68004506D1",
   "Leistungsname": "Fahrzeug - fehlender Versicherungsschutz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DB742FA31F137A1AC1257E68004506D1",
@@ -7536,12 +7604,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee608"
+    "$oid": "6012def87bbee3d7f0c79329"
   },
   "Ansprechpunkt": [
     {
@@ -7593,6 +7661,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "AAC5109B9CC72DFFC1257D02003BCC7A",
   "Leistungsname": "Fahrzeug - Halterauskunft",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AAC5109B9CC72DFFC1257D02003BCC7A",
@@ -7607,12 +7676,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee60a"
+    "$oid": "6012def87bbee3d7f0c7932b"
   },
   "Ansprechpunkt": [
     {
@@ -7664,6 +7733,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BA93F7938AF92EB8C1257CFD00416526",
   "Leistungsname": "Fahrzeug - Halterwechsel / Umschreibung innerhalb des Kreises Wesel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BA93F7938AF92EB8C1257CFD00416526",
@@ -7678,12 +7748,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee60c"
+    "$oid": "6012def87bbee3d7f0c7932d"
   },
   "Ansprechpunkt": [
     {
@@ -7735,6 +7805,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "B151DBD737E25240C1257D03004AB9A4",
   "Leistungsname": "Fahrzeug - Kennzeichenschild - defekt oder unlesbar",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B151DBD737E25240C1257D03004AB9A4",
@@ -7748,12 +7819,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee60e"
+    "$oid": "6012def87bbee3d7f0c7932f"
   },
   "Ansprechpunkt": [
     {
@@ -7805,6 +7876,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0950C46F2B3CA493C1257CFD0049A164",
   "Leistungsname": "Fahrzeug - Kennzeichenverlust oder Umkennzeichnung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0950C46F2B3CA493C1257CFD0049A164",
@@ -7819,12 +7891,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee610"
+    "$oid": "6012def87bbee3d7f0c79331"
   },
   "Ansprechpunkt": [
     {
@@ -7990,6 +8062,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "97E25EF219DBBCEFC1257F760048ACCD",
   "Leistungsname": "Fahrzeug - Kfz-Haftpflichtversicherung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/97E25EF219DBBCEFC1257F760048ACCD",
@@ -8003,16 +8076,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee612"
+    "$oid": "6012def87bbee3d7f0c79333"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "BA10EE5F9195C5D7C1257E68004A6A73",
   "Leistungsname": "Fahrzeug - Kfz-Steuer",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BA10EE5F9195C5D7C1257E68004A6A73",
@@ -8025,12 +8099,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee614"
+    "$oid": "6012def87bbee3d7f0c79335"
   },
   "Ansprechpunkt": [
     {
@@ -8082,6 +8156,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "D419A929571A9946C1257D020030AEBA",
   "Leistungsname": "Fahrzeug - Kurzzeitkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/D419A929571A9946C1257D020030AEBA",
@@ -8096,12 +8171,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee616"
+    "$oid": "6012def87bbee3d7f0c79337"
   },
   "Ansprechpunkt": [
     {
@@ -8153,6 +8228,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E6F28E8ACB9A51F2C1257CFD004A8B34",
   "Leistungsname": "Fahrzeug - Oldtimerkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E6F28E8ACB9A51F2C1257CFD004A8B34",
@@ -8167,12 +8243,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee618"
+    "$oid": "6012def87bbee3d7f0c79339"
   },
   "Ansprechpunkt": [
     {
@@ -8224,6 +8300,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "51B72202B3F3F2DDC1257DC70049166E",
   "Leistungsname": "Fahrzeug - Online-Außerbetriebsetzung mit i-Kfz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/51B72202B3F3F2DDC1257DC70049166E",
@@ -8237,12 +8314,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee61a"
+    "$oid": "6012def87bbee3d7f0c7933b"
   },
   "Ansprechpunkt": [
     {
@@ -8294,6 +8371,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4E000F6B70050D81C1257D3500546732",
   "Leistungsname": "Fahrzeug - Rote Dauerkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4E000F6B70050D81C1257D3500546732",
@@ -8308,12 +8386,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee61c"
+    "$oid": "6012def87bbee3d7f0c7933d"
   },
   "Ansprechpunkt": [
     {
@@ -8365,6 +8443,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "08EC668CBE6A2D6EC1257D2C00466A8D",
   "Leistungsname": "Fahrzeug - Saisonkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/08EC668CBE6A2D6EC1257D2C00466A8D",
@@ -8379,12 +8458,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee61e"
+    "$oid": "6012def87bbee3d7f0c7933f"
   },
   "Ansprechpunkt": [
     {
@@ -8436,6 +8515,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "6671C5D57033578FC1257D2C004D2AA6",
   "Leistungsname": "Fahrzeug - Technische Änderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/6671C5D57033578FC1257D2C004D2AA6",
@@ -8450,12 +8530,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee620"
+    "$oid": "6012def87bbee3d7f0c79341"
   },
   "Ansprechpunkt": [
     {
@@ -8621,6 +8701,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "B08135AED0C55C89C1257E68004C08A5",
   "Leistungsname": "Fahrzeug - Technische Mängel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B08135AED0C55C89C1257E68004C08A5",
@@ -8634,12 +8715,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee622"
+    "$oid": "6012def87bbee3d7f0c79343"
   },
   "Ansprechpunkt": [
     {
@@ -8691,6 +8772,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4B81B4790168DEFCC1257CFD0047E059",
   "Leistungsname": "Fahrzeug - Umschreibung aus einem anderen Zulassungsbezirk",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4B81B4790168DEFCC1257CFD0047E059",
@@ -8705,12 +8787,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee624"
+    "$oid": "6012def87bbee3d7f0c79345"
   },
   "Ansprechpunkt": [
     {
@@ -8762,6 +8844,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "F245CAF651572D86C1257D1C004755FE",
   "Leistungsname": "Fahrzeug - Verkaufsanzeige",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F245CAF651572D86C1257D1C004755FE",
@@ -8774,12 +8857,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee626"
+    "$oid": "6012def87bbee3d7f0c79347"
   },
   "Ansprechpunkt": [
     {
@@ -8831,6 +8914,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4AE3555A0D74EFCFC1257D2C004E75AE",
   "Leistungsname": "Fahrzeug - Wechselkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4AE3555A0D74EFCFC1257D2C004E75AE",
@@ -8845,12 +8929,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee628"
+    "$oid": "6012def87bbee3d7f0c79349"
   },
   "Ansprechpunkt": [
     {
@@ -8902,6 +8986,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "31CC2504BCDA8A0DC1257D350052A87C",
   "Leistungsname": "Fahrzeug - Wiederzulassung eines Fahrzeuges auf den gleichen Halter",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/31CC2504BCDA8A0DC1257D350052A87C",
@@ -8916,12 +9001,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee62a"
+    "$oid": "6012def87bbee3d7f0c7934b"
   },
   "Ansprechpunkt": [
     {
@@ -8973,6 +9058,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "85C32D54AABB6903C1257D3A00254778",
   "Leistungsname": "Fahrzeug - Zulassung auf Firmen oder Personenvereinigungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/85C32D54AABB6903C1257D3A00254778",
@@ -8987,12 +9073,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee62c"
+    "$oid": "6012def87bbee3d7f0c7934d"
   },
   "Ansprechpunkt": [
     {
@@ -9044,6 +9130,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4A5386D5EBCF66E9C1257D350053AAE3",
   "Leistungsname": "Fahrzeug - Zulassung aus einem Staat außerhalb der Europäischen Union",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4A5386D5EBCF66E9C1257D350053AAE3",
@@ -9058,12 +9145,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee62e"
+    "$oid": "6012def87bbee3d7f0c7934f"
   },
   "Ansprechpunkt": [
     {
@@ -9115,6 +9202,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "94CEC5AADD11C7D8C1257D2C0042E17F",
   "Leistungsname": "Fahrzeug - Zulassung aus einem Staat innerhalb der Europäischen Union",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/94CEC5AADD11C7D8C1257D2C0042E17F",
@@ -9129,12 +9217,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee630"
+    "$oid": "6012def87bbee3d7f0c79351"
   },
   "Ansprechpunkt": [
     {
@@ -9300,6 +9388,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "43379419F3EC7A5CC1257D880047D747",
   "Leistungsname": "Fahrzeug - Zwangsweise Außerbetriebsetzung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/43379419F3EC7A5CC1257D880047D747",
@@ -9314,12 +9403,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee632"
+    "$oid": "6012def87bbee3d7f0c79353"
   },
   "Ansprechpunkt": [
     {
@@ -9359,6 +9448,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E3A781DECC28BBFFC1257DCE00391282",
   "Leistungsname": "Fahrzeugförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E3A781DECC28BBFFC1257DCE00391282",
@@ -9366,18 +9456,19 @@
   "Fachinformationen": {
     "benoetigteUnterlagen": "<p>Das Antragsformular finden Sie im Anhang der \"Satzung Fahrzeugförderung\" unter Downloads.</p>",
     "Besonderheiten": "<p>Die Mittel werden diskriminierungsfrei an die Verkehrsunternehmen weitergegeben, die im Gebiet des Kreises Wesel Linienverkehrsleistungen im <abbr title=\"Öffentlicher Personennahverkehr\">ÖPNV</abbr> erbringen. Beachten Sie bitte, dass eventuell auch die Möglichkeit besteht, bei weiteren Aufgabenträgern Anträge zu stellen, in deren Gebieten Sie fahren.</p>",
+    "Bearbeitungszeit": "<p>Anträge auf Fahrzeugförderung sind jeweils bis zum 31.03. des Förderjahres zu stellen. Bitte haben Sie Verständnis dafür, dass nach diesem Termin eingehende Anträge für das laufende Jahr nicht mehr berücksichtigt werden können.</p>",
     "LinkZuFachinformationen": {
       "VerweisURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E3A781DECC28BBFFC1257DCE00391282",
       "Verweisbeschreibung": "Hyperlink zu Fachinformationen vor Ort. "
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee634"
+    "$oid": "6012def87bbee3d7f0c79355"
   },
   "Ansprechpunkt": [
     {
@@ -9429,6 +9520,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "5B86990645933690C1257D39003E17D6",
   "Leistungsname": "Feinstaubplakette",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5B86990645933690C1257D39003E17D6",
@@ -9443,12 +9535,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee636"
+    "$oid": "6012def87bbee3d7f0c79357"
   },
   "Ansprechpunkt": [
     {
@@ -9488,6 +9580,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8948ED1035B98635C1257D4E00547087",
   "Leistungsname": "Fischerprüfung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8948ED1035B98635C1257D4E00547087",
@@ -9501,12 +9594,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee638"
+    "$oid": "6012def87bbee3d7f0c79359"
   },
   "Ansprechpunkt": [
     {
@@ -9649,6 +9742,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E60EA7418C58F032C1257CEC00479512",
   "Leistungsname": "Fleisch verarbeitende Betriebe",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E60EA7418C58F032C1257CEC00479512",
@@ -9663,12 +9757,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee63a"
+    "$oid": "6012def87bbee3d7f0c7935b"
   },
   "Ansprechpunkt": [
     {
@@ -9775,6 +9869,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8DC53788FF540127C1257CEC00467B84",
   "Leistungsname": "Fleischhygieneuntersuchung, Schlachttieruntersuchung, Fleischuntersuchung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8DC53788FF540127C1257CEC00467B84",
@@ -9788,12 +9883,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee63c"
+    "$oid": "6012def87bbee3d7f0c7935d"
   },
   "Ansprechpunkt": [
     {
@@ -9977,6 +10072,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FA4E4A52A7775FC9C1257D18004EFB82",
   "Leistungsname": "Fluoridierung in Grund- und Förderschulen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FA4E4A52A7775FC9C1257D18004EFB82",
@@ -9989,12 +10085,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee63e"
+    "$oid": "6012def87bbee3d7f0c7935f"
   },
   "Ansprechpunkt": [
     {
@@ -10034,6 +10130,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4E819D02B24AD287C1257D1200234F37",
   "Leistungsname": "Fortführungsmitteilungen und Auflassungsschriften",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4E819D02B24AD287C1257D1200234F37",
@@ -10047,12 +10144,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee640"
+    "$oid": "6012def87bbee3d7f0c79361"
   },
   "Ansprechpunkt": [
     {
@@ -10104,6 +10201,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "25E905ABA8AFD6EEC1257D35004FBC02",
   "Leistungsname": "Führerschein - Änderung von Personendaten oder Auflagen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/25E905ABA8AFD6EEC1257D35004FBC02",
@@ -10118,12 +10216,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee642"
+    "$oid": "6012def87bbee3d7f0c79363"
   },
   "Ansprechpunkt": [
     {
@@ -10175,6 +10273,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "AB208464C6B25950C1257D95003FE74B",
   "Leistungsname": "Führerschein - Begleitetes Fahren ab 17 Jahren",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AB208464C6B25950C1257D95003FE74B",
@@ -10189,12 +10288,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee644"
+    "$oid": "6012def87bbee3d7f0c79365"
   },
   "Ansprechpunkt": [
     {
@@ -10246,6 +10345,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BB6A00D3EA4B28E1C1257D4F0040AA72",
   "Leistungsname": "Führerschein - Berufskraftfahrerqualifizierung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BB6A00D3EA4B28E1C1257D4F0040AA72",
@@ -10260,12 +10360,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee646"
+    "$oid": "6012def87bbee3d7f0c79367"
   },
   "Ansprechpunkt": [
     {
@@ -10317,6 +10417,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "530CC45F57DCB65DC1257D0A004A41AD",
   "Leistungsname": "Führerschein - eine ausländische Fahrerlaubnis umschreiben",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/530CC45F57DCB65DC1257D0A004A41AD",
@@ -10331,12 +10432,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee648"
+    "$oid": "6012def87bbee3d7f0c79369"
   },
   "Ansprechpunkt": [
     {
@@ -10388,6 +10489,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FDAC1BCB466E3738C1257D1C0045F249",
   "Leistungsname": "Führerschein - Erstmalige Erteilung oder Erweiterung einer Fahrerlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FDAC1BCB466E3738C1257D1C0045F249",
@@ -10402,16 +10504,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee64a"
+    "$oid": "6012def87bbee3d7f0c7936b"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "E5B1C9B2A98B6BA2C1258194004C6BA2",
   "Leistungsname": "Führerschein - Erteilung einer Fahrerlaubnis vor Erreichen des Mindestalters",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E5B1C9B2A98B6BA2C1258194004C6BA2",
@@ -10420,18 +10523,19 @@
     "Gebuehrenrahmen": "<ul><li>je nach Sachverhalt zwischen 89,00 und 154,00 Euro (zuzüglich den externen Kosten für ein medizinisch-psychologisches Gutachten)</li></ul>",
     "benoetigteUnterlagen": "<ul><li>Formloser schriftlicher Antrag mit ausführlicher Begründung</li><li>Einverständniserklärung der Erziehungsberechtigten zu dem Antrag</li></ul><p>In den Fällen, in denen die Ausnahmegenehmigung für Fahrten zum Ausbildungsplatz oder der (Berufs-)Schule benötigt wird:</p><ul><li>eine Kopie des Ausbildungsvertrages sowie</li><li>eine Bescheinigung des Arbeitgebers und/oder der Berufsschule über die genauen Ausbildungs- <abbr title=\"beziehungsweise\">bzw.</abbr> Unterrichtszeiten.</li><li>In besonderen Fällen muss diese Bescheinigung zusätzlich eine Bestätigung enthalten, dass dem Jugendlichen keine Unterkunft zur Verfügung gestellt wird (<abbr title=\"zum Beispiel\">z. B.</abbr> Ausbildung im Hotel- und Gaststättengewerbe oder bei Blockunterricht in einer Berufsschule).</li></ul><p>In den Fällen, in denen die Ausnahmegenehmigung für die Teilnahme am Spitzensport benötigt wird:</p><ul><li>eine Bescheinigung des zuständigen Sportverbandes, dass der/die Antragsteller/in in einen olympischen oder nationalen</li><li>Auswahlkader berufen ist sowie</li><li>eine Bescheinigung des zuständigen oder betreuenden Sportverbandes oder Vereins, über die genauen Trainingszeiten und Orte</li></ul><p>Je nach Einzelfall können noch weitere Nachweise erforderlich sein.</p>",
     "Besonderheiten": "<p>Die Erteilung einer Ausnahmegenehmigung von den Vorschriften über das Mindestalter setzt voraus, dass der dargelegte Sachverhalt einen Einzelfall von besonderer Bedeutung definiert und sich hieraus keine Rechtsansprüche für andere, anscheinend gleichgelagerte Fälle ableiten lassen. Die Ablehnung der beantragten Ausnahmegenehmigung muss zudem zu einer besonderen unzumutbaren Härte führen. Dies wäre regelmäßig nur bei Vorliegen der folgenden Umstände der Fall:</p><ol><li>Die Benutzung eines altersgerechten Kraftfahrzeuges (Leichtkraftrad, vierrädriges <abbr title=\"Kraftfahrzeug\">Kfz</abbr> (Quad), vierrädriges Leichtfahrzeug <abbr title=\"und ähnliches\">u. ä.</abbr>) ist dem/der Antragsteller/in aus nachvollziehbaren tatsächlichen Gründen nicht zumutbar oder die zurückzulegende Wegstrecke je Fahrt beträgt mehr als 50 Kilometer. Unzumutbar wird die Benutzung im Übrigen nicht allein dadurch, dass man auf einem motorisierten Zweirad der Witterung ausgesetzt ist oder die Benutzung statistisch gesehen gefährlicher ist als die Benutzung eines geschlossenen Fahrzeuges.<ul><li>Beginnend mit dem 15. Geburtstag kann man eine Prüfbescheinigung für Mofas erwerben. Hierunter fallen neben den einsitzigen &quot;Fahrrädern mit Hilfsmotor&quot; auch zwei- oder dreirädrige Kleinkrafträder der Klasse L1e, die auf eine Höchstgeschwindigkeit von 25 <abbr title=\"Kilometer pro Stunde\">km/h</abbr> beschränkt sind.</li><li>Ab dem 16. Geburtstag stehen dann die Fahrerlaubnisklassen AM und A1 offen, unter die zum einen die zwei- und dreirädrigen Kleinkrafträder, sowie die vierrädrigen Leichtkraftfahrzeuge mit einem Hubraum von höchstens 50 <abbr title=\"Kubikzentimeter\">ccm</abbr> <abbr title=\"beziehungsweise\">bzw.</abbr> 4 <abbr title=\"Kilowatt\">KW</abbr> Motorleistung bei Elektrofahrzeugen und mit einer Höchstgeschwindigkeit von 45 <abbr>km/h</abbr> fallen. Zum anderen handelt es sich um die zweirädrigen Krafträder mit maximal 125 <abbr title=\"Kubikzentimeter\">ccm</abbr> Hubraum und 11KW Leistung sowie die dreirädrigen Kraftfahrzeuge mit maximal 15 <abbr>KW</abbr> Leistung.</li></ul></li><li>Unter der Voraussetzung zu 1 sind für die zurückzulegende Wegstrecke - jeweils für Hin- und Rückfahrt - bei Benutzung des öffentlichen Personennahverkehrs, deutlich mehr als 1 1/2 Stunden zu veranschlagen. Dies gilt auch, wenn die zumutbaren Zeiten z. B. nur unter Einbeziehung eines altersgerechten Fahrzeuges für Fahrten zum Bahnhof/Busbahnhof wegen der abgelegenen Wohnlage eingehalten werden können</li><li>Unter Berücksichtigung der Punkte 1 und 2 kommen auch Fahrgemeinschaften nicht in Betracht. In der Regel sollten Mitfahrgelegenheiten bei Nachbarn, Freunden und Bekannten möglich sein, die dann ggf. zwar nicht am Ort der schulischen, beruflichen oder sportlichen Ausbildung enden, aber doch <abbr title=\"eventuell\">evtl.</abbr> an Knotenpunkten des öffentlichen Nahverkehrs.</li><li>Die Problematik des Erreichens der schulischen, beruflichen oder sportlichen Ausbildungsstätte ist in der Regel schon frühzeitig bekannt. Welche Lösungsstrategien wurden hierzu entwickelt und warum greifen diese jetzt nicht (mehr)?</li><li>Die persönliche Situation (ohne wirtschaftliche Gesichtspunkte) des Antragstellers bedarf im Vergleich zu gleichgelagerten Fällen und unter Beachtung der vorgenannten Punkte einer besonderen Berücksichtigung und die Versagung würde zu einer unzumutbaren Härte im Einzelfall führen.</li></ol><p>Alle diese Sachverhalte sind <abbr title=\"gegebenenfalls\">ggf.</abbr> ausführlich zu begründen und notwendige Fahrzeiten sowie sonstige vorgebrachte Tatsachen sind ausreichend nachzuweisen. Bevor letztlich eine Ausnahmegenehmigung erteilt werden kann, müssen alle anderen alternativen Möglichkeiten aus nachvollziehbaren Gründen ausscheiden.</p><p>Unabhängig von den vorerwähnten Voraussetzungen und Nachweisen, ist in einer medizinisch-psychologischen-Untersuchung (MPU) zu klären, ob der/die Antragsteller/in trotz des noch nicht erreichten Mindestalters geeignet ist, ein Kraftfahrzeug sicher alleine im Straßenverkehr zu führen. Diese Begutachtung ist bei vorzeitigen Erteilungen gesetzlich vorgeschrieben und wird auch durch das „Fahren ab 17&quot; nicht berührt.</p><p>Die Antragstellung ist schriftlich oder per Mailanhang möglich.</p><p>Antragsteller mit rechtsrheinischem Wohnsitz wenden sich bitte an den Zulassungs- und Führerscheinservice in Wesel, Reeser Landstr. 31, 46483 Wesel, dlz-wesel@kreis-wesel.de</p><p>Linksrheinische Antragsteller wenden sich bitte an das Dienstleistungszentrum Moers, Mühlenstr. 15, 47441 Moers, dlz-moers@kreis-wesel.de</p>",
+    "Bearbeitungszeit": "Je nach Einzelfall bis zu 6 Wochen</br><p>Die Erteilung einer Ausnahmegenehmigung ist frühestens mit 17 Jahren möglich. Der Antrag kann frühestens 6 Monate vor Vollendung des 17. Lebensjahres gestellt werden.</p>",
     "LinkZuFachinformationen": {
       "VerweisURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E5B1C9B2A98B6BA2C1258194004C6BA2",
       "Verweisbeschreibung": "Hyperlink zu Fachinformationen vor Ort. "
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee64c"
+    "$oid": "6012def87bbee3d7f0c7936d"
   },
   "Ansprechpunkt": [
     {
@@ -10483,6 +10587,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C992AC0BD81DA22EC1258633004DB505",
   "Leistungsname": "Führerschein - Fahrerlaubnis Klasse B mit der Schlüsselzahl 96 und 196",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C992AC0BD81DA22EC1258633004DB505",
@@ -10497,12 +10602,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee64e"
+    "$oid": "6012def87bbee3d7f0c7936f"
   },
   "Ansprechpunkt": [
     {
@@ -10554,6 +10659,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "6878C1815B107B54C1257D4E0026BEF1",
   "Leistungsname": "Führerschein - Fahrgastbeförderung - Ersterteilung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/6878C1815B107B54C1257D4E0026BEF1",
@@ -10568,12 +10674,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee650"
+    "$oid": "6012def87bbee3d7f0c79371"
   },
   "Ansprechpunkt": [
     {
@@ -10625,6 +10731,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "38213F4F169BC23AC1257D0200386F42",
   "Leistungsname": "Führerschein - International",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/38213F4F169BC23AC1257D0200386F42",
@@ -10639,12 +10746,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee652"
+    "$oid": "6012def87bbee3d7f0c79373"
   },
   "Ansprechpunkt": [
     {
@@ -10913,6 +11020,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "DC4B72569B33F214C1257D90004C1599",
   "Leistungsname": "Führerschein - Neuerteilung der Fahrerlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DC4B72569B33F214C1257D90004C1599",
@@ -10927,12 +11035,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee654"
+    "$oid": "6012def87bbee3d7f0c79375"
   },
   "Ansprechpunkt": [
     {
@@ -11044,6 +11152,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "46A0CF59965E20FCC1257D8500485D8E",
   "Leistungsname": "Führerschein - Ortskenntnisprüfung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/46A0CF59965E20FCC1257D8500485D8E",
@@ -11058,12 +11167,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee656"
+    "$oid": "6012def87bbee3d7f0c79377"
   },
   "Ansprechpunkt": [
     {
@@ -11115,6 +11224,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "78E0F78B93D6AE42C1257D020039B50F",
   "Leistungsname": "Führerschein - Umtausch gegen neuen EU-Führerschein",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/78E0F78B93D6AE42C1257D020039B50F",
@@ -11129,12 +11239,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee658"
+    "$oid": "6012def87bbee3d7f0c79379"
   },
   "Ansprechpunkt": [
     {
@@ -11186,6 +11296,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "F54E3223B0E1FFF0C1257D1E004D808C",
   "Leistungsname": "Führerschein - Verlängerung der Fahrerlaubnis / Fahrerlaubnis zur Fahrgastbeförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F54E3223B0E1FFF0C1257D1E004D808C",
@@ -11200,12 +11311,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee65a"
+    "$oid": "6012def87bbee3d7f0c7937b"
   },
   "Ansprechpunkt": [
     {
@@ -11257,6 +11368,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "37006CFDE3145517C1257CFD0051B2BC",
   "Leistungsname": "Führerschein - Verlust oder Diebstahl",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/37006CFDE3145517C1257CFD0051B2BC",
@@ -11271,12 +11383,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee65c"
+    "$oid": "6012def87bbee3d7f0c7937d"
   },
   "Ansprechpunkt": [
     {
@@ -11388,6 +11500,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "1829CFAD9AC4482FC1257D5700208A49",
   "Leistungsname": "Futtermittel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1829CFAD9AC4482FC1257D5700208A49",
@@ -11401,12 +11514,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee65e"
+    "$oid": "6012def87bbee3d7f0c7937f"
   },
   "Ansprechpunkt": [
     {
@@ -11446,6 +11559,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8EDC3A5253894C7FC1257D3900408E27",
   "Leistungsname": "Gebäudeeinmessungspflicht",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8EDC3A5253894C7FC1257D3900408E27",
@@ -11459,12 +11573,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee660"
+    "$oid": "6012def87bbee3d7f0c79381"
   },
   "Ansprechpunkt": [
     {
@@ -11687,6 +11801,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "41E401BD74196677C1257D85004A7138",
   "Leistungsname": "Genehmigungen nach Naturschutzrecht",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/41E401BD74196677C1257D85004A7138",
@@ -11700,12 +11815,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee662"
+    "$oid": "6012def87bbee3d7f0c79383"
   },
   "Ansprechpunkt": [
     {
@@ -11745,6 +11860,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FFC57EA224C6B0D8C1257D4E0050544F",
   "Leistungsname": "Georeferenzen, Hauskoordinaten, Hausumringe",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FFC57EA224C6B0D8C1257D4E0050544F",
@@ -11758,12 +11874,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee664"
+    "$oid": "6012def87bbee3d7f0c79385"
   },
   "Ansprechpunkt": [
     {
@@ -11798,6 +11914,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "933456BB13158F9AC125814500407A5A",
   "Leistungsname": "Gesundheitliche Beratung gemäß Paragraph 10 Prostituiertenschutzgesetz (ProstSchG)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/933456BB13158F9AC125814500407A5A",
@@ -11812,16 +11929,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee666"
+    "$oid": "6012def87bbee3d7f0c79387"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "903C9A43FD6DF5AAC1257E590032551C",
   "Leistungsname": "Gewässerausbau",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/903C9A43FD6DF5AAC1257E590032551C",
@@ -11835,12 +11953,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee668"
+    "$oid": "6012def87bbee3d7f0c79389"
   },
   "Ansprechpunkt": [
     {
@@ -11880,6 +11998,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C54250F56C63797AC1257D94003ED918",
   "Leistungsname": "Grenzniederschriften, Protokolle, Urkunden",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C54250F56C63797AC1257D94003ED918",
@@ -11894,12 +12013,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee66a"
+    "$oid": "6012def87bbee3d7f0c7938b"
   },
   "Ansprechpunkt": [
     {
@@ -12011,6 +12130,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "56A667003AB42CADC1257D2700380BC2",
   "Leistungsname": "Handwerkerparkausweis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/56A667003AB42CADC1257D2700380BC2",
@@ -12025,12 +12145,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee66c"
+    "$oid": "6012def87bbee3d7f0c7938d"
   },
   "Ansprechpunkt": [
     {
@@ -12296,6 +12416,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8414E7919A57C602C1257D4F0034F843",
   "Leistungsname": "Hygieneüberwachung in Betrieben",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8414E7919A57C602C1257D4F0034F843",
@@ -12309,12 +12430,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee66e"
+    "$oid": "6012def87bbee3d7f0c7938f"
   },
   "Ansprechpunkt": [
     {
@@ -12390,6 +12511,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "2F7483404E57B2A2C1257D2300404170",
   "Leistungsname": "Impfberatung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/2F7483404E57B2A2C1257D2300404170",
@@ -12403,12 +12525,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee670"
+    "$oid": "6012def87bbee3d7f0c79391"
   },
   "Ansprechpunkt": [
     {
@@ -12486,6 +12608,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "F5DBABCF5C8B3AA5C1257D4F00395695",
   "Leistungsname": "Indirekteinleitung - Einleiten von Abwasser in die öffentliche Kanalisation",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F5DBABCF5C8B3AA5C1257D4F00395695",
@@ -12500,12 +12623,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee672"
+    "$oid": "6012def87bbee3d7f0c79393"
   },
   "Ansprechpunkt": [
     {
@@ -12808,6 +12931,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "7264876422D7EDEBC1257D4F0030C3C4",
   "Leistungsname": "Infektionskrankheiten - Meldung, Information und Beratung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/7264876422D7EDEBC1257D4F0030C3C4",
@@ -12821,16 +12945,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee674"
+    "$oid": "6012def87bbee3d7f0c79395"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "E37FB1C3005134AEC1257D51002E2FBE",
   "Leistungsname": "Integrationskurse / Sprachförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E37FB1C3005134AEC1257D51002E2FBE",
@@ -12844,12 +12969,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee676"
+    "$oid": "6012def87bbee3d7f0c79397"
   },
   "Ansprechpunkt": [
     {
@@ -12961,6 +13086,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "919EA798B1326BD9C1257D4F0048845B",
   "Leistungsname": "Jägerprüfung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/919EA798B1326BD9C1257D4F0048845B",
@@ -12969,18 +13095,19 @@
     "Gebuehrenrahmen": "<ul><li>Die Prüfungs- und Zulassungsgebühr beträgt zur Zeit 250 <abbr title=\"Euro\">€</abbr></li><li>Bei der Nachprüfung richtet sich die Gebühr danach, wie viele Prüfungsteile erneut abzulegen sind, <abbr title=\"das  heißt\">d.h.</abbr><ul><li>entweder 110 <abbr>€</abbr> (1 Prüfungsteil)</li><li>oder 190 <abbr>€</abbr> (2 Prüfungsteile)</li></ul></li></ul>",
     "benoetigteUnterlagen": "<ul><li>Anmeldeformulare können bei der Unteren Jagdbehörde angefordert oder unter Downloads abgerufen werden.</li><li>Nachweis der Landesvereinigung der Jäger oder einer ihrer satzungsgemäßen Untergliederungen über die sichere Handhabung und das    Schießen mit einer Kurzwaffe mit einem Mindestkaliber von 9 Millimetern (Nachweis darf nicht älter als ein Jahr sein).</li><li>Nachweis über die Teilnahme an einer vom zuständigen Veterinäramt anerkannten Schulung zur Kundigen Person.</li><li>Führungszeugnis (nicht älter als 6 Monate).</li></ul>",
     "Besonderheiten": "<p>Auf den Vorbereitungslehrgang der Kreisjägerschaft Wesel <abbr title=\"eingetragener Verein\">e.V.</abbr> wird verwiesen.</p><p>Die Falknerprüfung wird landesweit zentral über das Landesamt für Naturschutz, Umwelt und Verbraucherschutz (<abbr title=\"Landesamt für Natur, Umwelt und Verbraucherschutz\">LANUV</abbr>) in Essen angeboten. Weitere Informationen zu dieser Prüfung erhalten Sie über den unten eingefügten Link.</p>",
+    "Bearbeitungszeit": "<p>Anträge auf Zulassung zur Jägerprüfung sind spätestens 2 Monate vor dem Termin für den schriftlichen Teil der Prüfung beim Kreis Wesel, Untere Jagdbehörde, einzureichen.</p>",
     "LinkZuFachinformationen": {
       "VerweisURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/919EA798B1326BD9C1257D4F0048845B",
       "Verweisbeschreibung": "Hyperlink zu Fachinformationen vor Ort. "
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee678"
+    "$oid": "6012def87bbee3d7f0c79399"
   },
   "Ansprechpunkt": [
     {
@@ -13009,6 +13136,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "B04EDE3CB0CB8153C1257EA1001FBFBF",
   "Leistungsname": "KITA ONLINE",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B04EDE3CB0CB8153C1257EA1001FBFBF",
@@ -13021,12 +13149,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee67a"
+    "$oid": "6012def87bbee3d7f0c7939b"
   },
   "Ansprechpunkt": [
     {
@@ -13102,6 +13230,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "35D8A82F96BEFEFFC1257D4E00290A2F",
   "Leistungsname": "Kopfbaumpflege",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/35D8A82F96BEFEFFC1257D4E00290A2F",
@@ -13115,12 +13244,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee67c"
+    "$oid": "6012def87bbee3d7f0c7939d"
   },
   "Ansprechpunkt": [
     {
@@ -13265,6 +13394,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "20C824AD7CBF243FC1257D4F002F0CA2",
   "Leistungsname": "Krankentransport",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/20C824AD7CBF243FC1257D4F002F0CA2",
@@ -13278,12 +13408,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee67e"
+    "$oid": "6012def87bbee3d7f0c7939f"
   },
   "Ansprechpunkt": [
     {
@@ -13357,6 +13487,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0DAB1D05A0DA966DC1257D51003739FD",
   "Leistungsname": "Maklererlaubnisse nach § 34 c der Gewerbeordnung (GewO)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0DAB1D05A0DA966DC1257D51003739FD",
@@ -13371,12 +13502,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee680"
+    "$oid": "6012def87bbee3d7f0c793a1"
   },
   "Ansprechpunkt": [
     {
@@ -13452,6 +13583,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "EEC4483966F70785C1257D5100396626",
   "Leistungsname": "Meldung einer Tierhaltung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EEC4483966F70785C1257D5100396626",
@@ -13465,16 +13597,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee682"
+    "$oid": "6012def87bbee3d7f0c793a3"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "1DF05D0850CF900FC1257D8C0042B8B9",
   "Leistungsname": "Migration",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1DF05D0850CF900FC1257D8C0042B8B9",
@@ -13489,12 +13622,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee684"
+    "$oid": "6012def87bbee3d7f0c793a5"
   },
   "Ansprechpunkt": [
     {
@@ -13570,6 +13703,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "01E156406CF91547C1257D1200258A20",
   "Leistungsname": "Mitführen von Betäubungsmitteln",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/01E156406CF91547C1257D1200258A20",
@@ -13584,12 +13718,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee686"
+    "$oid": "6012def87bbee3d7f0c793a7"
   },
   "Ansprechpunkt": [
     {
@@ -13629,6 +13763,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BB4573946A898CC8C1257D51003A5909",
   "Leistungsname": "Nachweise des Katasterzahlenwerkes",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BB4573946A898CC8C1257D51003A5909",
@@ -13642,12 +13777,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee688"
+    "$oid": "6012def87bbee3d7f0c793a9"
   },
   "Ansprechpunkt": [
     {
@@ -13688,6 +13823,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "F2CB99C42611FD89C1257D5600424C78",
   "Leistungsname": "Namensänderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F2CB99C42611FD89C1257D5600424C78",
@@ -13702,12 +13838,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee68a"
+    "$oid": "6012def87bbee3d7f0c793ab"
   },
   "Ansprechpunkt": [
     {
@@ -13747,6 +13883,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "460483FFAABD1FB9C1257D4E0033CCD6",
   "Leistungsname": "Nichtakademische Heilberufe - Berufsanerkennung bei einer im Ausland erworbenen Ausbildung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/460483FFAABD1FB9C1257D4E0033CCD6",
@@ -13761,12 +13898,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee68c"
+    "$oid": "6012def87bbee3d7f0c793ad"
   },
   "Ansprechpunkt": [
     {
@@ -13806,6 +13943,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9021491B51233148C1257DCE0037CDE2",
   "Leistungsname": "Öffentlicher Personennahverkehr",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9021491B51233148C1257DCE0037CDE2",
@@ -13819,12 +13957,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee68e"
+    "$oid": "6012def87bbee3d7f0c793af"
   },
   "Ansprechpunkt": [
     {
@@ -13936,6 +14074,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9193BE1F8D5AA031C1257D51003A9AAB",
   "Leistungsname": "Parkerleichterungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9193BE1F8D5AA031C1257D51003A9AAB",
@@ -13949,12 +14088,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee690"
+    "$oid": "6012def87bbee3d7f0c793b1"
   },
   "Ansprechpunkt": [
     {
@@ -14031,6 +14170,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "3A6005D975928762C1257D55001CC679",
   "Leistungsname": "Pflegewohngeld",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3A6005D975928762C1257D55001CC679",
@@ -14044,12 +14184,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee692"
+    "$oid": "6012def87bbee3d7f0c793b3"
   },
   "Ansprechpunkt": [
     {
@@ -14161,6 +14301,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "35D6F2DDD285921AC1257D2C0047888C",
   "Leistungsname": "Reisen mit Tieren - Gesundheitsbescheinigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/35D6F2DDD285921AC1257D2C0047888C",
@@ -14175,12 +14316,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee694"
+    "$oid": "6012def87bbee3d7f0c793b5"
   },
   "Ansprechpunkt": [
     {
@@ -14281,6 +14422,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E4711CB48C5338A6C1257D550021AC54",
   "Leistungsname": "Reitkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E4711CB48C5338A6C1257D550021AC54",
@@ -14295,12 +14437,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee696"
+    "$oid": "6012def87bbee3d7f0c793b7"
   },
   "Ansprechpunkt": [
     {
@@ -14378,6 +14520,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "5A822CA386A98396C1257D5500248A54",
   "Leistungsname": "SchokoTicket",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5A822CA386A98396C1257D5500248A54",
@@ -14392,12 +14535,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee698"
+    "$oid": "6012def87bbee3d7f0c793b9"
   },
   "Ansprechpunkt": [
     {
@@ -14470,6 +14613,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9583C2DE784118F0C1257D5500256523",
   "Leistungsname": "Schornsteinfegerwesen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9583C2DE784118F0C1257D5500256523",
@@ -14482,12 +14626,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee69a"
+    "$oid": "6012def87bbee3d7f0c793bb"
   },
   "Ansprechpunkt": [
     {
@@ -14565,6 +14709,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "23661ABD28B20839C1257D550027A1E5",
   "Leistungsname": "Schülerfahrkosten",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/23661ABD28B20839C1257D550027A1E5",
@@ -14577,12 +14722,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee69c"
+    "$oid": "6012def87bbee3d7f0c793bd"
   },
   "Ansprechpunkt": [
     {
@@ -14610,6 +14755,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E006EE5C2EED1C1DC1257D570022F4F9",
   "Leistungsname": "Schwerbehindertenausweis - Änderungsantrag",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E006EE5C2EED1C1DC1257D570022F4F9",
@@ -14623,12 +14769,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee69e"
+    "$oid": "6012def87bbee3d7f0c793bf"
   },
   "Ansprechpunkt": [
     {
@@ -14656,6 +14802,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "30B83F8F4F17BBACC1257D5700238828",
   "Leistungsname": "Schwerbehindertenausweis - Verlängerung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/30B83F8F4F17BBACC1257D5700238828",
@@ -14668,12 +14815,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6a0"
+    "$oid": "6012def87bbee3d7f0c793c1"
   },
   "Ansprechpunkt": [
     {
@@ -14701,6 +14848,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "3FCC54D5334A1F62C1257D570029AF2B",
   "Leistungsname": "Schwerbehindertenausweis - Verlust",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3FCC54D5334A1F62C1257D570029AF2B",
@@ -14713,12 +14861,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6a2"
+    "$oid": "6012def87bbee3d7f0c793c3"
   },
   "Ansprechpunkt": [
     {
@@ -14746,6 +14894,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C6D04CE5CFD744ECC1257D57002908E5",
   "Leistungsname": "Schwerbehindertenausweis - Widerspruch",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C6D04CE5CFD744ECC1257D57002908E5",
@@ -14758,12 +14907,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6a4"
+    "$oid": "6012def87bbee3d7f0c793c5"
   },
   "Ansprechpunkt": [
     {
@@ -14791,6 +14940,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "D1E70C9D9A9CF2A0C1257D5400458B06",
   "Leistungsname": "Schwerbehindertenausweise",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/D1E70C9D9A9CF2A0C1257D5400458B06",
@@ -14799,18 +14949,19 @@
     "Gebuehrenrahmen": "<p>gebührenfrei</p>",
     "benoetigteUnterlagen": "<ul><li><strong>Antrag</strong><ul><li>Formulare für Erst- und Änderungsanträge liegen im Kreishaus und im dlz Moers sowie bei den Städten und Gemeinden aus. Diese können auch dort wieder eingereicht werden.</li><li>Das Antragsformular können Sie unter Downloads als PDF-Dokument herunterladen.</li><li>Sie können den Antrag auch online am <abbr title=\"Computer\">PC</abbr> ausfüllen und über das Internet an die Kreisverwaltung übermitteln. Nutzen Sie dafür das Online-Antragsverfahren.</li></ul></li><li><strong>Lichtbild</strong>:<br />Ein Lichtbild wird nur benötigt, wenn nach dem Ergebnis des Feststellungsbescheides ein Schwerbehindertenausweis (GdB von mindestens 50) zusteht. Ein Lichtbild wird daher spätestens mit der Übersendung des Bescheides angefordert.<br />Sollten Sie bereits dem Antrag ein Lichtbild beifügen wollen, geben Sie bitte auf der Rückseite Namen und Anschrift sowie das Stichwort „Schwerbehindertenausweis“ an.<br /><strong>Art des Lichtbildes:</strong> <ul><li>Das Lichtbild muss farbig sein und im Passbildformat vorliegen.</li><li>Es ist auch möglich, dass Lichtbild auszudrucken. Hierzu muss der Druck aber auf Fotopapier erfolgen. Ein Ausdruck auf normalem Papier kann nicht akzeptiert werden.</li></ul></li><li><strong>Ärztliche Unterlagen</strong><br />Besitzen Sie schriftliche ärztliche Unterlagen, die nicht älter als 2 Jahre sind, können diese dem Antrag beigefügt werden. Bitte keine Röntgenbilder übersenden!</li><li><strong>Ausländische Mitbürger/innen bzw. Staatenlose</strong> müssen eine Bescheinigung der zuständigen Ausländerbehörde oder eine beglaubigte Kopie des Passes einreichen.</li></ul>",
     "Besonderheiten": "<p>Bitte beachten Sie auch die Informationen zu den <a href=\"/de/service/oeffnungszeiten/#X-201609071515576\" title=\"Öffnungszeiten\">Öffnungszeiten</a></p><p>Ihren Antrag nehmen auch</p><ul><li>Ihre <strong>Stadt- oder Gemeindeverwaltung</strong> oder</li><li>die <strong>Behindertenverbände</strong></li></ul><p>entgegen und leiten diesen an die Kreisverwaltung weiter.</p>",
+    "Bearbeitungszeit": "etwa 3 Monate",
     "LinkZuFachinformationen": {
       "VerweisURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/D1E70C9D9A9CF2A0C1257D5400458B06",
       "Verweisbeschreibung": "Hyperlink zu Fachinformationen vor Ort. "
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6a6"
+    "$oid": "6012def87bbee3d7f0c793c7"
   },
   "Ansprechpunkt": [
     {
@@ -14888,6 +15039,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "02BE81715CE936F9C1257D55002C9BFB",
   "Leistungsname": "Sonn- und Feiertagsgesetz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/02BE81715CE936F9C1257D55002C9BFB",
@@ -14902,12 +15054,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6a8"
+    "$oid": "6012def87bbee3d7f0c793c9"
   },
   "Ansprechpunkt": [
     {
@@ -14984,6 +15136,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "1161248C06354E79C1257D540043FA95",
   "Leistungsname": "Soziale Wohnraumförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1161248C06354E79C1257D540043FA95",
@@ -14997,12 +15150,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6aa"
+    "$oid": "6012def87bbee3d7f0c793cb"
   },
   "Ansprechpunkt": [
     {
@@ -15042,6 +15195,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C9CC3EC163CD78D7C1257DD20027CC15",
   "Leistungsname": "Sozialticket",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C9CC3EC163CD78D7C1257DD20027CC15",
@@ -15055,12 +15209,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ac"
+    "$oid": "6012def87bbee3d7f0c793cd"
   },
   "Ansprechpunkt": [
     {
@@ -15139,6 +15293,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "92D8654A505CBC58C1257D55002E9B2B",
   "Leistungsname": "Sprengstoffwesen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/92D8654A505CBC58C1257D55002E9B2B",
@@ -15152,12 +15307,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ae"
+    "$oid": "6012def87bbee3d7f0c793cf"
   },
   "Ansprechpunkt": [
     {
@@ -15269,6 +15424,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "62D308EC303085D6C1257D27002CE83F",
   "Leistungsname": "Taxi- und Mietwagenverkehr",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/62D308EC303085D6C1257D27002CE83F",
@@ -15283,12 +15439,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6b0"
+    "$oid": "6012def87bbee3d7f0c793d1"
   },
   "Ansprechpunkt": [
     {
@@ -15365,6 +15521,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "8D0CD4FCBB6E175EC1257D550032DC7A",
   "Leistungsname": "Teilungsgenehmigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8D0CD4FCBB6E175EC1257D550032DC7A",
@@ -15378,12 +15535,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6b2"
+    "$oid": "6012def87bbee3d7f0c793d3"
   },
   "Ansprechpunkt": [
     {
@@ -15482,6 +15639,7 @@
       ]
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FABA52E642265C1BC1257D57002A9142",
   "Leistungsname": "Tierseuchenverdachtsmeldung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FABA52E642265C1BC1257D57002A9142",
@@ -15494,12 +15652,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6b4"
+    "$oid": "6012def87bbee3d7f0c793d5"
   },
   "Ansprechpunkt": [
     {
@@ -15642,6 +15800,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "1613963CABA69BD0C1257D57002C780A",
   "Leistungsname": "Trichinenprobenentnahme",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1613963CABA69BD0C1257D57002C780A",
@@ -15656,12 +15815,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6b6"
+    "$oid": "6012def87bbee3d7f0c793d7"
   },
   "Ansprechpunkt": [
     {
@@ -15845,6 +16004,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "DE6B8987EB6460F4C1257D8C0036DB86",
   "Leistungsname": "Tuberkulose-Beratung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DE6B8987EB6460F4C1257D8C0036DB86",
@@ -15859,12 +16019,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6b8"
+    "$oid": "6012def87bbee3d7f0c793d9"
   },
   "Ansprechpunkt": [
     {
@@ -15940,6 +16100,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BF38DA296E6F6666C1257D56001BCFF5",
   "Leistungsname": "Übernahme von Vermessungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BF38DA296E6F6666C1257D56001BCFF5",
@@ -15954,12 +16115,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ba"
+    "$oid": "6012def87bbee3d7f0c793db"
   },
   "Ansprechpunkt": [
     {
@@ -16225,6 +16386,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "0FF07E2FB19F03E5C1257D56001C66FC",
   "Leistungsname": "Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0FF07E2FB19F03E5C1257D56001C66FC",
@@ -16239,16 +16401,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6bc"
+    "$oid": "6012def87bbee3d7f0c793dd"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "EFC57F1B0F1FC5F1C1257D4E005318A4",
   "Leistungsname": "Unschädlichkeitszeugnisse",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EFC57F1B0F1FC5F1C1257D4E005318A4",
@@ -16263,16 +16426,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6be"
+    "$oid": "6012def87bbee3d7f0c793df"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "C004DDF002BFFBA1C1257D390041C2C7",
   "Leistungsname": "Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C004DDF002BFFBA1C1257D390041C2C7",
@@ -16285,12 +16449,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6c0"
+    "$oid": "6012def87bbee3d7f0c793e1"
   },
   "Ansprechpunkt": [
     {
@@ -16405,6 +16569,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "201E3CCE7B088D9CC1257D560020AED0",
   "Leistungsname": "Unterhaltsvorschuss",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/201E3CCE7B088D9CC1257D560020AED0",
@@ -16417,12 +16582,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6c2"
+    "$oid": "6012def87bbee3d7f0c793e3"
   },
   "Ansprechpunkt": [
     {
@@ -16534,6 +16699,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "05AA685506D13EDCC1257D57002CD593",
   "Leistungsname": "Verbraucherbeschwerde (Lebensmittel und Bedarfsgegenstände)",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/05AA685506D13EDCC1257D57002CD593",
@@ -16546,12 +16712,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6c4"
+    "$oid": "6012def87bbee3d7f0c793e5"
   },
   "Ansprechpunkt": [
     {
@@ -16701,6 +16867,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "3EE7DD5EBB83B707C1257D5600245B5E",
   "Leistungsname": "Verbringung und Einfuhr von Zucht- und Nutztieren einschließlich Pferden",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3EE7DD5EBB83B707C1257D5600245B5E",
@@ -16713,12 +16880,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6c6"
+    "$oid": "6012def87bbee3d7f0c793e7"
   },
   "Ansprechpunkt": [
     {
@@ -16860,6 +17027,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "4F19A33409BB3DCCC1257D4E002BF6F3",
   "Leistungsname": "Waffen - Anzeige des Erwerbs",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4F19A33409BB3DCCC1257D4E002BF6F3",
@@ -16873,12 +17041,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6c8"
+    "$oid": "6012def87bbee3d7f0c793e9"
   },
   "Ansprechpunkt": [
     {
@@ -17020,6 +17188,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FF861341757EA34BC1257D4E002E7ACF",
   "Leistungsname": "Waffen - Anzeige im Falle des Überlassens",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FF861341757EA34BC1257D4E002E7ACF",
@@ -17034,12 +17203,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ca"
+    "$oid": "6012def87bbee3d7f0c793eb"
   },
   "Ansprechpunkt": [
     {
@@ -17079,6 +17248,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "CA91251F11259769C1257D4E003041E7",
   "Leistungsname": "Waffen - Beantragung Kleiner Waffenschein",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/CA91251F11259769C1257D4E003041E7",
@@ -17093,12 +17263,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6cc"
+    "$oid": "6012def87bbee3d7f0c793ed"
   },
   "Ansprechpunkt": [
     {
@@ -17134,6 +17304,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "DD4B783AF479DCFDC1257D4E002EE2B1",
   "Leistungsname": "Waffen - Erwerb und Besitz durch Erbfall",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DD4B783AF479DCFDC1257D4E002EE2B1",
@@ -17148,12 +17319,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ce"
+    "$oid": "6012def87bbee3d7f0c793ef"
   },
   "Ansprechpunkt": [
     {
@@ -17295,6 +17466,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E70A252F2870AD3CC1257D51002BC09F",
   "Leistungsname": "Waffen - Europäischer Feuerwaffenpass",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E70A252F2870AD3CC1257D51002BC09F",
@@ -17309,12 +17481,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6d0"
+    "$oid": "6012def87bbee3d7f0c793f1"
   },
   "Ansprechpunkt": [
     {
@@ -17354,6 +17526,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "73C0FD7E0AF798A0C1257D560025ED03",
   "Leistungsname": "Waffen und Munition - Erwerb und Besitz durch Sachverständige",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/73C0FD7E0AF798A0C1257D560025ED03",
@@ -17368,12 +17541,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6d2"
+    "$oid": "6012def87bbee3d7f0c793f3"
   },
   "Ansprechpunkt": [
     {
@@ -17515,6 +17688,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "380B65C47856DF21C1257D56002FDFBA",
   "Leistungsname": "Waffenbesitzkarte beantragen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/380B65C47856DF21C1257D56002FDFBA",
@@ -17529,12 +17703,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6d4"
+    "$oid": "6012def87bbee3d7f0c793f5"
   },
   "Ansprechpunkt": [
     {
@@ -17574,6 +17748,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "B992C47B49071881C1257D57002E8112",
   "Leistungsname": "Waffenherstellung und Waffenhandel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B992C47B49071881C1257D57002E8112",
@@ -17588,12 +17763,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6d6"
+    "$oid": "6012def87bbee3d7f0c793f7"
   },
   "Ansprechpunkt": [
     {
@@ -17745,6 +17920,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BBEB5252070E5DBEC1257D570032014B",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Einleitung von gereinigtem häuslichem Abwasser in das Grundwasser",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BBEB5252070E5DBEC1257D570032014B",
@@ -17758,12 +17934,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6d8"
+    "$oid": "6012def87bbee3d7f0c793f9"
   },
   "Ansprechpunkt": [
     {
@@ -17914,6 +18090,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "3B9FAAB2B2569B3EC1257D5700308D1D",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Einleitung von Niederschlagswasser in das Grundwasser",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3B9FAAB2B2569B3EC1257D5700308D1D",
@@ -17927,12 +18104,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6da"
+    "$oid": "6012def87bbee3d7f0c793fb"
   },
   "Ansprechpunkt": [
     {
@@ -17972,6 +18149,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C11B114F2838BC9FC1257D57002F97E7",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zum Zwecke der Feldberegnung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C11B114F2838BC9FC1257D57002F97E7",
@@ -17985,12 +18163,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6dc"
+    "$oid": "6012def87bbee3d7f0c793fd"
   },
   "Ansprechpunkt": [
     {
@@ -18142,6 +18320,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "12DA5A35D157198FC1257D57002F1D90",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zur Eigentrinkwasserversorgung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/12DA5A35D157198FC1257D57002F1D90",
@@ -18155,12 +18334,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6de"
+    "$oid": "6012def87bbee3d7f0c793ff"
   },
   "Ansprechpunkt": [
     {
@@ -18312,6 +18491,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "FEB95B983E72AF51C12584260026F989",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Errichtung eines Löschwasserbrunnens",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FEB95B983E72AF51C12584260026F989",
@@ -18323,12 +18503,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6e0"
+    "$oid": "6012def87bbee3d7f0c79401"
   },
   "Ansprechpunkt": [
     {
@@ -18368,6 +18548,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "E0F422F8C3361D17C1257E59003231F5",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Genehmigung Gewerbliche Niederschlagswasserbeseitigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E0F422F8C3361D17C1257E59003231F5",
@@ -18380,12 +18561,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6e2"
+    "$oid": "6012def87bbee3d7f0c79403"
   },
   "Ansprechpunkt": [
     {
@@ -18425,6 +18606,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "88120ABA14B2EC23C1257E590031A8FD",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Genehmigung Kommunale Niederschlagswasserbeseitigung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/88120ABA14B2EC23C1257E590031A8FD",
@@ -18437,12 +18619,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6e4"
+    "$oid": "6012def87bbee3d7f0c79405"
   },
   "Ansprechpunkt": [
     {
@@ -18520,6 +18702,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "29FC1A0ADBBE5EEFC1257D5700315F24",
   "Leistungsname": "Wasserbehördliche Erlaubnis - Wärmepumpe",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/29FC1A0ADBBE5EEFC1257D5700315F24",
@@ -18533,12 +18716,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6e6"
+    "$oid": "6012def87bbee3d7f0c79407"
   },
   "Ansprechpunkt": [
     {
@@ -18691,6 +18874,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "BDD97BEC79E59510C1257D5700312211",
   "Leistungsname": "Wasserbehördliche Erlaubnis -Verwertung und Einbau von Recycling-Material",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BDD97BEC79E59510C1257D5700312211",
@@ -18704,12 +18888,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6e8"
+    "$oid": "6012def87bbee3d7f0c79409"
   },
   "Ansprechpunkt": [
     {
@@ -18821,6 +19005,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "AFD523A899FB020EC1257D5700327442",
   "Leistungsname": "Wildbret",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AFD523A899FB020EC1257D5700327442",
@@ -18834,16 +19019,17 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ea"
+    "$oid": "6012def87bbee3d7f0c7940b"
   },
   "Ansprechpunkt": [
     false
   ],
+  "BotAntwort": [],
   "LeistungsID": "183ED51C10D96E34C1257D57003375D4",
   "Leistungsname": "Wohnberechtigungsschein",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/183ED51C10D96E34C1257D57003375D4",
@@ -18858,12 +19044,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ec"
+    "$oid": "6012def87bbee3d7f0c7940d"
   },
   "Ansprechpunkt": [
     {
@@ -18940,6 +19126,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "878053F3600E5442C1257E1B0048C790",
   "Leistungsname": "Wohnraumförderung - Förderung von Maßnahmen im Bestand",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/878053F3600E5442C1257E1B0048C790",
@@ -18954,12 +19141,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6ee"
+    "$oid": "6012def87bbee3d7f0c7940f"
   },
   "Ansprechpunkt": [
     {
@@ -19067,6 +19254,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "100E58D6A3EB9CB1C1257D5700342CA5",
   "Leistungsname": "Wohnraumförderung - Neubau, Erwerb oder Umbau einer Immobilie",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/100E58D6A3EB9CB1C1257D5700342CA5",
@@ -19081,12 +19269,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6f0"
+    "$oid": "6012def87bbee3d7f0c79411"
   },
   "Ansprechpunkt": [
     {
@@ -19164,6 +19352,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "C0DDEA0D3C799606C1257D5700355CD2",
   "Leistungsname": "Zahnärztliche Gutachten",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C0DDEA0D3C799606C1257D5700355CD2",
@@ -19178,12 +19367,12 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "60096c01763d347e3d0ee6f2"
+    "$oid": "6012def87bbee3d7f0c79413"
   },
   "Ansprechpunkt": [
     {
@@ -19298,6 +19487,7 @@
       }
     }
   ],
+  "BotAntwort": [],
   "LeistungsID": "9573F6546EF8E51EC1257D8C003C58B1",
   "Leistungsname": "Zahnärztliche Untersuchungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/9573F6546EF8E51EC1257D8C003C58B1",
@@ -19312,7 +19502,7 @@
     }
   },
   "Aktualisierungszeitpunkt": {
-    "$date": "2021-01-21T11:56:49.640Z"
+    "$date": "2021-01-28T15:57:44.079Z"
   },
   "__v": 0
 }]
