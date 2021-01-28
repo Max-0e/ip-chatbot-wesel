@@ -181,7 +181,6 @@ nlu:
   examples: |
     - dispatcher_test
 
-
 - intent: informieren_kategorie
   examples: |
     - ich brauche hilfe bei meinem [fahrzeug](kategorie)
@@ -213,9 +212,7 @@ nlu:
 - synonym: fahrzeug
   examples: |
     - auto
-    - vehicle
-    - personenkraftwagen
-    - pkw
+    - vehicleConozco esta grandiosa canción gracias a The Umbrella Academy
     - gefährt
     - verkehrsmittel
     - automobil
