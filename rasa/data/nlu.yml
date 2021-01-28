@@ -231,10 +231,10 @@ nlu:
 
 - intent: informieren_fahrzeug
   examples: |
-    - ich möchte mich über [omnibusse](keywords_fahrzeug) informieren
-    - ich brauche hilfe bei der [abmeldung](keywords_fahrzeug) meines Fahrzeuges
-    - wie beantrage ich eine [adressänderung](keywords_fahrzeug) meines Fahrzeuges
-    - ich suche informationen zur [namensänderung](keywords_fahrzeug) meines Fahrzeuges
+    - ich möchte mich über [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](keywords_fahrzeug) informieren
+    - ich brauche hilfe bei der [abmeldung](keywords_fahrzeug) meines fahrzeuges
+    - wie beantrage ich eine [adressänderung](keywords_fahrzeug) meines fahrzeuges
+    - ich suche informationen zur [namensänderung](keywords_fahrzeug) meines fahrzeuges
     - wie bekomme ich ein [ausfuhrkennzeichen](keywords_fahrzeug) 
     - was ist eine [ausnahmegenemigung](keywords_fahrzeug) und wie bekomme ich diese
     - ich möchte einen [Diebstahl](keywords_fahrzeug) melden
@@ -256,8 +256,16 @@ nlu:
     - ich habe [technische änderungen](keywords_fahrzeug) an meinem fahrzeug
     - ich habe [technische mängel](keywords_fahrzeug) an meinem fahrzeug
     - mein fahrzeug soll auf einen anderen [zulassungsbezirk](keywords_fahrzeug) umgeschrieben werden
-    - ich brauche informationen zu der [verkaufsanzeige](keywords_fahrzeug) meines [fahrzeug]
+    - ich brauche informationen zu der [verkaufsanzeige](keywords_fahrzeug) meines fahrzeug
     - ich möchte ein [wechselkennzeichen](keywords_fahrzeug)
     - ich möchte eine [wiederzulassungs](keywords_fahrzeug) beantragen
     - ich möchte mein fahrzeug [zulassen](keywords_fahrzeug)
     - mein auto wurde [außerbetriebsetzung](keywords_fahrzeug)
+
+- synonym: omnibusse
+  examples: |
+    - omnibussen
+    - omnibus
+    - ziehharmonikabus
+    - schwenkbus
+    - knickbus
