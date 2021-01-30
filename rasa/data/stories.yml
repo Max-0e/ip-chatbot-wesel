@@ -63,3 +63,23 @@ stories:
   - intent: saisonkennzeichen
   - action: utter_saisonkennzeichen
 
+
+
+
+
+# A Kategorie
+
+- story: Abfallbeförderungserlaubnis
+  steps:
+  - intent: abfallbeförderungserlaubnis
+  - action: utter_abfallbeförderungserlaubnis
+
+- story: Abfallberatung
+  steps:
+  - intent: abfallberatung
+  - action: utter_abfallberatung
+
+- story: Abfallerzeugernummer
+  steps:
+  - intent: abfallerzeugernummer
+  - action: utter_abfallerzeugernummer

@@ -22,6 +22,7 @@ entities:
   - kategorie
 
 intents:
+  - abfallbeförderungserlaubnis
   - begrüßung
   - verabschiedung
   - bist_du_ein_bot
@@ -132,6 +133,23 @@ responses:
   utter_saisonkennzeichen:
   - text: "Hierbei bestimmen Sie selbst über die Laufzeit Ihres Versicherungsvertrages die Dauer der Gültigkeit des Kennzeichens. 
       Diese beträgt mindestens zwei, höchstens aber elf Monate. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/saisonkennzeichen/"
+
+  
+
+# A Kategorie
+
+  utter_abfallbeförderungserlaubnis:
+  - text: "Sie benötigen eine Abfallbeförderungserlaubnis, eine Erlaubnis wird nur dann erteilt, wenn Sie als Antragsteller Ihre Zuverlässigkeit und Fachkunde sowie eine ausreichende Versicherung nachweisen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallbefoerderungserlaubnis/"
+
+  utter_abfallberatung:
+  - text: "Die Abfallberatung wird durch die Kreis Weseler Abfallgesellschaft mbH & Co. KG (KWA) wahrgenommen Die KWA berät Privatpersonen, öffentliche Einrichtungen und Gewerbebetriebe über Abfallvermeidung, Abfallverwertung und die ordnungsgemäße Beseitigung von Abfällen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallberatung/"
+
+  utter_abfallerzeugernummer:
+  - text: "Als gewerbliche Abfallerzeugerin oder Abfallerzeuger benötigen Sie für die Entsorgung von gefährlichen Abfällen eine Abfallerzeugernummer.
+           Sie ist als Registriernummer für das Nachweisverfahren unverzichtbar, da sie zur eindeutigen Kennzeichnung des Abfallerzeugers dient.
+           Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallerzeugernummer/"
 
 actions:
   - action_search_db
