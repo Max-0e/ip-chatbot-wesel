@@ -23,6 +23,22 @@ entities:
 
 intents:
   - abfallbeförderungserlaubnis
+  - abfallberatung
+  - abfallerzeugernummer
+  - abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  - adoptionsvermittlung
+  - ärztliche_gutachten
+  - aids_beratung_hiv_test
+  - amtliche_basiskarte
+  - anlagen_in_und_an_gewässern
+  - anmeldung_und_beratung_von_prostituierten
+  - apothekenbetriebserlaubnis
+  - artenschutz_meldepflicht
+  - artenschutzrechtliche_genehmigung
+  - aufenthaltserlaubnis_zu_studienzwecken
+  - ausbildungsverkehr_pauschale
+  - auszüge_aus_der_liegenschaftskarte
+  - auszug_aus_dem_liegenschaftsbuch
   - begrüßung
   - verabschiedung
   - bist_du_ein_bot
@@ -43,7 +59,7 @@ intents:
   - EU_Führerschein
   - Neuerteilung_Führerschein
   - Fahrgastbeförderung
-  - kfz steuer
+  - kfz_steuer
   - erstzulassung
   - saisonkennzeichen
 
@@ -150,6 +166,67 @@ responses:
   - text: "Als gewerbliche Abfallerzeugerin oder Abfallerzeuger benötigen Sie für die Entsorgung von gefährlichen Abfällen eine Abfallerzeugernummer.
            Sie ist als Registriernummer für das Nachweisverfahren unverzichtbar, da sie zur eindeutigen Kennzeichnung des Abfallerzeugers dient.
            Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallerzeugernummer/"
+
+  utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz:
+  - text: "Jugendliche müssen sich vor Beginn einer Ausbildung ärztlich untersuchen lassen. Für diese Untersuchung, die beim einem Arzt oder einer Ärztin für Allgemeinmedizin durchgeführt werden kann, 
+          ist ein Untersuchungsberechtigungsschein notwendig. Diesen erhalten Sie beim Einwohnermeldeamt in Ihrem Wohnort.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abrechnung-von-untersuchungen-nach-dem-jugendarbeitsschutzgesetz/"
+
+  utter_adoptionsvermittlung:
+  - text: "Die Adoptionsvermittlungsstelle informiert und berät die leiblichen Eltern, die ihr Kind zur Adoption frei geben möchten und adoptionswillige Eltern in allen Fragen, die sich im Vorfeld, 
+          im laufenden Verfahren und nach erfolgter Adoption ergeben.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/adoptionsvermittlung/"
+
+  utter_ärztliche_gutachten:
+  - text: "Durch den Ärztlichen Dienst des Fachdienstes Gesundheitswesen werden Gutachten bzw. Stellungnahmen zu den unterschiedlichsten ärztlichen Fragestellungen erstellt.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aerztliche-gutachten/"
+
+  utter_aids_beratung_hiv_test:
+  - text: "Für die Beratung und Blutentnahme sind feste wöchentliche Sprechzeiten eingerichtet: 47441 Moers, montags 14:00 - 16:00 Uhr, Tel.: 0 28 41 / 202 1040
+          46483 Wesel, dienstags 14:00 - 15:30 Uhr, Tel.: 02 81 / 207 - 7401
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aids-beratung/"
+
+  utter_amtliche_basiskarte:
+  - text: "Sie erhalten die ABK in den Maßstäben 1:2.500; 1:5.000 und 1:10.000 als Ausdruck oder Datensatz über den Fachdienst Liegenschaftskataster und Geoinformation des Kreises Wesel.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/deutsche-grundkarte-abk/"
+
+  utter_anlagen_in_und_an_gewässern:
+  - text: "Die Unterhaltung der Fliessgewässer im Kreis Wesel, mit Ausnahme von Rhein und Lippe, obliegt neben den Städten und Gemeinden den Wasser- und Bodenverbänden, 
+          denen die Aufgabe übertragen wurde, für einen geordneten Wasserabfluss zu sorgen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anlagen-in-und-an-gewaessern/"
+
+  utter_anmeldung_und_beratung_von_prostituierten:
+  - text: "Die Anmeldung ist mit einem Informations- und Beratungsgespräch verbunden. Das Gespräch beinhaltet u. a. Informationen zu Rechten und Pflichten von Prostituierten, 
+          insbesondere zur bestehenden Steuerpflicht und zur Krankenversicherung, aber auch zu Beratungsangeboten und zur Erreichbarkeit von Hilfe in Notsituationen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anmeldung-und-beratung-von-prostituierten-durch-den-fachdienst-32-kreisordnungsbehoerde-sowie-ausstellung-der-anmeldebescheinigung/"
+
+  utter_apothekenbetriebserlaubnis:
+  - text: "Für die benötigten Unterlagen und Gebühren gehen Sie bitte auf folgenden Link: https://www.kreis-wesel.de/de/dienstleistungen/apothekenbetriebserlaubnis/"
+
+  utter_artenschutz_meldepflicht:
+  - text: "Wer lebende Wirbeltiere, wie Vierzehen-Landschildkröte, Jemenchamäleon oder Venezuela-Amazone oder unzählige andere Tiere auch, halten möchte, 
+          muss diese bei der Unteren Naturschutzbehörde anmelden.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutz-meldepflicht/"
+
+  utter_artenschutzrechtliche_genehmigung:
+  - text: "Um eine besonders geschützte Tier und oder Pflanten Art zu halten braucht man eine Genemigung von der Naturschutz behörde.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutzrechtliche-genehmigung/"
+
+  utter_aufenthaltserlaubnis_zu_studienzwecken:
+  - text: "Für ein Studium in Deutschland kann es sein, dass Sie für die Einreise ein Visum benötigen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aufenthaltserlaubnis-zu-studienzwecken/"
+
+  utter_ausbildungsverkehr_pauschale:
+  - text: "Auf Grundlage der im ÖPNVG NRW vorgesehenen Pauschalierung der Ausgleichsmittel für den Ausbildungsverkehr erfolgt nach dieser Satzung ein Kostenausgleich für die Bus-Verkehrsunternehmen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ausbildungsverkehr-pauschale/"
+
+  utter_auszüge_aus_der_liegenschaftskarte:
+  - text: "Die Liegenschaftskarte liegt für das gesamte Kreisgebiet in analoger und digitaler Form vor.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszuege-aus-der-liegenschaftskarte/"
+
+  utter_auszug_aus_dem_liegenschaftsbuch:
+  - text: "Ein Auszug aus dem Flurstücks- und Eigentümernachweis des Liegenschaftskatasters enthält alle beschreibenden Elemente des betreffenden Flurstücks.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszug-aus-dem-liegenschaftsbuch/"
 
 actions:
   - action_search_db

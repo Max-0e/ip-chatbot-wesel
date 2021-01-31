@@ -50,7 +50,7 @@ stories:
 
 - story: KFZ-Steuer
   steps:
-  - intent: kfz steuer
+  - intent: kfz_steuer
   - action: utter_kfz_steuer
 
 - story: Erstzulassung
@@ -83,3 +83,73 @@ stories:
   steps:
   - intent: abfallerzeugernummer
   - action: utter_abfallerzeugernummer
+
+- story: Abrechnung_von_untersuchungen_Jugendarbeitsschutzgesetz
+  steps:
+  - intent: abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  - action: utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+
+- story: Adoptionsvermittlung
+  steps:
+  - intent: adoptionsvermittlung
+  - action: utter_adoptionsvermittlung
+
+- story: Ärztliche_Gutachten
+  steps:
+  - intent: ärztliche_gutachten
+  - action: utter_ärztliche_gutachten
+
+- story: Aids_beratung_HIV_test
+  steps:
+  - intent: aids_beratung_hiv_test
+  - action: utter_aids_beratung_hiv_test
+
+- story: Amtliche_Basiskarte
+  steps:
+  - intent: amtliche_basiskarte
+  - action: utter_amtliche_basiskarte
+
+- story: Anlagen_in_und_an_Gewässern
+  steps:
+  - intent: anlagen_in_und_an_gewässern
+  - action: utter_anlagen_in_und_an_gewässern
+
+- story: Anmeldung_und_Beratung_von_prostituierten
+  steps:
+  - intent: anmeldung_und_beratung_von_prostituierten
+  - action: utter_anmeldung_und_beratung_von_prostituierten
+
+- story: Apothekenbetriebserlaubnis
+  steps:
+  - intent: apothekenbetriebserlaubnis
+  - action: utter_apothekenbetriebserlaubnis
+
+- story: Artenschutz_meldepflicht
+  steps:
+  - intent: artenschutz_meldepflicht
+  - action: utter_artenschutz_meldepflicht
+
+- story: Artenschutzrechtliche_genehmigung
+  steps:
+  - intent: artenschutzrechtliche_genehmigung
+  - action: utter_artenschutzrechtliche_genehmigung
+
+- story: Aufenthaltserlaubnis_zu_studienzwecken
+  steps:
+  - intent: aufenthaltserlaubnis_zu_studienzwecken
+  - action: utter_aufenthaltserlaubnis_zu_studienzwecken
+
+- story: Ausbildungsverkehr_pauschale
+  steps:
+  - intent: ausbildungsverkehr_pauschale
+  - action: utter_ausbildungsverkehr_pauschale
+
+- story: Auszüge_aus_der_Liegenschaftskarte
+  steps:
+  - intent: auszüge_aus_der_liegenschaftskarte
+  - action: utter_auszüge_aus_der_liegenschaftskarte
+
+- story: Auszug_aus_dem_Liegenschaftsbuch
+  steps:
+  - intent: auszug_aus_dem_liegenschaftsbuch
+  - action: utter_auszug_aus_dem_liegenschaftsbuch
