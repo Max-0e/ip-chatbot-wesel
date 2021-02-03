@@ -6,12 +6,19 @@ slots:
     values:
       - fahrzeug
       - führerschein
+  new_keyword:
+    type: text
+  keywords:
+    type: list
+    initial_value: []
   dienstleistung:
     type: text
 
 entities:
   - kategorie
   - dienstleistung
+  - new_keyword
+  - keywords
 
 intents:
   - begrüßung
@@ -29,14 +36,16 @@ intents:
   - informieren_kategorie:
       use_entities:
         - kategorie
+  - informieren_fahrzeug:
+      use_entities:
+        - new_keyword
   - begleitet fahren
 
 responses:
   utter_begrüßen:
-  - text: "Hallo!"
-  - text: "Guten Tag."
-  - text: "Ich Grüße Sie."
-  - text: "Servus"
+  - text: "Hallo! Wie kann ich helfen?"
+  - text: "Guten Tag. Wie kann ich helfen?"
+  - text: "Ich Grüße Sie. Kann ich helfen?"
 
   utter_verabschieden:
   - text: "Tschüss!"
@@ -53,7 +62,7 @@ responses:
   - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
 
   utter_mir_gehts_gut:
-  - text: "Mir geht es gut, danke der Nachfrage :)"
+  - text: "Mir geht es gut, danke der Nachfrage, ich hoffe ihnen geht es auch gut."
 
   utter_static_öffnungszeiten:
   - text: Die Öffnungszeiten lauten {info}, kann an Wochenenden oder Feiertagen abweichen
@@ -129,6 +138,10 @@ responses:
   - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.
       Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
 
+  utter_fahrzeug_informieren:
+  - text: "Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?"
+  - text: "Kannst du dein Problem weiter beschreiben?"
+  - text: "Bitte versuche dein Problem genauer zu beschreiben."
   
 actions:
 #Dispatcher Tests

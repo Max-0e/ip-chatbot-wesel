@@ -2,18 +2,22 @@ version: "2.0"
 
 stories:
 
-- story: KFZ Strory
+- story: Fahrzeug-Kategorie Story
   steps:
   - intent: informieren_kategorie
     entities:
-    - kategorie: "fahrzeug"
-  - action: utter_test_fahrzeug
+    - kategorie: "Fahrzeug"
+  - action: utter_fahrzeug_informieren
+  - intent: informieren_fahrzeug
+    entities:
+    - keyword
+  - action: action_search_db
 
-- story: führerschein Strory
+- story: Führerschein-Kategorie Story
   steps:
   - intent: informieren_kategorie
     entities:
-    - kategorie: "führerschein"
+    - kategorie: "Führerschein"
   - action: utter_test_führerschein
 
 

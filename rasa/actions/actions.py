@@ -3,6 +3,7 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
 
 from pymongo import MongoClient
 
@@ -23,11 +24,17 @@ class ActionSearchDB(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # erstellen eines queries mit der Suche nach de letzten Intent
+        # erstellen eines queries mit der Suche nach der gesetzten Kategorie
+        print(tracker.slots["keywords"])
         query = { 
-            "Leistungsname": { "$regex": "Begleitet"},
-            # "Leistungsbeschreibung": { "$regex": tracker.latestet_message.intent} 
+            "Leistungsname": { "$regex": tracker.slots["kategorie"]},
+            # "Leistungsbeschreibung": { "$regex": tracker.slots["new_keyword"]}
         }
+        if tracker.slots["new_keyword"] != None:
+            tracker.slots["keywords"].append(tracker.slots["new_keyword"])
+
+        for keyword in tracker.slots["keywords"]:
+            query["Leistungsbeschreibung"] = { "$regex": keyword}
         # erstes durchsuchen der Datenbank nach dem Suchbegriff
         counter = dienstleistungen.count_documents(query)
         # je nachdem wie viele ergebisse gefunden wurden werden entsprechende Antworten gegeben
@@ -35,14 +42,24 @@ class ActionSearchDB(Action):
             dienstleistung = dienstleistungen.find_one(query)
             print(dienstleistung["Leistungsname"])
             dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
+            return[
+                SlotSet("dienstleistung",dienstleistung["Leistungsname"]),
+                SlotSet("keywords", tracker.slots["keywords"])
+            ]
         elif counter == 0:
             print('kein ergebnis')
             dispatcher.utter_message(text="Dazu kann ich dir leider nicht weiter helfen.")
+            return [SlotSet("keywords", [])]
+        elif counter >= 3:
+            print(counter)
+            dienstleistung = dienstleistungen.find(query)
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
+            return [SlotSet("keywords", tracker.slots["keywords"])]
         else:
             print(counter)
-            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Einträge für dich in Frage.')
-
-        return []
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage.')
+            return [SlotSet("keywords", tracker.slots["keywords"])]
 
 class ActionSearchConfigDB(Action):
 
@@ -112,6 +129,30 @@ class ActionSearchDienstleistung(Action):
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
             "Leistungsname": { "$regex": dienstleistung_slot},
+        }
+        # config-Datenbank mit Query durchsuchen
+        dienstleistung = dienstleistungen.find_one(query)
+        print(dienstleistung)
+        # info und dazugehöriges Template zum Bot zurücksenden
+        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+
+        return []
+
+class ActionSearchDienstleistungMitIntent(Action):
+
+    def name(self) -> Text:
+        return "action_search_dienstleistung_mit_intent"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # letzte Intent aus dem Tracker-Objekt holen
+        dienstleistung_from_intent = tracker.get_intent_of_latest_message
+        print(dienstleistung_from_intent["name"])
+
+        # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
+        query = { 
+            "Leistungsname": { "$regex": dienstleistung_from_intent["name"]},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
