@@ -32,7 +32,7 @@ function send() {
                         tmpArray.push(element[key]);
                     else if (key == "custom") {
                         if (element[key]["link"] && element[key]["linkname"])
-                            tmpArray.push("<a href='" + element[key]["link"] + "' target='_blank'>" + element[key]["linkname"] + "</a>");
+                            tmpArray.push("<a class='BotMessageLink' href='" + element[key]["link"] + "' target='_blank'>" + element[key]["linkname"] + "</a>");
                     }
                     else if (key == "image")
                         tmpArray.push("<img style='width:100%' src='" + element[key] + "'/>");

@@ -164,6 +164,11 @@ button, input:focus {
     margin-left: 20px;
 }
 
+.BotMessageLink {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .UserMessage {
     background-color: #cdeed7;
     color: #42545b;
