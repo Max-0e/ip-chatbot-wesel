@@ -1,0 +1,89 @@
+version: "2.0"
+
+stories:
+# A Kategorie
+
+- story: Abfallbeförderungserlaubnis
+  steps:
+  - intent: abfallbeförderungserlaubnis
+  - action: utter_abfallbeförderungserlaubnis
+
+- story: Abfallberatung
+  steps:
+  - intent: abfallberatung
+  - action: utter_abfallberatung
+
+- story: Abfallerzeugernummer
+  steps:
+  - intent: abfallerzeugernummer
+  - action: utter_abfallerzeugernummer
+
+- story: Abrechnung von untersuchungen Jugendarbeitsschutzgesetz
+  steps:
+  - intent: abrechnung von untersuchungen jugendarbeitsschutzgesetz
+  - action: utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+
+- story: Adoptionsvermittlung
+  steps:
+  - intent: adoptionsvermittlung
+  - action: utter_adoptionsvermittlung
+
+- story: Ärztliche Gutachten
+  steps:
+  - intent: ärztliche gutachten
+  - action: utter_ärztliche_gutachten
+
+- story: Aids beratung HIV test
+  steps:
+  - intent: aids beratung hiv test
+  - action: utter_aids_beratung_hiv_test
+
+- story: Amtliche Basiskarte
+  steps:
+  - intent: amtliche basiskarte
+  - action: utter_amtliche_basiskarte
+
+- story: Anlagen in und an Gewässern
+  steps:
+  - intent: anlagen in und an gewässern
+  - action: utter_anlagen_in_und_an_gewässern
+
+- story: Anmeldung und Beratung von prostituierten
+  steps:
+  - intent: anmeldung und beratung von prostituierten
+  - action: utter_anmeldung_und_beratung_von_prostituierten
+
+- story: Apothekenbetriebserlaubnis
+  steps:
+  - intent: apothekenbetriebserlaubnis
+  - action: utter_apothekenbetriebserlaubnis
+
+- story: Artenschutz meldepflicht
+  steps:
+  - intent: artenschutz meldepflicht
+  - action: utter_artenschutz_meldepflicht
+
+- story: Artenschutzrechtliche genehmigung
+  steps:
+  - intent: artenschutzrechtliche genehmigung
+  - action: utter_artenschutzrechtliche_genehmigung
+
+- story: Aufenthaltserlaubnis zu studienzwecken
+  steps:
+  - intent: aufenthaltserlaubnis zu studienzwecken
+  - action: utter_aufenthaltserlaubnis_zu_studienzwecken
+
+- story: Ausbildungsverkehr pauschale
+  steps:
+  - intent: ausbildungsverkehr pauschale
+  - action: utter_ausbildungsverkehr_pauschale
+
+- story: Auszüge aus der Liegenschaftskarte
+  steps:
+  - intent: auszüge aus der liegenschaftskarte
+  - action: utter_auszüge_aus_der_liegenschaftskarte
+
+- story: Auszug aus dem Liegenschaftsbuch
+  steps:
+  - intent: auszug aus dem liegenschaftsbuch
+  - action: utter_auszug_aus_dem_liegenschaftsbuch

@@ -41,14 +41,3 @@ rules:
   steps:
   - intent: adresse
   - action: action_search_configdb
-
-# - rule: test
-#   steps:
-#   - intent: informieren
-#   - action: action
-
-# Dispatcher Tests
-- rule: Ausgabe via Dispatcher
-  steps:
-  - intent: dispatcher_test
-  - action: action_dispatcher_test

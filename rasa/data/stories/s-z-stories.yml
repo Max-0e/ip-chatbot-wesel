@@ -1,0 +1,28 @@
+version: "2.0"
+
+stories:
+#einzelne von Unten angefangen
+- story: Schornsteinfegerwesen
+  steps:
+  - intent: Schornsteinfegerwesen
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Sozialticket
+  steps:
+  - intent: Sozialticket
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Überwachung der Trinkwasser-Kleinanlagen
+  steps:
+  - intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Unterhaltsvorschuss
+  steps:
+  - intent: Unterhaltsvorschuss
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Wohnberechtigungsschein
+  steps:
+  - intent: Wohnberechtigungsschein
+  - action: action_search_dienstleistung_mit_intent

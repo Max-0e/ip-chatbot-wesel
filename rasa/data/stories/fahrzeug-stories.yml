@@ -1,0 +1,94 @@
+version: "2.0"
+
+stories:
+
+- story: Fahrzeug-Kategorie Story
+  steps:
+  - intent: informieren_kategorie
+    entities:
+    - kategorie: "Fahrzeug"
+  - action: utter_fahrzeug_informieren
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword
+    - keywords
+  - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+  - action: action_search_dienstleistung
+  # - checkpoint: check_dienstleistung_bekannt
+
+- story: Fahrzeug-Abmelden - Substory_online_oder_offline
+  steps: 
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Fahrzeug-Abmelden"
+  - action: utter_online_oder_offline
+  - or: 
+    - intent: zustimmung
+    - intent: verneinung
+  - action: action_set_online_oder_offline
+
+
+- story: Führerschein-Kategorie Story
+  steps:
+  - intent: informieren_kategorie
+    entities:
+    - kategorie: "Führerschein"
+  - action: utter_test_führerschein
+
+
+# - story: Story wenn Dienstleistung bekannt
+#   steps: 
+#     - checkpoint: check_dienstleistung_bekannt
+#     - action: action_search_dienstleistung
+
+
+#Führerschein
+
+- story: Begleitetes Fahren
+  steps:
+  - intent: begleitet fahren
+  - action: utter_begleitetes_fahren
+
+- story: Personendaten
+  steps:
+  - intent: führerschein personendaten
+  - action: utter_führerschein_personendaten
+
+- story: Diebstahl oder Verlust
+  steps:
+  - intent: führerscheinverlust
+  - action: utter_verlust_führerschein
+
+- story: Führerschein gegen EU_Führerschein
+  steps:
+  - intent: EU_Führerschein
+  - action: utter_EU_Führerschein
+
+- story: Neuerteilung_Führerschein
+  steps:
+  - intent: Neuerteilung_Führerschein
+  - action: utter_Neuerteilung_Führerschein
+
+- story: Fahrgastbeförderung
+  steps:
+  - intent: Fahrgastbeförderung
+  - action: utter_Fahrgastbeförderung
+
+#Fahrzeug/KFZ
+
+- story: KFZ-Steuer
+  steps:
+  - intent: kfz_steuer
+  - action: utter_kfz_steuer
+
+- story: Erstzulassung
+  steps:
+  - intent: erstzulassung
+  - action: utter_erstzulassung
+
+- story: Saisonkennzeichen
+  steps:
+  - intent: saisonkennzeichen
+  - action: utter_saisonkennzeichen

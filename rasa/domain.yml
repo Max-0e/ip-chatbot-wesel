@@ -32,20 +32,45 @@ intents:
   - abfallbeförderungserlaubnis
   - abfallberatung
   - abfallerzeugernummer
-  - abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  - abrechnung von untersuchungen jugendarbeitsschutzgesetz
   - adoptionsvermittlung
-  - ärztliche_gutachten
-  - aids_beratung_hiv_test
-  - amtliche_basiskarte
-  - anlagen_in_und_an_gewässern
-  - anmeldung_und_beratung_von_prostituierten
+  - ärztliche gutachten
+  - aids beratung hiv test
+  - amtliche basiskarte
+  - anlagen in und an gewässern
+  - anmeldung und beratung von prostituierten
   - apothekenbetriebserlaubnis
-  - artenschutz_meldepflicht
-  - artenschutzrechtliche_genehmigung
-  - aufenthaltserlaubnis_zu_studienzwecken
-  - ausbildungsverkehr_pauschale
-  - auszüge_aus_der_liegenschaftskarte
-  - auszug_aus_dem_liegenschaftsbuch
+  - artenschutz meldepflicht
+  - artenschutzrechtliche genehmigung
+  - aufenthaltserlaubnis zu studienzwecken
+  - ausbildungsverkehr pauschale
+  - auszüge aus der liegenschaftskarte
+  - auszug aus dem liegenschaftsbuch
+  - bafög - leistungen bundesausbildungsförderungsgesetz
+  - baugenehmigung
+  - baulast eintragung und auskunft
+  - baumfällung
+  - bauvoranfrage
+  - befreiung bauverbot überschwemmungsgebieten
+  - befreiung helmpflicht anschnallpflicht
+  - befreiungen bundesnaturschutzgesetz
+  - beistandschaften
+  - beistandschaften beurkundungen
+  - beistandschaften unterhaltsfragen
+  - beistandschaften vaterschaft
+  - belehrung umgang lebensmitteln gesundheitszeugnis
+  - beratung psychischen erkrankungen suchtberatung
+  - beratung lebensmittelunternehmen
+  - beratung sexuell übertragbaren erkankungen
+  - bescheinigung unentgeltlichen benutzung öffentlichen personennahverkehrs
+  - bescheinigungen liegenschaftskataster
+  - besuchsaufenthalte verpflichtungserklärung
+  - betreuungsrecht betreuungsstelle
+  - bewachungserlaubnis
+  - bewachungspersonal
+  - bhv1
+  - bienenvölker haltung anmeldung
+  - bienen wespen
   - Schornsteinfegerwesen
   - Sozialticket
   - Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
@@ -62,7 +87,7 @@ intents:
   - verneinung
   - test
   - wie_gehts
-  - informieren:
+  - informieren_kategorie:
       use_entities:
         - kategorie
   - informieren_fahrzeug:
@@ -119,153 +144,132 @@ responses:
   - text: Die Adresse lautet {info}
   - text: Sie finden uns hier {info}
 
-  utter_begleitetes_fahren:
-  - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden. Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
-  
   utter_verlust_führerschein:
-  - text: "Sollte Ihnen Ihr bisheriger Führerschein abhanden gekommen sein, haben Sie den Verlust unverzüglich bei der zuständigen  Fahrerlaubnisbehörde anzuzeigen. Sofern Sie nicht auf die Fahrerlaubnis verzichten möchten, wird Ihnen ein Ersatzdokument ausgestellt.
-      Für nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ersatzfuehrerschein-wegen-verlust-oder-diebstahl/"
+  - text: "Sollte Ihnen Ihr bisheriger Führerschein abhanden gekommen sein, haben Sie den Verlust unverzüglich bei der zuständigen  Fahrerlaubnisbehörde anzuzeigen. Sofern Sie nicht auf die Fahrerlaubnis verzichten möchten, wird Ihnen ein Ersatzdokument ausgestellt. Für nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ersatzfuehrerschein-wegen-verlust-oder-diebstahl/"
 
-utter_führerschein_personendaten:
-  - text: "Änderungen von Angaben auf dem Führerschein (z. B. Name, Vorname, Geburtsdatum) sind grundsätzlich erforderlich.
-      Dies gilt auch für die Eintragung von Auflagen/Schlüsselzahlen z. B. auf Grund der Berufskraftfahrerqualifizierung oder für Brillenaustragung. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/Fuehrerschein-aenderung-von-personendaten-oder-auflagen-7718243/"
+  utter_führerschein_personendaten:
+  - text: "Änderungen von Angaben auf dem Führerschein (z. B. Name, Vorname, Geburtsdatum) sind grundsätzlich erforderlich. Dies gilt auch für die Eintragung von Auflagen/Schlüsselzahlen z. B. auf Grund der Berufskraftfahrerqualifizierung oder für Brillenaustragung. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/Fuehrerschein-aenderung-von-personendaten-oder-auflagen-7718243/"
 
-utter_EU_Führerschein:
-  - text: "Wenn ihr führerschein, egal welcher, vor dem 19.01.2013 ausgestellt wurde, müssen Sie ihren Führerschein bis zu 18.01.2033 umtauschen,
-      die neuen Führerscheine gelten 15 Jahre. Beachten sollten Sie je nach Geburtsjahr müssen Sie ihren Führerschein früher als 18.01.2033 umtauschen
-      Weitere Infos zu EU-Führerschein hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-umtausch-gegen-neuen-eu-fuehrerschein/"
+  utter_EU_Führerschein:
+  - text: "Wenn ihr führerschein, egal welcher, vor dem 19.01.2013 ausgestellt wurde, müssen Sie ihren Führerschein bis zu 18.01.2033 umtauschen, die neuen Führerscheine gelten 15 Jahre. Beachten sollten Sie je nach Geburtsjahr müssen Sie ihren Führerschein früher als 18.01.2033 umtauschen. Weitere Infos zu EU-Führerschein hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-umtausch-gegen-neuen-eu-fuehrerschein/"
 
-utter_Neuerteilung_Führerschein:
-  - text: "Ihnen wurde der Führerschein durch ein Gerichtsurteil oder durch die Straßenverkehrsbehörde entzogen. Anders als beim zeitlich 
-      befristeten Fahrverbot wird der Führerschein nicht automatisch zurück gegeben, Sie müssen daher einen Antrag auf Wiedererteilung stellen.
-      Weitere Infos hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-neuerteilung-der-fahrerlaubnis-6830283/"
+  utter_Neuerteilung_Führerschein:
+  - text: "Ihnen wurde der Führerschein durch ein Gerichtsurteil oder durch die Straßenverkehrsbehörde entzogen. Anders als beim zeitlich befristeten Fahrverbot wird der Führerschein nicht automatisch zurück gegeben, Sie müssen daher einen Antrag auf Wiedererteilung stellen. Weitere Infos hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-neuerteilung-der-fahrerlaubnis-6830283/"
 
-utter_Fahrgastbeförderung:
-  - text: "Sie müssen einen Antrag stellen um Fahrgäste zu transportieren. Sie müssen mindestens 21 sein und ihren Führerschein 2 Jahre haben.
-      Für Krankenkraftwagen oder Mietwagen für Schülertransport oder Behindertenfahrdienst müssen sie mindestens 19 sein. 
-      Weitere Infos hier: kreis-wesel.de/de/dienstleistungen/fahrgastbefoerderung-ersterteilung/"
+  utter_Fahrgastbeförderung:
+  - text: "Sie müssen einen Antrag stellen um Fahrgäste zu transportieren. Sie müssen mindestens 21 sein und ihren Führerschein 2 Jahre haben. Für Krankenkraftwagen oder Mietwagen für Schülertransport oder Behindertenfahrdienst müssen sie mindestens 19 sein. Weitere Infos hier: kreis-wesel.de/de/dienstleistungen/fahrgastbefoerderung-ersterteilung/"
 
 # Fahrzeug/KFZ
 
-utter_kfz_steuer:
+  utter_kfz_steuer:
   - text: "Ihr Fahrzeug wird mit der Zulassung automatisch steuerpflichtig, soweit es sich um ein steuerpflichtiges Fahrzeug handelt.
       Die Steuerpflicht umfasst auch Ausfuhrkennzeichen. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/fahrzeug-kfz-steuer/"
 
-utter_erstzulassung:
-  - text: "Wenn Sie ein fabrikneues Fahrzeug auf sich zulassen möchten, handelt es sich um eine Neuzulassung.
-      Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/zulassung-eines-neufahrzeugs/"
+  utter_erstzulassung:
+  - text: "Wenn Sie ein fabrikneues Fahrzeug auf sich zulassen möchten, handelt es sich um eine Neuzulassung. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/zulassung-eines-neufahrzeugs/"
  
-utter_saisonkennzeichen:
-  - text: "Hierbei bestimmen Sie selbst über die Laufzeit Ihres Versicherungsvertrages die Dauer der Gültigkeit des Kennzeichens. 
-      Diese beträgt mindestens zwei, höchstens aber elf Monate. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/saisonkennzeichen/"
+  utter_saisonkennzeichen:
+  - text: "Hierbei bestimmen Sie selbst über die Laufzeit Ihres Versicherungsvertrages die Dauer der Gültigkeit des Kennzeichens. Diese beträgt mindestens zwei, höchstens aber elf Monate. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/saisonkennzeichen/"
 
   
 
 # A Kategorie
 
-  # utter_abfallbeförderungserlaubnis:
-  # - text: "Sie benötigen eine Abfallbeförderungserlaubnis, eine Erlaubnis wird nur dann erteilt, wenn Sie als Antragsteller Ihre Zuverlässigkeit und Fachkunde sowie eine ausreichende Versicherung nachweisen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallbefoerderungserlaubnis/"
+  utter_abfallbeförderungserlaubnis:
+  - text: "Sie benötigen eine Abfallbeförderungserlaubnis, eine Erlaubnis wird nur dann erteilt, wenn Sie als Antragsteller Ihre Zuverlässigkeit und Fachkunde sowie eine ausreichende Versicherung nachweisen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallbefoerderungserlaubnis/"
 
-  # utter_abfallberatung:
-  # - text: "Die Abfallberatung wird durch die Kreis Weseler Abfallgesellschaft mbH & Co. KG (KWA) wahrgenommen Die KWA berät Privatpersonen, öffentliche Einrichtungen und Gewerbebetriebe über Abfallvermeidung, Abfallverwertung und die ordnungsgemäße Beseitigung von Abfällen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallberatung/"
+  utter_abfallberatung:
+  - text: "Die Abfallberatung wird durch die Kreis Weseler Abfallgesellschaft mbH & Co. KG (KWA) wahrgenommen Die KWA berät Privatpersonen, öffentliche Einrichtungen und Gewerbebetriebe über Abfallvermeidung, Abfallverwertung und die ordnungsgemäße Beseitigung von Abfällen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallberatung/"
 
-  # utter_abfallerzeugernummer:
-  # - text: "Als gewerbliche Abfallerzeugerin oder Abfallerzeuger benötigen Sie für die Entsorgung von gefährlichen Abfällen eine Abfallerzeugernummer.
-  #          Sie ist als Registriernummer für das Nachweisverfahren unverzichtbar, da sie zur eindeutigen Kennzeichnung des Abfallerzeugers dient.
-  #          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallerzeugernummer/"
+  utter_abfallerzeugernummer:
+  - text: "Als gewerbliche Abfallerzeugerin oder Abfallerzeuger benötigen Sie für die Entsorgung von gefährlichen Abfällen eine Abfallerzeugernummer.
+           Sie ist als Registriernummer für das Nachweisverfahren unverzichtbar, da sie zur eindeutigen Kennzeichnung des Abfallerzeugers dient.
+           Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abfallerzeugernummer/"
 
-  # utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz:
-  # - text: "Jugendliche müssen sich vor Beginn einer Ausbildung ärztlich untersuchen lassen. Für diese Untersuchung, die beim einem Arzt oder einer Ärztin für Allgemeinmedizin durchgeführt werden kann, 
-  #         ist ein Untersuchungsberechtigungsschein notwendig. Diesen erhalten Sie beim Einwohnermeldeamt in Ihrem Wohnort.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abrechnung-von-untersuchungen-nach-dem-jugendarbeitsschutzgesetz/"
+  utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz:
+  - text: "Jugendliche müssen sich vor Beginn einer Ausbildung ärztlich untersuchen lassen. Für diese Untersuchung, die beim einem Arzt oder einer Ärztin für Allgemeinmedizin durchgeführt werden kann, 
+          ist ein Untersuchungsberechtigungsschein notwendig. Diesen erhalten Sie beim Einwohnermeldeamt in Ihrem Wohnort.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/abrechnung-von-untersuchungen-nach-dem-jugendarbeitsschutzgesetz/"
 
-  # utter_adoptionsvermittlung:
-  # - text: "Die Adoptionsvermittlungsstelle informiert und berät die leiblichen Eltern, die ihr Kind zur Adoption frei geben möchten und adoptionswillige Eltern in allen Fragen, die sich im Vorfeld, 
-  #         im laufenden Verfahren und nach erfolgter Adoption ergeben.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/adoptionsvermittlung/"
+  utter_adoptionsvermittlung:
+  - text: "Die Adoptionsvermittlungsstelle informiert und berät die leiblichen Eltern, die ihr Kind zur Adoption frei geben möchten und adoptionswillige Eltern in allen Fragen, die sich im Vorfeld, 
+          im laufenden Verfahren und nach erfolgter Adoption ergeben.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/adoptionsvermittlung/"
 
-  # utter_ärztliche_gutachten:
-  # - text: "Durch den Ärztlichen Dienst des Fachdienstes Gesundheitswesen werden Gutachten bzw. Stellungnahmen zu den unterschiedlichsten ärztlichen Fragestellungen erstellt.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aerztliche-gutachten/"
+  utter_ärztliche_gutachten:
+  - text: "Durch den Ärztlichen Dienst des Fachdienstes Gesundheitswesen werden Gutachten bzw. Stellungnahmen zu den unterschiedlichsten ärztlichen Fragestellungen erstellt.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aerztliche-gutachten/"
 
-  # utter_aids_beratung_hiv_test:
-  # - text: "Für die Beratung und Blutentnahme sind feste wöchentliche Sprechzeiten eingerichtet: 47441 Moers, montags 14:00 - 16:00 Uhr, Tel.: 0 28 41 / 202 1040
-  #         46483 Wesel, dienstags 14:00 - 15:30 Uhr, Tel.: 02 81 / 207 - 7401
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aids-beratung/"
+  utter_aids_beratung_hiv_test:
+  - text: "Für die Beratung und Blutentnahme sind feste wöchentliche Sprechzeiten eingerichtet: 47441 Moers, montags 14:00 - 16:00 Uhr, Tel.: 0 28 41 / 202 1040
+          46483 Wesel, dienstags 14:00 - 15:30 Uhr, Tel.: 02 81 / 207 - 7401
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aids-beratung/"
 
-  # utter_amtliche_basiskarte:
-  # - text: "Sie erhalten die ABK in den Maßstäben 1:2.500; 1:5.000 und 1:10.000 als Ausdruck oder Datensatz über den Fachdienst Liegenschaftskataster und Geoinformation des Kreises Wesel.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/deutsche-grundkarte-abk/"
+  utter_amtliche_basiskarte:
+  - text: "Sie erhalten die ABK in den Maßstäben 1:2.500; 1:5.000 und 1:10.000 als Ausdruck oder Datensatz über den Fachdienst Liegenschaftskataster und Geoinformation des Kreises Wesel.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/deutsche-grundkarte-abk/"
 
-  # utter_anlagen_in_und_an_gewässern:
-  # - text: "Die Unterhaltung der Fliessgewässer im Kreis Wesel, mit Ausnahme von Rhein und Lippe, obliegt neben den Städten und Gemeinden den Wasser- und Bodenverbänden, 
-  #         denen die Aufgabe übertragen wurde, für einen geordneten Wasserabfluss zu sorgen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anlagen-in-und-an-gewaessern/"
+  utter_anlagen_in_und_an_gewässern:
+  - text: "Die Unterhaltung der Fliessgewässer im Kreis Wesel, mit Ausnahme von Rhein und Lippe, obliegt neben den Städten und Gemeinden den Wasser- und Bodenverbänden, 
+          denen die Aufgabe übertragen wurde, für einen geordneten Wasserabfluss zu sorgen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anlagen-in-und-an-gewaessern/"
 
-  # utter_anmeldung_und_beratung_von_prostituierten:
-  # - text: "Die Anmeldung ist mit einem Informations- und Beratungsgespräch verbunden. Das Gespräch beinhaltet u. a. Informationen zu Rechten und Pflichten von Prostituierten, 
-  #         insbesondere zur bestehenden Steuerpflicht und zur Krankenversicherung, aber auch zu Beratungsangeboten und zur Erreichbarkeit von Hilfe in Notsituationen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anmeldung-und-beratung-von-prostituierten-durch-den-fachdienst-32-kreisordnungsbehoerde-sowie-ausstellung-der-anmeldebescheinigung/"
+  utter_anmeldung_und_beratung_von_prostituierten:
+  - text: "Die Anmeldung ist mit einem Informations- und Beratungsgespräch verbunden. Das Gespräch beinhaltet u. a. Informationen zu Rechten und Pflichten von Prostituierten, 
+          insbesondere zur bestehenden Steuerpflicht und zur Krankenversicherung, aber auch zu Beratungsangeboten und zur Erreichbarkeit von Hilfe in Notsituationen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/anmeldung-und-beratung-von-prostituierten-durch-den-fachdienst-32-kreisordnungsbehoerde-sowie-ausstellung-der-anmeldebescheinigung/"
 
-  # utter_apothekenbetriebserlaubnis:
-  # - text: "Für die benötigten Unterlagen und Gebühren gehen Sie bitte auf folgenden Link: https://www.kreis-wesel.de/de/dienstleistungen/apothekenbetriebserlaubnis/"
+  utter_apothekenbetriebserlaubnis:
+  - text: "Für die benötigten Unterlagen und Gebühren gehen Sie bitte auf folgenden Link: https://www.kreis-wesel.de/de/dienstleistungen/apothekenbetriebserlaubnis/"
 
-  # utter_artenschutz_meldepflicht:
-  # - text: "Wer lebende Wirbeltiere, wie Vierzehen-Landschildkröte, Jemenchamäleon oder Venezuela-Amazone oder unzählige andere Tiere auch, halten möchte, 
-  #         muss diese bei der Unteren Naturschutzbehörde anmelden.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutz-meldepflicht/"
+  utter_artenschutz_meldepflicht:
+  - text: "Wer lebende Wirbeltiere, wie Vierzehen-Landschildkröte, Jemenchamäleon oder Venezuela-Amazone oder unzählige andere Tiere auch, halten möchte, 
+          muss diese bei der Unteren Naturschutzbehörde anmelden.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutz-meldepflicht/"
 
-  # utter_artenschutzrechtliche_genehmigung:
-  # - text: "Um eine besonders geschützte Tier und oder Pflanten Art zu halten braucht man eine Genemigung von der Naturschutz behörde.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutzrechtliche-genehmigung/"
+  utter_artenschutzrechtliche_genehmigung:
+  - text: "Um eine besonders geschützte Tier und oder Pflanten Art zu halten braucht man eine Genemigung von der Naturschutz behörde.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/artenschutzrechtliche-genehmigung/"
 
-  # utter_aufenthaltserlaubnis_zu_studienzwecken:
-  # - text: "Für ein Studium in Deutschland kann es sein, dass Sie für die Einreise ein Visum benötigen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aufenthaltserlaubnis-zu-studienzwecken/"
+  utter_aufenthaltserlaubnis_zu_studienzwecken:
+  - text: "Für ein Studium in Deutschland kann es sein, dass Sie für die Einreise ein Visum benötigen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/aufenthaltserlaubnis-zu-studienzwecken/"
 
-  # utter_ausbildungsverkehr_pauschale:
-  # - text: "Auf Grundlage der im ÖPNVG NRW vorgesehenen Pauschalierung der Ausgleichsmittel für den Ausbildungsverkehr erfolgt nach dieser Satzung ein Kostenausgleich für die Bus-Verkehrsunternehmen.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ausbildungsverkehr-pauschale/"
+  utter_ausbildungsverkehr_pauschale:
+  - text: "Auf Grundlage der im ÖPNVG NRW vorgesehenen Pauschalierung der Ausgleichsmittel für den Ausbildungsverkehr erfolgt nach dieser Satzung ein Kostenausgleich für die Bus-Verkehrsunternehmen.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/ausbildungsverkehr-pauschale/"
 
-  # utter_auszüge_aus_der_liegenschaftskarte:
-  # - text: "Die Liegenschaftskarte liegt für das gesamte Kreisgebiet in analoger und digitaler Form vor.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszuege-aus-der-liegenschaftskarte/"
+  utter_auszüge_aus_der_liegenschaftskarte:
+  - text: "Die Liegenschaftskarte liegt für das gesamte Kreisgebiet in analoger und digitaler Form vor.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszuege-aus-der-liegenschaftskarte/"
 
-  # utter_auszug_aus_dem_liegenschaftsbuch:
-  # - text: "Ein Auszug aus dem Flurstücks- und Eigentümernachweis des Liegenschaftskatasters enthält alle beschreibenden Elemente des betreffenden Flurstücks.
-  #         Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszug-aus-dem-liegenschaftsbuch/"
-
-
-
-
-
-
-
-
+  utter_auszug_aus_dem_liegenschaftsbuch:
+  - text: "Ein Auszug aus dem Flurstücks- und Eigentümernachweis des Liegenschaftskatasters enthält alle beschreibenden Elemente des betreffenden Flurstücks.
+          Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/auszug-aus-dem-liegenschaftsbuch/"
 
 
 
 # Response Templates für den dispatcher
-utter_dbresponse_öz:
+  utter_dbresponse_öz:
   - text: "Hier die Öffnungszeiten für {kategorie}: {öffnungszeiten}"
   - text: "{kategorie} hat zu folgenden Zeiten geöffnet: {öffnungszeiten}"
   - text: "Die Öffnungszeiten für {kategorie} lauten: {öffnungszeiten}"
   - text: "Zu folgenden Zeiten ist {kategorie} für Sie erreichbar: {öffnungszeiten}" 
   
-utter_dbresponse_ansprechpartner:
+  utter_dbresponse_ansprechpartner:
   - text: "Hier die Adresse für {kategorie}: {anschrift}"
   - text: "{kategorie} ist unter folgender Adresse erreichbar: {anschrift}"
   - text: "Hier die Anschrift für {kategorie}: {anschrift}"
 
-utter_dbresponse_telefon:
+  utter_dbresponse_telefon:
   - text: "{person} ist zuständig für {kategorie} und ist unter folgender Nummer erreichbar: {telefon}"
 
-utter_dbresponse_email:
+  utter_dbresponse_email:
   - text: "{person} ist zuständig für {kategorie} und ist unter folgender Email-Adresse erreichbar: {email}"
 
-utter_dbresponse_allgemein:
+  utter_dbresponse_allgemein:
   - text: "Hier mehr Infos für "
     custom:
       link: "{link}"
@@ -283,45 +287,44 @@ utter_dbresponse_allgemein:
       link: "{link}"
       linkname: "{kategorie}"   
 
-utter_dbresponse_allgemein_antworttext:
+  utter_dbresponse_allgemein_antworttext:
   - text: "{info}"
     custom:
       link: "{link}"
       linkname: "{kategorie}"   
 
-utter_dbresponse_zwei_ergebnisse:
+  utter_dbresponse_zwei_ergebnisse:
   - text: "Meinen Sie {kategorie1} oder {kategorie2}?"
   - text: "Ich weiß leider nicht genau, was Sie meinen. {kategorie1} oder {kategorie2}?"
   - text: "Suchen Sie nach {kategorie1} oder {kategorie2}?"
   - text: "{kategorie1} oder {kategorie2}?"
 
-utter_dbresponse_zu_viele_ergebnisse:
+  utter_dbresponse_zu_viele_ergebnisse:
   - text: "Leider konnte ich nichts finden, können Sie Ihr Anliegen genauer beschreiben?"
   - text: "Ich bräuchte ein wenig mehr Informationen um meine Suche zu konkretisieren."
   - text: "Können Sie mir weitere Informationen über Ihr Anliegen geben?"
 
-utter_dbresponse_kein_ergebnis:
+  utter_dbresponse_kein_ergebnis:
   - text: "Leider konnte ich nichts finden."
   - text: "Zu diesem Thema liegen mir leider keine Daten vor."
 
-utter_test_fahrzeug:
+  utter_test_fahrzeug:
   - text: sie suchen also nach {kategorie}
 
-utter_test_führerschein:
+  utter_test_führerschein:
   - text: sie suchen nach {kategorie} also
 
-utter_begleitetes_fahren:
-  - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.
-      Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
+  utter_begleitetes_fahren:
+  - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden. Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
 
-utter_fahrzeug_informieren:
+  utter_fahrzeug_informieren:
   - text: "Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?"
   - text: "Kannst du dein Problem weiter beschreiben?"
   - text: "Bitte versuche dein Problem genauer zu beschreiben."
 
-utter_online_oder_offline:
+  utter_online_oder_offline:
   - text: "Möchten sie die Abmeldung online oder vor Ort durchführen?"
-  
+
 actions:
 #Dispatcher Tests
   - action_dispatcher_test
@@ -329,6 +332,7 @@ actions:
   - action_search_db
   - action_search_configdb
   - action_search_dienstleistung
+  - action_search_dienstleistung_mit_intent
   - action_set_online_oder_offline
 
 session_config:

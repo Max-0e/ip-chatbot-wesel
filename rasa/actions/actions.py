@@ -3,7 +3,7 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, FollowupAction
 
 from pymongo import MongoClient
 
@@ -47,7 +47,7 @@ class ActionSearchDB(Action):
         if counter == 1 :
             dienstleistung = dienstleistungen.find_one(query)
             print(dienstleistung["Leistungsname"])
-            dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
+            # dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
             return[
                 SlotSet("dienstleistung",dienstleistung["Leistungsname"]),
                 SlotSet("keywords", tracker.slots["keywords"])
@@ -60,11 +60,12 @@ class ActionSearchDB(Action):
             print(counter)
             dienstleistung = dienstleistungen.find(query)
             dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
-            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
+            dispatcher.utter_message(text=f'Bitte versuch dein Problem näher zu beschreiben.')
             return [SlotSet("keywords", tracker.slots["keywords"])]
         else:
             print(counter)
             dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage.')
+            dispatcher.utter_message(text=f'Bitte versuch dein Problem näher zu beschreiben.')
             return [SlotSet("keywords", tracker.slots["keywords"])]
 
 class ActionSearchConfigDB(Action):
@@ -76,49 +77,21 @@ class ActionSearchConfigDB(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         # letzte Intent aus dem Tracker-Objekt holen
-        last_intent = tracker.latest_message["intent"]["name"]
+        if tracker.slots["dienstleistung"] == None:
+            last_intent = tracker.latest_message["intent"]["name"]
 
-        # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
-        query = { 
-            "infoname": { "$regex": last_intent, "$options": 'i'},
-        }
-        # config-Datenbank mit Query durchsuchen
-        dienstleistung = config.find_one(query)
-        # info und dazugehöriges Template zum Bot zurücksenden
-        dispatcher.utter_message(template=f'utter_static_{last_intent}', info=f'{dienstleistung["infoinhalt"]}')
-
-        return []
-
-class dispatcher_test(Action):
-
-    def name(self) -> Text:
-        return "action_dispatcher_test"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(template = "utter_dbresponse_öz",
-                                 kategorie = "EingabeKategorie",
-                                 öffnungszeiten = "18:00 Uhr - 20:00 Uhr")
-
-        dispatcher.utter_message(template = "utter_dbresponse_ansprechpartner",
-                                 kategorie = "EingabeKategorie",
-                                 anschrift = "Adresse hier")
-
-        dispatcher.utter_message(template = "utter_dbresponse_allgemein",
-                                 kategorie = "EingabeKategorie",
-                                 link = "https://www.kreis-wesel.de")
-
-        dispatcher.utter_message(template = "utter_dbresponse_zwei_ergebnisse",
-                                 kategorie1 = "Diesekategorie",
-                                 kategorie2 = "AndereKategorie")
-
-        dispatcher.utter_message(template = "utter_dbresponse_zu_viele_ergebnisse")
-
-        dispatcher.utter_message(template = "utter_dbresponse_kein_ergebnis")
-
-        return []
+            # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
+            query = { 
+                "infoname": { "$regex": last_intent, "$options": 'i'},
+            }
+            # config-Datenbank mit Query durchsuchen
+            dienstleistung = config.find_one(query)
+            # info und dazugehöriges Template zum Bot zurücksenden
+            dispatcher.utter_message(template=f'utter_static_{last_intent}', info=f'{dienstleistung["infoinhalt"]}')
+            return []
+        else:
+            return[FollowupAction("action_search_dienstleistung")]
+        
 
 
 class ActionSearchDienstleistungMitIntent(Action):
@@ -130,20 +103,31 @@ class ActionSearchDienstleistungMitIntent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         # letzte Intent aus dem Tracker-Objekt holen
-        dienstleistung_from_intent = tracker.get_intent_of_latest_message
-        print(dienstleistung_from_intent["name"])
+        dienstleistung_from_intent = tracker.latest_message["intent"]["name"]
+        # print(dienstleistung_from_intent)
 
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "Leistungsname": { "$regex": dienstleistung_from_intent["name"], "$options": 'i'},
+            "Leistungsname": { "$regex": dienstleistung_from_intent, "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
-        print(dienstleistung)
+        # print(dienstleistung["Leistungsname"])
         # info und dazugehöriges Template zum Bot zurücksenden
-        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+        # dispatcher.utter_message(text=f'{dienstleistung["Botantwort"][0]}')
+        # FollowupAction("action_search_dienstleistung")
 
-        return []
+        if len(dienstleistung["BotAntwort"]) > 0 :
+            dispatcher.utter_message(template = "utter_dbresponse_allgemein_antworttext",
+                                        info = f'{dienstleistung["BotAntwort"][random.randrange(0, len(dienstleistung["BotAntwort"]))]} Hier sind noch weitere Informationen',
+                                        kategorie = dienstleistung["Leistungsname"],
+                                        link = dienstleistung["LeistungsURI"])
+        else:     
+            dispatcher.utter_message(template = "utter_dbresponse_allgemein",
+                                        kategorie = dienstleistung["Leistungsname"],
+                                        link = dienstleistung["LeistungsURI"])
+
+        return [SlotSet("dienstleistung",dienstleistung["Leistungsname"])]
 
 class ActionSearchDienstleistung(Action):
 
@@ -265,6 +249,8 @@ class ActionSearchDienstleistung(Action):
                 dispatcher.utter_message(template = "utter_dbresponse_allgemein",
                                          kategorie = dienstleistung["Leistungsname"],
                                          link = dienstleistung["LeistungsURI"])
+            
+            dispatcher.utter_message(text = "Benötigen sie noch weitere Informationen zu dieser Dienstleistung? (Öffnungszeiten, Telefonnummer ...)")
 
         return [SlotSet("anliegen", None)]
 

@@ -1,0 +1,131 @@
+version: "2.0"
+
+stories:
+# B-Kategorien
+
+- story: Bafög Leistungen Bundesausbildungsförderungsgesetz
+  steps:
+  - intent: bafög - leistungen bundesausbildungsförderungsgesetz
+  - action: action_search_db
+
+- story: Baugenehmigung
+  steps:
+  - intent: baugenehmigung
+  - action: action_search_db
+
+- story: Baulast Eintragung und Auskunft
+  steps:
+  - intent: baulast eintragung und auskunft
+  - action: action_search_db
+
+- story: Baumfällung
+  steps:
+  - intent: baumfällung
+  - action: action_search_db
+
+- story: Bauvoranfrage
+  steps:
+  - intent: bauvoranfrage
+  - action: action_search_db
+
+- story: Befreiung Bauverbot Überschwemmungsgebieten
+  steps:
+  - intent: befreiung bauverbot überschwemmungsgebieten
+  - action: action_search_db
+
+- story: Befreiungen Bundesnaturschutzgesetz
+  steps:
+  - intent: befreiungen bundesnaturschutzgesetz
+  - action: action_search_db
+
+- story: Beistandschaften
+  steps:
+  - intent: beistandschaften
+  - action: action_search_db
+
+- story: Beistandschaften_Beurkundungen
+  steps:
+  - intent: beistandschaften beurkundungen 
+  - action: action_search_db
+
+- story: Beistandschaften Unterhaltsfragen
+  steps:
+  - intent: beistandschaften unterhaltsfragen
+  - action: action_search_db
+
+- story: Beistandschaften Vaterschaft
+  steps:
+  - intent: beistandschaften vaterschaft
+  - action: action_search_db
+
+- story: Belehrung Umgang Lebensmitteln Gesundheitszeugnis
+  steps:
+  - intent: belehrung umgang lebensmitteln gesundheitszeugnis
+  - action: action_search_db
+
+- story: Beratung Psychischen Erkrankungen Suchtberatung
+  steps:
+  - intent: beratung psychischen erkrankungen suchtberatung
+  - action: action_search_db
+
+- story: Beratung Lebensmittelunternehmen
+  steps:
+  - intent: beratung lebensmittelunternehmen
+  - action: action_search_db
+
+- story: Beratung sexuell übertragbaren Erkankungen
+  steps:
+  - intent: beratung sexuell übertragbaren erkankungen
+  - action: action_search_db
+
+- story: Bescheinigung unentgeltlichen Benutzung öffentlichen Personennahverkehrs
+  steps:
+  - intent: bescheinigung unentgeltlichen benutzung öffentlichen personennahverkehrs
+  - action: action_search_db
+
+- story: Bescheinigungen Liegenschaftskataster
+  steps:
+  - intent: bescheinigungen liegenschaftskataster
+  - action: action_search_db
+
+- story: Besuchsaufenthalte Verpflichtungserklärung
+  steps:
+  - intent: besuchsaufenthalte verpflichtungserklärung
+  - action: action_search_db
+
+- story: Betreuungsrecht Betreuungsstelle
+  steps:
+  - intent: betreuungsrecht betreuungsstelle
+  - action: action_search_db
+
+- story: Bewachungserlaubnis
+  steps:
+  - intent: bewachungserlaubnis
+  - action: action_search_db
+
+- story: Bewachungspersonal
+  steps:
+  - intent: bewachungspersonal
+  - action: action_search_db
+
+- story: BHV1
+  steps:
+  - intent: bhv1
+  - action: action_search_db
+
+- story: Bienenvölker Haltung Anmeldung
+  steps:
+  - intent: bienenvölker haltung anmeldung
+  - action: action_search_db
+
+- story: Bienen Wespen
+  steps:
+  - intent: bienen wespen
+  - action: action_search_db
+
+# # D-Kategorien
+
+# - story:
+#   steps:
+#   - intent:
+#   - action: action_search_db
