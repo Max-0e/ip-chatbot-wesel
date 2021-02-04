@@ -264,7 +264,7 @@ class ActionSetOnlineOderOffline(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        if tracker.get_intent_of_latest_message["name"] == "zustimmung":
+        if tracker.latest_message["intent"]["name"] == "zustimmung":
             query = { 
                 "Leistungsname": { "$regex": "Fahrzeug - Online-Außerbetriebsetzung", "$options": 'i'},
             }

@@ -107,7 +107,7 @@ nlu:
     - arbeit im restaurant und brauche gesundheitszeugnis
     - fastfood restaurant
 
-- intent: Beratung für Menschen mit psychischen Erkrankungen / Suchtberatung
+- intent: Beratung für Menschen mit psychischen Erkrankungen
   examples: |
     - ich habe ein suchtproblem
     - ich habe ein alkohol problem und brauche hilfe

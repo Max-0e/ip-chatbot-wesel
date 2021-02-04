@@ -70,7 +70,7 @@ stories:
 
 - story: Beratung Psychischen Erkrankungen Suchtberatung
   steps:
-  - intent: Beratung für Menschen mit psychischen Erkrankungen / Suchtberatung
+  - intent: Beratung für Menschen mit psychischen Erkrankungen
   - action: action_search_db
 
 - story: Beratung Lebensmittelunternehmen
