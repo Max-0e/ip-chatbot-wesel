@@ -26,15 +26,18 @@ class ActionSearchDB(Action):
 
         # erstellen eines queries mit der Suche nach der gesetzten Kategorie
         print(tracker.slots["keywords"])
+        print(tracker.slots["new_keyword"])
         query = { 
-            "Leistungsname": { "$regex": tracker.slots["kategorie"]},
+            "Leistungsname": { "$regex": tracker.slots["kategorie"], "$options": 'i'},
             # "Leistungsbeschreibung": { "$regex": tracker.slots["new_keyword"]}
         }
         if tracker.slots["new_keyword"] != None:
             tracker.slots["keywords"].append(tracker.slots["new_keyword"])
 
         for keyword in tracker.slots["keywords"]:
-            query["Leistungsbeschreibung"] = { "$regex": keyword}
+            query["Leistungsbeschreibung"] = { "$regex": keyword, "$options": 'i'}
+        
+        print(query)
         # erstes durchsuchen der Datenbank nach dem Suchbegriff
         counter = dienstleistungen.count_documents(query)
         # je nachdem wie viele ergebisse gefunden wurden werden entsprechende Antworten gegeben
@@ -74,7 +77,7 @@ class ActionSearchConfigDB(Action):
 
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "infoname": { "$regex": last_intent},
+            "infoname": { "$regex": last_intent, "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = config.find_one(query)
@@ -128,7 +131,7 @@ class ActionSearchDienstleistung(Action):
 
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "Leistungsname": { "$regex": dienstleistung_slot},
+            "Leistungsname": { "$regex": dienstleistung_slot, "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
@@ -152,7 +155,7 @@ class ActionSearchDienstleistungMitIntent(Action):
 
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "Leistungsname": { "$regex": dienstleistung_from_intent["name"]},
+            "Leistungsname": { "$regex": dienstleistung_from_intent["name"], "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
@@ -161,3 +164,24 @@ class ActionSearchDienstleistungMitIntent(Action):
         dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
 
         return []
+
+class ActionSetOnlineOderOffline(Action):
+
+    def name(self) -> Text:
+        return "action_set_online_oder_offline"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        if tracker.get_intent_of_latest_message["name"] == "zustimmung":
+            query = { 
+                "Leistungsname": { "$regex": "Fahrzeug - Online-Außerbetriebsetzung", "$options": 'i'},
+            }
+        else:
+            query = { 
+                "Leistungsname": { "$regex": "Fahrzeug - Abmeldung", "$options": 'i'},
+            }
+        dienstleistung = dienstleistungen.find_one(query)
+        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+        return [SlotSet("dienstleistung", dienstleistung["Leistungsname"])]

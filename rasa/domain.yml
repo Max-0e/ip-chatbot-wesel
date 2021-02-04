@@ -142,6 +142,9 @@ responses:
   - text: "Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?"
   - text: "Kannst du dein Problem weiter beschreiben?"
   - text: "Bitte versuche dein Problem genauer zu beschreiben."
+
+  utter_online_oder_offline:
+  - text: "Möchten sie die Abmeldung online oder vor Ort durchführen?"
   
 actions:
 #Dispatcher Tests
@@ -150,6 +153,7 @@ actions:
   - action_search_db
   - action_search_configdb
   - action_search_dienstleistung
+  - action_set_online_oder_offline
 
 session_config:
   session_expiration_time: 60

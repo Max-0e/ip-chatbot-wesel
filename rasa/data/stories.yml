@@ -10,8 +10,23 @@ stories:
   - action: utter_fahrzeug_informieren
   - intent: informieren_fahrzeug
     entities:
-    - keyword
+    - new_keyword
   - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+  - checkpoint: check_dienstleistung_bekannt
+
+- story: Fahrzeug-Abmelden - Substory_online_oder_offline
+  steps: 
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Fahrzeug-Abmelden"
+  - action: utter_online_oder_offline
+  - or: 
+    - intent: zustimmung
+    - intent: verneinung
+  - action: action_set_online_oder_offline
+
 
 - story: Führerschein-Kategorie Story
   steps:
@@ -26,7 +41,10 @@ stories:
   - intent: begleitet fahren
   - action: action_search_dienstleistung
 
-
+# - story: Story wenn Dienstleistung bekannt
+#   steps: 
+#     - checkpoint: check_dienstleistung_bekannt
+#     - action: utter_welche_info
 
 - story: Teststory
   steps:

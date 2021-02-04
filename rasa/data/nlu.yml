@@ -228,20 +228,31 @@ nlu:
 
 - intent: informieren_fahrzeug
   examples: |
-    #Omnibusse
     - ich möchte mich über [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](new_keyword) informieren
+    - ich brauche hilfe bei meinem [omnibus](new_keyword)
     - ich brauche hilfe bei der [abmeldung](new_keyword) meines fahrzeuges
+    - ich möchte mein auto [abmelden](new_keyword)
+    - ich möchte mein pwk [abmelden](new_keyword)
+    - ich möchte mein fahrzeug [abmelden](new_keyword)
+    - ich will mein auto [abmelden](new_keyword)
+    - ich will mein pkw [abmelden](new_keyword)
+    - ich will mein fahrzeug [abmelden](new_keyword)
     - wie beantrage ich eine [adressänderung](new_keyword) meines fahrzeuges
+    
     - ich suche informationen zur [namensänderung](new_keyword) meines fahrzeuges
+    
     - wie bekomme ich ein [ausfuhrkennzeichen](new_keyword) 
-    - was ist eine [ausnahmegenemigung](new_keyword) und wie bekomme ich diese
-    - meine [Zulassungsbescheinigung](new_keyword) ist weg
+    -
+     was ist eine [ausnahmegenemigung](new_keyword) und wie bekomme ich diese
+
     - ich möchte meine frage zu meiner [erstmaligen Zulassung, erstzulassung](new_keyword) beantwortet bekommen
+    
     - informationen zu [versicherungsschutz](new_keyword)
+    
     - ich brauche informationen zur [halterauskuft](new_keyword)
+    
     - wie sieht das mit dem [halterwechsel](new_keyword) aus
 
-    #Kennzeichen
     - mein [kennzeichen](new_keyword) ist unlesbar
     - mein [kennzeichen](new_keyword) ist defekt
     - mein [kennzeichen](new_keyword) ist kaputt
@@ -249,28 +260,40 @@ nlu:
     - ich habe mein [kennzeichen](new_keyword) verloren
 
     - ich brauche eine [haftpflichtversicherung](new_keyword)
+
     - ich will informatioen zu meiner [kfz-steuer](new_keyword)
+
     - ich benötige hilfe bei meinem [kurzzeitkennzeichen](new_keyword)
+
     - ich habe einen oldtimer und brauche dafür ein [oldtimerkennzeichen](new_keyword)
+
     - was ist eine [online-ausserbetriebsetzung](new_keyword)
+
     - ich benötige ein [dauerkennzeichen](new_keyword)
+
     - ich brauche ein [saisonkennzeichen](new_keyword)
+
     - ich habe [technische änderungen](new_keyword) an meinem fahrzeug
+
     - ich habe [technische mängel](new_keyword) an meinem fahrzeug
+
     - mein fahrzeug soll auf einen anderen [zulassungsbezirk](new_keyword) umgeschrieben werden
+
     - ich brauche informationen zu der [verkaufsanzeige](new_keyword) meines fahrzeug
+
     - ich möchte ein [wechselkennzeichen](new_keyword)
+
     - ich möchte eine [wiederzulassungs](new_keyword) beantragen
+
     - ich möchte mein fahrzeug [zulassen](new_keyword)
+
     - mein auto wurde [außerbetriebsetzung](new_keyword)
 
-    #Diebstahl
     - ich möchte einen [diebstahl](new_keyword) melden
     - mein [auto wurde gestohlen,auto wurde geklaut,auto wurde entwendet](new_keyword)
     - mein [auto ist verschwunden](new_keyword)
     - mein [pwk ist weg](new_keyword)
 
-    #Diebstahl Zulassung
     - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist verschwunden
     - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist gestohlen worden
     - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist weg
@@ -278,20 +301,23 @@ nlu:
     - mein [zulassungsschein](new_keyword) ist gestohlen worden
     - mein [zulassungsschein ist weg](new_keyword)
 
-    #Diebstahl Fahrzeugbrief
     - ich habe meinen [fahrzeugbrief](new_keyword) verloren
-    - mein [fahrzeugbrief] ist verschwunden(new_keyword)
-    - mein [fahrzeugbrief] ist gestohlen worden(new_keyword)
-    - mein [fahrzeugbrief] ist weg(new_keyword)
+    - mein [fahrzeugbrief](new_keyword) ist verschwunden
+    - mein [fahrzeugbrief](new_keyword) ist gestohlen worden
+    - mein [fahrzeugbrief](new_keyword) ist weg
     - ich habe meinen [fahrzeugbrief](new_keyword) verloren
 
-- synonym: omnibusse
+- synonym: Omnibusse
   examples: |
     - omnibussen
     - omnibus
     - ziehharmonikabus
     - schwenkbus
     - knickbus
+
+- synonym: Fahrzeug-Abmeldung
+  examples: |
+    - abmelden
 
 - synonym: Fahrzeug gestohlen
   examples: |
