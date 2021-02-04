@@ -124,7 +124,6 @@ class ActionSearchDienstleistung(Action):
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
-        print(dienstleistung)
         if dienstleistungen.count_documents(query) == 0 :
             return [SlotSet("dienstleistung", None)]
 
@@ -133,12 +132,14 @@ class ActionSearchDienstleistung(Action):
             oeffnungszeiten = ""
             if "Oeffnungszeiten" in dienstleistung["Ansprechpunkt"][0] :
                 oeffnungszeiten = dienstleistung["Ansprechpunkt"][0]["Oeffnungszeiten"]
+                print("Öffnungszeit gefunden")
             else :
                 query = { 
                     "infoname": { "$regex": "öffnungszeiten"},
                 }
                 config_oez = config.find_one(query)
                 oeffnungszeiten = config_oez["infoinhalt"]
+                print("Keine Öffnungszeit gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_öz",
                                      kategorie = dienstleistung["Leistungsname"],
                                      öffnungszeiten = oeffnungszeiten)
@@ -151,6 +152,7 @@ class ActionSearchDienstleistung(Action):
             for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
                 if not regex.search(element["Kennung"]) :
                     telefon = element["Kennung"] # erste Telefonnummer wird genommen
+                    print("Telefonnummer gefunden")
                     break
             
             if telefon == "" : # Wenn es keine Telefonnummer gibt, wird der Default genommen
@@ -159,6 +161,7 @@ class ActionSearchDienstleistung(Action):
                 }
                 config_tele = config.find_one(query)
                 telefon = config_tele["infoinhalt"]
+                print("Keine Telefonnummer gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_telefon",
                                      kategorie = dienstleistung["Leistungsname"],
                                      person = name,
@@ -172,6 +175,7 @@ class ActionSearchDienstleistung(Action):
             for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
                 if regex.search(element["Kennung"]) :
                     email = element["Kennung"] # erste Mailadresse wird genommen
+                    print("Email-Adresse gefunden")
                     break
             
             if email == "" : # Wenn es keine Email gibt, wird der Default genommen
@@ -180,6 +184,7 @@ class ActionSearchDienstleistung(Action):
                 }
                 config_email = config.find_one(query)
                 email = config_email["infoinhalt"]
+                print("Keine Email-Adresse gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_email",
                                      kategorie = dienstleistung["Leistungsname"],
                                      person = name,
@@ -192,17 +197,20 @@ class ActionSearchDienstleistung(Action):
                 adr = dienstleistung["Ansprechpunkt"]["AnsprechpunktAnschrift"]
                 hausnummer = regex.search(adr["Hausnummer"])
                 adresse = adr["Strasse"] + " " + hausnummer.group(0) + " " + adr["Postleitzahl"] + " " + adr["Ort"]
+                print("Adresse gefunden")
             if adresse == "" : # Wenn es keine Adresse gibt, wird der Default genommen # Reeser Landstraße 31 46383 Wesel
                 query = { 
                     "infoname": { "$regex": "adresse"},
                 }
                 config_adresse = config.find_one(query)
                 adresse = config_adresse["infoinhalt"]
+                print("Keine Telefonnummer gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_ansprechpartner",
                                      kategorie = dienstleistung["Leistungsname"],
                                      anschrift = adresse)
         # Allgemeine Informationen
         else :
+            print("Ausgabe allgemeine Informationen")
             if len(dienstleistung["BotAntwort"]) > 0 :
                 dispatcher.utter_message(template = "utter_dbresponse_allgemein_antworttext",
                                          info = f'{dienstleistung["BotAntwort"][random.randrange(0, len(dienstleistung["BotAntwort"]))]} Hier sind noch weitere Informationen',
