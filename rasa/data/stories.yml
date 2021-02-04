@@ -154,6 +154,134 @@ stories:
   - intent: auszug_aus_dem_liegenschaftsbuch
   - action: utter_auszug_aus_dem_liegenschaftsbuch
 
+# B-Kategorien
+
+- story: Bafög_Leistungeng_Bundesausbildungsförderungsgesetz
+  steps:
+  - intent: bafög_leistungeng_bundesausbildungsförderungsgesetz
+  - action: action_search_db
+
+- story: Baugenehmigung
+  steps:
+  - intent: baugenehmigung
+  - action: action_search_db
+
+- story: Baulast_Eintragung_und_Auskunft
+  steps:
+  - intent: baulast_eintragung_und_auskunft
+  - action: action_search_db
+
+- story: Baumfällung
+  steps:
+  - intent: baumfällung
+  - action: action_search_db
+
+- story: Bauvoranfrage
+  steps:
+  - intent: bauvoranfrage
+  - action: action_search_db
+
+- story: Befreiung_Bauverbot_Überschwemmungsgebieten
+  steps:
+  - intent: befreiung_bauverbot_überschwemmungsgebieten
+  - action: action_search_db
+
+- story: Befreiungen_Bundesnaturschutzgesetz
+  steps:
+  - intent: befreiungen_bundesnaturschutzgesetz
+  - action: action_search_db
+
+- story: Beistandschaften
+  steps:
+  - intent: beistandschaften
+  - action: action_search_db
+
+- story: Beistandschaften_Beurkundungen
+  steps:
+  - intent: beistandschaften_beurkundungen 
+  - action: action_search_db
+
+- story: Beistandschaften_Unterhaltsfragen
+  steps:
+  - intent: beistandschaften_unterhaltsfragen
+  - action: action_search_db
+
+- story: Beistandschaften_Vaterschaft
+  steps:
+  - intent: beistandschaften_vaterschaft
+  - action: action_search_db
+
+- story: Belehrung_Umgang_Lebensmitteln_Gesundheitszeugnis
+  steps:
+  - intent: belehrung_umgang_lebensmitteln_gesundheitszeugnis
+  - action: action_search_db
+
+- story: Beratung_Psychischen_Erkrankungen_Suchtberatung
+  steps:
+  - intent: beratung_psychischen_erkrankungen_suchtberatung
+  - action: action_search_db
+
+- story: Beratung_Lebensmittelunternehmen
+  steps:
+  - intent: beratung_lebensmittelunternehmen
+  - action: action_search_db
+
+- story: Beratung_sexuell_übertragbaren_Erkankungen
+  steps:
+  - intent: beratung_sexuell_übertragbaren_erkankungen
+  - action: action_search_db
+
+- story: Bescheinigung_unentgeltlichen_Benutzung_öffentlichen_Personennahverkehrs
+  steps:
+  - intent: bescheinigung_unentgeltlichen_benutzung_öffentlichen_personennahverkehrs
+  - action: action_search_db
+
+- story: Bescheinigungen_Liegenschaftskataster
+  steps:
+  - intent: bescheinigungen_liegenschaftskataster
+  - action: action_search_db
+
+- story: Besuchsaufenthalte_Verpflichtungserklärung
+  steps:
+  - intent: besuchsaufenthalte_verpflichtungserklärung
+  - action: action_search_db
+
+- story: Betreuungsrecht_Betreuungsstelle
+  steps:
+  - intent: betreuungsrecht_betreuungsstelle
+  - action: action_search_db
+
+- story: Bewachungserlaubnis
+  steps:
+  - intent: bewachungserlaubnis
+  - action: action_search_db
+
+- story: Bewachungspersonal
+  steps:
+  - intent: bewachungspersonal
+  - action: action_search_db
+
+- story: BHV1
+  steps:
+  - intent: bhv1
+  - action: action_search_db
+
+- story: Bienenvölker_Haltung_Anmeldung
+  steps:
+  - intent: bienenvölker_haltung_anmeldung
+  - action: action_search_db
+
+- story: Bienen_Wespen
+  steps:
+  - intent: bienen_wespen
+  - action: action_search_db
+
+# D-Kategorien
+
+- story:
+  steps:
+  - intent:
+  - action: action_search_db
 
 #einzelne von Unten angefangen
 - story: Schornsteinfegerwesen
