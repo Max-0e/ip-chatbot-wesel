@@ -201,6 +201,16 @@ nlu:
     - fahren [ab 17](dienstleistung)
     - fahren [vor 18](dienstleistung)
 
+- intent: dienstleistungen_suche_test
+  examples: |
+    - [Adoptionsvermittlung](dienstleistung) [öffnungszeiten](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [telefon](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [email](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [ansprechpartner](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [öffnungszeiten](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [telefon](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [email](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [ansprechpartner](anliegen)
 
 # synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben die gleichen values zu geben
 - synonym: Führerschein - Begleitetes Fahren ab 17 Jahren
@@ -350,3 +360,491 @@ nlu:
   examples: |
     - fahrzeugbrief
     - autobrief
+
+
+#Führerschein   
+
+- intent: begleitet fahren
+  examples: |
+    - begleitetes fahren
+    - Was kannst du mir zu begleitetes fahren sagen
+    - Hilfe zu begleitetes fahren
+    - fahren ab 17
+    - fahren vor 18
+
+- intent: führerscheinverlust
+  examples: |
+    - führerschein diebstahl
+    - Mein Führerschein wurde geklaut
+    - Ich habe meinen Führerschein verloren
+    - führerschein geklaut
+    - führerschein verloren
+
+- intent: führerschein personendaten
+  examples: |
+    - Personendaten Führerschein
+    - Führerschein personendaten
+    - personendaten ändern führerschein
+    - muss ich meine daten auf dem führerschein ändern
+    - ich möchte meine daten auf dem führerschein ändern
+
+- intent: EU_Führerschein
+  examples: |
+    - Ich möchte meinen Führerschein gegen einen EU-Führerschein tauschen
+    - Ich möchte einen EU-Führerschein
+    - EU-Führerschein
+    - ich brauche ein EU-Führerschein
+    - brauch ich einen EU-Führerschein
+
+- intent: Neuerteilung_Führerschein
+  examples: |
+    - Neuerteilung Führerschein
+    - Führerschein Entzug
+    - Ich möchte meinen Führerschein zurück haben
+    - Führerschein wurde entzogen 
+    - Frist des Führerscheinentzugs beendet
+
+- intent: Fahrgastbeförderung
+  examples: |
+    - Ich möchte eine Erlaubnis zur Fahrgastbeförderung
+    - ich möchte leute transportieren
+    - ich brauche eine Fahrgastbeförderungserlaubmiss
+    - Fahrgastbeförderung
+
+#Fahrzeug/KFZ
+
+- intent: kfz_steuer
+  examples: |
+    - Steuern Auto
+    - KFZ-Steuer
+    - Wie viel Steuern muss ich bei meinem Auto zahlen
+    - Wann muss ich Steuern für Auto zahlen
+    - Steuer KFZ
+
+- intent: erstzulassung
+  examples: |
+    - erstzulassung
+    - erstzulassung auto
+    - kfz erstzulassung
+    - wie kann ich mein auto zulassen
+    - auto zulassen
+    - zulassung
+    - erstmalige zulassung
+    - wann brauche ich erstzulassung
+
+- intent: saisonkennzeichen
+  examples: |
+    - saisonkennzeichen
+    - was ist ein saisonkennzeichen
+    - auto nur ein teil des jahres zulassen
+    - wann brauche ich ein saisonkennzeichen
+    - beantragung saisonkennzeichen
+
+
+
+
+
+
+
+
+
+
+# A Kategorie
+# Abgeschlossenheitsbescheinigung
+# Allgemeiner Sozialer dienst
+
+- intent: abfallbeförderungserlaubnis
+  examples: |
+    - wie bekomme ich ein abfallbeförderungserlaubnis
+    - was ist ein abfallbeförderungserlaubnis
+    - wie kann ich meinen abfall befördern lassen
+    - wie kann ich meinen abfall wegschicken
+    - welche erlaubnis brauche ich um meinen abfall zu entsorgen
+    - wie kann ich gefährlichen Abfall Handeln
+    - wie kann ich gefährlichen Abfall Befördern oder Marklern
+
+- intent: abfallberatung
+  examples: |
+    - ich brauche hilfe bei meinem abfall
+    - ich brauche eine abfallberatung
+    - ich brauche eine beratung für meinen abfall
+    - wie kann ich mich über abfall beraten lassen
+    - ich habe ein problem mit meinem abfall
+
+- intent: abfallerzeugernummer
+  examples: |
+    - was ist eine abfallerzeugernummer
+    - wie bekomme ich meine abfallerzeugernummer
+    - woher bekomme ich eine nummer für meine abfallerzeugung
+    - abfallerzeugernummer 
+    - was mache ich mit einer abfallerzeuger nummer
+
+- intent: abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  examples: |
+    - ich soll geld an das jugendarbeitsschutzgesetz zahlen, was muss ich machen
+    - warum habe ich vom jugendarbeitsschutzgesetz eine Rechnung bekommen
+    - ich muss geld wegen einer jugendarbeitsschutzgesetz untersuchung zahlen
+    - jugendarbeitsschutzgesetz untersuchung
+    - abrechnung unteruchungen jugendarbeitsschutzgesetz
+
+- intent: adoptionsvermittlung
+  examples: |
+    - ich brauche eine adoptionsvermittlung
+    - was ist eine adoptionsvermittlung
+    - vermittlung für adoption
+    - adoptionsvermittlung
+    - adoption
+
+- intent: ärztliche_gutachten
+  examples: |
+    - ich brauche ein ärtzliches gutachten
+    - woher bekomme ich eine ärtzliches gutachten
+    - ich brauche ein gutachten von einem artzt
+    - wie komme ich an ein ärtztlich ausgestelltes gutachen
+    - ich brauche ein artztliches gut achten
+
+- intent: aids_beratung_hiv_test
+  examples: |
+    - ich glaube ich habe aids
+    - wo kann ich einen aids test machen
+    - wo kann ich einen hiv test machen
+    - wo kann ich einen geschlechtskrankheiten test machen
+    - geschlechtskrankheiten
+    - aids
+    - hiv
+    - sexkrankheit
+
+- intent: amtliche_basiskarte
+  examples: |
+    - wie bekomme ich eine amtliche basiskarte
+    - wo kann ich mich über eine amtliche basiskarte informieren
+    - was ist eine amtliche basiskarte
+    - an wen muss ich mich wenden wenn ich eine amtliche basiskarte haben möchte
+    - wofür brauche ich eine amtliche basiskarte
+    - ich brauche informationen zur amtliche basiskarte
+    - amtliche basiskarte
+
+- intent: anlagen_in_und_an_gewässern
+  examples: |
+    - ich brauche eine baugenemigung für anlagen in und an gewässern
+    - woher bekomme ich eine baugenemigung für meine bauten am gewässer
+    - ich will am fluss ein haus bauen
+    - ich will am rhein ein Gebäude bauen
+    - warum brauche ich eine baugenemigung für meine bauten an gewässern
+
+- intent: anmeldung_und_beratung_von_prostituierten
+  examples: |
+    - ich bin eine prostituierte und brauche beratung
+    - ich brauche beratung als prostituierte
+    - wo kann ich mich als prostituierte anmelden
+    - ich möchte prostituierte im kreis wesel werden
+    - wie bekomme ich die adresse wo ich mich als prostituierte anmelden kann
+
+- intent: apothekenbetriebserlaubnis
+  examples: |
+    - wo bekomme ich eine apothekenbetriebserlaubnis
+    - ich brauche eine apothekenbetriebserlaubnis
+    - welche Unterlagen brauche ich für eine apothekenbetriebserlaubnis
+    - apothekenbetriebserlaubnis
+    - apothekenerlaubnis für meine apotheke
+
+- intent: artenschutz_meldepflicht
+  examples: |
+    - ich möchte eine nicht deutsche tierart halten
+    - ich möchte eine haustier von einem anderem kontinent   
+    - exotisches haustier
+    - exotisches tier
+
+- intent: artenschutzrechtliche_genehmigung
+  examples: |
+    - ich brauche eine genemigung für mein haustier
+    - ich brauche eine artenschutz genemigung für mein haustier
+    - wo bekomme ich eine genemigung für meine exotische tierrasse her
+
+- intent: aufenthaltserlaubnis_zu_studienzwecken
+  examples: |
+    - ich brauche eine aufenthaltserlaubnis für mein studium
+    - wo bekomme ich eine aufenthaltserlaubnis für studiumzwecke her
+    - aufenthaltserlaubnis studium
+    - visum für studium
+    - aufenthaltserlaubnis gekopplet mit visum
+
+- intent: ausbildungsverkehr_pauschale
+  examples: |
+    - woher bekomme ich eine ausbildungsverkehrs pauschale
+    - bis wann ist die frist einer ausbildungsverkehrs pauschlae
+    - ausbildung mit öpnv
+    - öpnv in der ausbildung bezahlt 
+
+- intent: auszüge_aus_der_liegenschaftskarte
+  examples: |
+    - auszüge aus der liegenschaftskarte
+    - ich brauche auszüge aus der liegenschaftskarte
+    - was ist eine liegenschaftkarte
+    - analoge flurkarte
+
+- intent: auszug_aus_dem_liegenschaftsbuch
+  examples: |
+    - ich brauche ein auszug aus dem liegenschaftsbuch
+    - liegenschaftbuch
+    - flurkartenbuch
+    - eigentümer nachweis aus dem liegenschaftsbuch 
+
+# B-Kategorien
+
+- intent: bafög_leistungeng_bundesausbildungsförderungsgesetz
+  examples: |
+    - wie kann ich bafög beantragen
+    - wie kann ich finanzielle unterstützung für meine ausbildung oder studium bekommen
+    - wo kann ich bafög beantragen
+    - ich brauche unterstützung bei meinem studium mit norminalgütern
+    - ich brauche eine bafög bescheinigung
+
+- intent: baugenehmigung
+  examples: |
+    - ich brauche eine baugenemigung
+    - ich möchte eine baugenemigung beantragen
+    - ich möchte ein haus bauen und brauche dafür eine baugenemigung
+    - ich möchte mein haus erweitern
+    - ich möchte in kreis wesel ein haus bauen 
+
+- intent: baulast_eintragung_und_auskunft
+  examples: |
+    - ich brauche auskunft für eine baulast meines grundstückes
+    - mein grundstück hat eine baulast 
+    - ich kann auf meinem grundstück nicht ordnungsgemäß bauen
+    - ich möchte eine baulast bestellen
+    - ich habe eine bauslast auf meinem grundstück, ein anderes grundstückseigentümer soll die kosten teilweise tragen
+
+- intent: baumfällung
+  examples: |
+    - ich möchte ein baum auf meinem grundstück fällen
+    - ich brauche eine genemigung um einem alten birke zu fällen
+    - ich möchte einen baum in einer in einem bebauten ortsteil fällen
+    - an wenn muss ich mich wenden wenn ich einen baum in meinem garten fällen will
+    - ich möchte eine tanne fällen
+
+- intent: bauvoranfrage
+  examples: |
+    - ich möchte eine bauvoranfrage abschließen
+    - an wen muss ich mich wenden wenn ich fragen wegen einer bauvoranfrage habe
+    - bauvoranfrage verbindliche abschließung
+
+- intent: befreiung_bauverbot_überschwemmungsgebieten
+  examples: |
+    - ich möchte im einem überschwemmten gebiet bauen
+    - ich möchte eine befreiung vom bauverbot in einem ehemaligen überschwemmten gebieten beantragen
+    - darf man in überschwemmten gebieten bauen
+    - an wenn muss ich mich wenden wenn ich in einem überschwemmten gebiet bauen möchte
+
+- intent: befreiung_helmpflicht_anschnallpflicht
+  examples: |
+    - ich habe probleme mit meinem herzen oder gewicht und möchte eine befreiung der anschnallpflicht halmpflicht beantragen
+    - ich habe gesundheitliche probleme und kann mich deswegen nicht anschnallen
+    - mir passt kein motorradhelm mehr auf den kopf was nun
+    - wie kann eine befreiung der anschnallpflicht beantragen
+    - an wenn muss ich mich wenden wenn ich eine befreiung der helmpflicht beantragen will
+
+- intent: befreiungen_bundesnaturschutzgesetz
+  examples: |
+    - ich möchte in einem naturschutzgebiet eine veranstalltung durchführen
+    - ich möchte mein lokales naturschutzgebiet verändern
+    - ich möchte eine fläche in einem naturschutzgebiet bebauen
+    - muss ich mich an die naturschutzbehörde werden wenn ich in einem naturschutzgebiet etwas verändern möchte
+    - ich möchte eine befreiung des bundesnaturschutzgesetzes
+    - ich möchte eine befreiung des bnatschg
+
+- intent: beistandschaften
+  examples: |
+    - ich möchte eine beistandschaft durchführen
+    - ich bin alleinerziehende mutter vater und möchte eine beistandschaft durchführen
+    - kann mir das jugendamt helfen eine beistandschaft durchzuführen
+    - ich brauche eine beistandschaft für meinen sohn tochter kind
+
+- intent: beistandschaften_beurkundungen
+  examples: |
+    - ich brauche eine persönliche vorsprache für eine beurkundete beistandschaft
+    - meine beistandschaft soll beurkundet werden
+    - ich brauche eine beurkundete sorgeerklärung für meinen sohn tochter kind
+
+- intent: beistandschaften_unterhaltsfragen
+  examples: |
+    - mein man frau muss unterhalt bezahlen
+    - wie kläre ich die unterhaltsfrage
+    - ich brauche unterhalt für mein kind sohn tochter
+    - mein man frau hält sich nichts an die unterhaltsverpflichtung
+    - ich bekomme geld wegen dem unterhalt das mir mein mann frau bezahlen muss
+
+- intent: beistandschaften_vaterschaft
+  examples: |
+    - ich möchte einen vaterschaftstest
+    - ich weis nicht ob mein sohn kind tochter von meinem man frau ist
+    - ich möchte die verwandschaft mit zwischen meinem sohn kind tochter und man frau bestätigen
+    - ich möchte die vaterschaft zwischen meinem kind bestätigt wissen
+    - wo kann man einen vaterschaftsbestimmung beantragen
+    - vaterschaftsgutachten
+    - vaterschaftsklage
+    - vaterschaftsprozess
+
+- intent: belehrung_umgang_lebensmitteln_gesundheitszeugnis
+  examples: |
+    - ich arbeite mit lebensmitteln und brauche ein gesundheitszeugnis
+    - gesundheits belehrung im umgang mit lebensmitteln
+    - gesundheitspass im umgang mit essen
+    - arbeit im restaurant und brauche gesundheitszeugnis
+    - fastfood restaurant
+
+- intent: beratung_psychischen_erkrankungen_suchtberatung
+  examples: |
+    - ich habe ein suchtproblem
+    - ich habe ein alkohol problem und brauche hilfe
+    - ich habe eine psychische störung oder erkrankung
+    - ich habe eine spielsucht 
+    - ich bin abhängig
+
+- intent: beratung_lebensmittelunternehmen
+  examples: |
+    - ich brauche eine beratung für mein lebensmittelunternehmen
+    - fachliches gespräch für mein lebensmittelbetrieb
+    - frage zu lebensmittel-hygienerechtlichen anforderungen
+    - hygienerechtliche anforderungen Unternehmen
+
+- intent: beratung_sexuell_übertragbaren_erkankungen
+  examples: |
+    - mein kondom ist beim sex gerissen ich brauche eine beratung
+    - beratung sexuell übertragbare krankheiten
+    - geschlechtsverkehr ohne verhütung
+    - ich glaube ich habe eine sexuell übertragbare krankheit
+    - ich möchte informationen über sexuell übertragbare krankheiten um mich vor ansteckung zu schützen
+    - risiken über sexuell übertragbare krankheiten
+    - ich brauche beratung wegen einen panne im personalverkehr
+    - infizierung sex krankheiten
+
+- intent: bescheinigung_unentgeltlichen_benutzung_öffentlichen_personennahverkehrs
+  examples: |
+    - ich habe eine schwerbehinderung und möchre mit öpvn kostenlos fahren
+    - kostenlos öffentlichen personennahverkehrs fahren
+    - bescheinigung zur unentgeldlichen benutzung des öpnv
+    - wie kann ich kostenlos öpnv fahren
+
+- intent: bescheinigungen_liegenschaftskataster
+  examples: |
+    - ich brauche eine liegenschaftskataster bescheinigung
+    - was ist eine liegenschaftskataster
+
+- intent: besuchsaufenthalte_verpflichtungserklärung
+  examples: |
+    - ich bekomme besuch aus dem ausland
+    - ich brauche eine verpflichtungserklärung für den besuchsaufenthalt von 3 monaten
+    - ich bekomme ein geschäftlichen besuch aus dem ausland und brauche eine verpflichtungserklärung
+    - besuchsaufenthalte aus dem ausland
+
+- intent: betreuungsrecht_betreuungsstelle
+  examples: |
+    - was ist das betreuungsrechts
+    - ich brauche informationen zur betreuungsstelle
+  # erweitern ...
+
+- intent: bewachungserlaubnis
+  examples: |
+    - ich möchte wachmann werden was brauche ich dafür
+    - ich brauche eine bewachungserlaubnis
+    - welche voraussetzungen muss ich als wachmann erfüllen
+    - ich möchte gewerbsmäßig eigentum fremder personen bewachen
+    - ich möchte gewerbsmäßig das leben fremder personen bewachen
+ 
+- intent: bewachungspersonal
+  examples: |
+    - ich betreibe ein bewachungsgewerbes
+    - ich möchte bewachungspersonal einstellen
+    - wachpersonal qualifikations
+
+- intent: bhv1
+  examples: |
+    - Bovine Herpesvirus
+    - Rinderkrankheiten
+    - Tierseuche
+
+- intent: bienenvölker_haltung_anmeldung
+  examples: |
+    - ich möchte bienenvölker halten
+    - ich möchte meine tätigkeit als imker anmelden
+    - was brauche ich als imker
+    - bienenstöcke halten
+
+- intent: bienen_wespen
+  examples: |
+    - bienen
+    - wespen
+    - hornissen
+    - hummeln
+    - geschützte Tierarten
+    - Bundesnaturschutzgesetz
+
+# D-Kategorien
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+    
+
+
+#Einzelne Dienstleistungne von Unten Angefangen
+- intent: Schornsteinfegerwesen
+  examples: |
+    - Brauch ich einen Schornsteinfeger
+    - Muss ein Schornsteinfeger bei mir alles überprüfen
+    - Wo kann ich einen Schornsteinfeger bestellen 
+    - Wo krieg ich einen Termin mit einem Schornsteinfeger
+
+- intent: Sozialticket
+  examples: |
+    - Was ist ein Sozialticket
+    - Wie viel kostet ein Sozialticket
+    - Wer darf auf dem Sozialticket fahren 
+    - Darf ich auf dem Sozialticket leute mitnehmen 
+    - Wo ist das Sozialticket gültig
+    - Wie teuer ist ein Sozialticket
+
+- intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  examples: |
+    - Ich möchte meinen burnnen überwachen lassen
+    - ich möchte meinen brunnen sicher nutzen
+    - ich habe eine Trinkwasse-Kleinanlagen
+    - ich habe eine kleine trinkwasseranlage
+
+- intent: Unterhaltsvorschuss
+  examples: |
+    - Ich brauche einen unterhaltsvorschuss
+    - krieg ich einen Unterhaltsvorschuss
+    - wann krieg ich einen Unterhaltsvorschuss
+    - bis wann krieg ich Unterhaltsvorschusse
+    - wie viel unterhaltsvorschuss bekomme ich 
+    - ich bin alleinerziehend und krieg wenig unterhalt
+
+- intent: Wohnberechtigungsschein
+  examples: |
+    - Ich brauche eine wohnberechtigungsschein
+    - Ich wann brauche ich ein wohnberechtigungsschein
+    - ich möchte in eine öffentlich geförderte Wohnung ziehen 
+    - Für welche städte stellt ihr wohnberechtigungsscheine aus

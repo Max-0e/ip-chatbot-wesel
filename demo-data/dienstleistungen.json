@@ -6846,7 +6846,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Omnibusse müssen, um 100km/h fahren zu dürfen spezielle Voraussetzungen erfüllen und dafür zugelassen werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/62EDBD78D999F734C1257D4F00494AAC "
+  ],
   "LeistungsID": "62EDBD78D999F734C1257D4F00494AAC",
   "Leistungsname": "Fahrzeug - 100 km/h Zulassung für Omnibusse",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/62EDBD78D999F734C1257D4F00494AAC",
@@ -6916,7 +6918,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie die Zulassung Ihres Fahrzeuges beenden möchten, dann erfolgt dies durch die Außerbetriebsetzung (früher: Abmeldung, Stilllegung oder Löschung). Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/60357C3C5FC660BAC1257D02003334AF "
+  ],
   "LeistungsID": "60357C3C5FC660BAC1257D02003334AF",
   "Leistungsname": "Fahrzeug - Abmeldung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/60357C3C5FC660BAC1257D02003334AF",
@@ -6988,7 +6992,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie innerhalb des Kreisgebietes umgezogen sind, ist eine Berichtigung der Zulassungsbescheinigung Teil 1 erforderlich. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/37876B0DA1991E50C1257D2B002F7FA2"
+  ],
   "LeistungsID": "37876B0DA1991E50C1257D2B002F7FA2",
   "Leistungsname": "Fahrzeug - Adressänderung und/oder Namensänderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/37876B0DA1991E50C1257D2B002F7FA2",
@@ -7060,7 +7066,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Fahrzeuge, die dauerhaft aus Deutschland ausgeführt und in ein anderes Land gebracht werden sollen, überführt man am besten mit Ausfuhrkennzeichen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/34A11A27F45214E9C1257D0B002DF422 "
+  ],
   "LeistungsID": "34A11A27F45214E9C1257D0B002DF422",
   "Leistungsname": "Fahrzeug - Ausfuhrkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/34A11A27F45214E9C1257D0B002DF422",
@@ -7117,7 +7125,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ausnahmegenehmigungen nach § 70 Straßenverkehrs-Zulassungs-Ordnung (StVZO) werden für Kraftfahrzeuge und ihre Kombinationen benötigt, die hinsichtlich ihrer Maße (Länge, Höhe, Breite), Gewichte (Achslasten, Gesamtmassen), Ausrüstung oder in sonstiger Weise von den Vorschriften der StVZO abweichen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/EDA3C976FD56BFE3C1258633004BE85F "
+  ],
   "LeistungsID": "EDA3C976FD56BFE3C1258633004BE85F",
   "Leistungsname": "Fahrzeug - Ausnahmegenehmigung § 70 StVZO",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/EDA3C976FD56BFE3C1258633004BE85F",
@@ -7188,7 +7198,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wurde Ihr Fahrzeug gestohlen, sollte es in der Regel unverzüglich außer Betrieb gesetzt werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/E55AB5C293BAF9F7C1257D18004950E0 "
+  ],
   "LeistungsID": "E55AB5C293BAF9F7C1257D18004950E0",
   "Leistungsname": "Fahrzeug - Diebstahl",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E55AB5C293BAF9F7C1257D18004950E0",
@@ -7260,7 +7272,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wird ein Ersatzfahrzeugbrief beantragt, muss der/die Halterin bzw. der/diejenige, der/die nachweist, den Fahrzeugbrief zuletzt in Besitz gehabt zu haben, in der Zulassungsbehörde persönlich eine Versicherung an Eides-Statt abgeben oder eine notariell beglaubigte Versicherung an Eides-Statt vorlegen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/79D2B40B97F47847C1257D12002822F5 "
+  ],
   "LeistungsID": "79D2B40B97F47847C1257D12002822F5",
   "Leistungsname": "Fahrzeug - Diebstahl oder Verlust des Fahrzeugbriefes/der Zulassungsbescheinigung Teil II",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/79D2B40B97F47847C1257D12002822F5",
@@ -7332,7 +7346,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Bei Verlust oder Diebstahl Ihres Fahrzeugscheins oder der Zulassungsbescheinigung Teil I benötigen Sie eine neue Zulassungsbescheinigung Teil I. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/12995DC328BED26AC1257D12003545B2 "
+  ],
   "LeistungsID": "12995DC328BED26AC1257D12003545B2",
   "Leistungsname": "Fahrzeug - Diebstahl oder Verlust des Fahrzeugscheines/der Zulassungsbescheinigung Teil I",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/12995DC328BED26AC1257D12003545B2",
@@ -7404,7 +7420,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie ein fabrikneues Fahrzeug auf sich zulassen möchten, handelt es sich um eine Neuzulassung.\n      Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/zulassung-eines-neufahrzeugs/"
+  ],
   "LeistungsID": "3C56FA98F1567DEEC1257D1C00486C19",
   "Leistungsname": "Fahrzeug - erstmalige Zulassung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/3C56FA98F1567DEEC1257D1C00486C19",
@@ -7590,7 +7608,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Solange ein Fahrzeug zugelassen ist, muss uneingeschränkter Versicherungsschutz bestehen. Ist das auch nach Aufforderung nicht der Fall, erfolgt eine Zwangsaußerbetriebsetzung. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/DB742FA31F137A1AC1257E68004506D1 "
+  ],
   "LeistungsID": "DB742FA31F137A1AC1257E68004506D1",
   "Leistungsname": "Fahrzeug - fehlender Versicherungsschutz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DB742FA31F137A1AC1257E68004506D1",
@@ -7661,7 +7681,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie zur Verfolgung von Rechtsansprüchen im Zusammenhang mit dem Straßenverkehr, Daten über die Halterin oder den Halter eines Fahrzeuges oder deren Kraftfahrzeug-Haftpflichtversicherung benötigen haben Sie die Möglichkeit, eine Auskunft aus dem Fahrzeugregister zu erhalten. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/AAC5109B9CC72DFFC1257D02003BCC7A "
+  ],
   "LeistungsID": "AAC5109B9CC72DFFC1257D02003BCC7A",
   "Leistungsname": "Fahrzeug - Halterauskunft",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AAC5109B9CC72DFFC1257D02003BCC7A",
@@ -7733,7 +7755,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ein Fahrzeug war oder ist bisher bereits im Kreis Wesel zugelassen und soll jetzt auf einen anderen Halter im Kreis Wesel zugelassen bzw. umgeschrieben werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/BA93F7938AF92EB8C1257CFD00416526 "
+  ],
   "LeistungsID": "BA93F7938AF92EB8C1257CFD00416526",
   "Leistungsname": "Fahrzeug - Halterwechsel / Umschreibung innerhalb des Kreises Wesel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BA93F7938AF92EB8C1257CFD00416526",
@@ -7805,7 +7829,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "In diesem Fall lassen Sie sich bitte bei einem Schilderhersteller Ihrer Wahl Ersatz anfertigen und sprechen anschließend zur Siegelung der neuen Kennzeichen in der Zulassungsstelle vor. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/B151DBD737E25240C1257D03004AB9A4 "
+  ],
   "LeistungsID": "B151DBD737E25240C1257D03004AB9A4",
   "Leistungsname": "Fahrzeug - Kennzeichenschild - defekt oder unlesbar",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B151DBD737E25240C1257D03004AB9A4",
@@ -7876,7 +7902,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Der Wechsel Ihres bisherigen Kennzeichens kann notwendig werden, weil die Kennzeichenschilder (auch ein einzelnes) in Verlust geraten sind oder gestohlen wurden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/0950C46F2B3CA493C1257CFD0049A164 "
+  ],
   "LeistungsID": "0950C46F2B3CA493C1257CFD0049A164",
   "Leistungsname": "Fahrzeug - Kennzeichenverlust oder Umkennzeichnung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/0950C46F2B3CA493C1257CFD0049A164",
@@ -8062,7 +8090,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Jede/r Fahrzeughalter/in muss sein/ihr Fahrzeug gegen Unfallschäden versichern. Nachgewiesen wird der Versicherungsschutz durch die \"Versicherungsbestätigung\". Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/97E25EF219DBBCEFC1257F760048ACCD "
+  ],
   "LeistungsID": "97E25EF219DBBCEFC1257F760048ACCD",
   "Leistungsname": "Fahrzeug - Kfz-Haftpflichtversicherung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/97E25EF219DBBCEFC1257F760048ACCD",
@@ -8086,7 +8116,9 @@
   "Ansprechpunkt": [
     false
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ihr Fahrzeug wird mit der Zulassung automatisch steuerpflichtig, soweit es sich um ein steuerpflichtiges Fahrzeug handelt.\n      Die Steuerpflicht umfasst auch Ausfuhrkennzeichen. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/fahrzeug-kfz-steuer/\n"
+  ],
   "LeistungsID": "BA10EE5F9195C5D7C1257E68004A6A73",
   "Leistungsname": "Fahrzeug - Kfz-Steuer",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BA10EE5F9195C5D7C1257E68004A6A73",
@@ -8156,7 +8188,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie ein nicht zugelassenes Fahrzeug überführen möchten oder im Zuge des Kaufs- oder Verkaufs eines nicht zugelassenen Fahrzeuges eine Probefahrt machen möchten, dann benötigen Sie hierfür ein Kurzzeitkennzeichen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/D419A929571A9946C1257D020030AEBA"
+  ],
   "LeistungsID": "D419A929571A9946C1257D020030AEBA",
   "Leistungsname": "Fahrzeug - Kurzzeitkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/D419A929571A9946C1257D020030AEBA",
@@ -8228,7 +8262,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Oldtimerfahrzeuge bekommen auf dem Kennzeichen ein \"H\" hinter die Buchstaben-Ziffern-Kombination geprägt. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/E6F28E8ACB9A51F2C1257CFD004A8B34 "
+  ],
   "LeistungsID": "E6F28E8ACB9A51F2C1257CFD004A8B34",
   "Leistungsname": "Fahrzeug - Oldtimerkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E6F28E8ACB9A51F2C1257CFD004A8B34",
@@ -8300,7 +8336,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Seit dem 02.01.2015 können Sie Ihr Fahrzeug über unsere Onlinedienste unter www.zulassungsstelle-moers.de oder www.zulassungsstelle-wesel.de online und ganz ohne Besuch in unseren Zulassungsstellen in Wesel und Moers außer Betrieb setzen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/51B72202B3F3F2DDC1257DC70049166E "
+  ],
   "LeistungsID": "51B72202B3F3F2DDC1257DC70049166E",
   "Leistungsname": "Fahrzeug - Online-Außerbetriebsetzung mit i-Kfz",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/51B72202B3F3F2DDC1257DC70049166E",
@@ -8371,7 +8409,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Rote Dauerkennzeichen werden nur und ausschließlich an zuverlässige Gewerbetreibende im Kraftfahrzeughandel und Handwerk ausgegeben. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/4E000F6B70050D81C1257D3500546732 "
+  ],
   "LeistungsID": "4E000F6B70050D81C1257D3500546732",
   "Leistungsname": "Fahrzeug - Rote Dauerkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4E000F6B70050D81C1257D3500546732",
@@ -8443,7 +8483,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Hierbei bestimmen Sie selbst über die Laufzeit Ihres Versicherungsvertrages die Dauer der Gültigkeit des Kennzeichens. Diese beträgt mindestens zwei, höchstens aber elf Monate. Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/saisonkennzeichen/\"\n"
+  ],
   "LeistungsID": "08EC668CBE6A2D6EC1257D2C00466A8D",
   "Leistungsname": "Fahrzeug - Saisonkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/08EC668CBE6A2D6EC1257D2C00466A8D",
@@ -8515,7 +8557,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Als Fahrzeughalter/in sind Sie verpflichtet, diese Änderungen unverzüglich bei uns anzuzeigen und eine neue Zulassungsbescheinigung ausstellen zu lassen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/6671C5D57033578FC1257D2C004D2AA6 "
+  ],
   "LeistungsID": "6671C5D57033578FC1257D2C004D2AA6",
   "Leistungsname": "Fahrzeug - Technische Änderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/6671C5D57033578FC1257D2C004D2AA6",
@@ -8701,7 +8745,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ihr Fahrzeug weist erhebliche Mängel auf. Sofern Sie diese nicht beheben lassen, droht die Zwangsstilllegung Ihres Fahrzeuges. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/B08135AED0C55C89C1257E68004C08A5 "
+  ],
   "LeistungsID": "B08135AED0C55C89C1257E68004C08A5",
   "Leistungsname": "Fahrzeug - Technische Mängel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/B08135AED0C55C89C1257E68004C08A5",
@@ -8772,7 +8818,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ein Fahrzeug war oder ist bisher in einem anderen Zulassungsbezirk zugelassen und soll jetzt im Kreis Wesel zugelassen werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/4B81B4790168DEFCC1257CFD0047E059 "
+  ],
   "LeistungsID": "4B81B4790168DEFCC1257CFD0047E059",
   "Leistungsname": "Fahrzeug - Umschreibung aus einem anderen Zulassungsbezirk",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4B81B4790168DEFCC1257CFD0047E059",
@@ -8844,7 +8892,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Beim Verkaufen eines Fahrzeuges gibt es einiges zu beachten. Zum Beispiel ist meist eine Außerbetriebsetzung sinnvoll. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/F245CAF651572D86C1257D1C004755FE "
+  ],
   "LeistungsID": "F245CAF651572D86C1257D1C004755FE",
   "Leistungsname": "Fahrzeug - Verkaufsanzeige",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F245CAF651572D86C1257D1C004755FE",
@@ -8914,7 +8964,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Seit dem 02.07.2012 können unter bestimmten Bedingungen zwei Fahrzeuge mit einem gemeinsamen Wechselteil zugelassen werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/4AE3555A0D74EFCFC1257D2C004E75AE "
+  ],
   "LeistungsID": "4AE3555A0D74EFCFC1257D2C004E75AE",
   "Leistungsname": "Fahrzeug - Wechselkennzeichen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4AE3555A0D74EFCFC1257D2C004E75AE",
@@ -8986,7 +9038,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ein Fahrzeug soll nach einer Außerbetriebsetzung wieder auf denselben Halter bzw. auf dieselbe Halterin zugelassen werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/31CC2504BCDA8A0DC1257D350052A87C "
+  ],
   "LeistungsID": "31CC2504BCDA8A0DC1257D350052A87C",
   "Leistungsname": "Fahrzeug - Wiederzulassung eines Fahrzeuges auf den gleichen Halter",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/31CC2504BCDA8A0DC1257D350052A87C",
@@ -9058,7 +9112,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Soweit von Ihnen regelmäßig Fahrzeuge zugelassen werden (mehr als 20 Zulassungen pro Jahr), können wir für juristische Personen sogenannte Firmenadressschlüssel und für Personenvereinigungen oder Gewerbetreibende Personenadressschlüssel vergeben.  Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/85C32D54AABB6903C1257D3A00254778 "
+  ],
   "LeistungsID": "85C32D54AABB6903C1257D3A00254778",
   "Leistungsname": "Fahrzeug - Zulassung auf Firmen oder Personenvereinigungen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/85C32D54AABB6903C1257D3A00254778",
@@ -9130,7 +9186,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Sie haben aus einem Staat außerhalb der EU ein Fahrzeug erworben und möchten es hier zulassen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/4A5386D5EBCF66E9C1257D350053AAE3 "
+  ],
   "LeistungsID": "4A5386D5EBCF66E9C1257D350053AAE3",
   "Leistungsname": "Fahrzeug - Zulassung aus einem Staat außerhalb der Europäischen Union",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4A5386D5EBCF66E9C1257D350053AAE3",
@@ -9202,7 +9260,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Sie haben aus einem Staat innerhalb der EU ein Fahrzeug erworben und möchten es hier zulassen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/94CEC5AADD11C7D8C1257D2C0042E17F "
+  ],
   "LeistungsID": "94CEC5AADD11C7D8C1257D2C0042E17F",
   "Leistungsname": "Fahrzeug - Zulassung aus einem Staat innerhalb der Europäischen Union",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/94CEC5AADD11C7D8C1257D2C0042E17F",
@@ -9388,7 +9448,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Die Ordnungsbehörde kann bei gewissen Voraussetzungen die Zwangsstillegung eines Fahrzeugs veranlassen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/43379419F3EC7A5CC1257D880047D747 "
+  ],
   "LeistungsID": "43379419F3EC7A5CC1257D880047D747",
   "Leistungsname": "Fahrzeug - Zwangsweise Außerbetriebsetzung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/43379419F3EC7A5CC1257D880047D747",
@@ -9448,7 +9510,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Der Kreis Wesel übernimmt Verantwortung im Klimaschutz und unterstützt die Umstellung der Linienbusflotten in seinem Gebiet von Diesel- auf energieeffiziente Antriebstechniken, um so zur Verbesserung der Luftqualität in den kreisangehörigen Städten und Gemeinden beizutragen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/E3A781DECC28BBFFC1257DCE00391282 "
+  ],
   "LeistungsID": "E3A781DECC28BBFFC1257DCE00391282",
   "Leistungsname": "Fahrzeugförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E3A781DECC28BBFFC1257DCE00391282",
@@ -9520,7 +9584,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "In Umweltzonen dürfen Sie mit Ihrem Fahrzeug nur fahren, wenn es mit einer entsprechenden Feinstaubplakette gekennzeichnet ist, die sie bei uns erhalten können. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/5B86990645933690C1257D39003E17D6 "
+  ],
   "LeistungsID": "5B86990645933690C1257D39003E17D6",
   "Leistungsname": "Feinstaubplakette",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/5B86990645933690C1257D39003E17D6",
@@ -9580,7 +9646,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Erst die bestandene Fischerprüfung erlaubt die Beantragung des Fischereischeins, der wiederum Voraussetzung zum Erwerb eines Fischereierlaubnisscheins (Gewässerschein) ist. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/8948ED1035B98635C1257D4E00547087 "
+  ],
   "LeistungsID": "8948ED1035B98635C1257D4E00547087",
   "Leistungsname": "Fischerprüfung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8948ED1035B98635C1257D4E00547087",
@@ -9742,7 +9810,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Wenn Sie in Ihrem Betrieb Fleisch verarbeiten möchten, benötigen Sie in einigen Fällen eine hygienerechtliche Zulassung. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/E60EA7418C58F032C1257CEC00479512 "
+  ],
   "LeistungsID": "E60EA7418C58F032C1257CEC00479512",
   "Leistungsname": "Fleisch verarbeitende Betriebe",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E60EA7418C58F032C1257CEC00479512",
@@ -9869,7 +9939,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Zum Verzehr bestimmtes Fleisch muss auf seine gesundheitliche Unbedenklichkeit hin überwacht werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/8DC53788FF540127C1257CEC00467B84 "
+  ],
   "LeistungsID": "8DC53788FF540127C1257CEC00467B84",
   "Leistungsname": "Fleischhygieneuntersuchung, Schlachttieruntersuchung, Fleischuntersuchung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/8DC53788FF540127C1257CEC00467B84",
@@ -10072,7 +10144,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Mit Zustimmung der Erziehungsberechtigten wird halbjährlich eine Fluoridierungsmaßnahme in Grund- und Förderschulen des Kreises durchgeführt. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/FA4E4A52A7775FC9C1257D18004EFB82 "
+  ],
   "LeistungsID": "FA4E4A52A7775FC9C1257D18004EFB82",
   "Leistungsname": "Fluoridierung in Grund- und Förderschulen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FA4E4A52A7775FC9C1257D18004EFB82",
@@ -10130,7 +10204,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Werden im Liegenschaftskataster flurstückbezogene Änderungen, beispielsweise bei einer Grundstücksteilung durchgeführt, erhalten die betroffenen Eigentümer eine Mitteilung über diese Fortführung. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/4E819D02B24AD287C1257D1200234F37 "
+  ],
   "LeistungsID": "4E819D02B24AD287C1257D1200234F37",
   "Leistungsname": "Fortführungsmitteilungen und Auflassungsschriften",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/4E819D02B24AD287C1257D1200234F37",
@@ -10201,7 +10277,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Änderungen von Angaben auf dem Führerschein (z. B. Name, Vorname, Geburtsdatum) sind grundsätzlich erforderlich.\n      Dies gilt auch für die Eintragung von Auflagen/Schlüsselzahlen z. B. auf Grund der Berufskraftfahrerqualifizierung oder für Brillenaustragung.\n      Nähere Infos: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-aenderung-von-personendaten-oder-auflagen-7718243/"
+  ],
   "LeistungsID": "25E905ABA8AFD6EEC1257D35004FBC02",
   "Leistungsname": "Führerschein - Änderung von Personendaten oder Auflagen",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/25E905ABA8AFD6EEC1257D35004FBC02",
@@ -10273,7 +10351,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.\n      Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/\n  "
+  ],
   "LeistungsID": "AB208464C6B25950C1257D95003FE74B",
   "Leistungsname": "Führerschein - Begleitetes Fahren ab 17 Jahren",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/AB208464C6B25950C1257D95003FE74B",
@@ -10345,7 +10425,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Kraftfahrer für den gewerblichen Personen- und Güterverkehr müssen zusätzlich zur Fahrerlaubnis eine sogenannte Grundqualifikation nachweisen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/BB6A00D3EA4B28E1C1257D4F0040AA72 "
+  ],
   "LeistungsID": "BB6A00D3EA4B28E1C1257D4F0040AA72",
   "Leistungsname": "Führerschein - Berufskraftfahrerqualifizierung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/BB6A00D3EA4B28E1C1257D4F0040AA72",
@@ -10417,7 +10499,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Sie sind Inhaber/in eines ausländischen Führerscheins und möchten diesen in einen deutschen Führerschein umschreiben. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/530CC45F57DCB65DC1257D0A004A41AD "
+  ],
   "LeistungsID": "530CC45F57DCB65DC1257D0A004A41AD",
   "Leistungsname": "Führerschein - eine ausländische Fahrerlaubnis umschreiben",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/530CC45F57DCB65DC1257D0A004A41AD",
@@ -10489,7 +10573,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Möchten Sie den Erwerb einer Fahrerlaubnis beantragen oder eine weitere Fahrerlaubnisklasse zu einer bestehenden erwerben, können Sie den Antrag dazu über Ihre Stadt- bzw. Gemeindeverwaltung einreichen oder direkt bei uns vor Ort stellen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/FDAC1BCB466E3738C1257D1C0045F249 "
+  ],
   "LeistungsID": "FDAC1BCB466E3738C1257D1C0045F249",
   "Leistungsname": "Führerschein - Erstmalige Erteilung oder Erweiterung einer Fahrerlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/FDAC1BCB466E3738C1257D1C0045F249",
@@ -10514,7 +10600,9 @@
   "Ansprechpunkt": [
     false
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Der Kreis Wesel legt an die Prüfung eines Antrages auf vorzeitige Erteilung einer Fahrerlaubnis einen strengen Maßstab an. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/E5B1C9B2A98B6BA2C1258194004C6BA2 "
+  ],
   "LeistungsID": "E5B1C9B2A98B6BA2C1258194004C6BA2",
   "Leistungsname": "Führerschein - Erteilung einer Fahrerlaubnis vor Erreichen des Mindestalters",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/E5B1C9B2A98B6BA2C1258194004C6BA2",
@@ -10587,7 +10675,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "B196 erlaubt unter bestimmten Bedingungen das Führen von Krafträdern bis zu 125ccm. B96 erlaubt unter bestimmten Bedingungen das Führen eines Anhängergespanns bis zu 4250kg. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/C992AC0BD81DA22EC1258633004DB505 "
+  ],
   "LeistungsID": "C992AC0BD81DA22EC1258633004DB505",
   "Leistungsname": "Führerschein - Fahrerlaubnis Klasse B mit der Schlüsselzahl 96 und 196",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/C992AC0BD81DA22EC1258633004DB505",
@@ -10659,7 +10749,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Die „Fahrerlaubnis zur Fahrgastbeförderung“ ist eine Zusatzfahrerlaubnis, die Sie benötigen, wenn Sie gewerblich Personen befördern möchten. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/6878C1815B107B54C1257D4E0026BEF1  "
+  ],
   "LeistungsID": "6878C1815B107B54C1257D4E0026BEF1",
   "Leistungsname": "Führerschein - Fahrgastbeförderung - Ersterteilung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/6878C1815B107B54C1257D4E0026BEF1",
@@ -10731,7 +10823,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Um außerhalb der EU/EWR ein Kraftfahrzeug zu führen, benötigen Sie in der Regel zusätzlich zum nationalen Führerschein einen Internationalen Führerschein. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/38213F4F169BC23AC1257D0200386F42 "
+  ],
   "LeistungsID": "38213F4F169BC23AC1257D0200386F42",
   "Leistungsname": "Führerschein - International",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/38213F4F169BC23AC1257D0200386F42",
@@ -11020,7 +11114,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Ihnen wurde der Führerschein durch ein Gerichtsurteil oder durch die Straßenverkehrsbehörde entzogen. Anders als beim zeitlich befristeten Fahrverbot wird der Führerschein nicht automatisch zurück gegeben, Sie müssen daher einen Antrag auf Wiedererteilung stellen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/DC4B72569B33F214C1257D90004C1599 "
+  ],
   "LeistungsID": "DC4B72569B33F214C1257D90004C1599",
   "Leistungsname": "Führerschein - Neuerteilung der Fahrerlaubnis",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/DC4B72569B33F214C1257D90004C1599",
@@ -11152,7 +11248,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Für eine Beförderungserlaubnis mit dem Taxi werden die nötigen Ortskenntnisse in dem Gebiet geprüft, in dem Beförderungspflicht besteht. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/46A0CF59965E20FCC1257D8500485D8E "
+  ],
   "LeistungsID": "46A0CF59965E20FCC1257D8500485D8E",
   "Leistungsname": "Führerschein - Ortskenntnisprüfung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/46A0CF59965E20FCC1257D8500485D8E",
@@ -11224,7 +11322,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Alle vor dem 19.01.2013 ausgestellten Führerscheine, egal ob grau, rosa oder Karte, müssen bis zum 18.01.2033 in den neuen befristeten Kartenführerschein umgetauscht werden. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/78E0F78B93D6AE42C1257D020039B50F "
+  ],
   "LeistungsID": "78E0F78B93D6AE42C1257D020039B50F",
   "Leistungsname": "Führerschein - Umtausch gegen neuen EU-Führerschein",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/78E0F78B93D6AE42C1257D020039B50F",
@@ -11296,7 +11396,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Sie möchten die Verlängerung Ihrer in Kürze ablaufenden oder schon abgelaufenen Fahrerlaubnisklassen bzw. der Fahrerlaubnis zur Fahrgastbeförderung beantragen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/F54E3223B0E1FFF0C1257D1E004D808C "
+  ],
   "LeistungsID": "F54E3223B0E1FFF0C1257D1E004D808C",
   "Leistungsname": "Führerschein - Verlängerung der Fahrerlaubnis / Fahrerlaubnis zur Fahrgastbeförderung",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/F54E3223B0E1FFF0C1257D1E004D808C",
@@ -11368,7 +11470,9 @@
       ]
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Sollte Ihnen Ihr bisheriger Führerschein abhanden gekommen sein, haben Sie den Verlust unverzüglich bei der zuständigen Fahrerlaubnisbehörde anzuzeigen. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/37006CFDE3145517C1257CFD0051B2BC "
+  ],
   "LeistungsID": "37006CFDE3145517C1257CFD0051B2BC",
   "Leistungsname": "Führerschein - Verlust oder Diebstahl",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/37006CFDE3145517C1257CFD0051B2BC",
@@ -11500,7 +11604,9 @@
       }
     }
   ],
-  "BotAntwort": [],
+  "BotAntwort": [
+    "Das Veterinäramt überprüft den Futtermitteleinsatz beim Tierhalter sowie tierärztliche Hausapotheken und Arzneimittel. Nähere Infos: https://www.kreis-wesel.de/C1257CD90031C033/html/1829CFAD9AC4482FC1257D5700208A49 "
+  ],
   "LeistungsID": "1829CFAD9AC4482FC1257D5700208A49",
   "Leistungsname": "Futtermittel",
   "LeistungsURI": "https://www.kreis-wesel.de/C1257CD90031C033/html/1829CFAD9AC4482FC1257D5700208A49",

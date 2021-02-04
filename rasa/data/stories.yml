@@ -36,17 +36,312 @@ stories:
   - action: utter_test_führerschein
 
 
+- story: Teststory
+  steps:
+  - intent: test
+  - action: utter_ich_bin_ein_bot
+
+- story: dienstleistungTest
+  steps:
+  - intent: dienstleistungen_suche_test
+  - action: action_search_dienstleistung
+
+  #Führerschein
+
 - story: Begleitetes Fahren
   steps:
   - intent: begleitet fahren
-  - action: action_search_dienstleistung
+  - action: utter_begleitetes_fahren
 
 # - story: Story wenn Dienstleistung bekannt
 #   steps: 
 #     - checkpoint: check_dienstleistung_bekannt
 #     - action: utter_welche_info
 
-- story: Teststory
+- story: Personendaten
   steps:
-  - intent: test
-  - action: utter_ich_bin_ein_bot
+  - intent: führerschein personendaten
+  - action: utter_führerschein_personendaten
+
+- story: Diebstahl oder Verlust
+  steps:
+  - intent: führerscheinverlust
+  - action: utter_verlust_führerschein
+
+- story: Führerschein gegen EU_Führerschein
+  steps:
+  - intent: EU_Führerschein
+  - action: utter_EU_Führerschein
+
+- story: Neuerteilung_Führerschein
+  steps:
+  - intent: Neuerteilung_Führerschein
+  - action: utter_Neuerteilung_Führerschein
+
+- story: Fahrgastbeförderung
+  steps:
+  - intent: Fahrgastbeförderung
+  - action: utter_Fahrgastbeförderung
+
+#Fahrzeug/KFZ
+
+- story: KFZ-Steuer
+  steps:
+  - intent: kfz_steuer
+  - action: utter_kfz_steuer
+
+- story: Erstzulassung
+  steps:
+  - intent: erstzulassung
+  - action: utter_erstzulassung
+
+- story: Saisonkennzeichen
+  steps:
+  - intent: saisonkennzeichen
+  - action: utter_saisonkennzeichen
+
+
+
+
+
+# A Kategorie
+
+- story: Abfallbeförderungserlaubnis
+  steps:
+  - intent: abfallbeförderungserlaubnis
+  - action: utter_abfallbeförderungserlaubnis
+
+- story: Abfallberatung
+  steps:
+  - intent: abfallberatung
+  - action: utter_abfallberatung
+
+- story: Abfallerzeugernummer
+  steps:
+  - intent: abfallerzeugernummer
+  - action: utter_abfallerzeugernummer
+
+- story: Abrechnung_von_untersuchungen_Jugendarbeitsschutzgesetz
+  steps:
+  - intent: abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  - action: utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+
+- story: Adoptionsvermittlung
+  steps:
+  - intent: adoptionsvermittlung
+  - action: utter_adoptionsvermittlung
+
+- story: Ärztliche_Gutachten
+  steps:
+  - intent: ärztliche_gutachten
+  - action: utter_ärztliche_gutachten
+
+- story: Aids_beratung_HIV_test
+  steps:
+  - intent: aids_beratung_hiv_test
+  - action: utter_aids_beratung_hiv_test
+
+- story: Amtliche_Basiskarte
+  steps:
+  - intent: amtliche_basiskarte
+  - action: utter_amtliche_basiskarte
+
+- story: Anlagen_in_und_an_Gewässern
+  steps:
+  - intent: anlagen_in_und_an_gewässern
+  - action: utter_anlagen_in_und_an_gewässern
+
+- story: Anmeldung_und_Beratung_von_prostituierten
+  steps:
+  - intent: anmeldung_und_beratung_von_prostituierten
+  - action: utter_anmeldung_und_beratung_von_prostituierten
+
+- story: Apothekenbetriebserlaubnis
+  steps:
+  - intent: apothekenbetriebserlaubnis
+  - action: utter_apothekenbetriebserlaubnis
+
+- story: Artenschutz_meldepflicht
+  steps:
+  - intent: artenschutz_meldepflicht
+  - action: utter_artenschutz_meldepflicht
+
+- story: Artenschutzrechtliche_genehmigung
+  steps:
+  - intent: artenschutzrechtliche_genehmigung
+  - action: utter_artenschutzrechtliche_genehmigung
+
+- story: Aufenthaltserlaubnis_zu_studienzwecken
+  steps:
+  - intent: aufenthaltserlaubnis_zu_studienzwecken
+  - action: utter_aufenthaltserlaubnis_zu_studienzwecken
+
+- story: Ausbildungsverkehr_pauschale
+  steps:
+  - intent: ausbildungsverkehr_pauschale
+  - action: utter_ausbildungsverkehr_pauschale
+
+- story: Auszüge_aus_der_Liegenschaftskarte
+  steps:
+  - intent: auszüge_aus_der_liegenschaftskarte
+  - action: utter_auszüge_aus_der_liegenschaftskarte
+
+- story: Auszug_aus_dem_Liegenschaftsbuch
+  steps:
+  - intent: auszug_aus_dem_liegenschaftsbuch
+  - action: utter_auszug_aus_dem_liegenschaftsbuch
+
+# B-Kategorien
+
+- story: Bafög_Leistungeng_Bundesausbildungsförderungsgesetz
+  steps:
+  - intent: bafög_leistungeng_bundesausbildungsförderungsgesetz
+  - action: action_search_db
+
+- story: Baugenehmigung
+  steps:
+  - intent: baugenehmigung
+  - action: action_search_db
+
+- story: Baulast_Eintragung_und_Auskunft
+  steps:
+  - intent: baulast_eintragung_und_auskunft
+  - action: action_search_db
+
+- story: Baumfällung
+  steps:
+  - intent: baumfällung
+  - action: action_search_db
+
+- story: Bauvoranfrage
+  steps:
+  - intent: bauvoranfrage
+  - action: action_search_db
+
+- story: Befreiung_Bauverbot_Überschwemmungsgebieten
+  steps:
+  - intent: befreiung_bauverbot_überschwemmungsgebieten
+  - action: action_search_db
+
+- story: Befreiungen_Bundesnaturschutzgesetz
+  steps:
+  - intent: befreiungen_bundesnaturschutzgesetz
+  - action: action_search_db
+
+- story: Beistandschaften
+  steps:
+  - intent: beistandschaften
+  - action: action_search_db
+
+- story: Beistandschaften_Beurkundungen
+  steps:
+  - intent: beistandschaften_beurkundungen 
+  - action: action_search_db
+
+- story: Beistandschaften_Unterhaltsfragen
+  steps:
+  - intent: beistandschaften_unterhaltsfragen
+  - action: action_search_db
+
+- story: Beistandschaften_Vaterschaft
+  steps:
+  - intent: beistandschaften_vaterschaft
+  - action: action_search_db
+
+- story: Belehrung_Umgang_Lebensmitteln_Gesundheitszeugnis
+  steps:
+  - intent: belehrung_umgang_lebensmitteln_gesundheitszeugnis
+  - action: action_search_db
+
+- story: Beratung_Psychischen_Erkrankungen_Suchtberatung
+  steps:
+  - intent: beratung_psychischen_erkrankungen_suchtberatung
+  - action: action_search_db
+
+- story: Beratung_Lebensmittelunternehmen
+  steps:
+  - intent: beratung_lebensmittelunternehmen
+  - action: action_search_db
+
+- story: Beratung_sexuell_übertragbaren_Erkankungen
+  steps:
+  - intent: beratung_sexuell_übertragbaren_erkankungen
+  - action: action_search_db
+
+- story: Bescheinigung_unentgeltlichen_Benutzung_öffentlichen_Personennahverkehrs
+  steps:
+  - intent: bescheinigung_unentgeltlichen_benutzung_öffentlichen_personennahverkehrs
+  - action: action_search_db
+
+- story: Bescheinigungen_Liegenschaftskataster
+  steps:
+  - intent: bescheinigungen_liegenschaftskataster
+  - action: action_search_db
+
+- story: Besuchsaufenthalte_Verpflichtungserklärung
+  steps:
+  - intent: besuchsaufenthalte_verpflichtungserklärung
+  - action: action_search_db
+
+- story: Betreuungsrecht_Betreuungsstelle
+  steps:
+  - intent: betreuungsrecht_betreuungsstelle
+  - action: action_search_db
+
+- story: Bewachungserlaubnis
+  steps:
+  - intent: bewachungserlaubnis
+  - action: action_search_db
+
+- story: Bewachungspersonal
+  steps:
+  - intent: bewachungspersonal
+  - action: action_search_db
+
+- story: BHV1
+  steps:
+  - intent: bhv1
+  - action: action_search_db
+
+- story: Bienenvölker_Haltung_Anmeldung
+  steps:
+  - intent: bienenvölker_haltung_anmeldung
+  - action: action_search_db
+
+- story: Bienen_Wespen
+  steps:
+  - intent: bienen_wespen
+  - action: action_search_db
+
+# D-Kategorien
+
+- story:
+  steps:
+  - intent:
+  - action: action_search_db
+
+#einzelne von Unten angefangen
+- story: Schornsteinfegerwesen
+  steps:
+  - intent: Schornsteinfegerwesen
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Sozialticket
+  steps:
+  - intent: Sozialticket
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Überwachung der Trinkwasser-Kleinanlagen
+  steps:
+  - intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Unterhaltsvorschuss
+  steps:
+  - intent: Unterhaltsvorschuss
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Wohnberechtigungsschein
+  steps:
+  - intent: Wohnberechtigungsschein
+  - action: ActionSearchDienstleistungMitIntent
