@@ -153,3 +153,55 @@ stories:
   steps:
   - intent: auszug_aus_dem_liegenschaftsbuch
   - action: utter_auszug_aus_dem_liegenschaftsbuch
+
+# B-Kategorien
+
+- story: Bafög_Leistungeng_Bundesausbildungsförderungsgesetz
+  steps:
+  - intent: bafög_leistungeng_bundesausbildungsförderungsgesetz
+  - action: action_search_db
+
+- story: Baugenehmigung
+  steps:
+  - intent: baugenehmigung
+  - action: action_search_db
+
+- story: Baulast_Eintragung_und_Auskunft
+  steps:
+  - intent: baulast_eintragung_und_auskunft
+  - action: action_search_db
+
+- story: Baumfällung
+  steps:
+  - intent: baumfällung
+  - action: action_search_db
+
+- story: Bauvoranfrage
+  steps:
+  - intent: bauvoranfrage
+  - action: action_search_db
+
+- story: Befreiung_Bauverbot_Überschwemmungsgebieten
+  steps:
+  - intent: befreiung_bauverbot_überschwemmungsgebieten
+  - action: action_search_db
+
+- story: Befreiungen_Bundesnaturschutzgesetz
+  steps:
+  - intent: befreiungen_bundesnaturschutzgesetz
+  - action: action_search_db
+
+- story: Beistandschaften
+  steps:
+  - intent: beistandschaften
+  - action: action_search_db
+
+- story: Beistandschaften_Beurkundungen
+  steps:
+  - intent: beistandschaften_beurkundungen 
+  - action: action_search_db
+
+- story: 
+  steps:
+  - intent: 
+  - action: action_search_db
