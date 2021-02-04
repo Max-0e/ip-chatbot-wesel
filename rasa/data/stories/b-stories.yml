@@ -5,122 +5,127 @@ stories:
 
 - story: Bafög Leistungen Bundesausbildungsförderungsgesetz
   steps:
-  - intent: bafög - leistungen bundesausbildungsförderungsgesetz
+  - intent: BAföG - Leistungen nach dem Bundesausbildungsförderungsgesetz
   - action: action_search_db
 
 - story: Baugenehmigung
   steps:
-  - intent: baugenehmigung
+  - intent: Baugenehmigung
   - action: action_search_db
 
 - story: Baulast Eintragung und Auskunft
   steps:
-  - intent: baulast eintragung und auskunft
+  - intent: Baulast – Eintragung und Auskunft
   - action: action_search_db
 
 - story: Baumfällung
   steps:
-  - intent: baumfällung
+  - intent: Baumfällung
   - action: action_search_db
 
 - story: Bauvoranfrage
   steps:
-  - intent: bauvoranfrage
+  - intent: Bauvoranfrage
   - action: action_search_db
 
 - story: Befreiung Bauverbot Überschwemmungsgebieten
   steps:
-  - intent: befreiung bauverbot überschwemmungsgebieten
+  - intent: Befreiung vom Bauverbot in Überschwemmungsgebieten
+  - action: action_search_db
+
+- story: Befreiung Helmpflicht Anschnallpflicht
+  steps:
+  - intent: Befreiung von der Helmpflicht oder Anschnallpflicht
   - action: action_search_db
 
 - story: Befreiungen Bundesnaturschutzgesetz
   steps:
-  - intent: befreiungen bundesnaturschutzgesetz
+  - intent: Befreiungen nach dem Bundesnaturschutzgesetz
   - action: action_search_db
 
 - story: Beistandschaften
   steps:
-  - intent: beistandschaften
+  - intent: Beistandschaften
   - action: action_search_db
 
 - story: Beistandschaften_Beurkundungen
   steps:
-  - intent: beistandschaften beurkundungen 
+  - intent: Beistandschaften - Beurkundungen 
   - action: action_search_db
 
 - story: Beistandschaften Unterhaltsfragen
   steps:
-  - intent: beistandschaften unterhaltsfragen
+  - intent: bBeistandschaften - Unterhaltsfragen
   - action: action_search_db
 
 - story: Beistandschaften Vaterschaft
   steps:
-  - intent: beistandschaften vaterschaft
+  - intent: Beistandschaften - Vaterschaft
   - action: action_search_db
 
 - story: Belehrung Umgang Lebensmitteln Gesundheitszeugnis
   steps:
-  - intent: belehrung umgang lebensmitteln gesundheitszeugnis
+  - intent: Belehrung für den Umgang mit Lebensmitteln (Gesundheitszeugnis)
   - action: action_search_db
 
 - story: Beratung Psychischen Erkrankungen Suchtberatung
   steps:
-  - intent: beratung psychischen erkrankungen suchtberatung
+  - intent: Beratung für Menschen mit psychischen Erkrankungen / Suchtberatung
   - action: action_search_db
 
 - story: Beratung Lebensmittelunternehmen
   steps:
-  - intent: beratung lebensmittelunternehmen
+  - intent: Beratung von Lebensmittelunternehmen
   - action: action_search_db
 
 - story: Beratung sexuell übertragbaren Erkankungen
   steps:
-  - intent: beratung sexuell übertragbaren erkankungen
+  - intent: Beratung zu sexuell übertragbaren Erkankungen
   - action: action_search_db
 
 - story: Bescheinigung unentgeltlichen Benutzung öffentlichen Personennahverkehrs
   steps:
-  - intent: bescheinigung unentgeltlichen benutzung öffentlichen personennahverkehrs
+  - intent: Bescheinigung zur unentgeltlichen Benutzung des öffentlichen Personennahverkehrs (ÖPNV) - Beiblatt mit Wertmarke
   - action: action_search_db
 
 - story: Bescheinigungen Liegenschaftskataster
   steps:
-  - intent: bescheinigungen liegenschaftskataster
+  - intent: Bescheinigungen aus dem Liegenschaftskataster
   - action: action_search_db
 
 - story: Besuchsaufenthalte Verpflichtungserklärung
   steps:
-  - intent: besuchsaufenthalte verpflichtungserklärung
+  - intent: Besuchsaufenthalte - Verpflichtungserklärung
   - action: action_search_db
 
 - story: Betreuungsrecht Betreuungsstelle
   steps:
-  - intent: betreuungsrecht betreuungsstelle
+  - intent: Betreuungsrecht; Betreuungsstelle
   - action: action_search_db
 
 - story: Bewachungserlaubnis
   steps:
-  - intent: bewachungserlaubnis
+  - intent: Bewachungserlaubnis
   - action: action_search_db
 
 - story: Bewachungspersonal
   steps:
-  - intent: bewachungspersonal
+  - intent: Bewachungspersonal
   - action: action_search_db
 
 - story: BHV1
   steps:
-  - intent: bhv1
+  - intent: BHV1
   - action: action_search_db
 
 - story: Bienenvölker Haltung Anmeldung
   steps:
-  - intent: bienenvölker haltung anmeldung
+  - intent: Bienenvölker - Haltung und Anmeldung
   - action: action_search_db
 
 - story: Bienen Wespen
   steps:
-  - intent: bienen wespen
+  - intent: Bienen, Wespen & Co.
   - action: action_search_db
 
 # # D-Kategorien

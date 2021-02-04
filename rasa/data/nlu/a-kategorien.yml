@@ -7,7 +7,7 @@ nlu:
 # Abgeschlossenheitsbescheinigung
 # Allgemeiner Sozialer dienst
 
-- intent: abfallbeförderungserlaubnis
+- intent: Abfallbeförderungserlaubnis
   examples: |
     - wie bekomme ich ein abfallbeförderungserlaubnis
     - was ist ein abfallbeförderungserlaubnis
@@ -17,7 +17,7 @@ nlu:
     - wie kann ich gefährlichen Abfall Handeln
     - wie kann ich gefährlichen Abfall Befördern oder Marklern
 
-- intent: abfallberatung
+- intent: Abfallberatung
   examples: |
     - ich brauche hilfe bei meinem abfall
     - ich brauche eine abfallberatung
@@ -25,7 +25,7 @@ nlu:
     - wie kann ich mich über abfall beraten lassen
     - ich habe ein problem mit meinem abfall
 
-- intent: abfallerzeugernummer
+- intent: Abfallerzeugernummer
   examples: |
     - was ist eine abfallerzeugernummer
     - wie bekomme ich meine abfallerzeugernummer
@@ -33,7 +33,7 @@ nlu:
     - abfallerzeugernummer 
     - was mache ich mit einer abfallerzeuger nummer
 
-- intent: abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+- intent: Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz
   examples: |
     - ich soll geld an das jugendarbeitsschutzgesetz zahlen, was muss ich machen
     - warum habe ich vom jugendarbeitsschutzgesetz eine Rechnung bekommen
@@ -41,7 +41,7 @@ nlu:
     - jugendarbeitsschutzgesetz untersuchung
     - abrechnung unteruchungen jugendarbeitsschutzgesetz
 
-- intent: adoptionsvermittlung
+- intent: Adoptionsvermittlung
   examples: |
     - ich brauche eine adoptionsvermittlung
     - was ist eine adoptionsvermittlung
@@ -49,7 +49,7 @@ nlu:
     - adoptionsvermittlung
     - adoption
 
-- intent: ärztliche_gutachten
+- intent: Ärztliche Gutachten
   examples: |
     - ich brauche ein ärtzliches gutachten
     - woher bekomme ich eine ärtzliches gutachten
@@ -57,7 +57,7 @@ nlu:
     - wie komme ich an ein ärtztlich ausgestelltes gutachen
     - ich brauche ein artztliches gut achten
 
-- intent: aids_beratung_hiv_test
+- intent: AIDS-Beratung und HIV-Test
   examples: |
     - ich glaube ich habe aids
     - wo kann ich einen aids test machen
@@ -68,7 +68,7 @@ nlu:
     - hiv
     - sexkrankheit
 
-- intent: amtliche_basiskarte
+- intent: Amtliche Basiskarte (ABK)
   examples: |
     - wie bekomme ich eine amtliche basiskarte
     - wo kann ich mich über eine amtliche basiskarte informieren
@@ -78,7 +78,7 @@ nlu:
     - ich brauche informationen zur amtliche basiskarte
     - amtliche basiskarte
 
-- intent: anlagen_in_und_an_gewässern
+- intent: Anlagen in und an Gewässern
   examples: |
     - ich brauche eine baugenemigung für anlagen in und an gewässern
     - woher bekomme ich eine baugenemigung für meine bauten am gewässer
@@ -86,7 +86,7 @@ nlu:
     - ich will am rhein ein Gebäude bauen
     - warum brauche ich eine baugenemigung für meine bauten an gewässern
 
-- intent: anmeldung_und_beratung_von_prostituierten
+- intent: Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
   examples: |
     - ich bin eine prostituierte und brauche beratung
     - ich brauche beratung als prostituierte
@@ -94,7 +94,7 @@ nlu:
     - ich möchte prostituierte im kreis wesel werden
     - wie bekomme ich die adresse wo ich mich als prostituierte anmelden kann
 
-- intent: apothekenbetriebserlaubnis
+- intent: Apothekenbetriebserlaubnis
   examples: |
     - wo bekomme ich eine apothekenbetriebserlaubnis
     - ich brauche eine apothekenbetriebserlaubnis
@@ -102,20 +102,20 @@ nlu:
     - apothekenbetriebserlaubnis
     - apothekenerlaubnis für meine apotheke
 
-- intent: artenschutz_meldepflicht
+- intent: Artenschutz – Meldepflicht
   examples: |
     - ich möchte eine nicht deutsche tierart halten
     - ich möchte eine haustier von einem anderem kontinent   
     - exotisches haustier
     - exotisches tier
 
-- intent: artenschutzrechtliche_genehmigung
+- intent: Artenschutzrechtliche Genehmigung
   examples: |
     - ich brauche eine genemigung für mein haustier
     - ich brauche eine artenschutz genemigung für mein haustier
     - wo bekomme ich eine genemigung für meine exotische tierrasse her
 
-- intent: aufenthaltserlaubnis_zu_studienzwecken
+- intent: Aufenthaltserlaubnis zu Studienzwecken
   examples: |
     - ich brauche eine aufenthaltserlaubnis für mein studium
     - wo bekomme ich eine aufenthaltserlaubnis für studiumzwecke her
@@ -123,21 +123,21 @@ nlu:
     - visum für studium
     - aufenthaltserlaubnis gekopplet mit visum
 
-- intent: ausbildungsverkehr_pauschale
+- intent: Ausbildungsverkehr-Pauschale
   examples: |
     - woher bekomme ich eine ausbildungsverkehrs pauschale
     - bis wann ist die frist einer ausbildungsverkehrs pauschlae
     - ausbildung mit öpnv
     - öpnv in der ausbildung bezahlt 
 
-- intent: auszüge_aus_der_liegenschaftskarte
+- intent: Auszüge aus der Liegenschaftskarte
   examples: |
     - auszüge aus der liegenschaftskarte
     - ich brauche auszüge aus der liegenschaftskarte
     - was ist eine liegenschaftkarte
     - analoge flurkarte
 
-- intent: auszug_aus_dem_liegenschaftsbuch
+- intent: Auszug aus dem Liegenschaftsbuch
   examples: |
     - ich brauche ein auszug aus dem liegenschaftsbuch
     - liegenschaftbuch

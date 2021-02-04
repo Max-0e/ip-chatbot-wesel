@@ -5,85 +5,85 @@ stories:
 
 - story: Abfallbeförderungserlaubnis
   steps:
-  - intent: abfallbeförderungserlaubnis
-  - action: utter_abfallbeförderungserlaubnis
+  - intent: Abfallbeförderungserlaubnis
+  - action: action_search_db
 
 - story: Abfallberatung
   steps:
-  - intent: abfallberatung
-  - action: utter_abfallberatung
+  - intent: Abfallberatung
+  - action: action_search_db
 
 - story: Abfallerzeugernummer
   steps:
-  - intent: abfallerzeugernummer
-  - action: utter_abfallerzeugernummer
+  - intent: Abfallerzeugernummer
+  - action: action_search_db
 
 - story: Abrechnung von untersuchungen Jugendarbeitsschutzgesetz
   steps:
-  - intent: abrechnung von untersuchungen jugendarbeitsschutzgesetz
-  - action: utter_abrechnung_von_untersuchungen_jugendarbeitsschutzgesetz
+  - intent: Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz
+  - action: action_search_db
 
 - story: Adoptionsvermittlung
   steps:
-  - intent: adoptionsvermittlung
-  - action: utter_adoptionsvermittlung
+  - intent: Adoptionsvermittlung
+  - action: action_search_db
 
 - story: Ärztliche Gutachten
   steps:
-  - intent: ärztliche gutachten
-  - action: utter_ärztliche_gutachten
+  - intent: Ärztliche Gutachten
+  - action: action_search_db
 
 - story: Aids beratung HIV test
   steps:
-  - intent: aids beratung hiv test
-  - action: utter_aids_beratung_hiv_test
+  - intent: AIDS-Beratung und HIV-Test
+  - action: action_search_db
 
 - story: Amtliche Basiskarte
   steps:
-  - intent: amtliche basiskarte
-  - action: utter_amtliche_basiskarte
+  - intent: Amtliche Basiskarte (ABK)
+  - action: action_search_db
 
 - story: Anlagen in und an Gewässern
   steps:
-  - intent: anlagen in und an gewässern
-  - action: utter_anlagen_in_und_an_gewässern
+  - intent: Anlagen in und an Gewässern
+  - action: action_search_db
 
 - story: Anmeldung und Beratung von prostituierten
   steps:
-  - intent: anmeldung und beratung von prostituierten
-  - action: utter_anmeldung_und_beratung_von_prostituierten
+  - intent: Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
+  - action: action_search_db
 
 - story: Apothekenbetriebserlaubnis
   steps:
-  - intent: apothekenbetriebserlaubnis
-  - action: utter_apothekenbetriebserlaubnis
+  - intent: Apothekenbetriebserlaubnis
+  - action: action_search_db
 
 - story: Artenschutz meldepflicht
   steps:
-  - intent: artenschutz meldepflicht
-  - action: utter_artenschutz_meldepflicht
+  - intent: Artenschutz – Meldepflicht
+  - action: action_search_db
 
 - story: Artenschutzrechtliche genehmigung
   steps:
-  - intent: artenschutzrechtliche genehmigung
-  - action: utter_artenschutzrechtliche_genehmigung
+  - intent: Artenschutzrechtliche Genehmigung
+  - action: action_search_db
 
 - story: Aufenthaltserlaubnis zu studienzwecken
   steps:
-  - intent: aufenthaltserlaubnis zu studienzwecken
-  - action: utter_aufenthaltserlaubnis_zu_studienzwecken
+  - intent: Aufenthaltserlaubnis zu Studienzwecken
+  - action: action_search_db
 
 - story: Ausbildungsverkehr pauschale
   steps:
-  - intent: ausbildungsverkehr pauschale
-  - action: utter_ausbildungsverkehr_pauschale
+  - intent: Ausbildungsverkehr-Pauschale
+  - action: action_search_db
 
 - story: Auszüge aus der Liegenschaftskarte
   steps:
-  - intent: auszüge aus der liegenschaftskarte
-  - action: utter_auszüge_aus_der_liegenschaftskarte
+  - intent: Auszüge aus der Liegenschaftskarte
+  - action: action_search_db
 
 - story: Auszug aus dem Liegenschaftsbuch
   steps:
-  - intent: auszug aus dem liegenschaftsbuch
-  - action: utter_auszug_aus_dem_liegenschaftsbuch
+  - intent: Auszug aus dem Liegenschaftsbuch
+  - action: action_search_db
