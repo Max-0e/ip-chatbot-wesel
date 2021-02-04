@@ -39,6 +39,11 @@ intents:
   - ausbildungsverkehr_pauschale
   - auszüge_aus_der_liegenschaftskarte
   - auszug_aus_dem_liegenschaftsbuch
+  - Schornsteinfegerwesen
+  - Sozialticket
+  - Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  - Unterhaltsvorschuss
+  - Wohnberechtigungsschein
   - begrüßung
   - verabschiedung
   - bist_du_ein_bot
