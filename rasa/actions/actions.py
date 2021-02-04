@@ -27,11 +27,20 @@ class ActionSearchDB(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # erstellen eines queries mit der Suche nach de letzten Intent
+        # erstellen eines queries mit der Suche nach der gesetzten Kategorie
+        print(tracker.slots["keywords"])
+        print(tracker.slots["new_keyword"])
         query = { 
-            "Leistungsname": { "$regex": "Begleitet"},
-            # "Leistungsbeschreibung": { "$regex": tracker.latestet_message.intent} 
+            "Leistungsname": { "$regex": tracker.slots["kategorie"], "$options": 'i'},
+            # "Leistungsbeschreibung": { "$regex": tracker.slots["new_keyword"]}
         }
+        if tracker.slots["new_keyword"] != None:
+            tracker.slots["keywords"].append(tracker.slots["new_keyword"])
+
+        for keyword in tracker.slots["keywords"]:
+            query["Leistungsbeschreibung"] = { "$regex": keyword, "$options": 'i'}
+        
+        print(query)
         # erstes durchsuchen der Datenbank nach dem Suchbegriff
         counter = dienstleistungen.count_documents(query)
         # je nachdem wie viele ergebisse gefunden wurden werden entsprechende Antworten gegeben
@@ -39,14 +48,24 @@ class ActionSearchDB(Action):
             dienstleistung = dienstleistungen.find_one(query)
             print(dienstleistung["Leistungsname"])
             dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
+            return[
+                SlotSet("dienstleistung",dienstleistung["Leistungsname"]),
+                SlotSet("keywords", tracker.slots["keywords"])
+            ]
         elif counter == 0:
             print('kein ergebnis')
             dispatcher.utter_message(text="Dazu kann ich dir leider nicht weiter helfen.")
+            return [SlotSet("keywords", [])]
+        elif counter >= 3:
+            print(counter)
+            dienstleistung = dienstleistungen.find(query)
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
+            return [SlotSet("keywords", tracker.slots["keywords"])]
         else:
             print(counter)
-            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Einträge für dich in Frage.')
-
-        return []
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage.')
+            return [SlotSet("keywords", tracker.slots["keywords"])]
 
 class ActionSearchConfigDB(Action):
 
@@ -61,7 +80,7 @@ class ActionSearchConfigDB(Action):
 
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         query = { 
-            "infoname": { "$regex": last_intent},
+            "infoname": { "$regex": last_intent, "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = config.find_one(query)
@@ -101,6 +120,31 @@ class dispatcher_test(Action):
 
         return []
 
+
+class ActionSearchDienstleistungMitIntent(Action):
+
+    def name(self) -> Text:
+        return "action_search_dienstleistung_mit_intent"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # letzte Intent aus dem Tracker-Objekt holen
+        dienstleistung_from_intent = tracker.get_intent_of_latest_message
+        print(dienstleistung_from_intent["name"])
+
+        # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
+        query = { 
+            "Leistungsname": { "$regex": dienstleistung_from_intent["name"], "$options": 'i'},
+        }
+        # config-Datenbank mit Query durchsuchen
+        dienstleistung = dienstleistungen.find_one(query)
+        print(dienstleistung)
+        # info und dazugehöriges Template zum Bot zurücksenden
+        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+
+        return []
+
 class ActionSearchDienstleistung(Action):
 
     def name(self) -> Text:
@@ -120,10 +164,11 @@ class ActionSearchDienstleistung(Action):
         # Query mit letztem Intent: dieser entspricht dem Infonamen in der Datenbank
         
         query = { 
-            "Leistungsname": { "$regex": dienstleistung_slot},
+            "Leistungsname": { "$regex": dienstleistung_slot, "$options": 'i'},
         }
         # config-Datenbank mit Query durchsuchen
         dienstleistung = dienstleistungen.find_one(query)
+
         if dienstleistungen.count_documents(query) == 0 :
             return [SlotSet("dienstleistung", None)]
 
@@ -222,3 +267,25 @@ class ActionSearchDienstleistung(Action):
                                          link = dienstleistung["LeistungsURI"])
 
         return [SlotSet("anliegen", None)]
+
+
+class ActionSetOnlineOderOffline(Action):
+
+    def name(self) -> Text:
+        return "action_set_online_oder_offline"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        if tracker.get_intent_of_latest_message["name"] == "zustimmung":
+            query = { 
+                "Leistungsname": { "$regex": "Fahrzeug - Online-Außerbetriebsetzung", "$options": 'i'},
+            }
+        else:
+            query = { 
+                "Leistungsname": { "$regex": "Fahrzeug - Abmeldung", "$options": 'i'},
+            }
+        dienstleistung = dienstleistungen.find_one(query)
+        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+        return [SlotSet("dienstleistung", dienstleistung["Leistungsname"])]

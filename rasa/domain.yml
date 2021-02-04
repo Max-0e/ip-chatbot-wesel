@@ -6,6 +6,11 @@ slots:
     values:
       - fahrzeug
       - führerschein
+  new_keyword:
+    type: text
+  keywords:
+    type: list
+    initial_value: []
   dienstleistung:
     type: text
   anliegen:
@@ -19,6 +24,8 @@ slots:
 entities:
   - kategorie
   - dienstleistung
+  - new_keyword
+  - keywords
   - anliegen
 
 intents:
@@ -58,6 +65,9 @@ intents:
   - informieren:
       use_entities:
         - kategorie
+  - informieren_fahrzeug:
+      use_entities:
+        - new_keyword
   - begleitet fahren
   - führerscheinverlust
   - führerschein personendaten
@@ -70,10 +80,9 @@ intents:
 
 responses:
   utter_begrüßen:
-  - text: "Hallo!"
-  - text: "Guten Tag."
-  - text: "Ich Grüße Sie."
-  - text: "Servus"
+  - text: "Hallo! Wie kann ich helfen?"
+  - text: "Guten Tag. Wie kann ich helfen?"
+  - text: "Ich Grüße Sie. Kann ich helfen?"
 
   utter_verabschieden:
   - text: "Tschüss!"
@@ -90,7 +99,7 @@ responses:
   - text: "Ich bin ein Chatbot, ich bin da um ihre Fragen zu beantworten"
 
   utter_mir_gehts_gut:
-  - text: "Mir geht es gut, danke der Nachfrage :)"
+  - text: "Mir geht es gut, danke der Nachfrage, ich hoffe ihnen geht es auch gut."
 
   utter_static_öffnungszeiten:
   - text: Die Öffnungszeiten lauten {info}, kann an Wochenenden oder Feiertagen abweichen
@@ -239,24 +248,24 @@ utter_saisonkennzeichen:
 
 
 # Response Templates für den dispatcher
-  utter_dbresponse_öz:
+utter_dbresponse_öz:
   - text: "Hier die Öffnungszeiten für {kategorie}: {öffnungszeiten}"
   - text: "{kategorie} hat zu folgenden Zeiten geöffnet: {öffnungszeiten}"
   - text: "Die Öffnungszeiten für {kategorie} lauten: {öffnungszeiten}"
   - text: "Zu folgenden Zeiten ist {kategorie} für Sie erreichbar: {öffnungszeiten}" 
   
-  utter_dbresponse_ansprechpartner:
+utter_dbresponse_ansprechpartner:
   - text: "Hier die Adresse für {kategorie}: {anschrift}"
   - text: "{kategorie} ist unter folgender Adresse erreichbar: {anschrift}"
   - text: "Hier die Anschrift für {kategorie}: {anschrift}"
 
-  utter_dbresponse_telefon:
+utter_dbresponse_telefon:
   - text: "{person} ist zuständig für {kategorie} und ist unter folgender Nummer erreichbar: {telefon}"
 
-  utter_dbresponse_email:
+utter_dbresponse_email:
   - text: "{person} ist zuständig für {kategorie} und ist unter folgender Email-Adresse erreichbar: {email}"
 
-  utter_dbresponse_allgemein:
+utter_dbresponse_allgemein:
   - text: "Hier mehr Infos für "
     custom:
       link: "{link}"
@@ -274,37 +283,44 @@ utter_saisonkennzeichen:
       link: "{link}"
       linkname: "{kategorie}"   
 
-  utter_dbresponse_allgemein_antworttext:
+utter_dbresponse_allgemein_antworttext:
   - text: "{info}"
     custom:
       link: "{link}"
       linkname: "{kategorie}"   
 
-  utter_dbresponse_zwei_ergebnisse:
+utter_dbresponse_zwei_ergebnisse:
   - text: "Meinen Sie {kategorie1} oder {kategorie2}?"
   - text: "Ich weiß leider nicht genau, was Sie meinen. {kategorie1} oder {kategorie2}?"
   - text: "Suchen Sie nach {kategorie1} oder {kategorie2}?"
   - text: "{kategorie1} oder {kategorie2}?"
 
-  utter_dbresponse_zu_viele_ergebnisse:
+utter_dbresponse_zu_viele_ergebnisse:
   - text: "Leider konnte ich nichts finden, können Sie Ihr Anliegen genauer beschreiben?"
   - text: "Ich bräuchte ein wenig mehr Informationen um meine Suche zu konkretisieren."
   - text: "Können Sie mir weitere Informationen über Ihr Anliegen geben?"
 
-  utter_dbresponse_kein_ergebnis:
+utter_dbresponse_kein_ergebnis:
   - text: "Leider konnte ich nichts finden."
   - text: "Zu diesem Thema liegen mir leider keine Daten vor."
 
-  utter_test_fahrzeug:
+utter_test_fahrzeug:
   - text: sie suchen also nach {kategorie}
 
-  utter_test_führerschein:
+utter_test_führerschein:
   - text: sie suchen nach {kategorie} also
 
-  utter_begleitetes_fahren:
+utter_begleitetes_fahren:
   - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden.
       Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
 
+utter_fahrzeug_informieren:
+  - text: "Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?"
+  - text: "Kannst du dein Problem weiter beschreiben?"
+  - text: "Bitte versuche dein Problem genauer zu beschreiben."
+
+utter_online_oder_offline:
+  - text: "Möchten sie die Abmeldung online oder vor Ort durchführen?"
   
 actions:
 #Dispatcher Tests
@@ -313,6 +329,7 @@ actions:
   - action_search_db
   - action_search_configdb
   - action_search_dienstleistung
+  - action_set_online_oder_offline
 
 session_config:
   session_expiration_time: 60

@@ -47,6 +47,7 @@ Ein Chatbot-Projekt basierend auf Rasa Open Source und MongoDB
 ### mongoDb unter Ubuntu starten
 
 `sudo systemctl start mongod`
+`sudo systemctl enable mongod.service` (wenn einmal ausgeführt startet mongoDB beim StatUp)
 
 ## Rasa X
 

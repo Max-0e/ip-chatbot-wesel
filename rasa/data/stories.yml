@@ -2,18 +2,37 @@ version: "2.0"
 
 stories:
 
-- story: KFZ Strory
+- story: Fahrzeug-Kategorie Story
   steps:
   - intent: informieren_kategorie
     entities:
-    - kategorie: "fahrzeug"
-  - action: utter_test_fahrzeug
+    - kategorie: "Fahrzeug"
+  - action: utter_fahrzeug_informieren
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword
+  - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+  - checkpoint: check_dienstleistung_bekannt
 
-- story: führerschein Strory
+- story: Fahrzeug-Abmelden - Substory_online_oder_offline
+  steps: 
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Fahrzeug-Abmelden"
+  - action: utter_online_oder_offline
+  - or: 
+    - intent: zustimmung
+    - intent: verneinung
+  - action: action_set_online_oder_offline
+
+
+- story: Führerschein-Kategorie Story
   steps:
   - intent: informieren_kategorie
     entities:
-    - kategorie: "führerschein"
+    - kategorie: "Führerschein"
   - action: utter_test_führerschein
 
 
@@ -33,6 +52,11 @@ stories:
   steps:
   - intent: begleitet fahren
   - action: utter_begleitetes_fahren
+
+# - story: Story wenn Dienstleistung bekannt
+#   steps: 
+#     - checkpoint: check_dienstleistung_bekannt
+#     - action: utter_welche_info
 
 - story: Personendaten
   steps:

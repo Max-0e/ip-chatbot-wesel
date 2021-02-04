@@ -54,7 +54,7 @@ nlu:
     - Wer bist du
     - was bist du
     - Bist du ein Lebewesen
-    - Besteht du aus Fleich
+    - Besteht du aus Fleisch
     - Bist du eine KI
 
 - intent: öffnungszeiten
@@ -220,17 +220,16 @@ nlu:
     - begleitetes fahren
     - mit 17
 
-- synonym: fahrzeug
+- synonym: Fahrzeug
   examples: |
     - auto
-    - vehicleConozco esta grandiosa canción gracias a The Umbrella Academy
     - gefährt
     - verkehrsmittel
     - automobil
     - wagen
     - test
 
-- synonym: führerschein
+- synonym: Führerschein
   examples: |
     - fahrerlaubnis
     - fahrausweis
@@ -239,38 +238,86 @@ nlu:
 
 - intent: informieren_fahrzeug
   examples: |
-    - ich möchte mich über [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](keywords_fahrzeug) informieren
-    - ich brauche hilfe bei der [abmeldung](keywords_fahrzeug) meines fahrzeuges
-    - wie beantrage ich eine [adressänderung](keywords_fahrzeug) meines fahrzeuges
-    - ich suche informationen zur [namensänderung](keywords_fahrzeug) meines fahrzeuges
-    - wie bekomme ich ein [ausfuhrkennzeichen](keywords_fahrzeug) 
-    - was ist eine [ausnahmegenemigung](keywords_fahrzeug) und wie bekomme ich diese
-    - ich möchte einen [Diebstahl](keywords_fahrzeug) melden
-    - meine [Zulassungsbescheinigung](keywords_fahrzeug) ist weg
-    - ich möchte meine frage zu meiner [erstmalige Zulassung](keywords_fahrzeug) beantwortet bekommen
-    - informationen zu [versicherungsschutz](keywords_fahrzeug)
-    - ich brauche informationen zur [halterauskuft](keywords_fahrzeug)
-    - wie sieht das mit dem [halterwechsel](keywords_fahrzeug) aus
-    - mein [kennzeichen](keywords_fahrzeug) ist unlesbar
-    - mein [kennzeichen](keywords_fahrzeug) ist defekt
-    - ich habe mein [kennzeichen](keywords_fahrzeug) verloren
-    - ich brauche eine [haftpflichtversicherung](keywords_fahrzeug)
-    - ich will informatioen zu meiner [kfz-steuer](keywords_fahrzeug)
-    - ich benötige hilfe bei meinem [kurzzeitkennzeichen](keywords_fahrzeug)
-    - ich habe einen oldtimer und brauche dafür ein [oldtimerkennzeichen](keywords_fahrzeug)
-    - was ist eine [online-ausserbetriebsetzung](keywords_fahrzeug)
-    - ich benötige ein [dauerkennzeichen](keywords_fahrzeug)
-    - ich brauche ein [saisonkennzeichen](keywords_fahrzeug)
-    - ich habe [technische änderungen](keywords_fahrzeug) an meinem fahrzeug
-    - ich habe [technische mängel](keywords_fahrzeug) an meinem fahrzeug
-    - mein fahrzeug soll auf einen anderen [zulassungsbezirk](keywords_fahrzeug) umgeschrieben werden
-    - ich brauche informationen zu der [verkaufsanzeige](keywords_fahrzeug) meines fahrzeug
-    - ich möchte ein [wechselkennzeichen](keywords_fahrzeug)
-    - ich möchte eine [wiederzulassungs](keywords_fahrzeug) beantragen
-    - ich möchte mein fahrzeug [zulassen](keywords_fahrzeug)
-    - mein auto wurde [außerbetriebsetzung](keywords_fahrzeug)
+    - ich möchte mich über [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](new_keyword) informieren
+    - ich brauche hilfe bei meinem [omnibus](new_keyword)
+    - ich brauche hilfe bei der [abmeldung](new_keyword) meines fahrzeuges
+    - ich möchte mein auto [abmelden](new_keyword)
+    - ich möchte mein pwk [abmelden](new_keyword)
+    - ich möchte mein fahrzeug [abmelden](new_keyword)
+    - ich will mein auto [abmelden](new_keyword)
+    - ich will mein pkw [abmelden](new_keyword)
+    - ich will mein fahrzeug [abmelden](new_keyword)
+    - wie beantrage ich eine [adressänderung](new_keyword) meines fahrzeuges
+    
+    - ich suche informationen zur [namensänderung](new_keyword) meines fahrzeuges
+    
+    - wie bekomme ich ein [ausfuhrkennzeichen](new_keyword) 
+    -
+     was ist eine [ausnahmegenemigung](new_keyword) und wie bekomme ich diese
 
-- synonym: omnibusse
+    - ich möchte meine frage zu meiner [erstmaligen Zulassung, erstzulassung](new_keyword) beantwortet bekommen
+    
+    - informationen zu [versicherungsschutz](new_keyword)
+    
+    - ich brauche informationen zur [halterauskuft](new_keyword)
+    
+    - wie sieht das mit dem [halterwechsel](new_keyword) aus
+
+    - mein [kennzeichen](new_keyword) ist unlesbar
+    - mein [kennzeichen](new_keyword) ist defekt
+    - mein [kennzeichen](new_keyword) ist kaputt
+    - mein [kennzeichen](new_keyword) ist weg
+    - ich habe mein [kennzeichen](new_keyword) verloren
+
+    - ich brauche eine [haftpflichtversicherung](new_keyword)
+
+    - ich will informatioen zu meiner [kfz-steuer](new_keyword)
+
+    - ich benötige hilfe bei meinem [kurzzeitkennzeichen](new_keyword)
+
+    - ich habe einen oldtimer und brauche dafür ein [oldtimerkennzeichen](new_keyword)
+
+    - was ist eine [online-ausserbetriebsetzung](new_keyword)
+
+    - ich benötige ein [dauerkennzeichen](new_keyword)
+
+    - ich brauche ein [saisonkennzeichen](new_keyword)
+
+    - ich habe [technische änderungen](new_keyword) an meinem fahrzeug
+
+    - ich habe [technische mängel](new_keyword) an meinem fahrzeug
+
+    - mein fahrzeug soll auf einen anderen [zulassungsbezirk](new_keyword) umgeschrieben werden
+
+    - ich brauche informationen zu der [verkaufsanzeige](new_keyword) meines fahrzeug
+
+    - ich möchte ein [wechselkennzeichen](new_keyword)
+
+    - ich möchte eine [wiederzulassungs](new_keyword) beantragen
+
+    - ich möchte mein fahrzeug [zulassen](new_keyword)
+
+    - mein auto wurde [außerbetriebsetzung](new_keyword)
+
+    - ich möchte einen [diebstahl](new_keyword) melden
+    - mein [auto wurde gestohlen,auto wurde geklaut,auto wurde entwendet](new_keyword)
+    - mein [auto ist verschwunden](new_keyword)
+    - mein [pwk ist weg](new_keyword)
+
+    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist verschwunden
+    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist gestohlen worden
+    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist weg
+    - mein [zulassungsschein](new_keyword) ist verschwunden
+    - mein [zulassungsschein](new_keyword) ist gestohlen worden
+    - mein [zulassungsschein ist weg](new_keyword)
+
+    - ich habe meinen [fahrzeugbrief](new_keyword) verloren
+    - mein [fahrzeugbrief](new_keyword) ist verschwunden
+    - mein [fahrzeugbrief](new_keyword) ist gestohlen worden
+    - mein [fahrzeugbrief](new_keyword) ist weg
+    - ich habe meinen [fahrzeugbrief](new_keyword) verloren
+
+- synonym: Omnibusse
   examples: |
     - omnibussen
     - omnibus
@@ -278,6 +325,41 @@ nlu:
     - schwenkbus
     - knickbus
 
+- synonym: Fahrzeug-Abmeldung
+  examples: |
+    - abmelden
+
+- synonym: Fahrzeug gestohlen
+  examples: |
+    - auto wurde geklaut
+    - auto wurde gestohlen
+    - auto ist verschwunden
+    - auto wurde entwendet
+    - pkw ist weg
+    - auto ist verschwunden
+
+- synonym: Diebstahl
+  examples: |
+    - diebstahl
+    - geklaut
+    - gestohlen
+
+- synonym: Zulassungsbescheinigung
+  examples: |
+    - autozulassung
+    - autozulassung
+    - zulassungsschein
+    - fahrzeugzulassung
+
+- synonym: Fahrzeugschein
+  examples: |
+    - fahrzeugschein
+    - autoschein
+
+- synonym: Fahrzeugbrief
+  examples: |
+    - fahrzeugbrief
+    - autobrief
 
 
 #Führerschein   
