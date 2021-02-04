@@ -153,3 +153,30 @@ stories:
   steps:
   - intent: auszug_aus_dem_liegenschaftsbuch
   - action: utter_auszug_aus_dem_liegenschaftsbuch
+
+
+#einzelne von Unten angefangen
+- story: Schornsteinfegerwesen
+  steps:
+  - intent: Schornsteinfegerwesen
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Sozialticket
+  steps:
+  - intent: Sozialticket
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Überwachung der Trinkwasser-Kleinanlagen
+  steps:
+  - intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Unterhaltsvorschuss
+  steps:
+  - intent: Unterhaltsvorschuss
+  - action: ActionSearchDienstleistungMitIntent
+
+- story: Wohnberechtigungsschein
+  steps:
+  - intent: Wohnberechtigungsschein
+  - action: ActionSearchDienstleistungMitIntent

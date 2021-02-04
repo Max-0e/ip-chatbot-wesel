@@ -418,3 +418,44 @@ nlu:
     - flurkartenbuch
     - eigentümer nachweis aus dem liegenschaftsbuch 
     
+
+
+#Einzelne Dienstleistungne von Unten Angefangen
+- intent: Schornsteinfegerwesen
+  examples: |
+    - Brauch ich einen Schornsteinfeger
+    - Muss ein Schornsteinfeger bei mir alles überprüfen
+    - Wo kann ich einen Schornsteinfeger bestellen 
+    - Wo krieg ich einen Termin mit einem Schornsteinfeger
+
+- intent: Sozialticket
+  examples: |
+    - Was ist ein Sozialticket
+    - Wie viel kostet ein Sozialticket
+    - Wer darf auf dem Sozialticket fahren 
+    - Darf ich auf dem Sozialticket leute mitnehmen 
+    - Wo ist das Sozialticket gültig
+    - Wie teuer ist ein Sozialticket
+
+- intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  examples: |
+    - Ich möchte meinen burnnen überwachen lassen
+    - ich möchte meinen brunnen sicher nutzen
+    - ich habe eine Trinkwasse-Kleinanlagen
+    - ich habe eine kleine trinkwasseranlage
+
+- intent: Unterhaltsvorschuss
+  examples: |
+    - Ich brauche einen unterhaltsvorschuss
+    - krieg ich einen Unterhaltsvorschuss
+    - wann krieg ich einen Unterhaltsvorschuss
+    - bis wann krieg ich Unterhaltsvorschusse
+    - wie viel unterhaltsvorschuss bekomme ich 
+    - ich bin alleinerziehend und krieg wenig unterhalt
+
+- intent: Wohnberechtigungsschein
+  examples: |
+    - Ich brauche eine wohnberechtigungsschein
+    - Ich wann brauche ich ein wohnberechtigungsschein
+    - ich möchte in eine öffentlich geförderte Wohnung ziehen 
+    - Für welche städte stellt ihr wohnberechtigungsscheine aus
