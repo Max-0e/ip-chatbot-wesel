@@ -29,48 +29,48 @@ entities:
   - anliegen
 
 intents:
-  - abfallbeförderungserlaubnis
-  - abfallberatung
-  - abfallerzeugernummer
-  - abrechnung von untersuchungen jugendarbeitsschutzgesetz
-  - adoptionsvermittlung
-  - ärztliche gutachten
-  - aids beratung hiv test
-  - amtliche basiskarte
-  - anlagen in und an gewässern
-  - anmeldung und beratung von prostituierten
-  - apothekenbetriebserlaubnis
-  - artenschutz meldepflicht
-  - artenschutzrechtliche genehmigung
-  - aufenthaltserlaubnis zu studienzwecken
-  - ausbildungsverkehr pauschale
-  - auszüge aus der liegenschaftskarte
-  - auszug aus dem liegenschaftsbuch
-  - bafög - leistungen bundesausbildungsförderungsgesetz
-  - baugenehmigung
-  - baulast eintragung und auskunft
-  - baumfällung
-  - bauvoranfrage
-  - befreiung bauverbot überschwemmungsgebieten
-  - befreiung helmpflicht anschnallpflicht
-  - befreiungen bundesnaturschutzgesetz
-  - beistandschaften
-  - beistandschaften beurkundungen
-  - beistandschaften unterhaltsfragen
-  - beistandschaften vaterschaft
-  - belehrung umgang lebensmitteln gesundheitszeugnis
-  - beratung psychischen erkrankungen suchtberatung
-  - beratung lebensmittelunternehmen
-  - beratung sexuell übertragbaren erkankungen
-  - bescheinigung unentgeltlichen benutzung öffentlichen personennahverkehrs
-  - bescheinigungen liegenschaftskataster
-  - besuchsaufenthalte verpflichtungserklärung
-  - betreuungsrecht betreuungsstelle
-  - bewachungserlaubnis
-  - bewachungspersonal
-  - bhv1
-  - bienenvölker haltung anmeldung
-  - bienen wespen
+  - Abfallbeförderungserlaubnis
+  - Abfallberatung
+  - Abfallerzeugernummer
+  - Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz
+  - Adoptionsvermittlung
+  - Ärztliche Gutachten
+  - AIDS-Beratung und HIV-Test
+  - Amtliche Basiskarte (ABK)
+  - Anlagen in und an Gewässern
+  - Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
+  - Apothekenbetriebserlaubnis
+  - Artenschutz – Meldepflicht
+  - Artenschutzrechtliche Genehmigung
+  - Aufenthaltserlaubnis zu Studienzwecken
+  - Ausbildungsverkehr-Pauschale
+  - Auszüge aus der Liegenschaftskarte
+  - Auszug aus dem Liegenschaftsbuch
+  - BAföG - Leistungen nach dem Bundesausbildungsförderungsgesetz
+  - Baugenehmigung
+  - Baulast – Eintragung und Auskunft
+  - Baumfällung
+  - Bauvoranfrage
+  - Befreiung vom Bauverbot in Überschwemmungsgebieten
+  - Befreiung von der Helmpflicht oder Anschnallpflicht
+  - Befreiungen nach dem Bundesnaturschutzgesetz
+  - Beistandschaften
+  - Beistandschaften - Beurkundungen
+  - Beistandschaften - Unterhaltsfragen
+  - Beistandschaften - Vaterschaft
+  - Belehrung für den Umgang mit Lebensmitteln (Gesundheitszeugnis)
+  - Beratung für Menschen mit psychischen Erkrankungen / Suchtberatung
+  - Beratung von Lebensmittelunternehmen
+  - Beratung zu sexuell übertragbaren Erkankungen
+  - Bescheinigung zur unentgeltlichen Benutzung des öffentlichen Personennahverkehrs (ÖPNV) - Beiblatt mit Wertmarke
+  - Bescheinigungen aus dem Liegenschaftskataster
+  - Besuchsaufenthalte - Verpflichtungserklärung
+  - Betreuungsrecht; Betreuungsstelle
+  - Bewachungserlaubnis
+  - Bewachungspersonal
+  - BHV1
+  - Bienenvölker - Haltung und Anmeldung
+  - Bienen, Wespen & Co.
   - Schornsteinfegerwesen
   - Sozialticket
   - Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
