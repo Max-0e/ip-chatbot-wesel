@@ -8,10 +8,18 @@ slots:
       - führerschein
   dienstleistung:
     type: text
+  anliegen:
+    type: categorical
+    values:
+      - öffnungszeiten
+      - telefon
+      - email
+      - ansprechpartner
 
 entities:
   - kategorie
   - dienstleistung
+  - anliegen
 
 intents:
   - begrüßung
@@ -26,6 +34,7 @@ intents:
   - test
   - dispatcher_test
   - wie_gehts
+  - dienstleistungen_suche_test
   - informieren_kategorie:
       use_entities:
         - kategorie
@@ -86,6 +95,12 @@ responses:
   - text: "{kategorie} ist unter folgender Adresse erreichbar: {anschrift}"
   - text: "Hier die Anschrift für {kategorie}: {anschrift}"
 
+  utter_dbresponse_telefon:
+  - text: "{person} ist zuständig für {kategorie} und ist unter folgender Nummer erreichbar: {telefon}"
+
+  utter_dbresponse_email:
+  - text: "{person} ist zuständig für {kategorie} und ist unter folgender Email-Adresse erreichbar: {email}"
+
   utter_dbresponse_allgemein:
   - text: "Hier mehr Infos für "
     custom:
@@ -100,6 +115,12 @@ responses:
       link: "{link}"
       linkname: "{kategorie}"   
   - text: "Schauen Sie doch mal hier "
+    custom:
+      link: "{link}"
+      linkname: "{kategorie}"   
+
+  utter_dbresponse_allgemein_antworttext:
+  - text: "{info}"
     custom:
       link: "{link}"
       linkname: "{kategorie}"   

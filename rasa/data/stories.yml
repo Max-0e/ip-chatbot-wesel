@@ -16,7 +16,6 @@ stories:
     - kategorie: "führerschein"
   - action: utter_test_führerschein
 
-
 - story: Begleitetes Fahren
   steps:
   - intent: begleitet fahren
@@ -28,3 +27,8 @@ stories:
   steps:
   - intent: test
   - action: utter_ich_bin_ein_bot
+
+- story: dienstleistungTest
+  steps:
+  - intent: dienstleistungen_suche_test
+  - action: action_search_dienstleistung

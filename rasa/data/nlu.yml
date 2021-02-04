@@ -201,6 +201,16 @@ nlu:
     - fahren [ab 17](dienstleistung)
     - fahren [vor 18](dienstleistung)
 
+- intent: dienstleistungen_suche_test
+  examples: |
+    - [Adoptionsvermittlung](dienstleistung) [öffnungszeiten](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [telefon](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [email](anliegen)
+    - [Adoptionsvermittlung](dienstleistung) [ansprechpartner](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [öffnungszeiten](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [telefon](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [email](anliegen)
+    - [Ärztliche Gutachten](dienstleistung) [ansprechpartner](anliegen)
 
 # synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben die gleichen values zu geben
 - synonym: Führerschein - Begleitetes Fahren ab 17 Jahren
