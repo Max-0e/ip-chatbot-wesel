@@ -494,4 +494,143 @@ nlu:
     - ich brauche eine persönliche vorsprache für eine beurkundete beistandschaft
     - meine beistandschaft soll beurkundet werden
     - ich brauche eine beurkundete sorgeerklärung für meinen sohn tochter kind
-    
+
+- intent: beistandschaften_unterhaltsfragen
+  examples: |
+    - mein man frau muss unterhalt bezahlen
+    - wie kläre ich die unterhaltsfrage
+    - ich brauche unterhalt für mein kind sohn tochter
+    - mein man frau hält sich nichts an die unterhaltsverpflichtung
+    - ich bekomme geld wegen dem unterhalt das mir mein mann frau bezahlen muss
+
+- intent: beistandschaften_vaterschaft
+  examples: |
+    - ich möchte einen vaterschaftstest
+    - ich weis nicht ob mein sohn kind tochter von meinem man frau ist
+    - ich möchte die verwandschaft mit zwischen meinem sohn kind tochter und man frau bestätigen
+    - ich möchte die vaterschaft zwischen meinem kind bestätigt wissen
+    - wo kann man einen vaterschaftsbestimmung beantragen
+    - vaterschaftsgutachten
+    - vaterschaftsklage
+    - vaterschaftsprozess
+
+- intent: belehrung_umgang_lebensmitteln_gesundheitszeugnis
+  examples: |
+    - ich arbeite mit lebensmitteln und brauche ein gesundheitszeugnis
+    - gesundheits belehrung im umgang mit lebensmitteln
+    - gesundheitspass im umgang mit essen
+    - arbeit im restaurant und brauche gesundheitszeugnis
+    - fastfood restaurant
+
+- intent: beratung_psychischen_erkrankungen_suchtberatung
+  examples: |
+    - ich habe ein suchtproblem
+    - ich habe ein alkohol problem und brauche hilfe
+    - ich habe eine psychische störung oder erkrankung
+    - ich habe eine spielsucht 
+    - ich bin abhängig
+
+- intent: beratung_lebensmittelunternehmen
+  examples: |
+    - ich brauche eine beratung für mein lebensmittelunternehmen
+    - fachliches gespräch für mein lebensmittelbetrieb
+    - frage zu lebensmittel-hygienerechtlichen anforderungen
+    - hygienerechtliche anforderungen Unternehmen
+
+- intent: beratung_sexuell_übertragbaren_erkankungen
+  examples: |
+    - mein kondom ist beim sex gerissen ich brauche eine beratung
+    - beratung sexuell übertragbare krankheiten
+    - geschlechtsverkehr ohne verhütung
+    - ich glaube ich habe eine sexuell übertragbare krankheit
+    - ich möchte informationen über sexuell übertragbare krankheiten um mich vor ansteckung zu schützen
+    - risiken über sexuell übertragbare krankheiten
+    - ich brauche beratung wegen einen panne im personalverkehr
+    - infizierung sex krankheiten
+
+- intent: bescheinigung_unentgeltlichen_benutzung_öffentlichen_personennahverkehrs
+  examples: |
+    - ich habe eine schwerbehinderung und möchre mit öpvn kostenlos fahren
+    - kostenlos öffentlichen personennahverkehrs fahren
+    - bescheinigung zur unentgeldlichen benutzung des öpnv
+    - wie kann ich kostenlos öpnv fahren
+
+- intent: bescheinigungen_liegenschaftskataster
+  examples: |
+    - ich brauche eine liegenschaftskataster bescheinigung
+    - was ist eine liegenschaftskataster
+
+- intent: besuchsaufenthalte_verpflichtungserklärung
+  examples: |
+    - ich bekomme besuch aus dem ausland
+    - ich brauche eine verpflichtungserklärung für den besuchsaufenthalt von 3 monaten
+    - ich bekomme ein geschäftlichen besuch aus dem ausland und brauche eine verpflichtungserklärung
+    - besuchsaufenthalte aus dem ausland
+
+- intent: betreuungsrecht_betreuungsstelle
+  examples: |
+    - was ist das betreuungsrechts
+    - ich brauche informationen zur betreuungsstelle
+  # erweitern ...
+
+- intent: bewachungserlaubnis
+  examples: |
+    - ich möchte wachmann werden was brauche ich dafür
+    - ich brauche eine bewachungserlaubnis
+    - welche voraussetzungen muss ich als wachmann erfüllen
+    - ich möchte gewerbsmäßig eigentum fremder personen bewachen
+    - ich möchte gewerbsmäßig das leben fremder personen bewachen
+ 
+- intent: bewachungspersonal
+  examples: |
+    - ich betreibe ein bewachungsgewerbes
+    - ich möchte bewachungspersonal einstellen
+    - wachpersonal qualifikations
+
+- intent: bhv1
+  examples: |
+    - Bovine Herpesvirus
+    - Rinderkrankheiten
+    - Tierseuche
+
+- intent: bienenvölker_haltung_anmeldung
+  examples: |
+    - ich möchte bienenvölker halten
+    - ich möchte meine tätigkeit als imker anmelden
+    - was brauche ich als imker
+    - bienenstöcke halten
+
+- intent: bienen_wespen
+  examples: |
+    - bienen
+    - wespen
+    - hornissen
+    - hummeln
+    - geschützte Tierarten
+    - Bundesnaturschutzgesetz
+
+# D-Kategorien
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |
+
+- intent:
+  examples: |

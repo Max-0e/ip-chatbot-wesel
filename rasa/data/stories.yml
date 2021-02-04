@@ -201,7 +201,84 @@ stories:
   - intent: beistandschaften_beurkundungen 
   - action: action_search_db
 
-- story: 
+- story: Beistandschaften_Unterhaltsfragen
   steps:
-  - intent: 
+  - intent: beistandschaften_unterhaltsfragen
+  - action: action_search_db
+
+- story: Beistandschaften_Vaterschaft
+  steps:
+  - intent: beistandschaften_vaterschaft
+  - action: action_search_db
+
+- story: Belehrung_Umgang_Lebensmitteln_Gesundheitszeugnis
+  steps:
+  - intent: belehrung_umgang_lebensmitteln_gesundheitszeugnis
+  - action: action_search_db
+
+- story: Beratung_Psychischen_Erkrankungen_Suchtberatung
+  steps:
+  - intent: beratung_psychischen_erkrankungen_suchtberatung
+  - action: action_search_db
+
+- story: Beratung_Lebensmittelunternehmen
+  steps:
+  - intent: beratung_lebensmittelunternehmen
+  - action: action_search_db
+
+- story: Beratung_sexuell_übertragbaren_Erkankungen
+  steps:
+  - intent: beratung_sexuell_übertragbaren_erkankungen
+  - action: action_search_db
+
+- story: Bescheinigung_unentgeltlichen_Benutzung_öffentlichen_Personennahverkehrs
+  steps:
+  - intent: bescheinigung_unentgeltlichen_benutzung_öffentlichen_personennahverkehrs
+  - action: action_search_db
+
+- story: Bescheinigungen_Liegenschaftskataster
+  steps:
+  - intent: bescheinigungen_liegenschaftskataster
+  - action: action_search_db
+
+- story: Besuchsaufenthalte_Verpflichtungserklärung
+  steps:
+  - intent: besuchsaufenthalte_verpflichtungserklärung
+  - action: action_search_db
+
+- story: Betreuungsrecht_Betreuungsstelle
+  steps:
+  - intent: betreuungsrecht_betreuungsstelle
+  - action: action_search_db
+
+- story: Bewachungserlaubnis
+  steps:
+  - intent: bewachungserlaubnis
+  - action: action_search_db
+
+- story: Bewachungspersonal
+  steps:
+  - intent: bewachungspersonal
+  - action: action_search_db
+
+- story: BHV1
+  steps:
+  - intent: bhv1
+  - action: action_search_db
+
+- story: Bienenvölker_Haltung_Anmeldung
+  steps:
+  - intent: bienenvölker_haltung_anmeldung
+  - action: action_search_db
+
+- story: Bienen_Wespen
+  steps:
+  - intent: bienen_wespen
+  - action: action_search_db
+
+# D-Kategorien
+
+- story:
+  steps:
+  - intent:
   - action: action_search_db
