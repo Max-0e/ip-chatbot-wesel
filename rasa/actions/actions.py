@@ -167,7 +167,7 @@ class ActionSearchDienstleistung(Action):
                     "infoname": { "$regex": "öffnungszeiten"},
                 }
                 config_oez = config.find_one(query)
-                oeffnungszeiten = config_oez["infoinhalt"]
+                oeffnungszeiten = config_oez["infoinhalt"] + " (allgemeine Öffnungszeiten Kreis Wesel)"
                 print("Keine Öffnungszeit gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_öz",
                                      kategorie = dienstleistung["Leistungsname"],
@@ -189,7 +189,7 @@ class ActionSearchDienstleistung(Action):
                     "infoname": { "$regex": "telefon"},
                 }
                 config_tele = config.find_one(query)
-                telefon = config_tele["infoinhalt"]
+                telefon = config_tele["infoinhalt"] + " (allgemeine Telefonnummer Kreis Wesel)"
                 print("Keine Telefonnummer gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_telefon",
                                      kategorie = dienstleistung["Leistungsname"],
@@ -212,7 +212,7 @@ class ActionSearchDienstleistung(Action):
                     "infoname": { "$regex": "email"},
                 }
                 config_email = config.find_one(query)
-                email = config_email["infoinhalt"]
+                email = config_email["infoinhalt"] + " (allgemeine E-Mail Adresse Kreis Wesel)"
                 print("Keine Email-Adresse gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_email",
                                      kategorie = dienstleistung["Leistungsname"],
@@ -232,7 +232,7 @@ class ActionSearchDienstleistung(Action):
                     "infoname": { "$regex": "adresse"},
                 }
                 config_adresse = config.find_one(query)
-                adresse = config_adresse["infoinhalt"]
+                adresse = config_adresse["infoinhalt"] + " (allgemeine Adresse Kreis Wesel)"
                 print("Keine Telefonnummer gefunden, default wird genommen")
             dispatcher.utter_message(template = "utter_dbresponse_ansprechpartner",
                                      kategorie = dienstleistung["Leistungsname"],
