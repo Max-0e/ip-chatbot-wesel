@@ -1,0 +1,43 @@
+version: "2.0"
+
+stories:
+
+- story: Einbürgerung
+  steps:
+  - intent: Einbürgerung
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Einschulungsuntersuchung
+  steps:
+  - intent: Einschulungsuntersuchung
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Elektronischer Aufenthaltstitel (eAT)
+  steps:
+  - intent: Elektronischer Aufenthaltstitel (eAT)
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Elternbeiträge
+  steps:
+  - intent: Elternbeiträge
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Elterngeld
+  steps:
+  - intent: Elterngeld
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Erfassung und Überwachung der nichtakademischen Heilberufe
+  steps:
+  - intent: Erfassung und Überwachung der nichtakademischen Heilberufe
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Erlaubnis zum Betrieb eines Prostitutionsgewerbes 
+  steps:
+  - intent: Erlaubnis zum Betrieb eines Prostitutionsgewerbes
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Erlaubnispflichtige Tätigkeiten nach § 11 Tierschutzgesetz
+  steps:
+  - intent: Erlaubnispflichtige Tätigkeiten nach § 11 Tierschutzgesetz
+  - action: action_search_dienstleistung_mit_intent

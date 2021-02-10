@@ -1,0 +1,11 @@
+version: "2.0"
+
+nlu:
+
+- intent: Dioxin PCB - Meldepflichten nach der Mitteilungs- und Übermittlungsverordnung
+  examples: |
+    - dioxin
+    - futtermittelschutzgesetz
+    - lebensmittelschutzgesetz
+    - lebensmittelsicherheit
+    - verbraucherschutz 
