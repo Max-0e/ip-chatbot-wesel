@@ -1,0 +1,33 @@
+version: "2.0"
+
+stories:
+
+- story: Gebäudeeinmessungspflicht
+  steps:
+  - intent: Gebäudeeinmessungspflicht
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Genehmigungen nach Naturschutzrecht
+  steps:
+  - intent: Genehmigungen nach Naturschutzrecht
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Georeferenzen, Hauskoordinaten, Hausumringe
+  steps:
+  - intent: Georeferenzen, Hauskoordinaten, Hausumringe
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Gesundheitliche Beratung gemäß Paragraph 10 Prostituiertenschutzgesetz (ProstSchG)
+  steps:
+  - intent: Gesundheitliche Beratung gemäß Paragraph 10 Prostituiertenschutzgesetz (ProstSchG)
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Gewässerausbau
+  steps:
+  - intent: Gewässerausbau
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Grenzniederschriften, Protokolle, Urkunden
+  steps:
+  - intent: Grenzniederschriften, Protokolle, Urkunden
+  - action: action_search_dienstleistung_mit_intent

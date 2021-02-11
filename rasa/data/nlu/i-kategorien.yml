@@ -1,0 +1,30 @@
+version: "2.0"
+
+nlu:
+
+- intent: Impfberatung
+  examples: |
+    - ich möchte mich übers impfen informieren
+    - impfberatung
+    - informationen impfung corona
+    - impfzentrum
+
+- intent: Indirekteinleitung - Einleiten von Abwasser in die öffentliche Kanalisation
+  examples: |
+    - produktionsprozesse benutzen wasser
+    - schadstoffe ins wasser
+    - einleiten von abwasser in die öffentliche kanalisation
+
+- intent: Infektionskrankheiten - Meldung, Information und Beratung
+  examples: |
+    - muss ich eine krankheit melden
+    - meldepflich und meldeformular infektionskrankheiten
+    - infektionsschutzgesetz
+
+- intent: Integrationskurse / Sprachförderung
+  examples: |
+    - ich will deutsch lernen
+    - wie kann ich einen deutschkurs belegen
+    - anmeldung deutschkurs
+    - sprachkurs
+    - deusch reden
