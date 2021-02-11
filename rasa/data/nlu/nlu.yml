@@ -375,21 +375,33 @@ nlu:
 
 #Führerschein
 
-# - intent: begleitet fahren
-#   examples: |
-#     - begleitetes fahren
-#     - Was kannst du mir zu begleitetes fahren sagen
-#     - Hilfe zu begleitetes fahren
-#     - fahren ab 17
-#     - fahren vor 18
+- intent: informieren_führerschein
+  examples: |
+    - [begleitetes fahren](new_keyword)
+    - Was kannst du mir zu [begleitetem fahren](new_keyword) sagen
+    - ich brauche Hilfe zu [begleitetem fahren](new_keyword)
+    - [fahren ab 17](new_keyword)
+    - [fahren vor 18](new_keyword)
+    - [führerschein diebstahl](new_keyword)
+    - Mein [Führerschein wurde geklaut](new_keyword)
+    - Ich habe [meinen Führerschein](new_keyword) verloren
+    - [führerschein geklaut](new_keyword)
+    - [führerschein verloren](new_keyword)
 
-# - intent: führerscheinverlust
-#   examples: |
-#     - führerschein diebstahl
-#     - Mein Führerschein wurde geklaut
-#     - Ich habe meinen Führerschein verloren
-#     - führerschein geklaut
-#     - führerschein verloren
+- synonym: begleitetes fahren
+  examples: |
+    - begleitetes fahren
+    - begleitetem fahren
+    - fahren ab 17
+    - fahren vor 18
+
+- synonym: führerscheinverlust
+  examples: |
+    - führerschein diebstahl
+    - Führerschein wurde geklaut
+    - Führerschein verloren
+    - führerschein geklaut
+    - führerschein verloren
 
 # - intent: führerschein personendaten
 #   examples: |
