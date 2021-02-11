@@ -30,10 +30,11 @@ class ActionSearchDB(Action):
         # erstellen eines queries mit der Suche nach der gesetzten Kategorie
         print(tracker.slots["keywords"])
         print(tracker.slots["new_keyword"])
-        query = { 
-            "Leistungsname": { "$regex": tracker.slots["kategorie"], "$options": 'i'},
-            # "Leistungsbeschreibung": { "$regex": tracker.slots["new_keyword"]}
-        }
+        query = {}
+
+        if tracker.slots["kategorie"] != None:
+            query["Leistungsname"]= { "$regex": tracker.slots["kategorie"], "$options": 'i'}
+
         if tracker.slots["new_keyword"] != None:
             tracker.slots["keywords"].append(tracker.slots["new_keyword"])
 
@@ -50,7 +51,8 @@ class ActionSearchDB(Action):
             # dispatcher.utter_message(text=f'Schau doch mal hier:{dienstleistung["LeistungsURI"]}')
             return[
                 SlotSet("dienstleistung",dienstleistung["Leistungsname"]),
-                SlotSet("keywords", tracker.slots["keywords"])
+                SlotSet("keywords", tracker.slots["keywords"]),
+                FollowupAction("action_search_dienstleistung")
             ]
         elif counter == 0:
             print('kein ergebnis')
@@ -59,8 +61,12 @@ class ActionSearchDB(Action):
         elif counter >= 3:
             print(counter)
             dienstleistung = dienstleistungen.find(query)
-            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell {counter} Dienstleistungen für dich in Frage:')
-            dispatcher.utter_message(text=f'Bitte versuch dein Problem näher zu beschreiben.')
+            dispatcher.utter_message(text=f'Ich bin mir noch nicht sicher was du genau meinst. Es kommen aktuell diese {counter} Dienstleistungen für dich in Frage:')
+            for leistung in dienstleistungen:
+                dispatcher.utter_message(
+                    text=f'{leistung["Leistungsname"]}',
+                    link = leistung["LeistungsURI"]
+                )
             return [SlotSet("keywords", tracker.slots["keywords"])]
         else:
             print(counter)

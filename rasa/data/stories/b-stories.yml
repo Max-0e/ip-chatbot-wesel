@@ -48,14 +48,14 @@ stories:
   - intent: Beistandschaften
   - action: action_search_db
 
-- story: Beistandschaften_Beurkundungen
+- story: Beistandschaften Beurkundungen
   steps:
   - intent: Beistandschaften - Beurkundungen 
   - action: action_search_db
 
 - story: Beistandschaften Unterhaltsfragen
   steps:
-  - intent: bBeistandschaften - Unterhaltsfragen
+  - intent: Beistandschaften - Unterhaltsfragen
   - action: action_search_db
 
 - story: Beistandschaften Vaterschaft

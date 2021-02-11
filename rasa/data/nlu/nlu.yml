@@ -238,18 +238,18 @@ nlu:
     - fahren [ab 17](dienstleistung)
     - fahren [vor 18](dienstleistung)
 
-- intent: dienstleistungen_suche_test
-  examples: |
-    - [Adoptionsvermittlung](dienstleistung) [öffnungszeiten](anliegen)
-    - [Adoptionsvermittlung](dienstleistung) [telefon](anliegen)
-    - [Adoptionsvermittlung](dienstleistung) [email](anliegen)
-    - [Adoptionsvermittlung](dienstleistung) [ansprechpartner](anliegen)
-    - [Ärztliche Gutachten](dienstleistung) [öffnungszeiten](anliegen)
-    - [Ärztliche Gutachten](dienstleistung) [telefon](anliegen)
-    - [Ärztliche Gutachten](dienstleistung) [email](anliegen)
-    - [Ärztliche Gutachten](dienstleistung) [ansprechpartner](anliegen)
+# - intent: dienstleistungen_suche_test
+#   examples: |
+#     - [Adoptionsvermittlung](dienstleistung) [öffnungszeiten](anliegen)
+#     - [Adoptionsvermittlung](dienstleistung) [telefon](anliegen)
+#     - [Adoptionsvermittlung](dienstleistung) [email](anliegen)
+#     - [Adoptionsvermittlung](dienstleistung) [ansprechpartner](anliegen)
+#     - [Ärztliche Gutachten](dienstleistung) [öffnungszeiten](anliegen)
+#     - [Ärztliche Gutachten](dienstleistung) [telefon](anliegen)
+#     - [Ärztliche Gutachten](dienstleistung) [email](anliegen)
+#     - [Ärztliche Gutachten](dienstleistung) [ansprechpartner](anliegen)
 
-# synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben die gleichen values zu geben
+# synonyme werden verwendet um verschiedenen Keywords der selben entitiy die gleichen Values zu geben
 - synonym: Führerschein - Begleitetes Fahren ab 17 Jahren
   examples: |
     - ab 17
@@ -373,80 +373,80 @@ nlu:
     - autobrief
 
 
-#Führerschein   
+#Führerschein
 
-- intent: begleitet fahren
-  examples: |
-    - begleitetes fahren
-    - Was kannst du mir zu begleitetes fahren sagen
-    - Hilfe zu begleitetes fahren
-    - fahren ab 17
-    - fahren vor 18
+# - intent: begleitet fahren
+#   examples: |
+#     - begleitetes fahren
+#     - Was kannst du mir zu begleitetes fahren sagen
+#     - Hilfe zu begleitetes fahren
+#     - fahren ab 17
+#     - fahren vor 18
 
-- intent: führerscheinverlust
-  examples: |
-    - führerschein diebstahl
-    - Mein Führerschein wurde geklaut
-    - Ich habe meinen Führerschein verloren
-    - führerschein geklaut
-    - führerschein verloren
+# - intent: führerscheinverlust
+#   examples: |
+#     - führerschein diebstahl
+#     - Mein Führerschein wurde geklaut
+#     - Ich habe meinen Führerschein verloren
+#     - führerschein geklaut
+#     - führerschein verloren
 
-- intent: führerschein personendaten
-  examples: |
-    - Personendaten Führerschein
-    - Führerschein personendaten
-    - personendaten ändern führerschein
-    - muss ich meine daten auf dem führerschein ändern
-    - ich möchte meine daten auf dem führerschein ändern
+# - intent: führerschein personendaten
+#   examples: |
+#     - Personendaten Führerschein
+#     - Führerschein personendaten
+#     - personendaten ändern führerschein
+#     - muss ich meine daten auf dem führerschein ändern
+#     - ich möchte meine daten auf dem führerschein ändern
 
-- intent: EU_Führerschein
-  examples: |
-    - Ich möchte meinen Führerschein gegen einen EU-Führerschein tauschen
-    - Ich möchte einen EU-Führerschein
-    - EU-Führerschein
-    - ich brauche ein EU-Führerschein
-    - brauch ich einen EU-Führerschein
+# - intent: EU_Führerschein
+#   examples: |
+#     - Ich möchte meinen Führerschein gegen einen EU-Führerschein tauschen
+#     - Ich möchte einen EU-Führerschein
+#     - EU-Führerschein
+#     - ich brauche ein EU-Führerschein
+#     - brauch ich einen EU-Führerschein
 
-- intent: Neuerteilung_Führerschein
-  examples: |
-    - Neuerteilung Führerschein
-    - Führerschein Entzug
-    - Ich möchte meinen Führerschein zurück haben
-    - Führerschein wurde entzogen 
-    - Frist des Führerscheinentzugs beendet
+# - intent: Neuerteilung_Führerschein
+#   examples: |
+#     - Neuerteilung Führerschein
+#     - Führerschein Entzug
+#     - Ich möchte meinen Führerschein zurück haben
+#     - Führerschein wurde entzogen 
+#     - Frist des Führerscheinentzugs beendet
 
-- intent: Fahrgastbeförderung
-  examples: |
-    - Ich möchte eine Erlaubnis zur Fahrgastbeförderung
-    - ich möchte leute transportieren
-    - ich brauche eine Fahrgastbeförderungserlaubmiss
-    - Fahrgastbeförderung
+# - intent: Fahrgastbeförderung
+#   examples: |
+#     - Ich möchte eine Erlaubnis zur Fahrgastbeförderung
+#     - ich möchte leute transportieren
+#     - ich brauche eine Fahrgastbeförderungserlaubmiss
+#     - Fahrgastbeförderung
 
 #Fahrzeug/KFZ
 
-- intent: kfz_steuer
-  examples: |
-    - Steuern Auto
-    - KFZ-Steuer
-    - Wie viel Steuern muss ich bei meinem Auto zahlen
-    - Wann muss ich Steuern für Auto zahlen
-    - Steuer KFZ
+# - intent: kfz_steuer
+#   examples: |
+#     - Steuern Auto
+#     - KFZ-Steuer
+#     - Wie viel Steuern muss ich bei meinem Auto zahlen
+#     - Wann muss ich Steuern für Auto zahlen
+#     - Steuer KFZ
 
-- intent: erstzulassung
-  examples: |
-    - erstzulassung
-    - erstzulassung auto
-    - kfz erstzulassung
-    - wie kann ich mein auto zulassen
-    - auto zulassen
-    - zulassung
-    - erstmalige zulassung
-    - wann brauche ich erstzulassung
+# - intent: erstzulassung
+#   examples: |
+#     - erstzulassung
+#     - erstzulassung auto
+#     - kfz erstzulassung
+#     - wie kann ich mein auto zulassen
+#     - auto zulassen
+#     - zulassung
+#     - erstmalige zulassung
+#     - wann brauche ich erstzulassung
 
-- intent: saisonkennzeichen
-  examples: |
-    - saisonkennzeichen
-    - was ist ein saisonkennzeichen
-    - auto nur ein teil des jahres zulassen
-    - wann brauche ich ein saisonkennzeichen
-    - beantragung saisonkennzeichen
+# - intent: saisonkennzeichen
+#   examples: |
+#     - saisonkennzeichen
+#     - was ist ein saisonkennzeichen
+#     - auto nur ein teil des jahres zulassen
+#     - wann brauche ich ein saisonkennzeichen
+#     - beantragung saisonkennzeichen
