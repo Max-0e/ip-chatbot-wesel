@@ -1,0 +1,8 @@
+version: "2.0"
+
+stories:
+
+- story: Dioxin PCB
+  steps:
+  - intent: Dioxin PCB - Meldepflichten nach der Mitteilungs- und Übermittlungsverordnung
+  - action: action_search_dienstleistung_mit_intent

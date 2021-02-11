@@ -6,131 +6,124 @@ stories:
 - story: Bafög Leistungen Bundesausbildungsförderungsgesetz
   steps:
   - intent: BAföG - Leistungen nach dem Bundesausbildungsförderungsgesetz
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Baugenehmigung
   steps:
   - intent: Baugenehmigung
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Baulast Eintragung und Auskunft
   steps:
   - intent: Baulast – Eintragung und Auskunft
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Baumfällung
   steps:
   - intent: Baumfällung
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bauvoranfrage
   steps:
   - intent: Bauvoranfrage
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Befreiung Bauverbot Überschwemmungsgebieten
   steps:
   - intent: Befreiung vom Bauverbot in Überschwemmungsgebieten
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Befreiung Helmpflicht Anschnallpflicht
   steps:
   - intent: Befreiung von der Helmpflicht oder Anschnallpflicht
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Befreiungen Bundesnaturschutzgesetz
   steps:
   - intent: Befreiungen nach dem Bundesnaturschutzgesetz
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beistandschaften
   steps:
   - intent: Beistandschaften
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beistandschaften Beurkundungen
   steps:
   - intent: Beistandschaften - Beurkundungen 
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beistandschaften Unterhaltsfragen
   steps:
   - intent: Beistandschaften - Unterhaltsfragen
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beistandschaften Vaterschaft
   steps:
   - intent: Beistandschaften - Vaterschaft
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Belehrung Umgang Lebensmitteln Gesundheitszeugnis
   steps:
   - intent: Belehrung für den Umgang mit Lebensmitteln (Gesundheitszeugnis)
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beratung Psychischen Erkrankungen Suchtberatung
   steps:
   - intent: Beratung für Menschen mit psychischen Erkrankungen
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beratung Lebensmittelunternehmen
   steps:
   - intent: Beratung von Lebensmittelunternehmen
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Beratung sexuell übertragbaren Erkankungen
   steps:
   - intent: Beratung zu sexuell übertragbaren Erkankungen
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bescheinigung unentgeltlichen Benutzung öffentlichen Personennahverkehrs
   steps:
   - intent: Bescheinigung zur unentgeltlichen Benutzung des öffentlichen Personennahverkehrs (ÖPNV) - Beiblatt mit Wertmarke
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bescheinigungen Liegenschaftskataster
   steps:
   - intent: Bescheinigungen aus dem Liegenschaftskataster
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Besuchsaufenthalte Verpflichtungserklärung
   steps:
   - intent: Besuchsaufenthalte - Verpflichtungserklärung
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Betreuungsrecht Betreuungsstelle
   steps:
   - intent: Betreuungsrecht; Betreuungsstelle
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bewachungserlaubnis
   steps:
   - intent: Bewachungserlaubnis
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bewachungspersonal
   steps:
   - intent: Bewachungspersonal
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: BHV1
   steps:
   - intent: BHV1
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bienenvölker Haltung Anmeldung
   steps:
   - intent: Bienenvölker - Haltung und Anmeldung
-  - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
 
 - story: Bienen Wespen
   steps:
   - intent: Bienen, Wespen & Co.
-  - action: action_search_db
-
-# # D-Kategorien
-
-# - story:
-#   steps:
-#   - intent:
-#   - action: action_search_db
+  - action: action_search_dienstleistung_mit_intent
