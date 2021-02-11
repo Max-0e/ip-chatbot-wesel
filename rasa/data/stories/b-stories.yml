@@ -48,7 +48,7 @@ stories:
   - intent: Beistandschaften
   - action: action_search_dienstleistung_mit_intent
 
-- story: Beistandschaften_Beurkundungen
+- story: Beistandschaften Beurkundungen
   steps:
   - intent: Beistandschaften - Beurkundungen 
   - action: action_search_dienstleistung_mit_intent
