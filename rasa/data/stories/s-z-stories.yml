@@ -56,37 +56,37 @@ stories:
   - intent: Sozialticket
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Sprengstoffwesen
+- story: Sprengstoffwesen
   steps:
   - intent: Sprengstoffwesen
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Taxi- und Mietwagenverkehr
+- story: Taxi- und Mietwagenverkehr
   steps:
   - intent: Taxi- und Mietwagenverkehr
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Teilungsgenehmigung
+- story: Teilungsgenehmigung
   steps:
   - intent: Teilungsgenehmigung
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Tierseuchenverdachtsmeldung
+- story: Tierseuchenverdachtsmeldung
   steps:
   - intent: Tierseuchenverdachtsmeldung
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Trichinenprobenentnahme
+- story: Trichinenprobenentnahme
   steps:
   - intent: Trichinenprobenentnahme
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Tuberkolose-Beratung
+- story: Tuberkolose-Beratung
   steps:
   - intent: Tuberkolose-Beratung
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Übernahme von Vermessungen
+- story: Übernahme von Vermessungen
   steps:
   - intent: Übernahme von Vermessungen
   - action: action_search_dienstleistung_mit_intent
@@ -96,12 +96,12 @@ stories:
   - intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Unschädlichkeitszeugnisse
+- story: Unschädlichkeitszeugnisse
   steps:
   - intent: Unschädlichkeitszeugnisse
   - action: action_search_dienstleistung_mit_intent
 
-  - story: Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige
+- story: Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige
   steps:
   - intent: Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige
   - action: action_search_dienstleistung_mit_intent

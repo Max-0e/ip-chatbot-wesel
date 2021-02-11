@@ -1,0 +1,48 @@
+version: "2.0"
+
+nlu:
+
+
+- intent: Gebäudeeinmessungspflicht
+  examples: |
+    - gebäudeeinmessungspflicht
+    - ich habe an meinem haus veränderungen am grundriss durchgeführt
+    - ich habe mein neugebautes haus verändert
+    - ich möchte in meinem haus eine wand einreißen
+
+- intent: Genehmigungen nach Naturschutzrecht
+  examples: |
+    - genemigung nach naturschutzgesetz
+    - eingriff in die natur und landschaft
+    - veränderung des landschaftsbildes 
+    - veränderung der gestaltung der natur
+
+- intent: Georeferenzen, Hauskoordinaten, Hausumringe
+  examples: |
+    - wo liegt mein haus
+    - was sind die koordinaten von meinem haus
+    - wie finde ich die position von meinem haus
+    - wo sind miene hauskkordinaten
+    - an welchem punkt der x-achse und y-achse steht mein haus
+
+- intent: Gesundheitliche Beratung gemäß Paragraph 10 Prostituiertenschutzgesetz (ProstSchG)
+  examples: |
+    - gesundheitliche beratung von prostituierten
+    - anmeldepflicht für prostituierte
+    - kondompflicht
+    - prostituiertenschutzgesetz gesundheitliche beratung
+    - wieoft muss ich micht ärtztlich checken lassen
+
+- intent: Gewässerausbau
+  examples: |
+    - ich will einem fluss in meinem garten
+    - wie bekomme ich einen see in meinen garten
+    - ich will ein anliegendes gewässer ausbauen
+    - gewässerufer soll in meinen garten
+
+- intent: Grenzniederschriften, Protokolle, Urkunden
+  examples: |
+    - wie bekomme ich eine grenzniederschriften
+    - wie finde ich meine grundstücksgrenzen heraus
+    - festlegung meiner grundstücksgrenzen
+    - kreis wesel grundstücksgrenzen

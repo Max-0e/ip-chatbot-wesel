@@ -1,0 +1,23 @@
+version: "2.0"
+
+stories:
+
+- story: Impfberatung
+  steps:
+  - intent: Impfberatung
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Indirekteinleitung - Einleiten von Abwasser in die öffentliche Kanalisation
+  steps:
+  - intent: Indirekteinleitung - Einleiten von Abwasser in die öffentliche Kanalisation
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Infektionskrankheiten - Meldung, Information und Beratung
+  steps:
+  - intent: Infektionskrankheiten - Meldung, Information und Beratung
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Integrationskurse / Sprachförderung
+  steps:
+  - intent: Integrationskurse / Sprachförderung
+  - action: action_search_dienstleistung_mit_intent

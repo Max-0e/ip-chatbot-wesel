@@ -1,0 +1,21 @@
+version: "2.0"
+
+nlu:
+
+# HI-Tier TAM Datenbank nich in der Datenbank /d115
+
+- intent: Handwerkerparkausweis
+  examples: |
+    - wie beantrage ich einen handwerksparkausweis
+    - ich bin handwerker und will einen parkausweis
+    - ausnahmegenemigung fürs parken
+    - ich bin handwerker und arbeite oft ausserhalb meines betriebes und brauche besondere parkbedingungen
+    - parken für handwerker
+
+- intent: Hygieneüberwachung in Betrieben
+  examples: |
+    - was sind alles hygienebetriebe
+    - vorschriften für hygienebetriebe
+    - hygieneverordnung für tattostudio
+    - sind kosmetikbetriebe zu besonderen hygienemaßnahmen verpflichtet
+    - was sind hygienemittel für hygienebetriebe
