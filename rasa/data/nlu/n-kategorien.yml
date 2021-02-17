@@ -1,0 +1,22 @@
+version: "2.0"
+
+nlu:
+
+- intent: Nachweise des Katasterzahlenwerkes
+  examples: |
+    - Nachweise des Katasterzahlenwerkes
+    - Rissarchiv
+    - Einsicht Katasterzahlenwerk
+
+- intent: Namensänderung
+  examples: |
+    - Namensänderung
+    - Namen ändern
+    - Name ändern
+    - Ich möchte meinen Namen ändern
+
+- intent: Nichtakademische Heilberufe - Berufsanerkennung bei einer im Ausland erworbenen Ausbildung
+  examples: |
+    - Nichtakademsicher Heilberuf
+    - Ausbildung Ausland nichtakademischer Heilberuf
+    - Ausland Ausbildung anerkennen 

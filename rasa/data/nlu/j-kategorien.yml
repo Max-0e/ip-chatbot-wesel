@@ -1,0 +1,12 @@
+version: "2.0"
+
+nlu:
+
+- intent: Jägerprüfung
+  examples: |
+    - jägerprüfung
+    - ich möchte jägerprüfung machen
+    - was kannst du mir zur jägerprüfung sagen
+    - wann sind jägerprüfungen
+    - was macht man in jägerprüfung
+

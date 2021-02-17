@@ -1,0 +1,18 @@
+version: "2.0"
+
+stories:
+
+- story: Nachweise des Katasterzahlenwerkes
+  steps:
+  - intent: Nachweise des Katasterzahlenwerkes
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Namensänderung
+  steps:
+  - intent: Namensänderung
+  - action: action_search_dienstleistung_mit_intent
+
+- story: Nichtakademische Heilberufe - Berufsanerkennung bei einer im Ausland erworbenen Ausbildung
+  steps:
+  - intent: Nichtakademische Heilberufe - Berufsanerkennung bei einer im Ausland erworbenen Ausbildung
+  - action: action_search_dienstleistung_mit_intent
