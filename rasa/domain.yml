@@ -91,7 +91,7 @@ intents:
   - Impfberatung
   - Indirekteinleitung - Einleiten von Abwasser in die öffentliche Kanalisation
   - Infektionskrankheiten - Meldung, Information und Beratung
-  - Integrationskurse Sprachförderung
+  - Integrationskurse
   - Jägerprüfung
   - KITA ONLINE
   - Kopfbaumpflege
@@ -112,11 +112,49 @@ intents:
   - Schornsteinfegerwesen
   - Schülerfahrkosten
   - Schwerbehindertenausweis - Änderungsantrag
-  - Sozialticket
   - Schwerbehindertenausweis - Verlängerung
+  - Schwerbehindertenausweis - Verlust
+  - Schwerbehindertenausweis - Widerspruch
+  - Schwerbehindertenausweise
+  - Sonn- und Feiertagsgesetz
+  - Soziale Wohnraumförderung
+  - Sozialticket
+  - Sprengstoffwesen
+  - Taxi- und Mietwagenverkehr
+  - Teilungsgenehmigung
+  - Tierseuchenverdachtsmeldung
+  - Trichinenprobenentnahme
+  - Tuberkolose-Beratung
+  - Übernahme von Vermessungen
   - Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
+  - Unschädlichkeitszeugnisse
+  - Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige
   - Unterhaltsvorschuss
+  - Verbraucherbeschwerde (Lebensmittel und Bedarfsgegenstände)
+  - Verbringung und Einfuhr von Zucht- und Nutztieren einschließlich Pferden
+  - Waffen - Anzeige des Erwerbs
+  - Waffen - Anzeige im Falle des Überlassens
+  - Waffen - Beantragung Kleiner Waffenschein
+  - Waffen - Erwerb und Besitz durch Erbfall
+  - Waffen - Europäischer Feuerwaffenpass
+  - Waffen und Munition - Erwerb und Besitz durch Sachverständige
+  - Waffenbesitzkarte beantragen
+  - Waffenherstellung und Waffenhandel
+  - Wasserbehördliche Erlaubnis - Einleitung von gereinigtem häuslichem Abwasser in das Grundwasser
+  - Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zum Zwecke der Feldberegnung
+  - Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zur Eigentrinkwasserversorgung
+  - Wasserbehördliche Erlaubnis - Errichtung eines Löschwasserbrunnens
+  - Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (gewerblich)
+  - Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (kommunal)
+  - Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (privat)
+  - Wasserbehördliche Erlaubnis - Verwertung und Einbau von Recycling-Material
+  - Wasserbehördliche Erlaubnis - Wärmepumpe
+  - Wildbret
   - Wohnberechtigungsschein
+  - Wohnraumförderung - Förderung von Maßnahmen im Bestand
+  - Wohnraumförderung - Neubau, Erwerb oder Umbau einer Immobilie
+  - Zahnärztliche Gutachten
+  - Zahnärztliche Untersuchungen
   - begrüßung
   - verabschiedung
   - bist_du_ein_bot

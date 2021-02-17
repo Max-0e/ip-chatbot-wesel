@@ -17,7 +17,7 @@ stories:
   - intent: Infektionskrankheiten - Meldung, Information und Beratung
   - action: action_search_dienstleistung_mit_intent
 
-- story: Integrationskurse / Sprachförderung
+- story: Integrationskurse
   steps:
-  - intent: Integrationskurse / Sprachförderung
+  - intent: Integrationskurse
   - action: action_search_dienstleistung_mit_intent

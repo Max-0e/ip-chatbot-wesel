@@ -21,7 +21,7 @@ nlu:
     - meldepflich und meldeformular infektionskrankheiten
     - infektionsschutzgesetz
 
-- intent: Integrationskurse / Sprachförderung
+- intent: Integrationskurse
   examples: |
     - integrationskurs
     - deutschkurs
