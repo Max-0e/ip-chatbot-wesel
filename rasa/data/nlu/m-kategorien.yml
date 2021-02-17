@@ -1,0 +1,37 @@
+version: "2.0"
+
+nlu:
+
+- intent: Maklererlaubnisse nach § 34 c der Gewerbeordnung (GewO)
+  examples: |
+    - Maklererlaubnis
+    - Ich möchte als Makler arbeiten
+    - Ich rbauche eine Maklererlaubnis
+
+- intent: Meldung einer Tierhaltung
+  examples: |
+    - Tierhaltung
+    - Tierhaltung melden
+    - Wo kann ich eine Tierhaltung melden
+
+- intent: Migration
+  examples: |
+    - Visum
+    - Aufenthaltserlaubnis
+    - Niederlassungserlaubnis
+    - Erlaubnis zum Daueraufenthalt-EG
+    - Fiktionsbescheinigung
+    - Blaue Karte EU für Hochqualifizierte
+    - ICT-Karte
+    - Mobiler-ICT-Karte
+    - Aussetzung der Abschiebung
+    - Aufenthaltskarte für freizügigkeitsberechtigte Familienangehörige von Unionsbürgern
+    - Bescheinigung über das Daueraufenthaltsrecht von Unionsbürgern
+    - Daueraufenthaltskarte für Familienangehörige von Unionsbürgern
+    - Aufenthaltsgestattung für die Durchführung eines Asylverfahrens
+
+- intent: Mitführen von Betäubungsmitteln
+  examples: |
+    - Betäubungsmittel mitführen
+    - Meine Medikamente sind Betäubungsmittel
+    - Mitführungsbescheinigung Medikamente

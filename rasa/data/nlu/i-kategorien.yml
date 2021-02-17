@@ -23,6 +23,8 @@ nlu:
 
 - intent: Integrationskurse / Sprachförderung
   examples: |
+    - integrationskurs
+    - deutschkurs
     - ich will deutsch lernen
     - wie kann ich einen deutschkurs belegen
     - anmeldung deutschkurs

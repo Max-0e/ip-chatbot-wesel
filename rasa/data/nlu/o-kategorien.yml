@@ -1,0 +1,10 @@
+version: "2.0"
+
+nlu:
+
+- intent: Öffentlicher Personennahverkehr
+  examples: |
+    - Öffentlicher Personennahverkehr
+    - ÖPNV
+    - Wer ist für Öffentlichen Personennahverkehr zuständig
+    - Wer ist für ÖPNV zuständig

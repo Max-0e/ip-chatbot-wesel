@@ -1,0 +1,16 @@
+version: "2.0"
+
+nlu:
+
+- intent: Parkerleichterungen
+  examples: |
+    - Parkerleichterungen
+    - blauer Parkausweis
+    - Parkausweis für Schwerbehinderte
+
+- intent: Pflegewohngeld
+  examples: |
+    - Pflegwohngeld
+    - Was ist Pflegewohngeld
+    - Ich brauche Pflegewohngeld
+    - Ich möchte Pflegwohngeld beantragen

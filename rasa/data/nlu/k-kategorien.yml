@@ -1,0 +1,25 @@
+version: "2.0"
+
+nlu:
+
+- intent: KITA ONLINE
+  examples: |
+    - KITA ONLINE
+    - kita online
+    - ich möchte mein kind online im kindergarten anmelden
+    - kita
+    - kindergarten
+    - kindertagesstätte
+
+- intent: Kopfbaumpflege
+  examples: |
+    - Kopfbaumpflege
+    - Pflege Kopfbäume fördern
+    - Wie viel Förderung bekomme ich für meine Kopfbaumpflege
+
+- intent: Krankentransport
+  examples: |
+    - Krankenstransport
+    - Was kostet Krankentransport
+    - Krankenwagen
+    - Rettungswagen
