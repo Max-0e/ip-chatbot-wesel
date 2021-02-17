@@ -385,8 +385,29 @@ nlu:
     - [führerschein diebstahl](new_keyword)
     - Mein [Führerschein wurde geklaut](new_keyword)
     - Ich habe [meinen Führerschein](new_keyword) verloren
-    - [führerschein geklaut](new_keyword)
-    - [führerschein verloren](new_keyword)
+    - mein [führerschein geklaut](new_keyword) wurde
+    - ich habe mein[führerschein verloren](new_keyword)
+    - [Personendaten Führerschein](new_keyword) ändern
+    - [Führerschein personendaten](new_keyword) ändern
+    - ich möchte meine [führerscheindaten](new_keyword) ändern
+    - [daten führerschein](new_keyword) ändern
+    - [führerscheindaten](new_keyword) sind veraltet
+    - ich brauche neue [führerscheindaten](new_keyword)
+    - Ich möchte meinen Führerschein gegen einen [EU-Führerschein](new_keyword) tauschen
+    - Ich möchte einen [Europaführerschein](new_keyword)
+    - [EU-Führerschein](new_keyword)
+    - ich brauche ein [EU-Führerschein](new_keyword)
+    - brauch ich einen [Führerschein der EU](new_keyword)
+    - [Neuerteilung Führerschein](new_keyword)
+    - [Führerschein Entzug](new_keyword)
+    - Ich möchte meinen [Führerschein zurück](new_keyword) haben
+    - [Führerschein wurde entzogen](new_keyword) 
+    - Frist des [Führerscheinentzugs](new_keyword) beendet
+    - mir wurde der [Führerschein abgenommen](new_keyword)
+    - Ich möchte eine Erlaubnis zur [Fahrgastbeförderung](new_keyword)
+    - ich möchte [leute transportieren](new_keyword)
+    - ich brauche eine [Fahrgastbeförderungserlaubniss](new_keyword)
+    - [Erlaubniss zur Fahrgastbeförderung](new_keyword)
 
 - synonym: begleitetes fahren
   examples: |
@@ -403,36 +424,34 @@ nlu:
     - führerschein geklaut
     - führerschein verloren
 
-# - intent: führerschein personendaten
-#   examples: |
-#     - Personendaten Führerschein
-#     - Führerschein personendaten
-#     - personendaten ändern führerschein
-#     - muss ich meine daten auf dem führerschein ändern
-#     - ich möchte meine daten auf dem führerschein ändern
+- synonym: führerschein personendaten
+  examples: |
+    - Personendaten Führerschein
+    - Führerschein personendaten
+    - führerscheindaten
+    - daten führerschein
 
-# - intent: EU_Führerschein
-#   examples: |
-#     - Ich möchte meinen Führerschein gegen einen EU-Führerschein tauschen
-#     - Ich möchte einen EU-Führerschein
-#     - EU-Führerschein
-#     - ich brauche ein EU-Führerschein
-#     - brauch ich einen EU-Führerschein
+- synonym: EU_Führerschein
+  examples: |
+    - EU-Führerschein
+    - Europaführerschein
+    - Führerschein der EU
 
-# - intent: Neuerteilung_Führerschein
-#   examples: |
-#     - Neuerteilung Führerschein
-#     - Führerschein Entzug
-#     - Ich möchte meinen Führerschein zurück haben
-#     - Führerschein wurde entzogen 
-#     - Frist des Führerscheinentzugs beendet
+- synonym: Neuerteilung_Führerschein
+  examples: |
+    - Neuerteilung Führerschein
+    - Führerschein Entzug
+    - Führerschein zurück haben
+    - Führerschein wurde entzogen 
+    - Führerscheinentzugs
+    - Führerschein abgenommen
 
-# - intent: Fahrgastbeförderung
-#   examples: |
-#     - Ich möchte eine Erlaubnis zur Fahrgastbeförderung
-#     - ich möchte leute transportieren
-#     - ich brauche eine Fahrgastbeförderungserlaubmiss
-#     - Fahrgastbeförderung
+- synonym: Fahrgastbeförderung
+  examples: |
+    - Erlaubniss zur Fahrgastbeförderung
+    - leute transportieren
+    - Fahrgastbeförderungserlaubniss
+    - Fahrgastbeförderung
 
 #Fahrzeug/KFZ
 
