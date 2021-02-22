@@ -29,18 +29,33 @@ stories:
     - dienstleistung
     - keywords
 
+- story: Führerschein-Kategorie Story
+  steps:
+  - intent: informieren_kategorie
+    entities:
+    - kategorie: "Führerschein"
+  - action: utter_führerschein_informieren
+  - intent: informieren_führerschein
+    entities:
+    - new_keyword
+    - keywords
+  - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+    - keywords
+
   # - checkpoint: check_dienstleistung_bekannt
 
-# - story: Fahrzeug-Abmelden - Substory_online_oder_offline
-#   steps: 
-#   - intent: informieren_fahrzeug
-#     entities:
-#     - new_keyword: "Fahrzeug-Abmelden"
-#   - action: utter_online_oder_offline
-#   - or: 
-#     - intent: zustimmung
-#     - intent: verneinung
-#   - action: action_set_online_oder_offline
+- story: Fahrzeug-Abmelden - Substory_online_oder_offline
+  steps: 
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Fahrzeug-Abmelden"
+  - action: utter_online_oder_offline
+  - or: 
+    - intent: zustimmung
+    - intent: verneinung
+  - action: action_set_online_oder_offline
 
 
 # - story: Führerschein-Kategorie Story

@@ -219,6 +219,8 @@ nlu:
 
 - synonym: Fahrzeug
   examples: |
+    - Fahrzeug
+    - fahrzeug
     - auto
     - gefährt
     - verkehrsmittel
@@ -228,6 +230,8 @@ nlu:
 
 - synonym: Führerschein
   examples: |
+    - Führerschein
+    - führerschein
     - fahrerlaubnis
     - fahrausweis
     - lappen

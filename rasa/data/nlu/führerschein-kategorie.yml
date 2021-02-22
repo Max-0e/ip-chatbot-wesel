@@ -13,7 +13,7 @@ nlu:
     - Mein [Führerschein wurde geklaut](new_keyword)
     - Ich habe [meinen Führerschein](new_keyword) verloren
     - mein [führerschein wurde geklaut](new_keyword)
-    - ich habe mein[führerschein verloren](new_keyword)
+    - ich habe mein [führerschein verloren](new_keyword)
     - [Personendaten Führerschein](new_keyword) ändern
     - [Führerschein personendaten](new_keyword) ändern
     - ich möchte meine [führerscheindaten](new_keyword) ändern

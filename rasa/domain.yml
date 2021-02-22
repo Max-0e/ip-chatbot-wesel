@@ -172,6 +172,9 @@ intents:
   - informieren_fahrzeug:
       use_entities:
         - new_keyword
+  - informieren_führerschein:
+      use_entities:
+        - new_keyword
   - begleitet fahren
   - führerscheinverlust
   - führerschein personendaten
@@ -315,12 +318,6 @@ responses:
   - text: "Leider konnte ich nichts finden."
   - text: "Zu diesem Thema liegen mir leider keine Daten vor."
 
-  utter_test_fahrzeug:
-  - text: sie suchen also nach {kategorie}
-
-  utter_test_führerschein:
-  - text: sie suchen nach {kategorie} also
-
   utter_begleitetes_fahren:
   - text: "Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden. Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/"
 
@@ -328,6 +325,9 @@ responses:
   - text: "Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?"
   - text: "Kannst du dein Problem weiter beschreiben?"
   - text: "Bitte versuche dein Problem genauer zu beschreiben."
+
+  utter_führerschein_informieren:
+  - text: "Wie kann ich dir bei deinem Führerschein behilflich sein?"
 
   utter_online_oder_offline:
   - text: "Möchten sie die Abmeldung online oder vor Ort durchführen?"
