@@ -11,7 +11,7 @@ import random
 import re
 
 # mit MongoDB auf standard Port laufend verbinden
-client = MongoClient('mongodb://0.0.0.0:27017/')
+client = MongoClient('mongodb://ip-chatbot.dnsuser.de:27017/')
 # mit DB 'rasaBot' verbinden
 db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
