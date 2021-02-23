@@ -5,9 +5,9 @@ nlu:
 
 - intent: informieren_fahrzeug
   examples: |
-    - ich möchte mich über [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](new_keyword) informieren
-    - ich brauche hilfe bei meinem [omnibus](new_keyword)
-    - ich brauche hilfe bei der [abmeldung](new_keyword) meines fahrzeuges
+    - ich möchte mich über eine 100kmh Zulassung für [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](new_keyword) informieren
+    - [omnibus](new_keyword)
+    - [abmeldung](new_keyword) meines fahrzeuges
     - ich möchte mein auto [abmelden](new_keyword)
     - ich möchte mein pwk [abmelden](new_keyword)
     - ich möchte mein fahrzeug [abmelden](new_keyword)
@@ -28,7 +28,7 @@ nlu:
     - mein [kennzeichen](new_keyword) ist weg
     - ich habe mein [kennzeichen](new_keyword) verloren
     - ich brauche eine [haftpflichtversicherung](new_keyword)
-    - ich will informatioen zu meiner [kfz-steuer](new_keyword)
+    - ich will informationen zu meiner [kfz-steuer](new_keyword)
     - ich benötige hilfe bei meinem [kurzzeitkennzeichen](new_keyword)
     - ich habe einen oldtimer und brauche dafür ein [oldtimerkennzeichen](new_keyword)
     - was ist eine [online-ausserbetriebsetzung](new_keyword)
@@ -42,21 +42,19 @@ nlu:
     - ich möchte eine [wiederzulassungs](new_keyword) beantragen
     - ich möchte mein fahrzeug [zulassen](new_keyword)
     - mein auto wurde [außerbetriebsetzung](new_keyword)
-    - ich möchte einen [diebstahl](new_keyword) melden
     - mein [auto wurde gestohlen,auto wurde geklaut,auto wurde entwendet](new_keyword)
     - mein [auto ist verschwunden](new_keyword)
     - mein [pwk ist weg](new_keyword)
-    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist verschwunden
-    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist gestohlen worden
-    - meine [autozulassung, fahrzeugzulassung, zulassungsbescheinigung](new_keyword) ist weg
-    - mein [zulassungsschein](new_keyword) ist verschwunden
-    - mein [zulassungsschein](new_keyword) ist gestohlen worden
+    - meine [autozulassung ist verschwunden, fahrzeugzulassung ist verschwunden, zulassungsbescheinigung ist verschwunden](new_keyword)
+    - meine [autozulassung ist gestohlen worden, fahrzeugzulassung ist gestohlen worden, zulassungsbescheinigung ist gestohlen worden](new_keyword)
+    - meine [autozulassung  ist weg, fahrzeugzulassung  ist weg, zulassungsbescheinigung  ist weg](new_keyword) ist weg
+    - mein [zulassungsschein ist verschwunden](new_keyword)
+    - mein [zulassungsschein ist gestohlen worden](new_keyword)
     - mein [zulassungsschein ist weg](new_keyword)
-    - ich habe meinen [fahrzeugbrief](new_keyword) verloren
-    - mein [fahrzeugbrief](new_keyword) ist verschwunden
-    - mein [fahrzeugbrief](new_keyword) ist gestohlen worden
-    - mein [fahrzeugbrief](new_keyword) ist weg
-    - ich habe meinen [fahrzeugbrief](new_keyword) verloren
+    - ich habe meinen [fahrzeugbrief verloren](new_keyword)
+    - mein [fahrzeugbrief ist verschwunden](new_keyword)
+    - mein [fahrzeugbrief ist gestohlen](new_keyword) worden
+    - mein [fahrzeugbrief ist weg](new_keyword)
 
 - synonym: Omnibusse
   examples: |
@@ -70,6 +68,19 @@ nlu:
   examples: |
     - abmelden
 
+- intent: online_abmeldung
+  examples: |
+    - online
+    - auf der website
+
+- intent: offline_abmeldung
+  examples: |
+    - offline
+    - vor ort
+    - ich möchte einen Termin vereinbaren
+    - ich will mein auto vor ort abmelden
+    - ich möchte mein fahrzeug an der Zulassungsstelle abmelden
+
 - synonym: Fahrzeug gestohlen
   examples: |
     - auto wurde geklaut
@@ -79,28 +90,26 @@ nlu:
     - pkw ist weg
     - auto ist verschwunden
 
-- synonym: Diebstahl
+- synonym: Verlust oder Diebstahl ihres Fahrzeugscheins
   examples: |
-    - diebstahl
-    - geklaut
-    - gestohlen
+    - zulassungsschein ist weg
+    - zulassungsschein ist gestohlen worden
+    - autozulassung ist verschwunden
+    - autozulassung ist gestohlen worden
+    - autozulassung ist weg
+    - fahrzeugzulassung ist verschwunden
+    - fahrzeugzulassung ist gestohlen worden
+    - fahrzeugzulassung ist weg
+    - zulassungsbescheinigung ist verschwunden
+    - zulassungsbescheinigung ist gestohlen worden
+    - zulassungsbescheinigung ist weg
 
-- synonym: Zulassungsbescheinigung
+- synonym: Verlust eines Fahrzeugbriefes
   examples: |
-    - autozulassung
-    - autozulassung
-    - zulassungsschein
-    - fahrzeugzulassung
-
-- synonym: Fahrzeugschein
-  examples: |
-    - fahrzeugschein
-    - autoschein
-
-- synonym: Fahrzeugbrief
-  examples: |
-    - fahrzeugbrief
-    - autobrief
+    - fahrzeugbrief ist verschwunden
+    - fahrzeugbrief ist gestohlen
+    - fahrzeugbrief ist weg
+    - fahrzeugbrief verloren
 
 
 

@@ -17,34 +17,49 @@ stories:
     - dienstleistung
     - keywords
 
-
-- story: dienstleistungbekannt
+- story: dienstleistungbekannt - fahrzeug gestohlen
   steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword
+    - new_keyword: "Fahrzeug gestohlen"
     - keywords
   - action: action_search_db
   - slot_was_set: 
     - dienstleistung
     - keywords
 
-- story: Führerschein-Kategorie Story
+- story: dienstleistungbekannt - Omnibusse
   steps:
-  - intent: informieren_kategorie
+  - intent: informieren_fahrzeug
     entities:
-    - kategorie: "Führerschein"
-  - action: utter_führerschein_informieren
-  - intent: informieren_führerschein
-    entities:
-    - new_keyword
+    - new_keyword: "Omnibusse"
     - keywords
   - action: action_search_db
   - slot_was_set: 
     - dienstleistung
     - keywords
 
-  # - checkpoint: check_dienstleistung_bekannt
+- story: dienstleistungbekannt - Fahrzeugschein
+  steps:
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Verlust oder Diebstahl ihres Fahrzeugscheins"
+    - keywords
+  - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+    - keywords
+
+- story: dienstleistungbekannt - Fahrzeugbrief
+  steps:
+  - intent: informieren_fahrzeug
+    entities:
+    - new_keyword: "Verlust eines Fahrzeugbriefes"
+    - keywords
+  - action: action_search_db
+  - slot_was_set: 
+    - dienstleistung
+    - keywords
 
 - story: Fahrzeug-Abmelden - Substory_online_oder_offline
   steps: 
@@ -52,18 +67,10 @@ stories:
     entities:
     - new_keyword: "Fahrzeug-Abmelden"
   - action: utter_online_oder_offline
-  - or: 
-    - intent: zustimmung
-    - intent: verneinung
+  - or:
+    - intent: online_abmeldung
+    - intent: offline_abmeldung
   - action: action_set_online_oder_offline
-
-
-# - story: Führerschein-Kategorie Story
-#   steps:
-#   - intent: informieren_kategorie
-#     entities:
-#     - kategorie: "Führerschein"
-#   - action: utter_test_führerschein
 
 
 # - story: Story wenn Dienstleistung bekannt
@@ -71,38 +78,6 @@ stories:
 #     - checkpoint: check_dienstleistung_bekannt
 #     - action: action_search_dienstleistung
 
-
-#Führerschein
-
-# - story: Begleitetes Fahren
-#   steps:
-#   - intent: begleitet fahren
-#   - action: utter_begleitetes_fahren
-
-# - story: Personendaten
-#   steps:
-#   - intent: führerschein personendaten
-#   - action: utter_führerschein_personendaten
-
-# - story: Diebstahl oder Verlust
-#   steps:
-#   - intent: führerscheinverlust
-#   - action: utter_verlust_führerschein
-
-# - story: Führerschein gegen EU_Führerschein
-#   steps:
-#   - intent: EU_Führerschein
-#   - action: utter_EU_Führerschein
-
-# - story: Neuerteilung_Führerschein
-#   steps:
-#   - intent: Neuerteilung_Führerschein
-#   - action: utter_Neuerteilung_Führerschein
-
-# - story: Fahrgastbeförderung
-#   steps:
-#   - intent: Fahrgastbeförderung
-#   - action: utter_Fahrgastbeförderung
 
 # #Fahrzeug/KFZ
 

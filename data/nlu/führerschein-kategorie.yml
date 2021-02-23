@@ -58,13 +58,13 @@ nlu:
     - führerscheindaten
     - daten führerschein
 
-- synonym: EU_Führerschein
+- synonym: EU Führerschein
   examples: |
     - EU-Führerschein
     - Europaführerschein
     - Führerschein der EU
 
-- synonym: Neuerteilung_Führerschein
+- synonym: Neuerteilung Führerschein
   examples: |
     - Neuerteilung Führerschein
     - Führerschein Entzug

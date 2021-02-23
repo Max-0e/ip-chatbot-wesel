@@ -7,7 +7,20 @@ slots:
       - fahrzeug
       - führerschein
   new_keyword:
-    type: text
+    type: categorical
+    values:
+      - Omnibusse
+      - Fahrzeug-Abmeldung
+      - Fahrzeug gestohlen
+      - Zulassungsbescheinigung
+      - Verlust oder Diebstahl ihres Fahrzeugscheins
+      - Verlust eines Fahrzeugbriefes
+      - begleitetes fahren
+      - führerscheinverlust
+      - führerschein personendaten
+      - EU Führerschein
+      - Neuerteilung Führerschein
+      - Fahrgastbeförderung
   keywords:
     type: list
     initial_value: []
@@ -184,6 +197,8 @@ intents:
   - kfz_steuer
   - erstzulassung
   - saisonkennzeichen
+  - online_abmeldung
+  - offline_abmeldung
 
 responses:
   utter_begrüßen:

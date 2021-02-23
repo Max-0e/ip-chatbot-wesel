@@ -111,6 +111,7 @@ nlu:
     - was ist ihre [Servicehotline](anliegen) 
     - [hotline](anliegen)
     - wie kann man sie [anrufen](anliegen)
+    - an [wen](anliegen) kann ich mich wenden
 
 - synonym: telefon
   examples: |
@@ -124,6 +125,7 @@ nlu:
     - Servicehotline
     - hotline
     - anrufen
+    - wen
 
 - intent: adresse
   examples: |

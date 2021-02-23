@@ -11,7 +11,7 @@ import random
 import re
 
 # mit MongoDB auf standard Port laufend verbinden
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://0.0.0.0:27017/')
 # mit DB 'rasaBot' verbinden
 db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
@@ -122,18 +122,21 @@ class ActionSearchDienstleistungMitIntent(Action):
         # info und dazugehöriges Template zum Bot zurücksenden
         # dispatcher.utter_message(text=f'{dienstleistung["Botantwort"][0]}')
         # FollowupAction("action_search_dienstleistung")
+        if dienstleistung:
+            if len(dienstleistung["BotAntwort"]) > 0 :
+                dispatcher.utter_message(template = "utter_dbresponse_allgemein_antworttext",
+                                            info = f'{dienstleistung["BotAntwort"][random.randrange(0, len(dienstleistung["BotAntwort"]))]} Hier sind noch weitere Informationen',
+                                            kategorie = dienstleistung["Leistungsname"],
+                                            link = dienstleistung["LeistungsURI"])
+            else:     
+                dispatcher.utter_message(template = "utter_dbresponse_allgemein",
+                                            kategorie = dienstleistung["Leistungsname"],
+                                            link = dienstleistung["LeistungsURI"])
 
-        if len(dienstleistung["BotAntwort"]) > 0 :
-            dispatcher.utter_message(template = "utter_dbresponse_allgemein_antworttext",
-                                        info = f'{dienstleistung["BotAntwort"][random.randrange(0, len(dienstleistung["BotAntwort"]))]} Hier sind noch weitere Informationen',
-                                        kategorie = dienstleistung["Leistungsname"],
-                                        link = dienstleistung["LeistungsURI"])
-        else:     
-            dispatcher.utter_message(template = "utter_dbresponse_allgemein",
-                                        kategorie = dienstleistung["Leistungsname"],
-                                        link = dienstleistung["LeistungsURI"])
-
-        return [SlotSet("dienstleistung",dienstleistung["Leistungsname"])]
+            return [SlotSet("dienstleistung",dienstleistung["Leistungsname"])]
+        else:
+            # Fallback wenn diese statt der gegebenen Followupaction ausgeführt wird
+            return [FollowupAction("action_set_online_oder_offline")]
 
 class ActionSearchDienstleistung(Action):
 
@@ -182,14 +185,16 @@ class ActionSearchDienstleistung(Action):
         elif anliegen_slot == "telefon" :
             telefon = ""
             regex = re.compile(r'[a-zA-Z]')
-            ansprechpartner = dienstleistung["Ansprechpunkt"][0]["Ansprechpartner"]
-            name = ansprechpartner["NameAnsprechpartner"]["Anrede"] + " " + ansprechpartner["NameAnsprechpartner"]["Familienname"]["Name"]
-            for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
-                if not regex.search(element["Kennung"]) :
-                    telefon = element["Kennung"] # erste Telefonnummer wird genommen
-                    print("Telefonnummer gefunden")
-                    break
-            
+            #default fallback
+            name = "Keine einzelne Person"
+            if "Ansprechpartner" in dienstleistung["Ansprechpunkt"][0]:
+                ansprechpartner = dienstleistung["Ansprechpunkt"][0]["Ansprechpartner"]
+                name = ansprechpartner["NameAnsprechpartner"]["Anrede"] + " " + ansprechpartner["NameAnsprechpartner"]["Familienname"]["Name"]
+                for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
+                    if not regex.search(element["Kennung"]) :
+                        telefon = element["Kennung"] # erste Telefonnummer wird genommen
+                        print("Telefonnummer gefunden")
+                        break
             if telefon == "" : # Wenn es keine Telefonnummer gibt, wird der Default genommen
                 query = { 
                     "infoname": { "$regex": "telefon"},
@@ -205,13 +210,16 @@ class ActionSearchDienstleistung(Action):
         elif anliegen_slot == "email" :
             email = ""
             regex = re.compile(r'[a-zA-Z]')
-            ansprechpartner = dienstleistung["Ansprechpunkt"][0]["Ansprechpartner"]
-            name = ansprechpartner["NameAnsprechpartner"]["Anrede"] + " " + ansprechpartner["NameAnsprechpartner"]["Familienname"]["Name"]
-            for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
-                if regex.search(element["Kennung"]) :
-                    email = element["Kennung"] # erste Mailadresse wird genommen
-                    print("Email-Adresse gefunden")
-                    break
+            #default fallback
+            name = "Keine einzelne Person"
+            if "Ansprechpartner" in dienstleistung["Ansprechpunkt"][0]:
+                ansprechpartner = dienstleistung["Ansprechpunkt"][0]["Ansprechpartner"]
+                name = ansprechpartner["NameAnsprechpartner"]["Anrede"] + " " + ansprechpartner["NameAnsprechpartner"]["Familienname"]["Name"]
+                for element in ansprechpartner["AnsprechpartnerKontaktmoeglichkeit"] :
+                    if regex.search(element["Kennung"]) :
+                        email = element["Kennung"] # erste Mailadresse wird genommen
+                        print("Email-Adresse gefunden")
+                        break
             
             if email == "" : # Wenn es keine Email gibt, wird der Default genommen
                 query = { 
@@ -270,7 +278,7 @@ class ActionSetOnlineOderOffline(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        if tracker.latest_message["intent"]["name"] == "zustimmung":
+        if tracker.latest_message["intent"]["name"] == "online_abmeldung":
             query = { 
                 "Leistungsname": { "$regex": "Fahrzeug - Online-Außerbetriebsetzung", "$options": 'i'},
             }
@@ -279,5 +287,9 @@ class ActionSetOnlineOderOffline(Action):
                 "Leistungsname": { "$regex": "Fahrzeug - Abmeldung", "$options": 'i'},
             }
         dienstleistung = dienstleistungen.find_one(query)
-        dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
-        return [SlotSet("dienstleistung", dienstleistung["Leistungsname"])]
+        print(dienstleistung["Leistungsname"])
+        # dispatcher.utter_message(text=f'{dienstleistung["LeistungsURI"]}')
+        return [
+            SlotSet("dienstleistung", dienstleistung["Leistungsname"]),
+            FollowupAction("action_search_dienstleistung")
+        ]
