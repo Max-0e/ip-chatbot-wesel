@@ -10,7 +10,7 @@ slots:
     type: categorical
     values:
       - Omnibusse
-      - Fahrzeug-Abmeldung
+      - Fahrzeug-Abmelden
       - Fahrzeug gestohlen
       - Zulassungsbescheinigung
       - Verlust oder Diebstahl ihres Fahrzeugscheins

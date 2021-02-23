@@ -8,14 +8,14 @@ stories:
     entities:
     - kategorie: "Fahrzeug"
   - action: utter_fahrzeug_informieren
-  - intent: informieren_fahrzeug
-    entities:
-    - new_keyword
-    - keywords
-  - action: action_search_db
-  - slot_was_set: 
-    - dienstleistung
-    - keywords
+  # - intent: informieren_fahrzeug
+  #   entities:
+  #   - new_keyword
+  #   - keywords
+  # - action: action_search_db
+  # - slot_was_set: 
+  #   - dienstleistung
+  #   - keywords
 
 - story: dienstleistungbekannt - fahrzeug gestohlen
   steps:

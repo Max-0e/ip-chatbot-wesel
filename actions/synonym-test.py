@@ -6,7 +6,7 @@ db = client.rasaBot
 # mit collection 'dienstleistungen' verbinden
 dienstleistungen = db.dienstleistungen
 
-synonym = "Verlust eines Fahrzeugbriefes"
+synonym = "Fahrzeug-Abmelden"
 
 query = { "Leistungsbeschreibung": { "$regex": synonym, "$options": 'i'} }
 
