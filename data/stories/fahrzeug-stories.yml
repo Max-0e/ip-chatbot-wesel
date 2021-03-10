@@ -1,97 +1,66 @@
 version: "2.0"
-
 stories:
-
 - story: Fahrzeug-Kategorie Story
   steps:
   - intent: informieren_kategorie
     entities:
-    - kategorie: "Fahrzeug"
+    - kategorie: Fahrzeug
   - action: utter_fahrzeug_informieren
-  # - intent: informieren_fahrzeug
-  #   entities:
-  #   - new_keyword
-  #   - keywords
-  # - action: action_search_db
-  # - slot_was_set: 
-  #   - dienstleistung
-  #   - keywords
-
 - story: dienstleistungbekannt - fahrzeug gestohlen
   steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword: "Fahrzeug gestohlen"
+    - new_keyword: Fahrzeug gestohlen
     - keywords
   - action: action_search_db
-  - slot_was_set: 
-    - dienstleistung
-    - keywords
-
+  - slot_was_set:
+    - dienstleistung: filled
+  - slot_was_set:
+    - keywords:
+      - filled
 - story: dienstleistungbekannt - Omnibusse
   steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword: "Omnibusse"
+    - new_keyword: Omnibusse
     - keywords
   - action: action_search_db
-  - slot_was_set: 
-    - dienstleistung
-    - keywords
-
+  - slot_was_set:
+    - dienstleistung: filled
+  - slot_was_set:
+    - keywords:
+      - filled
 - story: dienstleistungbekannt - Fahrzeugschein
   steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword: "Verlust oder Diebstahl ihres Fahrzeugscheins"
+    - new_keyword: Verlust oder Diebstahl ihres Fahrzeugscheins
     - keywords
   - action: action_search_db
-  - slot_was_set: 
-    - dienstleistung
-    - keywords
-
+  - slot_was_set:
+    - dienstleistung: filled
+  - slot_was_set:
+    - keywords:
+      - filled
 - story: dienstleistungbekannt - Fahrzeugbrief
   steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword: "Verlust eines Fahrzeugbriefes"
+    - new_keyword: Verlust eines Fahrzeugbriefes
     - keywords
   - action: action_search_db
-  - slot_was_set: 
-    - dienstleistung
-    - keywords
-
+  - slot_was_set:
+    - dienstleistung: filled
+  - slot_was_set:
+    - keywords:
+      - filled
 - story: Fahrzeug-Abmelden - Substory_online_oder_offline
-  steps: 
+  steps:
   - intent: informieren_fahrzeug
     entities:
-    - new_keyword: "Fahrzeug-Abmelden"
+    - new_keyword: fahrzeug-abmelden
   - action: utter_online_oder_offline
   - or:
     - intent: online_abmeldung
     - intent: offline_abmeldung
   - action: action_set_online_oder_offline
-
-
-# - story: Story wenn Dienstleistung bekannt
-#   steps: 
-#     - checkpoint: check_dienstleistung_bekannt
-#     - action: action_search_dienstleistung
-
-
-# #Fahrzeug/KFZ
-
-# - story: KFZ-Steuer
-#   steps:
-#   - intent: kfz_steuer
-#   - action: utter_kfz_steuer
-
-# - story: Erstzulassung
-#   steps:
-#   - intent: erstzulassung
-#   - action: utter_erstzulassung
-
-# - story: Saisonkennzeichen
-#   steps:
-#   - intent: saisonkennzeichen
-#   - action: utter_saisonkennzeichen

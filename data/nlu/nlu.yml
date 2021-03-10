@@ -1,7 +1,5 @@
 version: "2.0"
-
 nlu:
-
 - intent: begrüßung
   examples: |
     - Guten Tag
@@ -16,7 +14,6 @@ nlu:
     - Hallöchen
     - Ich grüße Sie
     - Grüß Gott
-
 - intent: wie_gehts
   examples: |
     - wie gets
@@ -25,7 +22,6 @@ nlu:
     - geht es dir gut
     - gehts dir gut
     - wie ist deine stimmung
-  
 - intent: verabschiedung
   examples: |
     - Tschüss
@@ -41,7 +37,6 @@ nlu:
     - ade
     - auf Wiederschauen
     - adieu
-
 - intent: bist_du_ein_bot
   examples: |
     - Bist du ein Bot
@@ -56,7 +51,6 @@ nlu:
     - Bist du ein Lebewesen
     - Besteht du aus Fleisch
     - Bist du eine KI
-
 - intent: öffnungszeiten
   examples: |
     - Wie lauten die [Öffnungszeiten](anliegen)
@@ -68,17 +62,6 @@ nlu:
     - Wielange [haben die auf](anliegen)
     - wie sind die [geschäftszeiten](anliegen)
     - wie lauten die [geschäftsstunden](anliegen)
-
-- synonym: öffnungszeiten
-  examples: |
-    - Öffnungszeiten
-    - geöffnet
-    - schliessen die
-    - geschäftszeiten
-    - geschäftsstunden
-    - haben die auf
-    - schliessen sie
-
 - intent: email
   examples: |
     - Wie lautet die [E-Mail Adresse](anliegen)
@@ -89,15 +72,6 @@ nlu:
     - [email](anliegen)
     - [E-mail](anliegen)
     - [mail](anliegen)
-
-- synonym: email
-  examples: |
-    - E-Mail Adresse
-    - E-Mail
-    - e-Mail
-    - email
-    - mail
-
 - intent: telefon
   examples: |
     - [telefon](anliegen)
@@ -108,25 +82,10 @@ nlu:
     - [festnetz](anliegen)
     - Was ist die [Telefonnummer](anliegen)
     - Wie kann ich Sie über das [Festnetz](anliegen) erreichen
-    - was ist ihre [Servicehotline](anliegen) 
+    - was ist ihre [Servicehotline](anliegen)
     - [hotline](anliegen)
     - wie kann man sie [anrufen](anliegen)
     - an [wen](anliegen) kann ich mich wenden
-
-- synonym: telefon
-  examples: |
-    - telefon
-    - tefelon
-    - tele
-    - mobil
-    - telefonnummer
-    - festnetz
-    - Telefonnummer
-    - Servicehotline
-    - hotline
-    - anrufen
-    - wen
-
 - intent: adresse
   examples: |
     - Wie lautet die [Adresse](anliegen)
@@ -138,18 +97,6 @@ nlu:
     - wie lautet die [Straße](anliegen)
     - wie finde ich [dorthin](anliegen)
     - gibt es Informationen zur [anschrift](anliegen)
-
-- synonym: adresse
-  examples: |
-    - Adresse
-    - Anschrift
-    - dahin
-    - adresse
-    - Hausnummer
-    - Straße
-    - dorthin
-    - anschrift
-
 - intent: zustimmung
   examples: |
     - ja
@@ -170,7 +117,6 @@ nlu:
     - jep
     - mhm
     - ins schwarze getroffen
-
 - intent: verneinung
   examples: |
     - nein
@@ -183,7 +129,7 @@ nlu:
     - du hast nicht recht
     - das war nicht die Antwort auf meine Frage
     - das meinte ich nicht
-    - das will ich nicht 
+    - das will ich nicht
     - ich glaube du hast mich falsch verschaden
     - falsch
     - niet
@@ -191,7 +137,8 @@ nlu:
     - keines Wegs
     - no
     - la
-
+    - nein danke
+    - nein aber trotzdem danke
 - intent: informieren_kategorie
   examples: |
     - ich brauche hilfe bei meinem [fahrzeug](kategorie)
@@ -218,10 +165,45 @@ nlu:
     - können sie mir ein paar fragen zu meinem [führerschein](kategorie) beantworten
     - [fahrzeug](kategorie)
     - informationen [führerschein](kategorie)
-
+    - ich brauche hilfe bei meinem [auto]{"entity": "kategorie", "value": "Fahrzeug"}
+- synonym: öffnungszeiten
+  examples: |
+    - Öffnungszeiten
+    - geöffnet
+    - schliessen die
+    - geschäftszeiten
+    - geschäftsstunden
+    - haben die auf
+    - schliessen sie
+- synonym: email
+  examples: |
+    - E-Mail Adresse
+    - E-Mail
+    - e-Mail
+    - mail
+- synonym: telefon
+  examples: |
+    - tefelon
+    - tele
+    - mobil
+    - telefonnummer
+    - festnetz
+    - Telefonnummer
+    - Servicehotline
+    - hotline
+    - anrufen
+    - wen
+- synonym: adresse
+  examples: |
+    - Adresse
+    - Anschrift
+    - dahin
+    - Hausnummer
+    - Straße
+    - dorthin
+    - anschrift
 - synonym: Fahrzeug
   examples: |
-    - Fahrzeug
     - fahrzeug
     - auto
     - gefährt
@@ -229,10 +211,8 @@ nlu:
     - automobil
     - wagen
     - test
-
 - synonym: Führerschein
   examples: |
-    - Führerschein
     - führerschein
     - fahrerlaubnis
     - fahrausweis

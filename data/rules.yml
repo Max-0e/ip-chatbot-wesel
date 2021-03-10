@@ -1,43 +1,38 @@
 version: "2.0"
-
 rules:
-
 - rule: Der Chatbot berüßt den Benutzer
   steps:
   - intent: begrüßung
   - action: utter_begrüßen
-
 - rule: Der Chatbot verabschiedet sich
   steps:
   - intent: verabschiedung
   - action: utter_verabschieden
-
 - rule: Der Bot sagt, dass er ein Bot ist
   steps:
   - intent: bist_du_ein_bot
   - action: utter_ich_bin_ein_bot
-
 - rule: Der Bot sagt, dass es ihm gut geht
   steps:
   - intent: wie_gehts
   - action: utter_mir_gehts_gut
-
 - rule: Der Bot nennt die Öffnungszeiten
   steps:
   - intent: öffnungszeiten
   - action: action_search_configdb
-
 - rule: der Bot nennt eine Email-Adresse
   steps:
   - intent: email
   - action: action_search_configdb
-
 - rule: der Bot nennt die telefonnummer
   steps:
   - intent: telefon
   - action: action_search_configdb
-
 - rule: der Bot nennt die Adresse
   steps:
   - intent: adresse
   - action: action_search_configdb
+- rule: Der Chatbot erwiedert den Dank
+  steps:
+  - intent: bedanken
+  - action: utter_bedanken

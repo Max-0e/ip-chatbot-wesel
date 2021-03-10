@@ -1,32 +1,26 @@
 version: "2.0"
-
 nlu:
-
 - intent: Einbürgerung
   examples: |
     - ich möchte eingebürgert werden
     - wie kann ich einen einbürgerungstest machen
     - ich möchte deutscher staatsbürger werden
     - voraussetzungen für den einbürgerungstest
-
 - intent: Einschulungsuntersuchung
   examples: |
     - einschulungsuntersuchung
     - wie kann ich feststellen ob mein kind schulreif ist
     - ärtzliche untersuchung für die einschulung
-
 - intent: Elektronischer Aufenthaltstitel (eAT)
   examples: |
     - was ist ein elektronische aufenthaltstitel
     - eAT
-
 - intent: Elternbeiträge
   examples: |
     - elternbeiträge
     - betreuung für mein kind sohn tochter
     - betreuung in einer kindertageseinrichtung
     - kindertages pflege
-
 - intent: Elterngeld
   examples: |
     - ich möchte kindergeld beantragen
@@ -34,14 +28,13 @@ nlu:
     - ich abreite weniger als 30 studen in der woche und möchte kindergeld beantragen
     - elterngeld
     - unterschtützungs geld für mein kind sohn tochter
-
+    - eltern geld
 - intent: Erfassung und Überwachung der nichtakademischen Heilberufe
   examples: |
     - ich möchte selbständig werden, als heilpraktiker
     - ich habe einen heilberuf für den ich nicht studiert ausbildungs absolviert habe
     - ich bin ein quacksalber
     - meine heilmethoden sind nicht wissenschaftlich geprüft
-
 - intent: Erlaubnis zum Betrieb eines Prostitutionsgewerbes
   examples: |
     - prostschg
@@ -49,7 +42,6 @@ nlu:
     - ich will ins prostituierten gewerbe einsteigen
     - ich will nutte werden
     - ich will hure werden
-
 - intent: Erlaubnispflichtige Tätigkeiten nach § 11 Tierschutzgesetz
   examples: |
     - Tierheim

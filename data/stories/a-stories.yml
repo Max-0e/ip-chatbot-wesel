@@ -1,89 +1,82 @@
 version: "2.0"
-
 stories:
-# A Kategorie
-
 - story: Abfallbeförderungserlaubnis
   steps:
   - intent: Abfallbeförderungserlaubnis
   - action: action_search_dienstleistung_mit_intent
-
 - story: Abfallberatung
   steps:
   - intent: Abfallberatung
   - action: action_search_dienstleistung_mit_intent
-
 - story: Abfallerzeugernummer
   steps:
   - intent: Abfallerzeugernummer
   - action: action_search_dienstleistung_mit_intent
-
 - story: Abrechnung von untersuchungen Jugendarbeitsschutzgesetz
   steps:
   - intent: Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz
   - action: action_search_dienstleistung_mit_intent
-
 - story: Adoptionsvermittlung
   steps:
   - intent: Adoptionsvermittlung
   - action: action_search_dienstleistung_mit_intent
-
 - story: Ärztliche Gutachten
   steps:
   - intent: Ärztliche Gutachten
   - action: action_search_dienstleistung_mit_intent
-
 - story: Aids beratung HIV test
   steps:
   - intent: AIDS-Beratung und HIV-Test
   - action: action_search_dienstleistung_mit_intent
-
 - story: Amtliche Basiskarte
   steps:
   - intent: Amtliche Basiskarte (ABK)
   - action: action_search_dienstleistung_mit_intent
-
 - story: Anlagen in und an Gewässern
   steps:
   - intent: Anlagen in und an Gewässern
   - action: action_search_dienstleistung_mit_intent
-
 - story: Anmeldung und Beratung von prostituierten
   steps:
   - intent: Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
   - action: action_search_dienstleistung_mit_intent
-
 - story: Apothekenbetriebserlaubnis
   steps:
   - intent: Apothekenbetriebserlaubnis
   - action: action_search_dienstleistung_mit_intent
-
 - story: Artenschutz meldepflicht
   steps:
   - intent: Artenschutz – Meldepflicht
   - action: action_search_dienstleistung_mit_intent
-
 - story: Artenschutzrechtliche genehmigung
   steps:
   - intent: Artenschutzrechtliche Genehmigung
   - action: action_search_dienstleistung_mit_intent
-
 - story: Aufenthaltserlaubnis zu studienzwecken
   steps:
   - intent: Aufenthaltserlaubnis zu Studienzwecken
   - action: action_search_dienstleistung_mit_intent
-
 - story: Ausbildungsverkehr pauschale
   steps:
   - intent: Ausbildungsverkehr-Pauschale
   - action: action_search_dienstleistung_mit_intent
-
 - story: Auszüge aus der Liegenschaftskarte
   steps:
   - intent: Auszüge aus der Liegenschaftskarte
   - action: action_search_dienstleistung_mit_intent
-
 - story: Auszug aus dem Liegenschaftsbuch
   steps:
   - intent: Auszug aus dem Liegenschaftsbuch
+  - action: action_search_dienstleistung_mit_intent
+- story: Story from Conversation ID 6d6dd44bf81c495692c4e97f7132120a
+  steps:
+  - intent: Elterngeld
+  - action: action_search_dienstleistung_mit_intent
+  - intent: restart
+  - action: action_restart
+  - intent: Elterngeld
+  - action: action_search_dienstleistung_mit_intent
+  - intent: restart
+  - action: action_restart
+  - intent: Elterngeld
   - action: action_search_dienstleistung_mit_intent

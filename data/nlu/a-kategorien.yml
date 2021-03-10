@@ -1,12 +1,5 @@
 version: "2.0"
-
 nlu:
-
-
-# A Kategorie
-# Abgeschlossenheitsbescheinigung
-# Allgemeiner Sozialer dienst
-
 - intent: Abfallbeförderungserlaubnis
   examples: |
     - wie bekomme ich ein abfallbeförderungserlaubnis
@@ -16,7 +9,6 @@ nlu:
     - welche erlaubnis brauche ich um meinen abfall zu entsorgen
     - wie kann ich gefährlichen Abfall Handeln
     - wie kann ich gefährlichen Abfall Befördern oder Marklern
-
 - intent: Abfallberatung
   examples: |
     - ich brauche hilfe bei meinem abfall
@@ -24,15 +16,13 @@ nlu:
     - ich brauche eine beratung für meinen abfall
     - wie kann ich mich über abfall beraten lassen
     - ich habe ein problem mit meinem abfall
-
 - intent: Abfallerzeugernummer
   examples: |
     - was ist eine abfallerzeugernummer
     - wie bekomme ich meine abfallerzeugernummer
     - woher bekomme ich eine nummer für meine abfallerzeugung
-    - abfallerzeugernummer 
+    - abfallerzeugernummer
     - was mache ich mit einer abfallerzeuger nummer
-
 - intent: Abrechnung von Untersuchungen nach dem Jugendarbeitsschutzgesetz
   examples: |
     - ich soll geld an das jugendarbeitsschutzgesetz zahlen, was muss ich machen
@@ -40,7 +30,6 @@ nlu:
     - ich muss geld wegen einer jugendarbeitsschutzgesetz untersuchung zahlen
     - jugendarbeitsschutzgesetz untersuchung
     - abrechnung unteruchungen jugendarbeitsschutzgesetz
-
 - intent: Adoptionsvermittlung
   examples: |
     - ich brauche eine adoptionsvermittlung
@@ -48,7 +37,6 @@ nlu:
     - vermittlung für adoption
     - adoptionsvermittlung
     - adoption
-
 - intent: Ärztliche Gutachten
   examples: |
     - ich brauche ein ärtzliches gutachten
@@ -56,7 +44,6 @@ nlu:
     - ich brauche ein gutachten von einem artzt
     - wie komme ich an ein ärtztlich ausgestelltes gutachen
     - ich brauche ein artztliches gut achten
-
 - intent: AIDS-Beratung und HIV-Test
   examples: |
     - ich glaube ich habe aids
@@ -67,7 +54,6 @@ nlu:
     - aids
     - hiv
     - sexkrankheit
-
 - intent: Amtliche Basiskarte (ABK)
   examples: |
     - wie bekomme ich eine amtliche basiskarte
@@ -77,7 +63,6 @@ nlu:
     - wofür brauche ich eine amtliche basiskarte
     - ich brauche informationen zur amtliche basiskarte
     - amtliche basiskarte
-
 - intent: Anlagen in und an Gewässern
   examples: |
     - ich brauche eine baugenemigung für anlagen in und an gewässern
@@ -85,7 +70,6 @@ nlu:
     - ich will am fluss ein haus bauen
     - ich will am rhein ein Gebäude bauen
     - warum brauche ich eine baugenemigung für meine bauten an gewässern
-
 - intent: Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
   examples: |
     - ich bin eine prostituierte und brauche beratung
@@ -93,7 +77,6 @@ nlu:
     - wo kann ich mich als prostituierte anmelden
     - ich möchte prostituierte im kreis wesel werden
     - wie bekomme ich die adresse wo ich mich als prostituierte anmelden kann
-
 - intent: Apothekenbetriebserlaubnis
   examples: |
     - wo bekomme ich eine apothekenbetriebserlaubnis
@@ -101,20 +84,17 @@ nlu:
     - welche Unterlagen brauche ich für eine apothekenbetriebserlaubnis
     - apothekenbetriebserlaubnis
     - apothekenerlaubnis für meine apotheke
-
 - intent: Artenschutz – Meldepflicht
   examples: |
     - ich möchte eine nicht deutsche tierart halten
-    - ich möchte eine haustier von einem anderem kontinent   
+    - ich möchte eine haustier von einem anderem kontinent
     - exotisches haustier
     - exotisches tier
-
 - intent: Artenschutzrechtliche Genehmigung
   examples: |
     - ich brauche eine genemigung für mein haustier
     - ich brauche eine artenschutz genemigung für mein haustier
     - wo bekomme ich eine genemigung für meine exotische tierrasse her
-
 - intent: Aufenthaltserlaubnis zu Studienzwecken
   examples: |
     - ich brauche eine aufenthaltserlaubnis für mein studium
@@ -122,25 +102,34 @@ nlu:
     - aufenthaltserlaubnis studium
     - visum für studium
     - aufenthaltserlaubnis gekopplet mit visum
-
 - intent: Ausbildungsverkehr-Pauschale
   examples: |
     - woher bekomme ich eine ausbildungsverkehrs pauschale
     - bis wann ist die frist einer ausbildungsverkehrs pauschlae
     - ausbildung mit öpnv
-    - öpnv in der ausbildung bezahlt 
-
+    - öpnv in der ausbildung bezahlt
 - intent: Auszüge aus der Liegenschaftskarte
   examples: |
     - auszüge aus der liegenschaftskarte
     - ich brauche auszüge aus der liegenschaftskarte
     - was ist eine liegenschaftkarte
     - analoge flurkarte
-
 - intent: Auszug aus dem Liegenschaftsbuch
   examples: |
     - ich brauche ein auszug aus dem liegenschaftsbuch
     - liegenschaftbuch
     - flurkartenbuch
-    - eigentümer nachweis aus dem liegenschaftsbuch 
-
+    - eigentümer nachweis aus dem liegenschaftsbuch
+- intent: bedanken
+  examples: |
+    - dankeschön
+    - mercie
+    - vielen dank
+    - besten dank
+    - danke sehr
+    - danke vielmals
+    - ich habe zu danken
+    - vielen lieben dank
+    - wir haben zu danken
+    - vielen vielen dank
+    - herzlichen dank

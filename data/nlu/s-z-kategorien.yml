@@ -1,7 +1,5 @@
 version: "2.0"
-
 nlu:
-
 - intent: Schokoticket
   examples: |
     - Wo bekomm ich ein Schokoticket
@@ -9,272 +7,227 @@ nlu:
     - wie teuer ist ein schokoticket
     - wird mein schokoticket von der schule bezahlt
     - bis wohin kann ich mit dem Schokoticket
-
 - intent: Schornsteinfegerwesen
   examples: |
     - Brauch ich einen Schornsteinfeger
     - Muss ein Schornsteinfeger bei mir alles überprüfen
-    - Wo kann ich einen Schornsteinfeger bestellen 
+    - Wo kann ich einen Schornsteinfeger bestellen
     - Wo krieg ich einen Termin mit einem Schornsteinfeger
-
 - intent: Schülerfahrkosten
   examples: |
     - wo übernimmt der kreis meine fahrkosten
     - übernimmt der kreis meine Fahrt zum berufskolleg
-    - zu welchem Berufskolleg werdeen die kosten übernommen 
+    - zu welchem Berufskolleg werdeen die kosten übernommen
     - wann übernimmt der Kreis meine Fahrtkosten zum Berufskolleg
-
 - intent: Schwerbehindertenausweis - Änderungsantrag
   examples: |
     - ich möchte meinen Schwerbehindertenausweis ändern
-    - mein Schwerbehindertenausweis muss geändert werden 
+    - mein Schwerbehindertenausweis muss geändert werden
     - wann muss ich meinen Schwerbehindertenausweis ändern
     - wie kann ich meinen Schwerbehindertenausweis ändern
-
 - intent: Schwerbehindertenausweis - Verlängerung
   examples: |
-    - mein Schwerbehindertenausweis läuft aus 
+    - mein Schwerbehindertenausweis läuft aus
     - mein Schwerbehindertenausweis muss verlängert werden
     - wie kann ich meinen Schwerbehindertenausweis Verlänger
     - verlängert sich mein Schwerbehindertenausweis automatisch
-
 - intent: Schwerbehindertenausweis - Verlust
   examples: |
-    - mein Schwerbehindertenausweis ist weg 
+    - mein Schwerbehindertenausweis ist weg
     - ich hab meinen Schwerbehindertenausweis verloren
     - mein Schwerbehindertenausweis wurde gestohlen
     - mein Schwerbehindertenausweis wurde geklaut
     - mein Schwerbehindertenausweis ist abhanden gekommen
-
+    - mein behinderten ausweis ist weg
 - intent: Schwerbehindertenausweis - Widerspruch
   examples: |
-    - bei meinem Schwerbehindertenausweis stimmmt was nicht 
+    - bei meinem Schwerbehindertenausweis stimmmt was nicht
     - bei meinem Schwerbehindertenausweis ist ein fehler aufgetreten
     - ich möchte wiederspruch bei meinem Schwerbehindertenausweis erheben
-
 - intent: Schwerbehindertenausweise
   examples: |
     - Wo bekomm ich einen Schwerbehindertenausweis
     - ich bin behindert
     - ich bin Schwerbehindert
     - ich brauch einen Schwerbehindertenausweis
-
 - intent: Sonn- und Feiertagsgesetz
   examples: |
     - darf ich veranstaltungen an feiertagen machen
     - darf ich an feirtagen arbeiten
-    - an welchen feirtagen darf gearbeitet werden 
+    - an welchen feirtagen darf gearbeitet werden
     - mein chef sagt ich muss an einem feiertag arbeiten
-
 - intent: Soziale Wohnraumförderung
   examples: |
     - ich brauche eine Wohnraumförderung
     - wann bekommen wir eine Wohnraumförderung
     - wie bekommt man eine Wohnraumförderung
     - was brauchen wir für eine Wohnraumförderung
-
 - intent: Sozialticket
   examples: |
     - Was ist ein Sozialticket
     - Wie viel kostet ein Sozialticket
-    - Wer darf auf dem Sozialticket fahren 
-    - Darf ich auf dem Sozialticket leute mitnehmen 
+    - Wer darf auf dem Sozialticket fahren
+    - Darf ich auf dem Sozialticket leute mitnehmen
     - Wo ist das Sozialticket gültig
     - Wie teuer ist ein Sozialticket
-
 - intent: Sprengstoffwesen
   examples: |
     - ich hätte gerne c4
-    - ich möchte etwas sprengen 
+    - ich möchte etwas sprengen
     - wir brauchen im verein schießpulver
     - wo komme ich an Sprengstoff
-
 - intent: Taxi- und Mietwagenverkehr
   examples: |
     - ich möchte taxifahrer werden
-    - brauch ich eine genehmigung als taxifahrer 
+    - brauch ich eine genehmigung als taxifahrer
     - ich möchte mietwagen anbieten
     - ich möchte ein taxiunternehmen aufmachen
-
 - intent: Teilungsgenehmigung
   examples: |
-    - ich möchte mein grundstück teilen 
+    - ich möchte mein grundstück teilen
     - kann ich mein grundstück teilen
     - mein bruder und ich möchten uns ein grundstück teilen
     - meine schwester und ich möchten uns ein grundstück teilen
     - muss man was beachten wenn man sein grundstück teilen will
-
 - intent: Tierseuchenverdachtsmeldung
   examples: |
     - unser Haustier könnte eine seuche haben
-    - wir haben eine tierseuche 
+    - wir haben eine tierseuche
     - ich hab die Vogelgrippe
     - ich glaube hier geht eine tierseuche umher
     - unser hund hat eine schwere tierkrankheit
     - unsere katze hat eine schwere tierkrankheit
-
 - intent: Trichinenprobenentnahme
   examples: |
-    - kann ich einfach eine Trichinenprobenentnahme druchführen 
+    - kann ich einfach eine Trichinenprobenentnahme druchführen
     - wer darf eine Trichinenprobenentnahme druchführen
-    - wann darf ich eine Trichinenprobenentnahme machen 
+    - wann darf ich eine Trichinenprobenentnahme machen
     - ich möchte eine Trichinenprobenentnahme druchführen
-
 - intent: Tuberkolose-Beratung
   examples: |
     - ich hab Tuberkolose
     - ich hatte kontakt zu einer person mit Tuberkolose
     - wo kann ich mich auf tuberkolose untersuchen lassen
     - ich hatte kontakt mit einem tuberkolosepatienten
-
 - intent: Übernahme von Vermessungen
   examples: |
-    - kann ich mein grundstück selber vermessen 
+    - kann ich mein grundstück selber vermessen
     - muss mein grundstück von jemandem vermessen werden
-    - wo werden daten über mein grundstück gespeichert 
+    - wo werden daten über mein grundstück gespeichert
     - wer vermisst mein grundstück
-
 - intent: Überwachung der Trinkwasser-Kleinanlagen zur Eigenversorgung (Brunnen)
   examples: |
     - Ich möchte meinen burnnen überwachen lassen
     - ich möchte meinen brunnen sicher nutzen
     - ich habe eine Trinkwasse-Kleinanlagen
     - ich habe eine kleine trinkwasseranlage
-
 - intent: Unschädlichkeitszeugnisse
   examples: |
     - ich benötige ein Unschädlichkeitszeugniss
     - ich brauche ein Unschädlichkeitszeugniss
     - wo bekomme ich ein Unschädlichkeitszeugniss
     - kann ich mein trennstrück einfach verkaufen
-
 - intent: Unterhaltssicherung für freiwillig Wehrdienstleistende, Wehrübende und deren Angehörige
   examples: |
     - Ich bin Wehrdienstleistender und brauche hilfe beim unterhalt
     - Ich bin Wehrübender und brauche hilfe beim unterhalt
     - Ich bin Wehrdienstleistende und brauche hilfe beim unterhalt
     - Ich bin Wehrübende und brauche hilfe beim unterhalt
-
 - intent: Unterhaltsvorschuss
   examples: |
     - Ich brauche einen unterhaltsvorschuss
     - krieg ich einen Unterhaltsvorschuss
     - wann krieg ich einen Unterhaltsvorschuss
     - bis wann krieg ich Unterhaltsvorschusse
-    - wie viel unterhaltsvorschuss bekomme ich 
+    - wie viel unterhaltsvorschuss bekomme ich
     - ich bin alleinerziehend und krieg wenig unterhalt
-
 - intent: Verbraucherbeschwerde (Lebensmittel und Bedarfsgegenstände)
   examples: |
     - Ich möchte mich über meine Lebensmittel beschweren
-
 - intent: Verbringung und Einfuhr von Zucht- und Nutztieren einschließlich Pferden
   examples: |
     - Ich möchte Pferde züchten
-
 - intent: Waffen - Anzeige des Erwerbs
   examples: |
     - Ich brauche eine Schusswaffe
-
 - intent: Waffen - Anzeige im Falle des Überlassens
   examples: |
     - Ich habe jemandem meine Waffe überlassen
-
 - intent: Waffen - Beantragung Kleiner Waffenschein
   examples: |
     - Ich möchte den kleinen Waffenschein
-
 - intent: Waffen - Erwerb und Besitz durch Erbfall
   examples: |
-    - Ich habe Waffen geerbt 
+    - Ich habe Waffen geerbt
     - mein Vater ist verstorben und hatte Waffen
-
 - intent: Waffen - Europäischer Feuerwaffenpass
   examples: |
     - gilt mein Europäischer Feuerwaffenpass
-
 - intent: Waffen und Munition - Erwerb und Besitz durch Sachverständige
   examples: |
-    - wo kann ich waffen und Munition kaufen 
-
+    - wo kann ich waffen und Munition kaufen
 - intent: Waffenbesitzkarte beantragen
   examples: |
     - Ich brauch eine Waffenbesitzkarte
-
 - intent: Waffenherstellung und Waffenhandel
   examples: |
     - darf ich waffen herstellen
-    - wann darf ich mit waffen handeln 
-
+    - wann darf ich mit waffen handeln
 - intent: Wasserbehördliche Erlaubnis - Einleitung von gereinigtem häuslichem Abwasser in das Grundwasser
   examples: |
     - darf ich abwasser ins grundwasser leiten
     - draf ich gereinigtes abwasser in grundwasser einleiten
-
 - intent: Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zum Zwecke der Feldberegnung
   examples: |
-    - darf ich grundwasser für bewässerung nehmen 
+    - darf ich grundwasser für bewässerung nehmen
     - ich möchte meine felder mit Grundwasser bewässern
-
 - intent: Wasserbehördliche Erlaubnis - Entnahme von Grundwasser zur Eigentrinkwasserversorgung
   examples: |
     - darf ich grunwasser als trinkwasser entnehmen
     - ich möchte trinkwasser gewinnen
     - ich möchte trinkwasser aus grundwasser bekommen
-
 - intent: Wasserbehördliche Erlaubnis - Errichtung eines Löschwasserbrunnens
   examples: |
     - darf ich einen Löschwasserbrunnen bauen
     - ich brauch ein Löschwasserbrunnen
     - ich möchte einen Löschwasserbrunnen
-
 - intent: Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (gewerblich)
   examples: |
     - Niederschlagswasserbeseitigung (gewerblich)
-
 - intent: Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (kommunal)
   examples: |
     - Niederschlagswasserbeseitigung (kommunal)
-
 - intent: Wasserbehördliche Erlaubnis - Niederschlagswasserbeseitigung (privat)
   examples: |
     - Niederschlagswasserbeseitigung (privat)
-
 - intent: Wasserbehördliche Erlaubnis - Verwertung und Einbau von Recycling-Material
   examples: |
     - darf ich Recycling-Material verwenden
     - kann ich beim bau recycling materialien nutzen
     - ich möchte mit recycling materialien bauen
-
 - intent: Wasserbehördliche Erlaubnis - Wärmepumpe
   examples: |
     - Ich brauche eine Wärmepumpe
-
 - intent: Wildbret
   examples: |
     - darf ich mein gejages fleisch verkaufen
-
 - intent: Wohnberechtigungsschein
   examples: |
     - Ich brauche eine wohnberechtigungsschein
     - Ich wann brauche ich ein wohnberechtigungsschein
-    - ich möchte in eine öffentlich geförderte Wohnung ziehen 
+    - ich möchte in eine öffentlich geförderte Wohnung ziehen
     - Für welche städte stellt ihr wohnberechtigungsscheine aus
-
 - intent: Wohnraumförderung - Förderung von Maßnahmen im Bestand
   examples: |
     - unsere großeltern bruachen eine Wohnung
     - wir wollen eine Wohnung
-
 - intent: Wohnraumförderung - Neubau, Erwerb oder Umbau einer Immobilie
   examples: |
-    - ich möchte ein Haus kaufen 
+    - ich möchte ein Haus kaufen
     - ich möchte mein haus renovieren
-
 - intent: Zahnärztliche Gutachten
   examples: |
     - Ich brauche ein Zahnärztliche Gutachten
-
 - intent: Zahnärztliche Untersuchungen
   examples: |
     - Ich brauche eine Zahnärztliche Untersuchungen
