@@ -68,15 +68,19 @@ stories:
   steps:
   - intent: Auszug aus dem Liegenschaftsbuch
   - action: action_search_dienstleistung_mit_intent
-- story: Story from Conversation ID 6d6dd44bf81c495692c4e97f7132120a
+- story: Fahrzeug-Abmelden online
   steps:
-  - intent: Elterngeld
-  - action: action_search_dienstleistung_mit_intent
-  - intent: restart
-  - action: action_restart
-  - intent: Elterngeld
-  - action: action_search_dienstleistung_mit_intent
-  - intent: restart
-  - action: action_restart
-  - intent: Elterngeld
-  - action: action_search_dienstleistung_mit_intent
+  - intent: online_abmeldung
+  - action: action_set_online_oder_offline
+- story: weiterführende infos zustimmung
+  steps:
+  - slot_was_set:
+    - dienstleistung: filled
+  - intent: zustimmung
+  - action: utter_mögliche_infos
+- story: weiterführende infos verneinung
+  steps:
+  - slot_was_set:
+    - dienstleistung: filled
+  - intent: verneinung
+  - action: utter_verabschieden

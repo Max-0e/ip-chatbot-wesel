@@ -16,6 +16,7 @@ nlu:
     - ich brauche eine beratung für meinen abfall
     - wie kann ich mich über abfall beraten lassen
     - ich habe ein problem mit meinem abfall
+    - ich brauche hilfe bei abfall
 - intent: Abfallerzeugernummer
   examples: |
     - was ist eine abfallerzeugernummer
@@ -122,14 +123,4 @@ nlu:
     - eigentümer nachweis aus dem liegenschaftsbuch
 - intent: bedanken
   examples: |
-    - dankeschön
-    - mercie
-    - vielen dank
-    - besten dank
-    - danke sehr
-    - danke vielmals
-    - ich habe zu danken
-    - vielen lieben dank
-    - wir haben zu danken
-    - vielen vielen dank
-    - herzlichen dank
+    - Danke

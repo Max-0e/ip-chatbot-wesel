@@ -28,7 +28,8 @@ nlu:
     - ich abreite weniger als 30 studen in der woche und möchte kindergeld beantragen
     - elterngeld
     - unterschtützungs geld für mein kind sohn tochter
-    - eltern geld
+    - Ich bekomme bald mein erstes Kind und möchte elterngeld beantragen
+    - ich brauche elterngeld
 - intent: Erfassung und Überwachung der nichtakademischen Heilberufe
   examples: |
     - ich möchte selbständig werden, als heilpraktiker

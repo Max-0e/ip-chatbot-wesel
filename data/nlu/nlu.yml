@@ -97,6 +97,7 @@ nlu:
     - wie lautet die [Straße](anliegen)
     - wie finde ich [dorthin](anliegen)
     - gibt es Informationen zur [anschrift](anliegen)
+    - Wie komme ich zum kreis wesel?
 - intent: zustimmung
   examples: |
     - ja
@@ -137,8 +138,7 @@ nlu:
     - keines Wegs
     - no
     - la
-    - nein danke
-    - nein aber trotzdem danke
+    - nein, trotzdem danke
 - intent: informieren_kategorie
   examples: |
     - ich brauche hilfe bei meinem [fahrzeug](kategorie)
@@ -165,7 +165,6 @@ nlu:
     - können sie mir ein paar fragen zu meinem [führerschein](kategorie) beantworten
     - [fahrzeug](kategorie)
     - informationen [führerschein](kategorie)
-    - ich brauche hilfe bei meinem [auto]{"entity": "kategorie", "value": "Fahrzeug"}
 - synonym: öffnungszeiten
   examples: |
     - Öffnungszeiten

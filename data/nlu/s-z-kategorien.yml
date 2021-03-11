@@ -7,6 +7,9 @@ nlu:
     - wie teuer ist ein schokoticket
     - wird mein schokoticket von der schule bezahlt
     - bis wohin kann ich mit dem Schokoticket
+    - Wie kommt mein Kind am besten zur Schule?
+    - ich kann mein kind nicht zur schule bringen
+    - ich möchte ein schokoticket für mein kind
 - intent: Schornsteinfegerwesen
   examples: |
     - Brauch ich einen Schornsteinfeger
@@ -38,7 +41,8 @@ nlu:
     - mein Schwerbehindertenausweis wurde gestohlen
     - mein Schwerbehindertenausweis wurde geklaut
     - mein Schwerbehindertenausweis ist abhanden gekommen
-    - mein behinderten ausweis ist weg
+    - Ich bin behindert und habe meinen ausweis verloren
+    - schwerbehindertenausweis verloren
 - intent: Schwerbehindertenausweis - Widerspruch
   examples: |
     - bei meinem Schwerbehindertenausweis stimmmt was nicht
@@ -156,6 +160,7 @@ nlu:
 - intent: Waffen - Beantragung Kleiner Waffenschein
   examples: |
     - Ich möchte den kleinen Waffenschein
+    - ich will einen waffen schein
 - intent: Waffen - Erwerb und Besitz durch Erbfall
   examples: |
     - Ich habe Waffen geerbt
