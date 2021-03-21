@@ -7,6 +7,13 @@ nlu:
     - wie teuer ist ein schokoticket
     - wird mein schokoticket von der schule bezahlt
     - bis wohin kann ich mit dem Schokoticket
+    - Wie kommt mein Kind zur schule
+    - schokoticket
+    - wie kommt mein kind ambesten mit dem Bus zur schule
+    - mein kind soll mit dem ÖPVN zu schule kommen
+    - Mit welchem öffentlichen Verkehrsmittel kann mein Kind zur Schule fahren?
+    - Gibt es für mein Kind öffentliche Verkehrsmittel für den Schulweg?
+    - Wo finde ich Informationen  über öffentliche [Verkehrsmittel]{"entity": "kategorie", "value": "Fahrzeug"} für Schulkinder?
 - intent: Schornsteinfegerwesen
   examples: |
     - Brauch ich einen Schornsteinfeger
@@ -25,6 +32,7 @@ nlu:
     - mein Schwerbehindertenausweis muss geändert werden
     - wann muss ich meinen Schwerbehindertenausweis ändern
     - wie kann ich meinen Schwerbehindertenausweis ändern
+    - Wie finde ich die Ansprechperson für Schwerbehindertenausweise?
 - intent: Schwerbehindertenausweis - Verlängerung
   examples: |
     - mein Schwerbehindertenausweis läuft aus
@@ -39,6 +47,8 @@ nlu:
     - mein Schwerbehindertenausweis wurde geklaut
     - mein Schwerbehindertenausweis ist abhanden gekommen
     - mein behinderten ausweis ist weg
+    - Ich bin behindert und habe meinen ausweis verloren
+    - Guten Tag, ich habe meinen schwerbehinderten ausweis verloren wie kann ich einen neuen beantragen
 - intent: Schwerbehindertenausweis - Widerspruch
   examples: |
     - bei meinem Schwerbehindertenausweis stimmmt was nicht
@@ -150,12 +160,18 @@ nlu:
 - intent: Waffen - Anzeige des Erwerbs
   examples: |
     - Ich brauche eine Schusswaffe
+    - ich will jagen gehen und dafür brauche ich einen waffenschein
 - intent: Waffen - Anzeige im Falle des Überlassens
   examples: |
     - Ich habe jemandem meine Waffe überlassen
 - intent: Waffen - Beantragung Kleiner Waffenschein
   examples: |
     - Ich möchte den kleinen Waffenschein
+    - kleiner waffenschein
+    - kleiner Waffenschein
+    - Waffenschein
+    - Waffenschein  beantragen
+    - Waffenschein beantragen
 - intent: Waffen - Erwerb und Besitz durch Erbfall
   examples: |
     - Ich habe Waffen geerbt

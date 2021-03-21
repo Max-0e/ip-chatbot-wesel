@@ -29,6 +29,10 @@ nlu:
     - elterngeld
     - unterschtützungs geld für mein kind sohn tochter
     - eltern geld
+    - Wo ist die Elterngeldstelle`?
+    - ich brauche geld für mein sohn
+    - Wo erhalte ich Informationen zum Elterngeld?
+    - ich benötige informationen zum Elterngeld
 - intent: Erfassung und Überwachung der nichtakademischen Heilberufe
   examples: |
     - ich möchte selbständig werden, als heilpraktiker

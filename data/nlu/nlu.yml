@@ -14,6 +14,9 @@ nlu:
     - Hallöchen
     - Ich grüße Sie
     - Grüß Gott
+    - hallo
+    - Hi Sie da
+    - Guten Tag!
 - intent: wie_gehts
   examples: |
     - wie gets
@@ -37,6 +40,7 @@ nlu:
     - ade
     - auf Wiederschauen
     - adieu
+    - schönen Tag nach
 - intent: bist_du_ein_bot
   examples: |
     - Bist du ein Bot
@@ -72,6 +76,7 @@ nlu:
     - [email](anliegen)
     - [E-mail](anliegen)
     - [mail](anliegen)
+    - Wo finde ich die [E-Mail-Adresse](anliegen) einer Ansprechperson für verlorengegangene Schwerbehindertenausweise?
 - intent: telefon
   examples: |
     - [telefon](anliegen)
@@ -139,6 +144,13 @@ nlu:
     - la
     - nein danke
     - nein aber trotzdem danke
+    - nien
+    - Nein
+    - nein du kek
+    - nein trotzdem danke
+    - nein das war nicht das was ich gesucht habe
+    - Nein, danke
+    - Nein, danke.
 - intent: informieren_kategorie
   examples: |
     - ich brauche hilfe bei meinem [fahrzeug](kategorie)
@@ -166,6 +178,15 @@ nlu:
     - [fahrzeug](kategorie)
     - informationen [führerschein](kategorie)
     - ich brauche hilfe bei meinem [auto]{"entity": "kategorie", "value": "Fahrzeug"}
+- synonym: Fahrzeug
+  examples: |
+    - auto
+    - fahrzeug
+    - gefährt
+    - verkehrsmittel
+    - automobil
+    - wagen
+    - test
 - synonym: öffnungszeiten
   examples: |
     - Öffnungszeiten
@@ -202,15 +223,6 @@ nlu:
     - Straße
     - dorthin
     - anschrift
-- synonym: Fahrzeug
-  examples: |
-    - fahrzeug
-    - auto
-    - gefährt
-    - verkehrsmittel
-    - automobil
-    - wagen
-    - test
 - synonym: Führerschein
   examples: |
     - führerschein

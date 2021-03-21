@@ -1,8 +1,5 @@
 version: "2.0"
-
 nlu:
-
-
 - intent: informieren_fahrzeug
   examples: |
     - ich möchte mich über eine 100kmh Zulassung für [omnibusse, knickbus, omnibussen, omnibus, ziehharmonikabus, schwenkbus](new_keyword) informieren
@@ -16,11 +13,11 @@ nlu:
     - ich will mein fahrzeug [abmelden](new_keyword)
     - wie beantrage ich eine [adressänderung](new_keyword) meines fahrzeuges
     - ich suche informationen zur [namensänderung](new_keyword) meines fahrzeuges
-    - wie bekomme ich ein [ausfuhrkennzeichen](new_keyword)     
+    - wie bekomme ich ein [ausfuhrkennzeichen](new_keyword)
     - was ist eine [ausnahmegenemigung](new_keyword) und wie bekomme ich diese
-    - ich möchte meine frage zu meiner [erstmaligen Zulassung, erstzulassung](new_keyword) beantwortet bekommen   
+    - ich möchte meine frage zu meiner [erstmaligen Zulassung, erstzulassung](new_keyword) beantwortet bekommen
     - informationen zu [versicherungsschutz](new_keyword)
-    - ich brauche informationen zur [halterauskuft](new_keyword)    
+    - ich brauche informationen zur [halterauskuft](new_keyword)
     - wie sieht das mit dem [halterwechsel](new_keyword) aus
     - mein [kennzeichen](new_keyword) ist unlesbar
     - mein [kennzeichen](new_keyword) ist defekt
@@ -55,24 +52,18 @@ nlu:
     - mein [fahrzeugbrief ist verschwunden](new_keyword)
     - mein [fahrzeugbrief ist gestohlen](new_keyword) worden
     - mein [fahrzeugbrief ist weg](new_keyword)
-
-- synonym: Omnibusse
-  examples: |
-    - omnibussen
-    - omnibus
-    - ziehharmonikabus
-    - schwenkbus
-    - knickbus
-
-- synonym: Fahrzeug-Abmelden
-  examples: |
-    - abmelden
-
 - intent: online_abmeldung
   examples: |
     - online
     - auf der website
-
+    - ich will mein auto online abmelden
+    - ich möchte mein auto online abmelden
+    - ich möchte mein pwk online abmelden
+    - ich möchte mein fahrzeug online abmelden
+    - ich will mein auto onlineabmelden
+    - ich will mein pkw online abmelden
+    - ich will mein fahrzeug online abmelden
+    - ich würde gerne mein Auto online abmelden
 - intent: offline_abmeldung
   examples: |
     - offline
@@ -80,7 +71,16 @@ nlu:
     - ich möchte einen Termin vereinbaren
     - ich will mein auto vor ort abmelden
     - ich möchte mein fahrzeug an der Zulassungsstelle abmelden
-
+- synonym: Omnibusse
+  examples: |
+    - omnibussen
+    - omnibus
+    - ziehharmonikabus
+    - schwenkbus
+    - knickbus
+- synonym: Fahrzeug-Abmelden
+  examples: |
+    - abmelden
 - synonym: Fahrzeug gestohlen
   examples: |
     - auto wurde geklaut
@@ -88,8 +88,6 @@ nlu:
     - auto ist verschwunden
     - auto wurde entwendet
     - pkw ist weg
-    - auto ist verschwunden
-
 - synonym: Verlust oder Diebstahl ihres Fahrzeugscheins
   examples: |
     - zulassungsschein ist weg
@@ -103,41 +101,9 @@ nlu:
     - zulassungsbescheinigung ist verschwunden
     - zulassungsbescheinigung ist gestohlen worden
     - zulassungsbescheinigung ist weg
-
 - synonym: Verlust eines Fahrzeugbriefes
   examples: |
     - fahrzeugbrief ist verschwunden
     - fahrzeugbrief ist gestohlen
     - fahrzeugbrief ist weg
     - fahrzeugbrief verloren
-
-
-
-#Fahrzeug/KFZ
-
-# - intent: kfz_steuer
-#   examples: |
-#     - Steuern Auto
-#     - KFZ-Steuer
-#     - Wie viel Steuern muss ich bei meinem Auto zahlen
-#     - Wann muss ich Steuern für Auto zahlen
-#     - Steuer KFZ
-
-# - intent: erstzulassung
-#   examples: |
-#     - erstzulassung
-#     - erstzulassung auto
-#     - kfz erstzulassung
-#     - wie kann ich mein auto zulassen
-#     - auto zulassen
-#     - zulassung
-#     - erstmalige zulassung
-#     - wann brauche ich erstzulassung
-
-# - intent: saisonkennzeichen
-#   examples: |
-#     - saisonkennzeichen
-#     - was ist ein saisonkennzeichen
-#     - auto nur ein teil des jahres zulassen
-#     - wann brauche ich ein saisonkennzeichen
-#     - beantragung saisonkennzeichen

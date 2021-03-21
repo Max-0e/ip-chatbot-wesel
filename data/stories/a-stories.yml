@@ -80,3 +80,15 @@ stories:
   - action: action_restart
   - intent: Elterngeld
   - action: action_search_dienstleistung_mit_intent
+- story: weiterführende infos zustimmung
+  steps:
+  - slot_was_set:
+    - dienstleistung: filled
+  - intent: zustimmung
+  - action: utter_mögliche_infos
+- story: weiterführende infos verneinung
+  steps:
+  - slot_was_set:
+    - dienstleistung: filled
+  - intent: verneinung
+  - action: utter_verabschieden

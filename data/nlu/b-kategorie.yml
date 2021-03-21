@@ -1,10 +1,5 @@
 version: "2.0"
-
 nlu:
-
-
-# B-Kategorien
-
 - intent: BAföG - Leistungen nach dem Bundesausbildungsförderungsgesetz
   examples: |
     - wie kann ich bafög beantragen
@@ -12,23 +7,27 @@ nlu:
     - wo kann ich bafög beantragen
     - ich brauche unterstützung bei meinem studium mit norminalgütern
     - ich brauche eine bafög bescheinigung
-
+    - Bafög
+    - ich möchte bafög für mein studium beantragen
+    - Ich fange an zu studieren und bräuchte finanzielle unterschützung vom staat
+    - Wer ist Ansprechpartner für meinen BAföG Antrag?
+    - Wo finde ich einen Ansprechpartner für meinen Bafögantrag?
+    - Wo gibt es Informationen zum BaföG Antrag?
+    - Wo finde ich die [Telefonummer](anliegen) für meinen Ansprechpartner für meinen BaföG Antrag?
 - intent: Baugenehmigung
   examples: |
     - ich brauche eine baugenemigung
     - ich möchte eine baugenemigung beantragen
     - ich möchte ein haus bauen und brauche dafür eine baugenemigung
     - ich möchte mein haus erweitern
-    - ich möchte in kreis wesel ein haus bauen 
-
+    - ich möchte in kreis wesel ein haus bauen
 - intent: Baulast – Eintragung und Auskunft
   examples: |
     - ich brauche auskunft für eine baulast meines grundstückes
-    - mein grundstück hat eine baulast 
+    - mein grundstück hat eine baulast
     - ich kann auf meinem grundstück nicht ordnungsgemäß bauen
     - ich möchte eine baulast bestellen
     - ich habe eine bauslast auf meinem grundstück, ein anderes grundstückseigentümer soll die kosten teilweise tragen
-
 - intent: Baumfällung
   examples: |
     - ich möchte ein baum auf meinem grundstück fällen
@@ -36,20 +35,17 @@ nlu:
     - ich möchte einen baum in einer in einem bebauten ortsteil fällen
     - an wenn muss ich mich wenden wenn ich einen baum in meinem garten fällen will
     - ich möchte eine tanne fällen
-
 - intent: Bauvoranfrage
   examples: |
     - ich möchte eine bauvoranfrage abschließen
     - an wen muss ich mich wenden wenn ich fragen wegen einer bauvoranfrage habe
     - bauvoranfrage verbindliche abschließung
-
 - intent: Befreiung vom Bauverbot in Überschwemmungsgebieten
   examples: |
     - ich möchte im einem überschwemmten gebiet bauen
     - ich möchte eine befreiung vom bauverbot in einem ehemaligen überschwemmten gebieten beantragen
     - darf man in überschwemmten gebieten bauen
     - an wenn muss ich mich wenden wenn ich in einem überschwemmten gebiet bauen möchte
-
 - intent: Befreiung von der Helmpflicht oder Anschnallpflicht
   examples: |
     - ich habe probleme mit meinem herzen oder gewicht und möchte eine befreiung der anschnallpflicht halmpflicht beantragen
@@ -57,7 +53,6 @@ nlu:
     - mir passt kein motorradhelm mehr auf den kopf was nun
     - wie kann eine befreiung der anschnallpflicht beantragen
     - an wenn muss ich mich wenden wenn ich eine befreiung der helmpflicht beantragen will
-
 - intent: Befreiungen nach dem Bundesnaturschutzgesetz
   examples: |
     - ich möchte in einem naturschutzgebiet eine veranstalltung durchführen
@@ -66,20 +61,17 @@ nlu:
     - muss ich mich an die naturschutzbehörde werden wenn ich in einem naturschutzgebiet etwas verändern möchte
     - ich möchte eine befreiung des bundesnaturschutzgesetzes
     - ich möchte eine befreiung des bnatschg
-
 - intent: Beistandschaften
   examples: |
     - ich möchte eine beistandschaft durchführen
     - ich bin alleinerziehende mutter vater und möchte eine beistandschaft durchführen
     - kann mir das jugendamt helfen eine beistandschaft durchzuführen
     - ich brauche eine beistandschaft für meinen sohn tochter kind
-
 - intent: Beistandschaften - Beurkundungen
   examples: |
     - ich brauche eine persönliche vorsprache für eine beurkundete beistandschaft
     - meine beistandschaft soll beurkundet werden
     - ich brauche eine beurkundete sorgeerklärung für meinen sohn tochter kind
-
 - intent: Beistandschaften - Unterhaltsfragen
   examples: |
     - mein man frau muss unterhalt bezahlen
@@ -87,7 +79,6 @@ nlu:
     - ich brauche unterhalt für mein kind sohn tochter
     - mein man frau hält sich nichts an die unterhaltsverpflichtung
     - ich bekomme geld wegen dem unterhalt das mir mein mann frau bezahlen muss
-
 - intent: Beistandschaften - Vaterschaft
   examples: |
     - ich möchte einen vaterschaftstest
@@ -98,7 +89,6 @@ nlu:
     - vaterschaftsgutachten
     - vaterschaftsklage
     - vaterschaftsprozess
-
 - intent: Belehrung für den Umgang mit Lebensmitteln (Gesundheitszeugnis)
   examples: |
     - ich arbeite mit lebensmitteln und brauche ein gesundheitszeugnis
@@ -106,22 +96,19 @@ nlu:
     - gesundheitspass im umgang mit essen
     - arbeit im restaurant und brauche gesundheitszeugnis
     - fastfood restaurant
-
 - intent: Beratung für Menschen mit psychischen Erkrankungen
   examples: |
     - ich habe ein suchtproblem
     - ich habe ein alkohol problem und brauche hilfe
     - ich habe eine psychische störung oder erkrankung
-    - ich habe eine spielsucht 
+    - ich habe eine spielsucht
     - ich bin abhängig
-
 - intent: Beratung von Lebensmittelunternehmen
   examples: |
     - ich brauche eine beratung für mein lebensmittelunternehmen
     - fachliches gespräch für mein lebensmittelbetrieb
     - frage zu lebensmittel-hygienerechtlichen anforderungen
     - hygienerechtliche anforderungen Unternehmen
-
 - intent: Beratung zu sexuell übertragbaren Erkankungen
   examples: |
     - mein kondom ist beim sex gerissen ich brauche eine beratung
@@ -132,32 +119,26 @@ nlu:
     - risiken über sexuell übertragbare krankheiten
     - ich brauche beratung wegen einen panne im personalverkehr
     - infizierung sex krankheiten
-
 - intent: Bescheinigung zur unentgeltlichen Benutzung des öffentlichen Personennahverkehrs (ÖPNV) - Beiblatt mit Wertmarke
   examples: |
     - ich habe eine schwerbehinderung und möchre mit öpvn kostenlos fahren
     - kostenlos öffentlichen personennahverkehrs fahren
     - bescheinigung zur unentgeldlichen benutzung des öpnv
     - wie kann ich kostenlos öpnv fahren
-
 - intent: Bescheinigungen aus dem Liegenschaftskataster
   examples: |
     - ich brauche eine liegenschaftskataster bescheinigung
     - was ist eine liegenschaftskataster
-
 - intent: Besuchsaufenthalte - Verpflichtungserklärung
   examples: |
     - ich bekomme besuch aus dem ausland
     - ich brauche eine verpflichtungserklärung für den besuchsaufenthalt von 3 monaten
     - ich bekomme ein geschäftlichen besuch aus dem ausland und brauche eine verpflichtungserklärung
     - besuchsaufenthalte aus dem ausland
-
 - intent: Betreuungsrecht; Betreuungsstelle
   examples: |
     - was ist das betreuungsrechts
     - ich brauche informationen zur betreuungsstelle
-  # erweitern ...
-
 - intent: Bewachungserlaubnis
   examples: |
     - ich möchte wachmann werden was brauche ich dafür
@@ -165,26 +146,22 @@ nlu:
     - welche voraussetzungen muss ich als wachmann erfüllen
     - ich möchte gewerbsmäßig eigentum fremder personen bewachen
     - ich möchte gewerbsmäßig das leben fremder personen bewachen
- 
 - intent: Bewachungspersonal
   examples: |
     - ich betreibe ein bewachungsgewerbes
     - ich möchte bewachungspersonal einstellen
     - wachpersonal qualifikations
-
 - intent: BHV1
   examples: |
     - Bovine Herpesvirus
     - Rinderkrankheiten
     - Tierseuche
-
 - intent: Bienenvölker - Haltung und Anmeldung
   examples: |
     - ich möchte bienenvölker halten
     - ich möchte meine tätigkeit als imker anmelden
     - was brauche ich als imker
     - bienenstöcke halten
-
 - intent: Bienen, Wespen & Co.
   examples: |
     - bienen

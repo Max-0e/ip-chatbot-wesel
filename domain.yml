@@ -27,7 +27,7 @@ intents:
     use_entities: true
 - Anlagen in und an Gewässern:
     use_entities: true
-- ? Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde - sowie Ausstellung der Anmeldebescheinigung
+- ? Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde sowie Ausstellung der Anmeldebescheinigung
   : use_entities: true
 - Apothekenbetriebserlaubnis:
     use_entities: true
@@ -377,7 +377,7 @@ responses:
   - text: Auf Wiedersehen!
   - text: Bis bald
   - text: Machen Sie es gut.
-  - text: Ich hoffe ich konnte ihnen helfen
+  - text: Ich hoffe ich konnte Ihnen helfen
   - text: Schönen Tag noch
   utter_ich_bin_ein_bot:
   - text: Ich bin ein Chatbot.
@@ -390,11 +390,11 @@ responses:
   - text: Die Öffnungszeiten lauten {info}, kann an Wochenenden oder Feiertagen abweichen
   - text: Wir haben von {info} Uhr geöffnet, kann an Wochenenden oder Feiertagen abweichen
   utter_static_email:
-  - text: Die Email-Adresse an die sie sich wenden können ist {info}
+  - text: Die Email-Adresse an die Sie sich wenden können ist {info}
   - text: Sie können eine Email an {info} senden
   - text: Die Email-Adresse lautet {info}
   utter_static_telefon:
-  - text: Rufen sie {info} an
+  - text: Rufen Sie {info} an
   - text: Sie können uns telefonisch unter {info} erreichen
   - text: Die Telefonnummer lautet {info}
   utter_static_adresse:
@@ -451,16 +451,20 @@ responses:
   utter_begleitetes_fahren:
   - text: 'Bereits mit dem Alter von 17 kann mit den Fahrerlaubnissen B/BE am Verkehr, allerdings nur mit vorher genannter Begleitperson, teilgenommen werden. Nähere Infos finden sie hier: https://www.kreis-wesel.de/de/dienstleistungen/fuehrerschein-mit-17-begleitetes-fahren/'
   utter_fahrzeug_informieren:
-  - text: Wozu zum Thema Fahrzeugen kann ich dir weiter helfen?
-  - text: Kannst du dein Problem weiter beschreiben?
-  - text: Bitte versuche dein Problem genauer zu beschreiben.
+  - text: Wozu zum Thema Fahrzeugen kann ich Ihnen weiter helfen?
+  - text: Können Sie ihr Problem weiter beschreiben?
+  - text: Bitte versuchen Sie ihr Problem genauer zu beschreiben.
   utter_führerschein_informieren:
-  - text: Wie kann ich dir bei deinem Führerschein behilflich sein?
+  - text: Wie kann ich Ihnen bei ihrem Führerschein behilflich sein?
   utter_online_oder_offline:
-  - text: Möchten sie die Abmeldung online oder vor Ort durchführen?
+  - text: Möchten Sie die Abmeldung online oder vor Ort durchführen?
   utter_bedanken:
-  - text: Nichts zu danken, das ist meine Aufgabe ihnen zu helfen
+  - text: Nichts zu danken, das ist meine Aufgabe Ihnen zu helfen
   - text: Gern Geschehen
+  utter_mögliche_infos:
+  - text: Ich kann Ihnen für diese Dienstleistung etwas zu den Öffnungszeiten, der Telefonnummer, der Email-Adresse oder dem Ansprechpartner sagen.
+  utter_neustart:
+  - text: Ich hoffe ich konnte Ihnen helfen und stehe Ihnen jederzeit wieder zur Verfügung.
 actions:
 - action_dispatcher_test
 - action_search_db
@@ -468,5 +472,6 @@ actions:
 - action_search_dienstleistung
 - action_search_dienstleistung_mit_intent
 - action_set_online_oder_offline
+- action_datenbankfehler
 forms: {}
 e2e_actions: []
