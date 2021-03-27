@@ -27,8 +27,8 @@ intents:
     use_entities: true
 - Anlagen in und an Gewässern:
     use_entities: true
-- ? Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde sowie Ausstellung der Anmeldebescheinigung
-  : use_entities: true
+- Anmeldung und Beratung von Prostituierten durch den Fachdienst 32 - Kreisordnungsbehörde sowie Ausstellung der Anmeldebescheinigung
+    use_entities: true
 - Apothekenbetriebserlaubnis:
     use_entities: true
 - Artenschutz – Meldepflicht:
